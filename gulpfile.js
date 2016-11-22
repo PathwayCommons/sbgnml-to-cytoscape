@@ -2,16 +2,10 @@
 // /* eslint func-names: ["error", "never"]*/
 var gulp = require('gulp');
 var gutil = require('gulp-util');
-var sourcemaps = require('gulp-sourcemaps');
 var eslint = require('gulp-eslint');
-
 var del = require('del');
-var assign = require('lodash.assign');
-
 var browserify = require('browserify');
-var watchify = require('watchify');
 var source = require('vinyl-source-stream');
-var buffer = require('vinyl-buffer');
 var browserSync = require('browser-sync').create();
 var mochaPhantomJs = require('gulp-mocha-phantomjs');
 
@@ -20,14 +14,6 @@ var paths = {
     allSrcJs: 'src/**/*.js',
     allTestJs: 'test/*.js',
     gulpFile: 'gulpfile.js'
-  },
-  build: {
-    buildPath: 'dist/',
-    entryPoint: 'src/index.js',
-    bundleFile: 'convert-sbgnml.js',
-    filesToClean: 'dist/**',
-    filesToInject: ['./src/samples/*.xml', 'src/index.html'],
-    srcMapFile: './'
   },
   test: {
     testEnvPath: 'test/testenv/',
@@ -38,14 +24,6 @@ var paths = {
     testRunner: 'tests.html'
   }
 };
-
-var browserifyOpts = {
-  entries: [paths.entryPoint],
-  debug: true
-};
-
-var opts = assign({}, watchify.args, browserifyOpts);
-var watchBrow = watchify(browserify(opts));
 
 // Common tasks
 
@@ -60,15 +38,11 @@ gulp.task('lint', function () {
     .pipe(eslint.failAfterError());
 });
 
-gulp.task('clean-build', function () {
-  return del.sync(paths.build.filesToClean);
-});
-
 gulp.task('clean-test', function () {
   return del.sync(paths.test.filesToClean);
 });
 
-gulp.task('clean', ['clean-build', 'clean-test'], function () {
+gulp.task('clean', ['clean-test'], function () {
 });
 
 // Build the tests and inject them into a test enviornment
@@ -107,36 +81,4 @@ gulp.task('serve-test', ['build-test'], function (cb) {
   cb();
 });
 
-// Build the bundle and put it into the dist directory
-
-gulp.task('assets', function () {
-  return gulp.src(paths.build.filesToInject, {base: './src'})
-    .pipe(gulp.dest('dist'));
-});
-
-gulp.task('build', ['lint', 'clean', 'assets'], function () {
-  return watchBrow.bundle()
-    .on('error', gutil.log.bind(gutil, 'Browserify Error'))
-    .pipe(source(paths.build.bundleFile))
-    .pipe(buffer())
-    .pipe(sourcemaps.init({loadMaps: true}))
-    .pipe(sourcemaps.write(paths.build.srcMapFile))
-    .pipe(gulp.dest(paths.build.buildPath));
-});
-
-gulp.task('watch-build', ['build', 'run-test'], function (cb) {
-  browserSync.reload();
-  cb();
-});
-
-gulp.task('serve-build', ['build'], function (cb) {
-  browserSync.init({
-    server: './dist',
-    index: 'index.html'
-  });
-
-  gulp.watch([paths.source.allSrcJs], ['watch-build']);
-  cb();
-});
-
-gulp.task('default', ['serve-build']);
+gulp.task('default', ['serve-test']);
