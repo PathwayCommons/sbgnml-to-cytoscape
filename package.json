@@ -1,0 +1,47 @@
+{
+  "name": "convert-sbgnml",
+  "version": "0.1.0",
+  "description": "A tool to convert sbgn-ml files to json",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp run-test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PathwayCommons/sbgnml-converter.git"
+  },
+  "keywords": [
+    "sbgn",
+    "sbgnml",
+    "sbgn-ml",
+    "json",
+    "converter",
+    "biology"
+  ],
+  "author": "Dylan Fong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PathwayCommons/sbgnviz-js/issues"
+  },
+  "homepage": "https://github.com/PathwayCommons/sbgnml-converter#readme",
+  "devDependencies": {
+    "babel-eslint": "^6.1.2",
+    "browser-sync": "^2.17.5",
+    "browserify": "^13.1.1",
+    "del": "^2.2.2",
+    "eslint": "^3.9.1",
+    "eslint-config-airbnb-es5": "^1.1.0",
+    "eslint-plugin-react": "^6.6.0",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^3.0.1",
+    "gulp-mocha-phantomjs": "^0.12.0",
+    "gulp-sourcemaps": "^2.2.0",
+    "gulp-util": "^3.0.7",
+    "lodash": "^4.16.6",
+    "mocha": "^3.1.2",
+    "mocha-phantomjs": "^4.1.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0"
+  }
+}

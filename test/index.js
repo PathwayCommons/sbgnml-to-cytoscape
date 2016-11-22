@@ -1,0 +1,1 @@
+require('./sbgnmlConverter.spec.js');

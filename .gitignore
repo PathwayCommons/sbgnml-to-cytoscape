@@ -35,3 +35,22 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+
+/nbproject/
+
+.idea/
+
+/HTML5Application/nbproject/private/
+
+node_modules/
+
+.DS_Store
+
+/lib/
+
+test/testenv/testBundle.js
+test/testenv/fixtures/*
+
+dist/*.js
+dist/index.html
+dist/*.map
