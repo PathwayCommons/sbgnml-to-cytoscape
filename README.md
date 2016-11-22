@@ -2,8 +2,7 @@
 An npm module that converts xml based Systems Biology Graphical Notation(SBGN) files to javascript objects.
 
 ## Requirements
-convert-sbgnml needs an xmlobject that implements common
-web APIs such as ```document.querySelector``` and ```element.getAttribute```.
+convert-sbgnml assumes that it will be run in the browser using one of (Chrome, Safari, FireFox).
 
 convert-sbgnml also expects that it will be receiving sbgnml files.  You can see some example sbgnml files [here](https://github.com/PathwayCommons/convert-sbgnml/tree/master/test/fixtures/input), and their corresponding output [here](https://github.com/PathwayCommons/convert-sbgnml/tree/master/test/fixtures/output).
 
@@ -35,8 +34,10 @@ var loadXML = function (filename) {
 
 var xmlDom = loadXML('sbgnml-file.xml');
 
-convert(xmlDom);
+var sbgnObj = convert(xmlDom);
 ```
+
+For a holistic view on how to use this module, take a look at the [example](https://github.com/PathwayCommons/convert-sbgnml/tree/master/example) folder.
 
 ## Tests
 Run the tests with:
