@@ -20,8 +20,8 @@ npm install convert-sbgnml
 ```js
 let convert = require('convert-sbgnml');
 
-fetch('some-sbgnml-file.xml').then( () => {
-  let sbgnObj = convert(xmlDom);
+fetch('some-sbgnml-file.xml').then( fileString => {
+  let sbgnObj = convert( fileString );
 } );
 ```
 
