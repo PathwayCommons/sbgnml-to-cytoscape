@@ -12,7 +12,7 @@ It would also be helpful to understand the [SBGN language spec](http://sbgn.gith
 Instal with npm:
 
 ```sh
-npm install PathwayCommons/convert-sbgnml
+npm install convert-sbgnml
 ```
 
 ## Usage
