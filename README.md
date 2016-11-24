@@ -18,23 +18,11 @@ npm install convert-sbgnml
 ## Usage
 
 ```js
-var convert = require('convert-sbgnml');
+let convert = require('convert-sbgnml');
 
-var loadXML = function (filename) {
-  var xhttp;
-  if (window.XMLHttpRequest) {
-    xhttp = new XMLHttpRequest();
-  } else {
-    xhttp = new ActiveXObject('Microsoft.XMLHTTP');
-  }
-  xhttp.open('GET', filename, false);
-  xhttp.send();
-  return xhttp.responseXML;
-};
-
-var xmlDom = loadXML('sbgnml-file.xml');
-
-var sbgnObj = convert(xmlDom);
+fetch('some-sbgnml-file.xml').then( () => {
+  let sbgnObj = convert(xmlDom);
+} );
 ```
 
 For a holistic view on how to use this module, take a look at the [example](https://github.com/PathwayCommons/convert-sbgnml/tree/master/example) folder.
