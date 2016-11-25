@@ -2,6 +2,18 @@
 /* global ActiveXObject: false */
 
 var sbgnmlConverter = {
+  loadXMLFromString: function (text) {
+    var doc;
+    if (window.ActiveXObject) {
+      doc = new ActiveXObject('Microsoft.XMLDOM');
+      doc.async = 'false';
+      doc.loadXML(text);
+    } else {
+      var parser = new DOMParser();
+      doc = parser.parseFromString(text, 'text/xml');
+    }
+    return doc;
+  },
   sbgnmlTags: {
     'unspecified entity': true,
     'simple chemical': true,
@@ -399,10 +411,12 @@ var sbgnmlConverter = {
     var cytoscapeJsEdge = {data: edgeObj};
     jsonArray.push(cytoscapeJsEdge);
   },
-  convert: function (xmlObject) {
+  convert: function (filestring) {
     var self = this;
     var cytoscapeJsNodes = [];
     var cytoscapeJsEdges = [];
+
+    var xmlObject = this.loadXMLFromString(filestring);
 
     var compartments = self.getAllCompartments(xmlObject);
 

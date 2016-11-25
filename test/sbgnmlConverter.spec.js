@@ -28,7 +28,7 @@ var outputFiles = [
   require('./fixtures/output/vitamins_b6_activation_to_pyridoxal_phosphate.json')
 ];
 
-var loadXMLDoc = function (filename) {
+var getFileText = function (filename) {
   var xhttp;
   if (window.XMLHttpRequest) {
     xhttp = new XMLHttpRequest();
@@ -37,7 +37,7 @@ var loadXMLDoc = function (filename) {
   }
   xhttp.open('GET', filename, false);
   xhttp.send();
-  return xhttp.responseXML;
+  return xhttp.responseText;
 };
 
 describe('sbgnmlConverter', function () {
@@ -46,7 +46,8 @@ describe('sbgnmlConverter', function () {
     var actual;
 
     for (var i = 0; i < outputFiles.length; i++) {
-      actual = JSON.stringify(converter.convert(loadXMLDoc(fixtureFiles[i])), null, 4);
+      var text = getFileText(fixtureFiles[i]);
+      actual = JSON.stringify(converter.convert(text), null, 4);
       expected = JSON.stringify(outputFiles[i], null, 4);
 
       assert.deepEqual(expected, actual);
