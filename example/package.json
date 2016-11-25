@@ -4,7 +4,7 @@
   "description": "",
   "main": "main.js",
   "dependencies": {
-    "convert-sbgnml": "^0.1.0",
+    "sbgnml-to-cytoscape": "^0.1.0",
     "browserify": "~13.1.1"
   },
   "scripts": {

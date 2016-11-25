@@ -1,4 +1,4 @@
-var convert = require('convert-sbgnml');
+var convert = require('sbgnml-to-cytoscape');
 
 var getText = function (fname) {
   fetch(fname).then(function (res) {
