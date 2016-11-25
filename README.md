@@ -1,5 +1,5 @@
 # convert-sbgnml
-An npm module that converts xml based Systems Biology Graphical Notation(SBGN) files to javascript objects.
+An npm module that converts xml based Systems Biology Graphical Notation(SBGN) files to [cytoscape.js](https://github.com/Cytoscape/cytoscape.js) graph JSON.
 
 ## Requirements
 convert-sbgnml assumes that it will be run in the browser using one of (Chrome, Safari, FireFox).
