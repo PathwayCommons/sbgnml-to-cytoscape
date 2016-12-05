@@ -3,15 +3,15 @@
         {
             "data": {
                 "id": "glyph1",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 770.0489105995644,
                     "y": 603.9053834474291,
                     "w": "254.08954881649527",
                     "h": "304.8762412720447"
                 },
-                "sbgnclass": "compartment",
-                "sbgnlabel": "synaptic cleft",
-                "sbgnstatesandinfos": [],
+                "class": "compartment",
+                "label": "synaptic cleft",
+                "statesandinfos": [],
                 "parent": "",
                 "ports": []
             }
@@ -19,15 +19,15 @@
         {
             "data": {
                 "id": "glyph10",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 729.7050429901893,
                     "y": 725.5935040834514,
                     "w": "120",
                     "h": "60"
                 },
-                "sbgnclass": "macromolecule",
-                "sbgnlabel": "AChE",
-                "sbgnstatesandinfos": [],
+                "class": "macromolecule",
+                "label": "AChE",
+                "statesandinfos": [],
                 "parent": "glyph1",
                 "ports": []
             }
@@ -35,14 +35,14 @@
         {
             "data": {
                 "id": "glyph19",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 771.6065327100307,
                     "y": 632.7047526281501,
                     "w": "20",
                     "h": "20"
                 },
-                "sbgnclass": "process",
-                "sbgnstatesandinfos": [],
+                "class": "process",
+                "statesandinfos": [],
                 "parent": "glyph1",
                 "ports": []
             }
@@ -50,15 +50,15 @@
         {
             "data": {
                 "id": "glyph11",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 866.343685007812,
                     "y": 672.9950321120291,
                     "w": "60",
                     "h": "60"
                 },
-                "sbgnclass": "simple chemical",
-                "sbgnlabel": "acetate",
-                "sbgnstatesandinfos": [],
+                "class": "simple chemical",
+                "label": "acetate",
+                "statesandinfos": [],
                 "parent": "glyph1",
                 "ports": []
             }
@@ -66,14 +66,14 @@
         {
             "data": {
                 "id": "glyph17",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 780.4404211840899,
                     "y": 462.2172628114067,
                     "w": "20",
                     "h": "20"
                 },
-                "sbgnclass": "process",
-                "sbgnstatesandinfos": [],
+                "class": "process",
+                "statesandinfos": [],
                 "parent": "glyph1",
                 "ports": []
             }
@@ -81,15 +81,15 @@
         {
             "data": {
                 "id": "glyph7",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 842.867868440539,
                     "y": 547.3570926019304,
                     "w": "60",
                     "h": "60"
                 },
-                "sbgnclass": "simple chemical",
-                "sbgnlabel": "ACh",
-                "sbgnstatesandinfos": [],
+                "class": "simple chemical",
+                "label": "ACh",
+                "statesandinfos": [],
                 "parent": "glyph1",
                 "ports": []
             }
@@ -97,15 +97,15 @@
         {
             "data": {
                 "id": "glyph5",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 673.7541361913168,
                     "y": 591.1376395474406,
                     "w": "60",
                     "h": "60"
                 },
-                "sbgnclass": "simple chemical",
-                "sbgnlabel": "choline",
-                "sbgnstatesandinfos": [],
+                "class": "simple chemical",
+                "label": "choline",
+                "statesandinfos": [],
                 "parent": "glyph1",
                 "ports": []
             }
@@ -113,15 +113,15 @@
         {
             "data": {
                 "id": "glyph0",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 284.06559650332434,
                     "y": 349.4864352956872,
                     "w": "528.3772339877597",
                     "h": "600.409043170399"
                 },
-                "sbgnclass": "compartment",
-                "sbgnlabel": "synaptic button",
-                "sbgnstatesandinfos": [],
+                "class": "compartment",
+                "label": "synaptic button",
+                "statesandinfos": [],
                 "parent": "",
                 "ports": []
             }
@@ -129,15 +129,15 @@
         {
             "data": {
                 "id": "glyph14",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 492.2542134972042,
                     "y": 240.85518711003323,
                     "w": "61.5",
                     "h": "61.5"
                 },
-                "sbgnclass": "compartment",
-                "sbgnlabel": "synaptic vesicle",
-                "sbgnstatesandinfos": [],
+                "class": "compartment",
+                "label": "synaptic vesicle",
+                "statesandinfos": [],
                 "parent": "glyph0",
                 "ports": []
             }
@@ -145,15 +145,15 @@
         {
             "data": {
                 "id": "glyph6",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 492.2542134972042,
                     "y": 240.85518711003323,
                     "w": "60",
                     "h": "60"
                 },
-                "sbgnclass": "simple chemical",
-                "sbgnlabel": "ACh",
-                "sbgnstatesandinfos": [],
+                "class": "simple chemical",
+                "label": "ACh",
+                "statesandinfos": [],
                 "parent": "glyph14",
                 "ports": []
             }
@@ -161,15 +161,15 @@
         {
             "data": {
                 "id": "glyph8",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 233.13067713678856,
                     "y": 493.88399094919043,
                     "w": "120",
                     "h": "60"
                 },
-                "sbgnclass": "macromolecule",
-                "sbgnlabel": "CHT1",
-                "sbgnstatesandinfos": [],
+                "class": "macromolecule",
+                "label": "CHT1",
+                "statesandinfos": [],
                 "parent": "glyph0",
                 "ports": []
             }
@@ -177,15 +177,15 @@
         {
             "data": {
                 "id": "glyph13",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 296.06141509780923,
                     "y": 204.40035574974667,
                     "w": "60",
                     "h": "60"
                 },
-                "sbgnclass": "simple chemical",
-                "sbgnlabel": "Ach",
-                "sbgnstatesandinfos": [],
+                "class": "simple chemical",
+                "label": "Ach",
+                "statesandinfos": [],
                 "parent": "glyph0",
                 "ports": []
             }
@@ -193,15 +193,15 @@
         {
             "data": {
                 "id": "glyph4",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 401.0948426971652,
                     "y": 80.0319137104878,
                     "w": "120",
                     "h": "60"
                 },
-                "sbgnclass": "macromolecule",
-                "sbgnlabel": "vAChT",
-                "sbgnstatesandinfos": [],
+                "class": "macromolecule",
+                "label": "vAChT",
+                "statesandinfos": [],
                 "parent": "glyph0",
                 "ports": []
             }
@@ -209,14 +209,14 @@
         {
             "data": {
                 "id": "glyph18",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 391.3423913539207,
                     "y": 175.79855923606135,
                     "w": "20",
                     "h": "20"
                 },
-                "sbgnclass": "process",
-                "sbgnstatesandinfos": [],
+                "class": "process",
+                "statesandinfos": [],
                 "parent": "glyph0",
                 "ports": []
             }
@@ -224,15 +224,15 @@
         {
             "data": {
                 "id": "glyph3",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 80.62697950944448,
                     "y": 284.8423494357676,
                     "w": "120",
                     "h": "60"
                 },
-                "sbgnclass": "macromolecule",
-                "sbgnlabel": "ChAT",
-                "sbgnstatesandinfos": [],
+                "class": "macromolecule",
+                "label": "ChAT",
+                "statesandinfos": [],
                 "parent": "glyph0",
                 "ports": []
             }
@@ -240,15 +240,15 @@
         {
             "data": {
                 "id": "glyph9",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 432.77215278290015,
                     "y": 618.9409568808867,
                     "w": "120",
                     "h": "60"
                 },
-                "sbgnclass": "macromolecule",
-                "sbgnlabel": "SNARE",
-                "sbgnstatesandinfos": [],
+                "class": "macromolecule",
+                "label": "SNARE",
+                "statesandinfos": [],
                 "parent": "glyph0",
                 "ports": []
             }
@@ -256,14 +256,14 @@
         {
             "data": {
                 "id": "glyph15",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 352.0061729818583,
                     "y": 433.5590129724641,
                     "w": "20",
                     "h": "20"
                 },
-                "sbgnclass": "process",
-                "sbgnstatesandinfos": [],
+                "class": "process",
+                "statesandinfos": [],
                 "parent": "glyph0",
                 "ports": []
             }
@@ -271,15 +271,15 @@
         {
             "data": {
                 "id": "glyph12",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 273.0840166839621,
                     "y": 349.41797443653786,
                     "w": "60",
                     "h": "60"
                 },
-                "sbgnclass": "simple chemical",
-                "sbgnlabel": "choline",
-                "sbgnstatesandinfos": [],
+                "class": "simple chemical",
+                "label": "choline",
+                "statesandinfos": [],
                 "parent": "glyph0",
                 "ports": []
             }
@@ -287,15 +287,15 @@
         {
             "data": {
                 "id": "glyph47",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 155.17928220362705,
                     "y": 171.2675330945018,
                     "w": "60",
                     "h": "60"
                 },
-                "sbgnclass": "simple chemical",
-                "sbgnlabel": "acetyl CoA",
-                "sbgnstatesandinfos": [],
+                "class": "simple chemical",
+                "label": "acetyl CoA",
+                "statesandinfos": [],
                 "parent": "glyph0",
                 "ports": []
             }
@@ -303,14 +303,14 @@
         {
             "data": {
                 "id": "glyph16",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 207.27865035440527,
                     "y": 260.8070789152547,
                     "w": "20",
                     "h": "20"
                 },
-                "sbgnclass": "process",
-                "sbgnstatesandinfos": [],
+                "class": "process",
+                "statesandinfos": [],
                 "parent": "glyph0",
                 "ports": []
             }
@@ -318,15 +318,15 @@
         {
             "data": {
                 "id": "glyph2",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 1654.393727191188,
                     "y": 350.73087219551167,
                     "w": "862.289418115462",
                     "h": "663.5121323746293"
                 },
-                "sbgnclass": "compartment",
-                "sbgnlabel": "muscle cytosol",
-                "sbgnstatesandinfos": [],
+                "class": "compartment",
+                "label": "muscle cytosol",
+                "statesandinfos": [],
                 "parent": "",
                 "ports": []
             }
@@ -334,15 +334,15 @@
         {
             "data": {
                 "id": "glyph20",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 1283.999018133457,
                     "y": 492.58732111519737,
                     "w": "120",
                     "h": "60"
                 },
-                "sbgnclass": "macromolecule",
-                "sbgnlabel": "nAChR",
-                "sbgnstatesandinfos": [
+                "class": "macromolecule",
+                "label": "nAChR",
+                "statesandinfos": [
                     {
                         "id": "glyph20a",
                         "clazz": "state variable",
@@ -364,14 +364,14 @@
         {
             "data": {
                 "id": "glyph24",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 1301.6362730997278,
                     "y": 398.6650341622118,
                     "w": "20",
                     "h": "20"
                 },
-                "sbgnclass": "process",
-                "sbgnstatesandinfos": [],
+                "class": "process",
+                "statesandinfos": [],
                 "parent": "glyph2",
                 "ports": []
             }
@@ -379,15 +379,15 @@
         {
             "data": {
                 "id": "glyph22",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 1589.5695675154066,
                     "y": 232.05000581952652,
                     "w": "60",
                     "h": "60"
                 },
-                "sbgnclass": "simple chemical",
-                "sbgnlabel": "Ca2+",
-                "sbgnstatesandinfos": [],
+                "class": "simple chemical",
+                "label": "Ca2+",
+                "statesandinfos": [],
                 "parent": "glyph2",
                 "ports": []
             }
@@ -395,14 +395,14 @@
         {
             "data": {
                 "id": "glyph42",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 1690.9446371300062,
                     "y": 251.92937531016833,
                     "w": "20",
                     "h": "20"
                 },
-                "sbgnclass": "association",
-                "sbgnstatesandinfos": [],
+                "class": "association",
+                "statesandinfos": [],
                 "parent": "glyph2",
                 "ports": []
             }
@@ -410,14 +410,14 @@
         {
             "data": {
                 "id": "glyph38",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 1624.6397609318626,
                     "y": 402.55565593238714,
                     "w": "196.5",
                     "h": "136.5"
                 },
-                "sbgnclass": "complex",
-                "sbgnstatesandinfos": [
+                "class": "complex",
+                "statesandinfos": [
                     {
                         "id": "glyph38a",
                         "clazz": "state variable",
@@ -439,15 +439,15 @@
         {
             "data": {
                 "id": "glyph29",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 1587.1397609318626,
                     "y": 365.05565593238714,
                     "w": "120",
                     "h": "60"
                 },
-                "sbgnclass": "macromolecule",
-                "sbgnlabel": "myosin",
-                "sbgnstatesandinfos": [],
+                "class": "macromolecule",
+                "label": "myosin",
+                "statesandinfos": [],
                 "parent": "glyph38",
                 "ports": []
             }
@@ -455,15 +455,15 @@
         {
             "data": {
                 "id": "glyph30",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 1587.1397609318626,
                     "y": 440.05565593238714,
                     "w": "120",
                     "h": "60"
                 },
-                "sbgnclass": "macromolecule",
-                "sbgnlabel": "actin",
-                "sbgnstatesandinfos": [],
+                "class": "macromolecule",
+                "label": "actin",
+                "statesandinfos": [],
                 "parent": "glyph38",
                 "ports": []
             }
@@ -471,15 +471,15 @@
         {
             "data": {
                 "id": "glyph46",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 1692.1397609318626,
                     "y": 365.05565593238714,
                     "w": "60",
                     "h": "60"
                 },
-                "sbgnclass": "simple chemical",
-                "sbgnlabel": "ATP",
-                "sbgnstatesandinfos": [],
+                "class": "simple chemical",
+                "label": "ATP",
+                "statesandinfos": [],
                 "parent": "glyph38",
                 "ports": []
             }
@@ -487,15 +487,15 @@
         {
             "data": {
                 "id": "glyph33",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 1657.0448245589985,
                     "y": 580.5826529205284,
                     "w": "60",
                     "h": "60"
                 },
-                "sbgnclass": "simple chemical",
-                "sbgnlabel": "Pi",
-                "sbgnstatesandinfos": [],
+                "class": "simple chemical",
+                "label": "Pi",
+                "statesandinfos": [],
                 "parent": "glyph2",
                 "ports": []
             }
@@ -503,14 +503,14 @@
         {
             "data": {
                 "id": "glyph43",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 1751.2193616265988,
                     "y": 549.6009389943749,
                     "w": "20",
                     "h": "20"
                 },
-                "sbgnclass": "process",
-                "sbgnstatesandinfos": [],
+                "class": "process",
+                "statesandinfos": [],
                 "parent": "glyph2",
                 "ports": []
             }
@@ -518,15 +518,15 @@
         {
             "data": {
                 "id": "glyph40",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 1759.2930830609844,
                     "y": 647.3483839558924,
                     "w": "60",
                     "h": "60"
                 },
-                "sbgnclass": "simple chemical",
-                "sbgnlabel": "ADP",
-                "sbgnstatesandinfos": [],
+                "class": "simple chemical",
+                "label": "ADP",
+                "statesandinfos": [],
                 "parent": "glyph2",
                 "ports": []
             }
@@ -534,14 +534,14 @@
         {
             "data": {
                 "id": "glyph44",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 1935.250386913732,
                     "y": 330.8071031300308,
                     "w": "20",
                     "h": "20"
                 },
-                "sbgnclass": "dissociation",
-                "sbgnstatesandinfos": [],
+                "class": "dissociation",
+                "statesandinfos": [],
                 "parent": "glyph2",
                 "ports": []
             }
@@ -549,15 +549,15 @@
         {
             "data": {
                 "id": "glyph26",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 1820.439889522249,
                     "y": 268.820483039897,
                     "w": "120",
                     "h": "60"
                 },
-                "sbgnclass": "macromolecule",
-                "sbgnlabel": "actin",
-                "sbgnstatesandinfos": [],
+                "class": "macromolecule",
+                "label": "actin",
+                "statesandinfos": [],
                 "parent": "glyph2",
                 "ports": []
             }
@@ -565,15 +565,15 @@
         {
             "data": {
                 "id": "glyph25",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 2054.788436248919,
                     "y": 96.8211999690675,
                     "w": "60",
                     "h": "60"
                 },
-                "sbgnclass": "simple chemical",
-                "sbgnlabel": "ATP",
-                "sbgnstatesandinfos": [],
+                "class": "simple chemical",
+                "label": "ATP",
+                "statesandinfos": [],
                 "parent": "glyph2",
                 "ports": []
             }
@@ -581,15 +581,15 @@
         {
             "data": {
                 "id": "glyph27",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 2003.3717441786537,
                     "y": 245.72390413349126,
                     "w": "120",
                     "h": "60"
                 },
-                "sbgnclass": "macromolecule",
-                "sbgnlabel": "myosin",
-                "sbgnstatesandinfos": [],
+                "class": "macromolecule",
+                "label": "myosin",
+                "statesandinfos": [],
                 "parent": "glyph2",
                 "ports": []
             }
@@ -597,14 +597,14 @@
         {
             "data": {
                 "id": "glyph45",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 1967.0754642626248,
                     "y": 151.57845482385733,
                     "w": "20",
                     "h": "20"
                 },
-                "sbgnclass": "association",
-                "sbgnstatesandinfos": [],
+                "class": "association",
+                "statesandinfos": [],
                 "parent": "glyph2",
                 "ports": []
             }
@@ -612,14 +612,14 @@
         {
             "data": {
                 "id": "glyph36",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 1804.8844575025842,
                     "y": 102.97480600819699,
                     "w": "121.5",
                     "h": "136.5"
                 },
-                "sbgnclass": "complex",
-                "sbgnstatesandinfos": [],
+                "class": "complex",
+                "statesandinfos": [],
                 "parent": "glyph2",
                 "ports": []
             }
@@ -627,15 +627,15 @@
         {
             "data": {
                 "id": "glyph28",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 1804.8844575025842,
                     "y": 65.47480600819699,
                     "w": "120",
                     "h": "60"
                 },
-                "sbgnclass": "macromolecule",
-                "sbgnlabel": "myosin",
-                "sbgnstatesandinfos": [],
+                "class": "macromolecule",
+                "label": "myosin",
+                "statesandinfos": [],
                 "parent": "glyph36",
                 "ports": []
             }
@@ -643,15 +643,15 @@
         {
             "data": {
                 "id": "glyph35",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 1774.8844575025842,
                     "y": 140.474806008197,
                     "w": "60",
                     "h": "60"
                 },
-                "sbgnclass": "simple chemical",
-                "sbgnlabel": "ATP",
-                "sbgnstatesandinfos": [],
+                "class": "simple chemical",
+                "label": "ATP",
+                "statesandinfos": [],
                 "parent": "glyph36",
                 "ports": []
             }
@@ -659,15 +659,15 @@
         {
             "data": {
                 "id": "glyph21",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 1384.4372296707947,
                     "y": 318.76950553546544,
                     "w": "120",
                     "h": "60"
                 },
-                "sbgnclass": "macromolecule",
-                "sbgnlabel": "nAChR",
-                "sbgnstatesandinfos": [
+                "class": "macromolecule",
+                "label": "nAChR",
+                "statesandinfos": [
                     {
                         "id": "glyph21a",
                         "clazz": "state variable",
@@ -689,14 +689,14 @@
         {
             "data": {
                 "id": "glyph41",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 1488.6367504586137,
                     "y": 248.3516476521878,
                     "w": "20",
                     "h": "20"
                 },
-                "sbgnclass": "process",
-                "sbgnstatesandinfos": [],
+                "class": "process",
+                "statesandinfos": [],
                 "parent": "glyph2",
                 "ports": []
             }
@@ -704,14 +704,14 @@
         {
             "data": {
                 "id": "glyph37",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 1891.4159362399225,
                     "y": 479.6244130185455,
                     "w": "121.5",
                     "h": "136.5"
                 },
-                "sbgnclass": "complex",
-                "sbgnstatesandinfos": [
+                "class": "complex",
+                "statesandinfos": [
                     {
                         "id": "glyph37a",
                         "clazz": "state variable",
@@ -733,15 +733,15 @@
         {
             "data": {
                 "id": "glyph31",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 1891.4159362399225,
                     "y": 442.1244130185455,
                     "w": "120",
                     "h": "60"
                 },
-                "sbgnclass": "macromolecule",
-                "sbgnlabel": "actin",
-                "sbgnstatesandinfos": [],
+                "class": "macromolecule",
+                "label": "actin",
+                "statesandinfos": [],
                 "parent": "glyph37",
                 "ports": []
             }
@@ -749,15 +749,15 @@
         {
             "data": {
                 "id": "glyph39",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 1891.4159362399225,
                     "y": 517.1244130185455,
                     "w": "120",
                     "h": "60"
                 },
-                "sbgnclass": "macromolecule",
-                "sbgnlabel": "myosin",
-                "sbgnstatesandinfos": [],
+                "class": "macromolecule",
+                "label": "myosin",
+                "statesandinfos": [],
                 "parent": "glyph37",
                 "ports": []
             }
@@ -765,15 +765,15 @@
         {
             "data": {
                 "id": "glyph32",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 1976.8873538946682,
                     "y": 651.7369383828263,
                     "w": "160",
                     "h": "60"
                 },
-                "sbgnclass": "phenotype",
-                "sbgnlabel": "muscle contraction",
-                "sbgnstatesandinfos": [],
+                "class": "phenotype",
+                "label": "muscle contraction",
+                "statesandinfos": [],
                 "parent": "glyph2",
                 "ports": []
             }
@@ -781,15 +781,15 @@
         {
             "data": {
                 "id": "glyph23",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 1409.3416303507177,
                     "y": 170.3243361927971,
                     "w": "60",
                     "h": "60"
                 },
-                "sbgnclass": "simple chemical",
-                "sbgnlabel": "Ca2+",
-                "sbgnstatesandinfos": [],
+                "class": "simple chemical",
+                "label": "Ca2+",
+                "statesandinfos": [],
                 "parent": "glyph2",
                 "ports": []
             }
@@ -799,9 +799,9 @@
         {
             "data": {
                 "id": "glyph8-glyph15",
-                "sbgnclass": "necessary stimulation",
+                "class": "necessary stimulation",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph8",
                 "target": "glyph15",
                 "portsource": "glyph8",
@@ -811,9 +811,9 @@
         {
             "data": {
                 "id": "glyph12-glyph16",
-                "sbgnclass": "consumption",
+                "class": "consumption",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph12",
                 "target": "glyph16",
                 "portsource": "glyph12",
@@ -823,9 +823,9 @@
         {
             "data": {
                 "id": "glyph16-glyph13",
-                "sbgnclass": "production",
+                "class": "production",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph16",
                 "target": "glyph13",
                 "portsource": "glyph16",
@@ -835,9 +835,9 @@
         {
             "data": {
                 "id": "glyph13-glyph18",
-                "sbgnclass": "consumption",
+                "class": "consumption",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph13",
                 "target": "glyph18",
                 "portsource": "glyph13",
@@ -847,9 +847,9 @@
         {
             "data": {
                 "id": "glyph18-glyph6",
-                "sbgnclass": "production",
+                "class": "production",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph18",
                 "target": "glyph6",
                 "portsource": "glyph18",
@@ -859,9 +859,9 @@
         {
             "data": {
                 "id": "glyph4-glyph18",
-                "sbgnclass": "necessary stimulation",
+                "class": "necessary stimulation",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph4",
                 "target": "glyph18",
                 "portsource": "glyph4",
@@ -871,9 +871,9 @@
         {
             "data": {
                 "id": "glyph3-glyph16",
-                "sbgnclass": "catalysis",
+                "class": "catalysis",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph3",
                 "target": "glyph16",
                 "portsource": "glyph3",
@@ -883,9 +883,9 @@
         {
             "data": {
                 "id": "glyph10-glyph19",
-                "sbgnclass": "catalysis",
+                "class": "catalysis",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph10",
                 "target": "glyph19",
                 "portsource": "glyph10",
@@ -895,9 +895,9 @@
         {
             "data": {
                 "id": "glyph7-glyph19",
-                "sbgnclass": "consumption",
+                "class": "consumption",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph7",
                 "target": "glyph19",
                 "portsource": "glyph7",
@@ -907,9 +907,9 @@
         {
             "data": {
                 "id": "glyph19-glyph5",
-                "sbgnclass": "production",
+                "class": "production",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph19",
                 "target": "glyph5",
                 "portsource": "glyph19",
@@ -919,9 +919,9 @@
         {
             "data": {
                 "id": "glyph19-glyph11",
-                "sbgnclass": "production",
+                "class": "production",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph19",
                 "target": "glyph11",
                 "portsource": "glyph19",
@@ -931,9 +931,9 @@
         {
             "data": {
                 "id": "glyph9-glyph17",
-                "sbgnclass": "necessary stimulation",
+                "class": "necessary stimulation",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph9",
                 "target": "glyph17",
                 "portsource": "glyph9",
@@ -943,9 +943,9 @@
         {
             "data": {
                 "id": "glyph6-glyph17",
-                "sbgnclass": "consumption",
+                "class": "consumption",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph6",
                 "target": "glyph17",
                 "portsource": "glyph6",
@@ -955,9 +955,9 @@
         {
             "data": {
                 "id": "glyph17-glyph7",
-                "sbgnclass": "production",
+                "class": "production",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph17",
                 "target": "glyph7",
                 "portsource": "glyph17",
@@ -967,9 +967,9 @@
         {
             "data": {
                 "id": "glyph7-glyph24",
-                "sbgnclass": "necessary stimulation",
+                "class": "necessary stimulation",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph7",
                 "target": "glyph24",
                 "portsource": "glyph7",
@@ -979,9 +979,9 @@
         {
             "data": {
                 "id": "glyph20-glyph24",
-                "sbgnclass": "consumption",
+                "class": "consumption",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph20",
                 "target": "glyph24",
                 "portsource": "glyph20",
@@ -991,9 +991,9 @@
         {
             "data": {
                 "id": "glyph24-glyph21",
-                "sbgnclass": "production",
+                "class": "production",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph24",
                 "target": "glyph21",
                 "portsource": "glyph24",
@@ -1003,9 +1003,9 @@
         {
             "data": {
                 "id": "glyph41-glyph22",
-                "sbgnclass": "production",
+                "class": "production",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph41",
                 "target": "glyph22",
                 "portsource": "glyph41",
@@ -1015,9 +1015,9 @@
         {
             "data": {
                 "id": "glyph22-glyph42",
-                "sbgnclass": "stimulation",
+                "class": "stimulation",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph22",
                 "target": "glyph42",
                 "portsource": "glyph22",
@@ -1027,9 +1027,9 @@
         {
             "data": {
                 "id": "glyph36-glyph42",
-                "sbgnclass": "consumption",
+                "class": "consumption",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph36",
                 "target": "glyph42",
                 "portsource": "glyph36",
@@ -1039,9 +1039,9 @@
         {
             "data": {
                 "id": "glyph26-glyph42",
-                "sbgnclass": "consumption",
+                "class": "consumption",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph26",
                 "target": "glyph42",
                 "portsource": "glyph26",
@@ -1051,9 +1051,9 @@
         {
             "data": {
                 "id": "glyph42-glyph38",
-                "sbgnclass": "production",
+                "class": "production",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph42",
                 "target": "glyph38",
                 "portsource": "glyph42",
@@ -1063,9 +1063,9 @@
         {
             "data": {
                 "id": "glyph38-glyph43",
-                "sbgnclass": "consumption",
+                "class": "consumption",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph38",
                 "target": "glyph43",
                 "portsource": "glyph38",
@@ -1075,9 +1075,9 @@
         {
             "data": {
                 "id": "glyph43-glyph37",
-                "sbgnclass": "production",
+                "class": "production",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph43",
                 "target": "glyph37",
                 "portsource": "glyph43",
@@ -1087,9 +1087,9 @@
         {
             "data": {
                 "id": "glyph43-glyph33",
-                "sbgnclass": "production",
+                "class": "production",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph43",
                 "target": "glyph33",
                 "portsource": "glyph43",
@@ -1099,9 +1099,9 @@
         {
             "data": {
                 "id": "glyph43-glyph40",
-                "sbgnclass": "production",
+                "class": "production",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph43",
                 "target": "glyph40",
                 "portsource": "glyph43",
@@ -1111,9 +1111,9 @@
         {
             "data": {
                 "id": "glyph37-glyph44",
-                "sbgnclass": "consumption",
+                "class": "consumption",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph37",
                 "target": "glyph44",
                 "portsource": "glyph37",
@@ -1123,9 +1123,9 @@
         {
             "data": {
                 "id": "glyph44-glyph27",
-                "sbgnclass": "production",
+                "class": "production",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph44",
                 "target": "glyph27",
                 "portsource": "glyph44",
@@ -1135,9 +1135,9 @@
         {
             "data": {
                 "id": "glyph44-glyph26",
-                "sbgnclass": "production",
+                "class": "production",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph44",
                 "target": "glyph26",
                 "portsource": "glyph44",
@@ -1147,9 +1147,9 @@
         {
             "data": {
                 "id": "glyph25-glyph45",
-                "sbgnclass": "consumption",
+                "class": "consumption",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph25",
                 "target": "glyph45",
                 "portsource": "glyph25",
@@ -1159,9 +1159,9 @@
         {
             "data": {
                 "id": "glyph27-glyph45",
-                "sbgnclass": "consumption",
+                "class": "consumption",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph27",
                 "target": "glyph45",
                 "portsource": "glyph27",
@@ -1171,9 +1171,9 @@
         {
             "data": {
                 "id": "glyph45-glyph36",
-                "sbgnclass": "production",
+                "class": "production",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph45",
                 "target": "glyph36",
                 "portsource": "glyph45",
@@ -1183,9 +1183,9 @@
         {
             "data": {
                 "id": "glyph21-glyph41",
-                "sbgnclass": "necessary stimulation",
+                "class": "necessary stimulation",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph21",
                 "target": "glyph41",
                 "portsource": "glyph21",
@@ -1195,9 +1195,9 @@
         {
             "data": {
                 "id": "glyph5-glyph15",
-                "sbgnclass": "consumption",
+                "class": "consumption",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph5",
                 "target": "glyph15",
                 "portsource": "glyph5",
@@ -1207,9 +1207,9 @@
         {
             "data": {
                 "id": "glyph15-glyph12",
-                "sbgnclass": "production",
+                "class": "production",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph15",
                 "target": "glyph12",
                 "portsource": "glyph15",
@@ -1219,9 +1219,9 @@
         {
             "data": {
                 "id": "glyph47-glyph16",
-                "sbgnclass": "consumption",
+                "class": "consumption",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph47",
                 "target": "glyph16",
                 "portsource": "glyph47",
@@ -1231,9 +1231,9 @@
         {
             "data": {
                 "id": "glyph37-glyph32",
-                "sbgnclass": "stimulation",
+                "class": "stimulation",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph37",
                 "target": "glyph32",
                 "portsource": "glyph37",
@@ -1243,9 +1243,9 @@
         {
             "data": {
                 "id": "glyph23-glyph41",
-                "sbgnclass": "consumption",
+                "class": "consumption",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph23",
                 "target": "glyph41",
                 "portsource": "glyph23",

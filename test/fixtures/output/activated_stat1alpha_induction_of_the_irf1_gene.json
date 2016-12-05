@@ -3,14 +3,14 @@
         {
             "data": {
                 "id": "glyph8",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 382.15049199906457,
                     "y": 601.1691314755299,
                     "w": "60.0",
                     "h": "60.0"
                 },
-                "sbgnclass": "source and sink",
-                "sbgnstatesandinfos": [],
+                "class": "source and sink",
+                "statesandinfos": [],
                 "parent": "",
                 "ports": []
             }
@@ -18,14 +18,14 @@
         {
             "data": {
                 "id": "glyph6",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 465.91509946399447,
                     "y": 535.7398209991329,
                     "w": "20.0",
                     "h": "20.0"
                 },
-                "sbgnclass": "process",
-                "sbgnstatesandinfos": [],
+                "class": "process",
+                "statesandinfos": [],
                 "parent": "",
                 "ports": []
             }
@@ -33,15 +33,15 @@
         {
             "data": {
                 "id": "glyph3",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 574.0263358202294,
                     "y": 600.7873094608708,
                     "w": "120.0",
                     "h": "60.0"
                 },
-                "sbgnclass": "nucleic acid feature",
-                "sbgnlabel": "IRF1",
-                "sbgnstatesandinfos": [
+                "class": "nucleic acid feature",
+                "label": "IRF1",
+                "statesandinfos": [
                     {
                         "id": "glyph3a",
                         "clazz": "unit of information",
@@ -63,14 +63,14 @@
         {
             "data": {
                 "id": "glyph7",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 551.5423074099676,
                     "y": 771.8451302987719,
                     "w": "60.0",
                     "h": "60.0"
                 },
-                "sbgnclass": "source and sink",
-                "sbgnstatesandinfos": [],
+                "class": "source and sink",
+                "statesandinfos": [],
                 "parent": "",
                 "ports": []
             }
@@ -78,14 +78,14 @@
         {
             "data": {
                 "id": "glyph5",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 621.6965979154193,
                     "y": 690.0070014963533,
                     "w": "20.0",
                     "h": "20.0"
                 },
-                "sbgnclass": "process",
-                "sbgnstatesandinfos": [],
+                "class": "process",
+                "statesandinfos": [],
                 "parent": "",
                 "ports": []
             }
@@ -93,15 +93,15 @@
         {
             "data": {
                 "id": "glyph15",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 744.8012187112336,
                     "y": 725.0266417318942,
                     "w": "120.0",
                     "h": "60.0"
                 },
-                "sbgnclass": "macromolecule",
-                "sbgnlabel": "IRF1",
-                "sbgnstatesandinfos": [
+                "class": "macromolecule",
+                "label": "IRF1",
+                "statesandinfos": [
                     {
                         "id": "glyph15a",
                         "clazz": "unit of information",
@@ -123,15 +123,15 @@
         {
             "data": {
                 "id": "glyph14",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 564.7298020007017,
                     "y": 378.4529900817637,
                     "w": "120.0",
                     "h": "60.0"
                 },
-                "sbgnclass": "nucleic acid feature",
-                "sbgnlabel": "IRF1",
-                "sbgnstatesandinfos": [
+                "class": "nucleic acid feature",
+                "label": "IRF1",
+                "statesandinfos": [
                     {
                         "id": "glyph14a",
                         "clazz": "unit of information",
@@ -153,14 +153,14 @@
         {
             "data": {
                 "id": "glyph13",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 257.33220396162505,
                     "y": 272.79261830551184,
                     "w": "220.0",
                     "h": "270.0"
                 },
-                "sbgnclass": "complex",
-                "sbgnstatesandinfos": [],
+                "class": "complex",
+                "statesandinfos": [],
                 "parent": "",
                 "ports": []
             }
@@ -168,14 +168,14 @@
         {
             "data": {
                 "id": "glyph11",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 257.33220396162505,
                     "y": 233.16761830551184,
                     "w": "180.0",
                     "h": "140.0"
                 },
-                "sbgnclass": "complex",
-                "sbgnstatesandinfos": [],
+                "class": "complex",
+                "statesandinfos": [],
                 "parent": "glyph13",
                 "ports": []
             }
@@ -183,15 +183,15 @@
         {
             "data": {
                 "id": "glyph10",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 257.33220396162505,
                     "y": 233.16761830551184,
                     "w": "140.0",
                     "h": "60.0"
                 },
-                "sbgnclass": "macromolecule",
-                "sbgnlabel": "STAT1α",
-                "sbgnstatesandinfos": [
+                "class": "macromolecule",
+                "label": "STAT1α",
+                "statesandinfos": [
                     {
                         "id": "glyph10a",
                         "clazz": "unit of information",
@@ -241,15 +241,15 @@
         {
             "data": {
                 "id": "glyph12",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 237.33220396162505,
                     "y": 333.16761830551184,
                     "w": "120.0",
                     "h": "60.0"
                 },
-                "sbgnclass": "nucleic acid feature",
-                "sbgnlabel": "IRF1-GAS",
-                "sbgnstatesandinfos": [
+                "class": "nucleic acid feature",
+                "label": "IRF1-GAS",
+                "statesandinfos": [
                     {
                         "id": "glyph12a",
                         "clazz": "unit of information",
@@ -271,14 +271,14 @@
         {
             "data": {
                 "id": "glyph4",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 450.08406897001873,
                     "y": 449.98533826359653,
                     "w": "40.0",
                     "h": "40.0"
                 },
-                "sbgnclass": "and",
-                "sbgnstatesandinfos": [],
+                "class": "and",
+                "statesandinfos": [],
                 "parent": "",
                 "ports": []
             }
@@ -286,14 +286,14 @@
         {
             "data": {
                 "id": "glyph0",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 90.0788399992199,
                     "y": 50.26903762083475,
                     "w": "180.0",
                     "h": "140.0"
                 },
-                "sbgnclass": "complex",
-                "sbgnstatesandinfos": [],
+                "class": "complex",
+                "statesandinfos": [],
                 "parent": "",
                 "ports": []
             }
@@ -301,15 +301,15 @@
         {
             "data": {
                 "id": "glyph1",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 90.0788399992199,
                     "y": 50.26903762083475,
                     "w": "140.0",
                     "h": "60.0"
                 },
-                "sbgnclass": "macromolecule",
-                "sbgnlabel": "STAT1α",
-                "sbgnstatesandinfos": [
+                "class": "macromolecule",
+                "label": "STAT1α",
+                "statesandinfos": [
                     {
                         "id": "glyph1a",
                         "clazz": "unit of information",
@@ -359,15 +359,15 @@
         {
             "data": {
                 "id": "glyph2",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 342.0530005276273,
                     "y": 46.065980821130324,
                     "w": "120.0",
                     "h": "60.0"
                 },
-                "sbgnclass": "nucleic acid feature",
-                "sbgnlabel": "IRF1-GAS",
-                "sbgnstatesandinfos": [
+                "class": "nucleic acid feature",
+                "label": "IRF1-GAS",
+                "statesandinfos": [
                     {
                         "id": "glyph2a",
                         "clazz": "unit of information",
@@ -389,14 +389,14 @@
         {
             "data": {
                 "id": "glyph9",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 251.59003322089643,
                     "y": 118.48399944460743,
                     "w": "20.0",
                     "h": "20.0"
                 },
-                "sbgnclass": "association",
-                "sbgnstatesandinfos": [],
+                "class": "association",
+                "statesandinfos": [],
                 "parent": "",
                 "ports": []
             }
@@ -405,9 +405,9 @@
     "edges": [
         {
             "data": {
-                "sbgnclass": "necessary stimulation",
+                "class": "necessary stimulation",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph4",
                 "target": "glyph6",
                 "portsource": "glyph4",
@@ -416,9 +416,9 @@
         },
         {
             "data": {
-                "sbgnclass": "necessary stimulation",
+                "class": "necessary stimulation",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph3",
                 "target": "glyph5",
                 "portsource": "glyph3",
@@ -427,9 +427,9 @@
         },
         {
             "data": {
-                "sbgnclass": "consumption",
+                "class": "consumption",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph8",
                 "target": "glyph6",
                 "portsource": "glyph8",
@@ -438,9 +438,9 @@
         },
         {
             "data": {
-                "sbgnclass": "production",
+                "class": "production",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph6",
                 "target": "glyph3",
                 "portsource": "glyph6",
@@ -449,9 +449,9 @@
         },
         {
             "data": {
-                "sbgnclass": "consumption",
+                "class": "consumption",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph7",
                 "target": "glyph5",
                 "portsource": "glyph7",
@@ -460,9 +460,9 @@
         },
         {
             "data": {
-                "sbgnclass": "production",
+                "class": "production",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph5",
                 "target": "glyph15",
                 "portsource": "glyph5",
@@ -471,9 +471,9 @@
         },
         {
             "data": {
-                "sbgnclass": "production",
+                "class": "production",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph9",
                 "target": "glyph13",
                 "portsource": "glyph9",
@@ -482,9 +482,9 @@
         },
         {
             "data": {
-                "sbgnclass": "logic arc",
+                "class": "logic arc",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph14",
                 "target": "glyph4",
                 "portsource": "glyph14",
@@ -493,9 +493,9 @@
         },
         {
             "data": {
-                "sbgnclass": "logic arc",
+                "class": "logic arc",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph13",
                 "target": "glyph4",
                 "portsource": "glyph13",
@@ -504,9 +504,9 @@
         },
         {
             "data": {
-                "sbgnclass": "consumption",
+                "class": "consumption",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph0",
                 "target": "glyph9",
                 "portsource": "glyph0",
@@ -515,9 +515,9 @@
         },
         {
             "data": {
-                "sbgnclass": "consumption",
+                "class": "consumption",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph2",
                 "target": "glyph9",
                 "portsource": "glyph2",

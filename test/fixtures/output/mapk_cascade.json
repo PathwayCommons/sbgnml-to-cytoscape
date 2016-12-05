@@ -3,117 +3,117 @@
         {
             "data": {
                 "id": "glyph4",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 318.1589165885067,
                     "y": 162.59898679973332,
                     "w": "60.0",
                     "h": "60.0"
                 },
-                "sbgnclass": "simple chemical",
-                "sbgnlabel": "ATP",
-                "sbgnstatesandinfos": [],
+                "class": "simple chemical",
+                "label": "ATP",
+                "statesandinfos": [],
                 "parent": "",
-                "sbgnclonemarker": true,
+                "clonemarker": true,
                 "ports": []
             }
         },
         {
             "data": {
                 "id": "glyph5",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 368.7150698032765,
                     "y": 353.3425311332147,
                     "w": "60.0",
                     "h": "60.0"
                 },
-                "sbgnclass": "simple chemical",
-                "sbgnlabel": "ADP",
-                "sbgnstatesandinfos": [],
+                "class": "simple chemical",
+                "label": "ADP",
+                "statesandinfos": [],
                 "parent": "",
-                "sbgnclonemarker": true,
+                "clonemarker": true,
                 "ports": []
             }
         },
         {
             "data": {
                 "id": "glyph7",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 423.4601247086921,
                     "y": 103.68144699737059,
                     "w": "60.0",
                     "h": "60.0"
                 },
-                "sbgnclass": "simple chemical",
-                "sbgnlabel": "ATP",
-                "sbgnstatesandinfos": [],
+                "class": "simple chemical",
+                "label": "ATP",
+                "statesandinfos": [],
                 "parent": "",
-                "sbgnclonemarker": true,
+                "clonemarker": true,
                 "ports": []
             }
         },
         {
             "data": {
                 "id": "glyph6",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 514.8286564804162,
                     "y": 40.16169718646756,
                     "w": "60.0",
                     "h": "60.0"
                 },
-                "sbgnclass": "simple chemical",
-                "sbgnlabel": "ADP",
-                "sbgnstatesandinfos": [],
+                "class": "simple chemical",
+                "label": "ADP",
+                "statesandinfos": [],
                 "parent": "",
-                "sbgnclonemarker": true,
+                "clonemarker": true,
                 "ports": []
             }
         },
         {
             "data": {
                 "id": "glyph10",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 588.775693273037,
                     "y": 410.5318087906144,
                     "w": "60.0",
                     "h": "60.0"
                 },
-                "sbgnclass": "simple chemical",
-                "sbgnlabel": "ATP",
-                "sbgnstatesandinfos": [],
+                "class": "simple chemical",
+                "label": "ATP",
+                "statesandinfos": [],
                 "parent": "",
-                "sbgnclonemarker": true,
+                "clonemarker": true,
                 "ports": []
             }
         },
         {
             "data": {
                 "id": "glyph9",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 497.6859428037237,
                     "y": 352.2241646137692,
                     "w": "60.0",
                     "h": "60.0"
                 },
-                "sbgnclass": "simple chemical",
-                "sbgnlabel": "ADP",
-                "sbgnstatesandinfos": [],
+                "class": "simple chemical",
+                "label": "ADP",
+                "statesandinfos": [],
                 "parent": "",
-                "sbgnclonemarker": true,
+                "clonemarker": true,
                 "ports": []
             }
         },
         {
             "data": {
                 "id": "glyph2",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 467.18302213209245,
                     "y": 240.2873064873903,
                     "w": "100.0",
                     "h": "60.0"
                 },
-                "sbgnclass": "macromolecule",
-                "sbgnlabel": "RAF",
-                "sbgnstatesandinfos": [
+                "class": "macromolecule",
+                "label": "RAF",
+                "statesandinfos": [
                     {
                         "id": "glyph2a",
                         "clazz": "state variable",
@@ -135,83 +135,83 @@
         {
             "data": {
                 "id": "glyph18",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 944.040949176361,
                     "y": 284.0657446868406,
                     "w": "60.0",
                     "h": "60.0"
                 },
-                "sbgnclass": "simple chemical",
-                "sbgnlabel": "ADP",
-                "sbgnstatesandinfos": [],
+                "class": "simple chemical",
+                "label": "ADP",
+                "statesandinfos": [],
                 "parent": "",
-                "sbgnclonemarker": true,
+                "clonemarker": true,
                 "ports": []
             }
         },
         {
             "data": {
                 "id": "glyph16",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 689.1314585303767,
                     "y": 482.44467100584745,
                     "w": "60.0",
                     "h": "60.0"
                 },
-                "sbgnclass": "simple chemical",
-                "sbgnlabel": "ADP",
-                "sbgnstatesandinfos": [],
+                "class": "simple chemical",
+                "label": "ADP",
+                "statesandinfos": [],
                 "parent": "",
-                "sbgnclonemarker": true,
+                "clonemarker": true,
                 "ports": []
             }
         },
         {
             "data": {
                 "id": "glyph15",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 882.8443326294546,
                     "y": 482.5246268128043,
                     "w": "60.0",
                     "h": "60.0"
                 },
-                "sbgnclass": "simple chemical",
-                "sbgnlabel": "ATP",
-                "sbgnstatesandinfos": [],
+                "class": "simple chemical",
+                "label": "ATP",
+                "statesandinfos": [],
                 "parent": "",
-                "sbgnclonemarker": true,
+                "clonemarker": true,
                 "ports": []
             }
         },
         {
             "data": {
                 "id": "glyph17",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 759.9810408902129,
                     "y": 220.58540441014577,
                     "w": "60.0",
                     "h": "60.0"
                 },
-                "sbgnclass": "simple chemical",
-                "sbgnlabel": "ATP",
-                "sbgnstatesandinfos": [],
+                "class": "simple chemical",
+                "label": "ATP",
+                "statesandinfos": [],
                 "parent": "",
-                "sbgnclonemarker": true,
+                "clonemarker": true,
                 "ports": []
             }
         },
         {
             "data": {
                 "id": "glyph12",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 722.5240088762721,
                     "y": 352.770069365478,
                     "w": "100.0",
                     "h": "60.0"
                 },
-                "sbgnclass": "macromolecule",
-                "sbgnlabel": "MEK",
-                "sbgnstatesandinfos": [
+                "class": "macromolecule",
+                "label": "MEK",
+                "statesandinfos": [
                     {
                         "id": "glyph12a",
                         "clazz": "state variable",
@@ -233,15 +233,15 @@
         {
             "data": {
                 "id": "glyph19",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 887.0312955929699,
                     "y": 188.01104320899924,
                     "w": "100.0",
                     "h": "60.0"
                 },
-                "sbgnclass": "macromolecule",
-                "sbgnlabel": "ERK",
-                "sbgnstatesandinfos": [
+                "class": "macromolecule",
+                "label": "ERK",
+                "statesandinfos": [
                     {
                         "id": "glyph19a",
                         "clazz": "state variable",
@@ -263,15 +263,15 @@
         {
             "data": {
                 "id": "glyph20",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 971.0567176507191,
                     "y": 84.6685272739719,
                     "w": "100.0",
                     "h": "60.0"
                 },
-                "sbgnclass": "tag",
-                "sbgnlabel": "ERK",
-                "sbgnstatesandinfos": [],
+                "class": "tag",
+                "label": "ERK",
+                "statesandinfos": [],
                 "parent": "",
                 "ports": []
             }
@@ -279,15 +279,15 @@
         {
             "data": {
                 "id": "glyph1",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 213.55056132706864,
                     "y": 236.18933213306605,
                     "w": "100.0",
                     "h": "60.0"
                 },
-                "sbgnclass": "macromolecule",
-                "sbgnlabel": "RAS",
-                "sbgnstatesandinfos": [
+                "class": "macromolecule",
+                "label": "RAS",
+                "statesandinfos": [
                     {
                         "id": "glyph1a",
                         "clazz": "state variable",
@@ -309,15 +309,15 @@
         {
             "data": {
                 "id": "glyph0",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 60.134389512288635,
                     "y": 200.02587224541605,
                     "w": "100.0",
                     "h": "60.0"
                 },
-                "sbgnclass": "tag",
-                "sbgnlabel": "RAS",
-                "sbgnstatesandinfos": [],
+                "class": "tag",
+                "label": "RAS",
+                "statesandinfos": [],
                 "parent": "",
                 "ports": []
             }
@@ -325,15 +325,15 @@
         {
             "data": {
                 "id": "glyph24",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 607.5584862953788,
                     "y": 216.36466489184716,
                     "w": "100.0",
                     "h": "60.0"
                 },
-                "sbgnclass": "macromolecule",
-                "sbgnlabel": "MEK",
-                "sbgnstatesandinfos": [
+                "class": "macromolecule",
+                "label": "MEK",
+                "statesandinfos": [
                     {
                         "id": "glyph24a",
                         "clazz": "state variable",
@@ -355,14 +355,14 @@
         {
             "data": {
                 "id": "glyph11",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 592.6185230656652,
                     "y": 313.4502085225929,
                     "w": "20.0",
                     "h": "20.0"
                 },
-                "sbgnclass": "process",
-                "sbgnstatesandinfos": [],
+                "class": "process",
+                "statesandinfos": [],
                 "parent": "",
                 "ports": []
             }
@@ -370,15 +370,15 @@
         {
             "data": {
                 "id": "glyph25",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 247.4431965319236,
                     "y": 338.29565236558483,
                     "w": "100.0",
                     "h": "60.0"
                 },
-                "sbgnclass": "macromolecule",
-                "sbgnlabel": "RAF",
-                "sbgnstatesandinfos": [
+                "class": "macromolecule",
+                "label": "RAF",
+                "statesandinfos": [
                     {
                         "id": "glyph25a",
                         "clazz": "state variable",
@@ -398,14 +398,14 @@
         {
             "data": {
                 "id": "glyph3",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 337.77918025112933,
                     "y": 259.13454532846924,
                     "w": "20.0",
                     "h": "20.0"
                 },
-                "sbgnclass": "process",
-                "sbgnstatesandinfos": [],
+                "class": "process",
+                "statesandinfos": [],
                 "parent": "",
                 "ports": []
             }
@@ -413,15 +413,15 @@
         {
             "data": {
                 "id": "glyph23",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 631.3665810796247,
                     "y": 93.61445750305336,
                     "w": "100.0",
                     "h": "60.0"
                 },
-                "sbgnclass": "macromolecule",
-                "sbgnlabel": "MEK",
-                "sbgnstatesandinfos": [
+                "class": "macromolecule",
+                "label": "MEK",
+                "statesandinfos": [
                     {
                         "id": "glyph23a",
                         "clazz": "state variable",
@@ -441,14 +441,14 @@
         {
             "data": {
                 "id": "glyph8",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 516.9252315842282,
                     "y": 142.01290840429613,
                     "w": "20.0",
                     "h": "20.0"
                 },
-                "sbgnclass": "process",
-                "sbgnstatesandinfos": [],
+                "class": "process",
+                "statesandinfos": [],
                 "parent": "",
                 "ports": []
             }
@@ -456,15 +456,15 @@
         {
             "data": {
                 "id": "glyph22",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 786.1602768573573,
                     "y": 557.4534904328991,
                     "w": "100.0",
                     "h": "60.0"
                 },
-                "sbgnclass": "macromolecule",
-                "sbgnlabel": "ERK",
-                "sbgnstatesandinfos": [
+                "class": "macromolecule",
+                "label": "ERK",
+                "statesandinfos": [
                     {
                         "id": "glyph22a",
                         "clazz": "state variable",
@@ -484,14 +484,14 @@
         {
             "data": {
                 "id": "glyph13",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 844.4300288939096,
                     "y": 284.87165823750354,
                     "w": "20.0",
                     "h": "20.0"
                 },
-                "sbgnclass": "process",
-                "sbgnstatesandinfos": [],
+                "class": "process",
+                "statesandinfos": [],
                 "parent": "",
                 "ports": []
             }
@@ -499,14 +499,14 @@
         {
             "data": {
                 "id": "glyph14",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 783.7402046808443,
                     "y": 453.1501505501591,
                     "w": "20.0",
                     "h": "20.0"
                 },
-                "sbgnclass": "process",
-                "sbgnstatesandinfos": [],
+                "class": "process",
+                "statesandinfos": [],
                 "parent": "",
                 "ports": []
             }
@@ -514,15 +514,15 @@
         {
             "data": {
                 "id": "glyph21",
-                "sbgnbbox": {
+                "bbox": {
                     "x": 872.1517334162531,
                     "y": 378.5680972732039,
                     "w": "100.0",
                     "h": "60.0"
                 },
-                "sbgnclass": "macromolecule",
-                "sbgnlabel": "ERK",
-                "sbgnstatesandinfos": [
+                "class": "macromolecule",
+                "label": "ERK",
+                "statesandinfos": [
                     {
                         "id": "glyph21a",
                         "clazz": "state variable",
@@ -545,9 +545,9 @@
     "edges": [
         {
             "data": {
-                "sbgnclass": "production",
+                "class": "production",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph3",
                 "target": "glyph2",
                 "portsource": "glyph3",
@@ -556,9 +556,9 @@
         },
         {
             "data": {
-                "sbgnclass": "consumption",
+                "class": "consumption",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph4",
                 "target": "glyph3",
                 "portsource": "glyph4",
@@ -567,9 +567,9 @@
         },
         {
             "data": {
-                "sbgnclass": "production",
+                "class": "production",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph3",
                 "target": "glyph5",
                 "portsource": "glyph3",
@@ -578,9 +578,9 @@
         },
         {
             "data": {
-                "sbgnclass": "catalysis",
+                "class": "catalysis",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph1",
                 "target": "glyph3",
                 "portsource": "glyph1",
@@ -589,9 +589,9 @@
         },
         {
             "data": {
-                "sbgnclass": "consumption",
+                "class": "consumption",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph7",
                 "target": "glyph8",
                 "portsource": "glyph7",
@@ -600,9 +600,9 @@
         },
         {
             "data": {
-                "sbgnclass": "production",
+                "class": "production",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph8",
                 "target": "glyph6",
                 "portsource": "glyph8",
@@ -611,9 +611,9 @@
         },
         {
             "data": {
-                "sbgnclass": "consumption",
+                "class": "consumption",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph10",
                 "target": "glyph11",
                 "portsource": "glyph10",
@@ -622,9 +622,9 @@
         },
         {
             "data": {
-                "sbgnclass": "production",
+                "class": "production",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph11",
                 "target": "glyph12",
                 "portsource": "glyph11",
@@ -633,9 +633,9 @@
         },
         {
             "data": {
-                "sbgnclass": "production",
+                "class": "production",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph11",
                 "target": "glyph9",
                 "portsource": "glyph11",
@@ -644,9 +644,9 @@
         },
         {
             "data": {
-                "sbgnclass": "catalysis",
+                "class": "catalysis",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph2",
                 "target": "glyph11",
                 "portsource": "glyph2",
@@ -655,9 +655,9 @@
         },
         {
             "data": {
-                "sbgnclass": "catalysis",
+                "class": "catalysis",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph2",
                 "target": "glyph8",
                 "portsource": "glyph2",
@@ -666,9 +666,9 @@
         },
         {
             "data": {
-                "sbgnclass": "production",
+                "class": "production",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph13",
                 "target": "glyph19",
                 "portsource": "glyph13",
@@ -677,9 +677,9 @@
         },
         {
             "data": {
-                "sbgnclass": "production",
+                "class": "production",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph13",
                 "target": "glyph18",
                 "portsource": "glyph13",
@@ -688,9 +688,9 @@
         },
         {
             "data": {
-                "sbgnclass": "production",
+                "class": "production",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph14",
                 "target": "glyph16",
                 "portsource": "glyph14",
@@ -699,9 +699,9 @@
         },
         {
             "data": {
-                "sbgnclass": "consumption",
+                "class": "consumption",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph15",
                 "target": "glyph14",
                 "portsource": "glyph15",
@@ -710,9 +710,9 @@
         },
         {
             "data": {
-                "sbgnclass": "consumption",
+                "class": "consumption",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph17",
                 "target": "glyph13",
                 "portsource": "glyph17",
@@ -721,9 +721,9 @@
         },
         {
             "data": {
-                "sbgnclass": "catalysis",
+                "class": "catalysis",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph12",
                 "target": "glyph13",
                 "portsource": "glyph12",
@@ -732,9 +732,9 @@
         },
         {
             "data": {
-                "sbgnclass": "catalysis",
+                "class": "catalysis",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph12",
                 "target": "glyph14",
                 "portsource": "glyph12",
@@ -743,9 +743,9 @@
         },
         {
             "data": {
-                "sbgnclass": "equivalence arc",
+                "class": "equivalence arc",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph19",
                 "target": "glyph20",
                 "portsource": "glyph19",
@@ -754,9 +754,9 @@
         },
         {
             "data": {
-                "sbgnclass": "equivalence arc",
+                "class": "equivalence arc",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph1",
                 "target": "glyph0",
                 "portsource": "glyph1",
@@ -765,9 +765,9 @@
         },
         {
             "data": {
-                "sbgnclass": "production",
+                "class": "production",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph8",
                 "target": "glyph24",
                 "portsource": "glyph8",
@@ -776,9 +776,9 @@
         },
         {
             "data": {
-                "sbgnclass": "consumption",
+                "class": "consumption",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph24",
                 "target": "glyph11",
                 "portsource": "glyph24",
@@ -787,9 +787,9 @@
         },
         {
             "data": {
-                "sbgnclass": "consumption",
+                "class": "consumption",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph25",
                 "target": "glyph3",
                 "portsource": "glyph25",
@@ -798,9 +798,9 @@
         },
         {
             "data": {
-                "sbgnclass": "consumption",
+                "class": "consumption",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph23",
                 "target": "glyph8",
                 "portsource": "glyph23",
@@ -809,9 +809,9 @@
         },
         {
             "data": {
-                "sbgnclass": "consumption",
+                "class": "consumption",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph22",
                 "target": "glyph14",
                 "portsource": "glyph22",
@@ -820,9 +820,9 @@
         },
         {
             "data": {
-                "sbgnclass": "consumption",
+                "class": "consumption",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph21",
                 "target": "glyph13",
                 "portsource": "glyph21",
@@ -831,9 +831,9 @@
         },
         {
             "data": {
-                "sbgnclass": "production",
+                "class": "production",
                 "bendPointPositions": [],
-                "sbgncardinality": 0,
+                "cardinality": 0,
                 "source": "glyph14",
                 "target": "glyph21",
                 "portsource": "glyph14",
