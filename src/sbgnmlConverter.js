@@ -12,6 +12,12 @@ var sbgnmlConverter = {
       var parser = new DOMParser();
       doc = parser.parseFromString(text, 'text/xml');
     }
+
+    var parseError = doc.getElementsByTagName('parsererror');
+    if (parseError.length > 0) {
+      throw new Error('Could not convert the following text to xml: ' + JSON.stringify(text));
+    }
+
     return doc;
   },
   sbgnmlTags: {
@@ -411,12 +417,12 @@ var sbgnmlConverter = {
     var cytoscapeJsEdge = {data: edgeObj};
     jsonArray.push(cytoscapeJsEdge);
   },
-  convert: function (filestring) {
+  convert: function (sbgnmlText) {
     var self = this;
     var cytoscapeJsNodes = [];
     var cytoscapeJsEdges = [];
 
-    var xmlObject = this.loadXMLFromString(filestring);
+    var xmlObject = this.loadXMLFromString(sbgnmlText);
 
     var compartments = self.getAllCompartments(xmlObject);
 

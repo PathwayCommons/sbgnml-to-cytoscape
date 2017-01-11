@@ -27,7 +27,25 @@ fetch('some-sbgnml-file.xml').then( fileString => {
 
 For a holistic view on how to use this module, take a look at the [example](https://github.com/PathwayCommons/sbgnml-to-cytoscape/tree/master/example) folder.
 
-## Tests
+## Errors
+
+Feeding invalid sbgnml text to the converter will result in an error being thrown.
+
+```js
+let convert = require('sbgnml-to-cytoscape')
+
+let graph = convert(null);  //  error:  Could not convert the following text to xml: null
+```
+
+## Commands
+
+#### Development
+Run the following commands to spin up a test server:
+```sh
+gulp
+```
+
+#### Tests
 Run the tests with:
 ```sh
 npm test

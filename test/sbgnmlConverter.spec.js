@@ -13,7 +13,10 @@ var fixtureFiles = [
   './fixtures/input/mapk_cascade.xml',
   './fixtures/input/neuronal_muscle_signalling.xml',
   './fixtures/input/polyq_proteins_interference.xml',
-  './fixtures/input/vitamins_b6_activation_to_pyridoxal_phosphate.xml'
+  './fixtures/input/vitamins_b6_activation_to_pyridoxal_phosphate.xml',
+
+
+  './fixtures/input/broken.xml'
 ];
 
 var outputFiles = [
@@ -25,7 +28,10 @@ var outputFiles = [
   require('./fixtures/output/mapk_cascade.json'),
   require('./fixtures/output/neuronal_muscle_signalling.json'),
   require('./fixtures/output/polyq_proteins_interference.json'),
-  require('./fixtures/output/vitamins_b6_activation_to_pyridoxal_phosphate.json')
+  require('./fixtures/output/vitamins_b6_activation_to_pyridoxal_phosphate.json'),
+
+
+  require('./fixtures/output/broken.json')
 ];
 
 var getFileText = function (filename) {
@@ -52,5 +58,19 @@ describe('sbgnmlConverter', function () {
 
       assert.deepEqual(expected, actual);
     }
+  });
+  it('should throw an error when the text to xml conversion function fails', function () {
+    var garbageInputs = [null, 'blah', true, false, {'stuff': 'stuff'}];
+
+    var c = function (input) {
+      converter.convert(input);
+    };
+
+    /* eslint-disable */
+    for (var i = 0; i < garbageInputs.length; i++) {
+      assert.throws(function () { c(garbageInputs[i]) }, Error); // show invalid argument in the error message
+    }
+
+    /* eslint-enable */
   });
 });
