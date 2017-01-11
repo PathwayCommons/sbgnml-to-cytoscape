@@ -1,5 +1,5 @@
 var converter = require('./sbgnmlConverter');
 
-module.exports = function (xmlObject) {
-  return converter.convert(xmlObject);
+module.exports = function (text) {
+  return converter.convert(text);
 };
