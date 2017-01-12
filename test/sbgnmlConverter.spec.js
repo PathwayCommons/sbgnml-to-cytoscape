@@ -16,7 +16,7 @@ var fixtureFiles = [
   './fixtures/input/vitamins_b6_activation_to_pyridoxal_phosphate.xml',
 
 
-  './fixtures/input/broken.xml'
+  './fixtures/input/small.xml'
 ];
 
 var outputFiles = [
@@ -31,7 +31,7 @@ var outputFiles = [
   require('./fixtures/output/vitamins_b6_activation_to_pyridoxal_phosphate.json'),
 
 
-  require('./fixtures/output/broken.json')
+  require('./fixtures/output/small.json')
 ];
 
 var getFileText = function (filename) {
@@ -60,7 +60,7 @@ describe('sbgnmlConverter', function () {
     }
   });
   it('should throw an error when the text to xml conversion function fails', function () {
-    var garbageInputs = [null, 'blah', true, false, {'stuff': 'stuff'}];
+    var garbageInputs = [null, 'blah', true, false, {'stuff': 'stuff'}, '', {}];
 
     var c = function (input) {
       converter.convert(input);
