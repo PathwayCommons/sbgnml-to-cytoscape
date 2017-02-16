@@ -2,1500 +2,1640 @@
     "nodes": [
         {
             "data": {
-                "id": "glyph0",
-                "bbox": {
-                    "x": 880,
-                    "y": 197,
-                    "w": "54.0",
-                    "h": "18.0"
-                },
-                "class": "compartment",
-                "label": "neuron",
-                "statesandinfos": [],
-                "parent": "",
-                "ports": []
+                "sbgn": {
+                    "id": "glyph0",
+                    "bbox": {
+                        "x": 880,
+                        "y": 197,
+                        "w": "54.0",
+                        "h": "18.0"
+                    },
+                    "class": "compartment",
+                    "label": "neuron",
+                    "statesandinfos": [],
+                    "parent": "",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph1",
-                "bbox": {
-                    "x": 860,
-                    "y": 747,
-                    "w": "58.0",
-                    "h": "18.0"
-                },
-                "class": "compartment",
-                "label": "nucleus",
-                "statesandinfos": [],
-                "parent": "glyph0",
-                "ports": []
+                "sbgn": {
+                    "id": "glyph1",
+                    "bbox": {
+                        "x": 860,
+                        "y": 747,
+                        "w": "58.0",
+                        "h": "18.0"
+                    },
+                    "class": "compartment",
+                    "label": "nucleus",
+                    "statesandinfos": [],
+                    "parent": "glyph0",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph36",
-                "bbox": {
-                    "x": 640,
-                    "y": 170,
-                    "w": "108.0",
-                    "h": "60.0"
-                },
-                "class": "macromolecule",
-                "label": "Cav1",
-                "statesandinfos": [
-                    {
-                        "id": "glyph36a",
-                        "clazz": "unit of information",
-                        "label": {
-                            "text": "close"
-                        },
-                        "bbox": {
-                            "x": -25,
-                            "y": -50,
-                            "w": "39.0",
-                            "h": "16.0"
+                "sbgn": {
+                    "id": "glyph36",
+                    "bbox": {
+                        "x": 640,
+                        "y": 170,
+                        "w": "108.0",
+                        "h": "60.0"
+                    },
+                    "class": "macromolecule",
+                    "label": "Cav1",
+                    "statesandinfos": [
+                        {
+                            "id": "glyph36a",
+                            "clazz": "unit of information",
+                            "label": {
+                                "text": "close"
+                            },
+                            "bbox": {
+                                "x": -25,
+                                "y": -50,
+                                "w": "39.0",
+                                "h": "16.0"
+                            }
                         }
-                    }
-                ],
-                "parent": "",
-                "ports": []
+                    ],
+                    "parent": "",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph19",
-                "bbox": {
-                    "x": 740,
-                    "y": 60,
-                    "w": "180.0",
-                    "h": "60.0"
-                },
-                "class": "perturbing agent",
-                "label": "depolarization",
-                "statesandinfos": [],
-                "parent": "",
-                "ports": []
-            }
-        },
-        {
-            "data": {
-                "id": "glyph67",
-                "bbox": {
-                    "x": 740,
-                    "y": 160,
-                    "w": "24.0",
-                    "h": "24.0"
-                },
-                "class": "process",
-                "statesandinfos": [],
-                "parent": "",
-                "ports": [
-                    {
-                        "id": "glyph67.1",
-                        "x": -100,
-                        "y": 0
+                "sbgn": {
+                    "id": "glyph19",
+                    "bbox": {
+                        "x": 740,
+                        "y": 60,
+                        "w": "180.0",
+                        "h": "60.0"
                     },
-                    {
-                        "id": "glyph67.2",
-                        "x": 100,
-                        "y": 0
-                    }
-                ]
+                    "class": "perturbing agent",
+                    "label": "depolarization",
+                    "statesandinfos": [],
+                    "parent": "",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph48",
-                "bbox": {
-                    "x": 990,
-                    "y": 80,
-                    "w": "40.0",
-                    "h": "40.0"
-                },
-                "class": "simple chemical",
-                "label": "Ca++",
-                "statesandinfos": [],
-                "parent": "",
-                "ports": []
-            }
-        },
-        {
-            "data": {
-                "id": "glyph55",
-                "bbox": {
-                    "x": 990,
-                    "y": 260,
-                    "w": "40.0",
-                    "h": "40.0"
-                },
-                "class": "simple chemical",
-                "label": "Ca++",
-                "statesandinfos": [],
-                "parent": "glyph0",
-                "ports": []
-            }
-        },
-        {
-            "data": {
-                "id": "glyph41",
-                "bbox": {
-                    "x": 1140,
-                    "y": 260,
-                    "w": "80.0",
-                    "h": "60.0"
-                },
-                "class": "macromolecule",
-                "label": "CaM",
-                "statesandinfos": [],
-                "parent": "glyph0",
-                "ports": []
-            }
-        },
-        {
-            "data": {
-                "id": "glyph63",
-                "bbox": {
-                    "x": 1070,
-                    "y": 330,
-                    "w": "24.0",
-                    "h": "24.0"
-                },
-                "class": "association",
-                "statesandinfos": [],
-                "parent": "glyph0",
-                "ports": [
-                    {
-                        "id": "glyph63.1",
-                        "x": 0,
-                        "y": -100
+                "sbgn": {
+                    "id": "glyph67",
+                    "bbox": {
+                        "x": 740,
+                        "y": 160,
+                        "w": "24.0",
+                        "h": "24.0"
                     },
-                    {
-                        "id": "glyph63.2",
-                        "x": 0,
-                        "y": 100
-                    }
-                ]
-            }
-        },
-        {
-            "data": {
-                "id": "glyph24",
-                "bbox": {
-                    "x": 1080,
-                    "y": 590,
-                    "w": "120.0",
-                    "h": "60.0"
-                },
-                "class": "macromolecule",
-                "label": "γCaMKII",
-                "statesandinfos": [
-                    {
-                        "id": "glyph24a",
-                        "clazz": "state variable",
-                        "state": {
-                            "variable": "T287"
+                    "class": "process",
+                    "statesandinfos": [],
+                    "parent": "",
+                    "ports": [
+                        {
+                            "id": "glyph67.1",
+                            "x": -100,
+                            "y": 0
                         },
-                        "bbox": {
-                            "x": -25,
-                            "y": -50,
-                            "w": "53.0",
-                            "h": "24.0"
+                        {
+                            "id": "glyph67.2",
+                            "x": 100,
+                            "y": 0
                         }
+                    ]
+                }
+            }
+        },
+        {
+            "data": {
+                "sbgn": {
+                    "id": "glyph48",
+                    "bbox": {
+                        "x": 990,
+                        "y": 80,
+                        "w": "40.0",
+                        "h": "40.0"
                     },
-                    {
-                        "id": "glyph24b",
-                        "clazz": "state variable",
-                        "state": {
-                            "value": "P",
-                            "variable": "S334"
-                        },
-                        "bbox": {
+                    "class": "simple chemical",
+                    "label": "Ca++",
+                    "statesandinfos": [],
+                    "parent": "",
+                    "ports": []
+                }
+            }
+        },
+        {
+            "data": {
+                "sbgn": {
+                    "id": "glyph55",
+                    "bbox": {
+                        "x": 990,
+                        "y": 260,
+                        "w": "40.0",
+                        "h": "40.0"
+                    },
+                    "class": "simple chemical",
+                    "label": "Ca++",
+                    "statesandinfos": [],
+                    "parent": "glyph0",
+                    "ports": []
+                }
+            }
+        },
+        {
+            "data": {
+                "sbgn": {
+                    "id": "glyph41",
+                    "bbox": {
+                        "x": 1140,
+                        "y": 260,
+                        "w": "80.0",
+                        "h": "60.0"
+                    },
+                    "class": "macromolecule",
+                    "label": "CaM",
+                    "statesandinfos": [],
+                    "parent": "glyph0",
+                    "ports": []
+                }
+            }
+        },
+        {
+            "data": {
+                "sbgn": {
+                    "id": "glyph63",
+                    "bbox": {
+                        "x": 1070,
+                        "y": 330,
+                        "w": "24.0",
+                        "h": "24.0"
+                    },
+                    "class": "association",
+                    "statesandinfos": [],
+                    "parent": "glyph0",
+                    "ports": [
+                        {
+                            "id": "glyph63.1",
                             "x": 0,
-                            "y": 50,
-                            "w": "61.0",
-                            "h": "26.0"
-                        }
-                    }
-                ],
-                "parent": "glyph0",
-                "ports": []
-            }
-        },
-        {
-            "data": {
-                "id": "glyph10",
-                "bbox": {
-                    "x": 1070,
-                    "y": 440,
-                    "w": "118.0",
-                    "h": "18.0"
-                },
-                "class": "complex",
-                "label": "Ca/CaM complex",
-                "statesandinfos": [],
-                "parent": "glyph0",
-                "ports": []
-            }
-        },
-        {
-            "data": {
-                "id": "glyph40",
-                "bbox": {
-                    "x": 1100,
-                    "y": 440,
-                    "w": "80.0",
-                    "h": "60.0"
-                },
-                "class": "macromolecule",
-                "label": "CaM",
-                "statesandinfos": [],
-                "parent": "glyph10",
-                "ports": []
-            }
-        },
-        {
-            "data": {
-                "id": "glyph56",
-                "bbox": {
-                    "x": 1030,
-                    "y": 440,
-                    "w": "40.0",
-                    "h": "40.0"
-                },
-                "class": "simple chemical",
-                "label": "Ca++",
-                "statesandinfos": [],
-                "parent": "glyph10",
-                "ports": []
-            }
-        },
-        {
-            "data": {
-                "id": "glyph62",
-                "bbox": {
-                    "x": 950,
-                    "y": 540,
-                    "w": "24.0",
-                    "h": "24.0"
-                },
-                "class": "association",
-                "statesandinfos": [],
-                "parent": "glyph0",
-                "ports": [
-                    {
-                        "id": "glyph62.2",
-                        "x": 100,
-                        "y": 0
-                    },
-                    {
-                        "id": "glyph62.1",
-                        "x": -100,
-                        "y": 0
-                    }
-                ]
-            }
-        },
-        {
-            "data": {
-                "id": "glyph31",
-                "bbox": {
-                    "x": 190,
-                    "y": 220,
-                    "w": "108.0",
-                    "h": "60.0"
-                },
-                "class": "macromolecule",
-                "label": "CaN",
-                "statesandinfos": [],
-                "parent": "glyph0",
-                "ports": []
-            }
-        },
-        {
-            "data": {
-                "id": "glyph65",
-                "bbox": {
-                    "x": 560,
-                    "y": 540,
-                    "w": "24.0",
-                    "h": "24.0"
-                },
-                "class": "process",
-                "statesandinfos": [],
-                "parent": "glyph0",
-                "ports": [
-                    {
-                        "id": "glyph65.1",
-                        "x": -100,
-                        "y": 0
-                    },
-                    {
-                        "id": "glyph65.2",
-                        "x": 100,
-                        "y": 0
-                    }
-                ]
-            }
-        },
-        {
-            "data": {
-                "id": "glyph8",
-                "bbox": {
-                    "x": 350,
-                    "y": 540,
-                    "w": "177.0",
-                    "h": "18.0"
-                },
-                "class": "complex",
-                "label": "Ca/Cam/gCaMKII complex",
-                "statesandinfos": [],
-                "parent": "glyph0",
-                "ports": []
-            }
-        },
-        {
-            "data": {
-                "id": "glyph23",
-                "bbox": {
-                    "x": 350,
-                    "y": 490,
-                    "w": "120.0",
-                    "h": "60.0"
-                },
-                "class": "macromolecule",
-                "label": "γCaMKII",
-                "statesandinfos": [
-                    {
-                        "id": "glyph23a",
-                        "clazz": "state variable",
-                        "state": {
-                            "variable": "T287"
+                            "y": -100
                         },
-                        "bbox": {
-                            "x": -25,
-                            "y": -50,
-                            "w": "53.0",
-                            "h": "24.0"
-                        }
-                    },
-                    {
-                        "id": "glyph23b",
-                        "clazz": "state variable",
-                        "state": {
-                            "variable": "S334"
-                        },
-                        "bbox": {
+                        {
+                            "id": "glyph63.2",
                             "x": 0,
-                            "y": 50,
-                            "w": "54.0",
-                            "h": "24.0"
+                            "y": 100
                         }
-                    }
-                ],
-                "parent": "glyph8",
-                "ports": []
+                    ]
+                }
             }
         },
         {
             "data": {
-                "id": "glyph13",
-                "bbox": {
-                    "x": 350,
-                    "y": 580,
-                    "w": "118.0",
-                    "h": "18.0"
-                },
-                "class": "complex",
-                "label": "Ca/CaM complex",
-                "statesandinfos": [],
-                "parent": "glyph8",
-                "ports": []
-            }
-        },
-        {
-            "data": {
-                "id": "glyph54",
-                "bbox": {
-                    "x": 300,
-                    "y": 580,
-                    "w": "40.0",
-                    "h": "40.0"
-                },
-                "class": "simple chemical",
-                "label": "Ca++",
-                "statesandinfos": [],
-                "parent": "glyph13",
-                "ports": []
-            }
-        },
-        {
-            "data": {
-                "id": "glyph38",
-                "bbox": {
-                    "x": 370,
-                    "y": 580,
-                    "w": "80.0",
-                    "h": "60.0"
-                },
-                "class": "macromolecule",
-                "label": "CaM",
-                "statesandinfos": [],
-                "parent": "glyph13",
-                "ports": []
-            }
-        },
-        {
-            "data": {
-                "id": "glyph58",
-                "bbox": {
-                    "x": 350,
-                    "y": 710,
-                    "w": "24.0",
-                    "h": "24.0"
-                },
-                "class": "process",
-                "statesandinfos": [],
-                "parent": "glyph0",
-                "ports": [
-                    {
-                        "id": "glyph58.1",
-                        "x": 0,
-                        "y": -100
+                "sbgn": {
+                    "id": "glyph24",
+                    "bbox": {
+                        "x": 1080,
+                        "y": 590,
+                        "w": "120.0",
+                        "h": "60.0"
                     },
-                    {
-                        "id": "glyph58.2",
-                        "x": 0,
-                        "y": 100
-                    }
-                ]
-            }
-        },
-        {
-            "data": {
-                "id": "glyph3",
-                "bbox": {
-                    "x": 350,
-                    "y": 910,
-                    "w": "177.0",
-                    "h": "18.0"
-                },
-                "class": "complex",
-                "label": "Ca/Cam/gCaMKII complex",
-                "statesandinfos": [],
-                "parent": "glyph1",
-                "ports": []
-            }
-        },
-        {
-            "data": {
-                "id": "glyph25",
-                "bbox": {
-                    "x": 350,
-                    "y": 860,
-                    "w": "120.0",
-                    "h": "60.0"
-                },
-                "class": "macromolecule",
-                "label": "γCaMKII",
-                "statesandinfos": [
-                    {
-                        "id": "glyph25a",
-                        "clazz": "state variable",
-                        "state": {
-                            "variable": "T287"
+                    "class": "macromolecule",
+                    "label": "γCaMKII",
+                    "statesandinfos": [
+                        {
+                            "id": "glyph24a",
+                            "clazz": "state variable",
+                            "state": {
+                                "variable": "T287"
+                            },
+                            "bbox": {
+                                "x": -25,
+                                "y": -50,
+                                "w": "53.0",
+                                "h": "24.0"
+                            }
                         },
-                        "bbox": {
-                            "x": -25,
-                            "y": -50,
-                            "w": "53.0",
-                            "h": "24.0"
+                        {
+                            "id": "glyph24b",
+                            "clazz": "state variable",
+                            "state": {
+                                "value": "P",
+                                "variable": "S334"
+                            },
+                            "bbox": {
+                                "x": 0,
+                                "y": 50,
+                                "w": "61.0",
+                                "h": "26.0"
+                            }
                         }
+                    ],
+                    "parent": "glyph0",
+                    "ports": []
+                }
+            }
+        },
+        {
+            "data": {
+                "sbgn": {
+                    "id": "glyph10",
+                    "bbox": {
+                        "x": 1070,
+                        "y": 440,
+                        "w": "118.0",
+                        "h": "18.0"
                     },
-                    {
-                        "id": "glyph25b",
-                        "clazz": "state variable",
-                        "state": {
-                            "variable": "S334"
+                    "class": "complex",
+                    "label": "Ca/CaM complex",
+                    "statesandinfos": [],
+                    "parent": "glyph0",
+                    "ports": []
+                }
+            }
+        },
+        {
+            "data": {
+                "sbgn": {
+                    "id": "glyph40",
+                    "bbox": {
+                        "x": 1100,
+                        "y": 440,
+                        "w": "80.0",
+                        "h": "60.0"
+                    },
+                    "class": "macromolecule",
+                    "label": "CaM",
+                    "statesandinfos": [],
+                    "parent": "glyph10",
+                    "ports": []
+                }
+            }
+        },
+        {
+            "data": {
+                "sbgn": {
+                    "id": "glyph56",
+                    "bbox": {
+                        "x": 1030,
+                        "y": 440,
+                        "w": "40.0",
+                        "h": "40.0"
+                    },
+                    "class": "simple chemical",
+                    "label": "Ca++",
+                    "statesandinfos": [],
+                    "parent": "glyph10",
+                    "ports": []
+                }
+            }
+        },
+        {
+            "data": {
+                "sbgn": {
+                    "id": "glyph62",
+                    "bbox": {
+                        "x": 950,
+                        "y": 540,
+                        "w": "24.0",
+                        "h": "24.0"
+                    },
+                    "class": "association",
+                    "statesandinfos": [],
+                    "parent": "glyph0",
+                    "ports": [
+                        {
+                            "id": "glyph62.2",
+                            "x": 100,
+                            "y": 0
                         },
-                        "bbox": {
+                        {
+                            "id": "glyph62.1",
+                            "x": -100,
+                            "y": 0
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "data": {
+                "sbgn": {
+                    "id": "glyph31",
+                    "bbox": {
+                        "x": 190,
+                        "y": 220,
+                        "w": "108.0",
+                        "h": "60.0"
+                    },
+                    "class": "macromolecule",
+                    "label": "CaN",
+                    "statesandinfos": [],
+                    "parent": "glyph0",
+                    "ports": []
+                }
+            }
+        },
+        {
+            "data": {
+                "sbgn": {
+                    "id": "glyph65",
+                    "bbox": {
+                        "x": 560,
+                        "y": 540,
+                        "w": "24.0",
+                        "h": "24.0"
+                    },
+                    "class": "process",
+                    "statesandinfos": [],
+                    "parent": "glyph0",
+                    "ports": [
+                        {
+                            "id": "glyph65.1",
+                            "x": -100,
+                            "y": 0
+                        },
+                        {
+                            "id": "glyph65.2",
+                            "x": 100,
+                            "y": 0
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "data": {
+                "sbgn": {
+                    "id": "glyph8",
+                    "bbox": {
+                        "x": 350,
+                        "y": 540,
+                        "w": "177.0",
+                        "h": "18.0"
+                    },
+                    "class": "complex",
+                    "label": "Ca/Cam/gCaMKII complex",
+                    "statesandinfos": [],
+                    "parent": "glyph0",
+                    "ports": []
+                }
+            }
+        },
+        {
+            "data": {
+                "sbgn": {
+                    "id": "glyph23",
+                    "bbox": {
+                        "x": 350,
+                        "y": 490,
+                        "w": "120.0",
+                        "h": "60.0"
+                    },
+                    "class": "macromolecule",
+                    "label": "γCaMKII",
+                    "statesandinfos": [
+                        {
+                            "id": "glyph23a",
+                            "clazz": "state variable",
+                            "state": {
+                                "variable": "T287"
+                            },
+                            "bbox": {
+                                "x": -25,
+                                "y": -50,
+                                "w": "53.0",
+                                "h": "24.0"
+                            }
+                        },
+                        {
+                            "id": "glyph23b",
+                            "clazz": "state variable",
+                            "state": {
+                                "variable": "S334"
+                            },
+                            "bbox": {
+                                "x": 0,
+                                "y": 50,
+                                "w": "54.0",
+                                "h": "24.0"
+                            }
+                        }
+                    ],
+                    "parent": "glyph8",
+                    "ports": []
+                }
+            }
+        },
+        {
+            "data": {
+                "sbgn": {
+                    "id": "glyph13",
+                    "bbox": {
+                        "x": 350,
+                        "y": 580,
+                        "w": "118.0",
+                        "h": "18.0"
+                    },
+                    "class": "complex",
+                    "label": "Ca/CaM complex",
+                    "statesandinfos": [],
+                    "parent": "glyph8",
+                    "ports": []
+                }
+            }
+        },
+        {
+            "data": {
+                "sbgn": {
+                    "id": "glyph54",
+                    "bbox": {
+                        "x": 300,
+                        "y": 580,
+                        "w": "40.0",
+                        "h": "40.0"
+                    },
+                    "class": "simple chemical",
+                    "label": "Ca++",
+                    "statesandinfos": [],
+                    "parent": "glyph13",
+                    "ports": []
+                }
+            }
+        },
+        {
+            "data": {
+                "sbgn": {
+                    "id": "glyph38",
+                    "bbox": {
+                        "x": 370,
+                        "y": 580,
+                        "w": "80.0",
+                        "h": "60.0"
+                    },
+                    "class": "macromolecule",
+                    "label": "CaM",
+                    "statesandinfos": [],
+                    "parent": "glyph13",
+                    "ports": []
+                }
+            }
+        },
+        {
+            "data": {
+                "sbgn": {
+                    "id": "glyph58",
+                    "bbox": {
+                        "x": 350,
+                        "y": 710,
+                        "w": "24.0",
+                        "h": "24.0"
+                    },
+                    "class": "process",
+                    "statesandinfos": [],
+                    "parent": "glyph0",
+                    "ports": [
+                        {
+                            "id": "glyph58.1",
                             "x": 0,
-                            "y": 50,
-                            "w": "54.0",
-                            "h": "24.0"
-                        }
-                    }
-                ],
-                "parent": "glyph3",
-                "ports": []
-            }
-        },
-        {
-            "data": {
-                "id": "glyph15",
-                "bbox": {
-                    "x": 350,
-                    "y": 950,
-                    "w": "118.0",
-                    "h": "18.0"
-                },
-                "class": "complex",
-                "label": "Ca/CaM complex",
-                "statesandinfos": [],
-                "parent": "glyph3",
-                "ports": []
-            }
-        },
-        {
-            "data": {
-                "id": "glyph57",
-                "bbox": {
-                    "x": 300,
-                    "y": 950,
-                    "w": "40.0",
-                    "h": "40.0"
-                },
-                "class": "simple chemical",
-                "label": "Ca++",
-                "statesandinfos": [],
-                "parent": "glyph15",
-                "ports": []
-            }
-        },
-        {
-            "data": {
-                "id": "glyph37",
-                "bbox": {
-                    "x": 370,
-                    "y": 950,
-                    "w": "80.0",
-                    "h": "60.0"
-                },
-                "class": "macromolecule",
-                "label": "CaM",
-                "statesandinfos": [],
-                "parent": "glyph15",
-                "ports": []
-            }
-        },
-        {
-            "data": {
-                "id": "glyph22",
-                "bbox": {
-                    "x": 670,
-                    "y": 830,
-                    "w": "120.0",
-                    "h": "60.0"
-                },
-                "class": "macromolecule",
-                "label": "γCaMKII",
-                "statesandinfos": [
-                    {
-                        "id": "glyph22a",
-                        "clazz": "state variable",
-                        "state": {
-                            "variable": "T287"
+                            "y": -100
                         },
-                        "bbox": {
-                            "x": -25,
-                            "y": -50,
-                            "w": "53.0",
-                            "h": "24.0"
-                        }
-                    },
-                    {
-                        "id": "glyph22b",
-                        "clazz": "state variable",
-                        "state": {
-                            "variable": "S334"
-                        },
-                        "bbox": {
+                        {
+                            "id": "glyph58.2",
                             "x": 0,
-                            "y": 50,
-                            "w": "54.0",
-                            "h": "24.0"
+                            "y": 100
                         }
-                    }
-                ],
-                "parent": "glyph1",
-                "ports": []
+                    ]
+                }
             }
         },
         {
             "data": {
-                "id": "glyph61",
-                "bbox": {
-                    "x": 510,
-                    "y": 900,
-                    "w": "24.0",
-                    "h": "24.0"
-                },
-                "class": "dissociation",
-                "statesandinfos": [],
-                "parent": "glyph1",
-                "ports": [
-                    {
-                        "id": "glyph61.1",
-                        "x": -100,
-                        "y": 0
+                "sbgn": {
+                    "id": "glyph3",
+                    "bbox": {
+                        "x": 350,
+                        "y": 910,
+                        "w": "177.0",
+                        "h": "18.0"
                     },
-                    {
-                        "id": "glyph61.2",
-                        "x": 100,
-                        "y": 0
-                    }
-                ]
+                    "class": "complex",
+                    "label": "Ca/Cam/gCaMKII complex",
+                    "statesandinfos": [],
+                    "parent": "glyph1",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph35",
-                "bbox": {
-                    "x": 850,
-                    "y": 830,
-                    "w": "108.0",
-                    "h": "60.0"
-                },
-                "class": "macromolecule",
-                "label": "CaMKK",
-                "statesandinfos": [],
-                "parent": "glyph1",
-                "ports": []
-            }
-        },
-        {
-            "data": {
-                "id": "glyph66",
-                "bbox": {
-                    "x": 940,
-                    "y": 920,
-                    "w": "24.0",
-                    "h": "24.0"
-                },
-                "class": "association",
-                "statesandinfos": [],
-                "parent": "glyph1",
-                "ports": [
-                    {
-                        "id": "glyph66.1",
-                        "x": -100,
-                        "y": 0
+                "sbgn": {
+                    "id": "glyph25",
+                    "bbox": {
+                        "x": 350,
+                        "y": 860,
+                        "w": "120.0",
+                        "h": "60.0"
                     },
-                    {
-                        "id": "glyph66.2",
-                        "x": 100,
-                        "y": 0
-                    }
-                ]
-            }
-        },
-        {
-            "data": {
-                "id": "glyph2",
-                "bbox": {
-                    "x": 1140,
-                    "y": 920,
-                    "w": "178.0",
-                    "h": "18.0"
-                },
-                "class": "complex",
-                "label": "Ca/Cam/gCaMKK complex",
-                "statesandinfos": [],
-                "parent": "glyph1",
-                "ports": []
-            }
-        },
-        {
-            "data": {
-                "id": "glyph11",
-                "bbox": {
-                    "x": 1140,
-                    "y": 880,
-                    "w": "118.0",
-                    "h": "18.0"
-                },
-                "class": "complex",
-                "label": "Ca/CaM complex",
-                "statesandinfos": [],
-                "parent": "glyph2",
-                "ports": []
-            }
-        },
-        {
-            "data": {
-                "id": "glyph45",
-                "bbox": {
-                    "x": 1160,
-                    "y": 880,
-                    "w": "80.0",
-                    "h": "60.0"
-                },
-                "class": "macromolecule",
-                "label": "CaM",
-                "statesandinfos": [],
-                "parent": "glyph11",
-                "ports": []
-            }
-        },
-        {
-            "data": {
-                "id": "glyph50",
-                "bbox": {
-                    "x": 1090,
-                    "y": 880,
-                    "w": "40.0",
-                    "h": "40.0"
-                },
-                "class": "simple chemical",
-                "label": "Ca++",
-                "statesandinfos": [],
-                "parent": "glyph11",
-                "ports": []
-            }
-        },
-        {
-            "data": {
-                "id": "glyph30",
-                "bbox": {
-                    "x": 1140,
-                    "y": 970,
-                    "w": "108.0",
-                    "h": "60.0"
-                },
-                "class": "macromolecule",
-                "label": "CaMKK",
-                "statesandinfos": [],
-                "parent": "glyph2",
-                "ports": []
-            }
-        },
-        {
-            "data": {
-                "id": "glyph17",
-                "bbox": {
-                    "x": 680,
-                    "y": 970,
-                    "w": "118.0",
-                    "h": "18.0"
-                },
-                "class": "complex",
-                "label": "Ca/CaM complex",
-                "statesandinfos": [],
-                "parent": "glyph1",
-                "ports": []
-            }
-        },
-        {
-            "data": {
-                "id": "glyph49",
-                "bbox": {
-                    "x": 630,
-                    "y": 970,
-                    "w": "40.0",
-                    "h": "40.0"
-                },
-                "class": "simple chemical",
-                "label": "Ca++",
-                "statesandinfos": [],
-                "parent": "glyph17",
-                "ports": []
-            }
-        },
-        {
-            "data": {
-                "id": "glyph43",
-                "bbox": {
-                    "x": 700,
-                    "y": 970,
-                    "w": "80.0",
-                    "h": "60.0"
-                },
-                "class": "macromolecule",
-                "label": "CaM",
-                "statesandinfos": [],
-                "parent": "glyph17",
-                "ports": []
-            }
-        },
-        {
-            "data": {
-                "id": "glyph33",
-                "bbox": {
-                    "x": 480,
-                    "y": 1091,
-                    "w": "108.0",
-                    "h": "60.0"
-                },
-                "class": "macromolecule",
-                "label": "CaMKIV",
-                "statesandinfos": [
-                    {
-                        "id": "glyph33a",
-                        "clazz": "state variable",
-                        "state": {
-                            "variable": "T196"
+                    "class": "macromolecule",
+                    "label": "γCaMKII",
+                    "statesandinfos": [
+                        {
+                            "id": "glyph25a",
+                            "clazz": "state variable",
+                            "state": {
+                                "variable": "T287"
+                            },
+                            "bbox": {
+                                "x": -25,
+                                "y": -50,
+                                "w": "53.0",
+                                "h": "24.0"
+                            }
                         },
-                        "bbox": {
-                            "x": -25,
-                            "y": -50,
-                            "w": "53.0",
-                            "h": "24.0"
+                        {
+                            "id": "glyph25b",
+                            "clazz": "state variable",
+                            "state": {
+                                "variable": "S334"
+                            },
+                            "bbox": {
+                                "x": 0,
+                                "y": 50,
+                                "w": "54.0",
+                                "h": "24.0"
+                            }
                         }
-                    }
-                ],
-                "parent": "glyph1",
-                "ports": []
+                    ],
+                    "parent": "glyph3",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph59",
-                "bbox": {
-                    "x": 660,
-                    "y": 1090,
-                    "w": "24.0",
-                    "h": "24.0"
-                },
-                "class": "association",
-                "statesandinfos": [],
-                "parent": "glyph1",
-                "ports": [
-                    {
-                        "id": "glyph59.1",
-                        "x": -100,
-                        "y": 0
+                "sbgn": {
+                    "id": "glyph15",
+                    "bbox": {
+                        "x": 350,
+                        "y": 950,
+                        "w": "118.0",
+                        "h": "18.0"
                     },
-                    {
-                        "id": "glyph59.2",
-                        "x": 100,
-                        "y": 0
-                    }
-                ]
+                    "class": "complex",
+                    "label": "Ca/CaM complex",
+                    "statesandinfos": [],
+                    "parent": "glyph3",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph32",
-                "bbox": {
-                    "x": 960,
-                    "y": 1540,
-                    "w": "108.0",
-                    "h": "60.0"
-                },
-                "class": "macromolecule",
-                "label": "CREB",
-                "statesandinfos": [
-                    {
-                        "id": "glyph32a",
-                        "clazz": "state variable",
-                        "state": {},
-                        "bbox": {
-                            "x": -25,
-                            "y": -50,
-                            "w": "20.0",
-                            "h": "20.0"
-                        }
-                    }
-                ],
-                "parent": "glyph1",
-                "ports": []
-            }
-        },
-        {
-            "data": {
-                "id": "glyph64",
-                "bbox": {
-                    "x": 1108,
-                    "y": 1540,
-                    "w": "24.0",
-                    "h": "24.0"
-                },
-                "class": "process",
-                "statesandinfos": [],
-                "parent": "glyph1",
-                "ports": [
-                    {
-                        "id": "glyph64.2",
-                        "x": 100,
-                        "y": 0
-                    }
-                ]
-            }
-        },
-        {
-            "data": {
-                "id": "glyph28",
-                "bbox": {
-                    "x": 1280,
-                    "y": 1540,
-                    "w": "108.0",
-                    "h": "60.0"
-                },
-                "class": "macromolecule",
-                "label": "CREB",
-                "statesandinfos": [
-                    {
-                        "id": "glyph28a",
-                        "clazz": "state variable",
-                        "state": {
-                            "value": "P"
-                        },
-                        "bbox": {
-                            "x": -25,
-                            "y": -50,
-                            "w": "24.0",
-                            "h": "20.0"
-                        }
-                    }
-                ],
-                "parent": "glyph1",
-                "ports": []
-            }
-        },
-        {
-            "data": {
-                "id": "glyph9",
-                "bbox": {
-                    "x": 1280,
-                    "y": 1760,
-                    "w": "200.0",
-                    "h": "60.0"
-                },
-                "class": "phenotype",
-                "label": "Gene expression",
-                "statesandinfos": [],
-                "parent": "glyph1",
-                "ports": []
-            }
-        },
-        {
-            "data": {
-                "id": "glyph5",
-                "bbox": {
-                    "x": 760,
-                    "y": 540,
-                    "w": "177.0",
-                    "h": "18.0"
-                },
-                "class": "complex",
-                "label": "Ca/Cam/gCaMKII complex",
-                "statesandinfos": [],
-                "parent": "glyph0",
-                "ports": []
-            }
-        },
-        {
-            "data": {
-                "id": "glyph20",
-                "bbox": {
-                    "x": 760,
-                    "y": 490,
-                    "w": "120.0",
-                    "h": "60.0"
-                },
-                "class": "macromolecule",
-                "label": "γCaMKII",
-                "statesandinfos": [
-                    {
-                        "id": "glyph20a",
-                        "clazz": "state variable",
-                        "state": {
-                            "variable": "T287"
-                        },
-                        "bbox": {
-                            "x": -25,
-                            "y": -50,
-                            "w": "53.0",
-                            "h": "24.0"
-                        }
+                "sbgn": {
+                    "id": "glyph57",
+                    "bbox": {
+                        "x": 300,
+                        "y": 950,
+                        "w": "40.0",
+                        "h": "40.0"
                     },
-                    {
-                        "id": "glyph20b",
-                        "clazz": "state variable",
-                        "state": {
-                            "value": "P",
-                            "variable": "S334"
+                    "class": "simple chemical",
+                    "label": "Ca++",
+                    "statesandinfos": [],
+                    "parent": "glyph15",
+                    "ports": []
+                }
+            }
+        },
+        {
+            "data": {
+                "sbgn": {
+                    "id": "glyph37",
+                    "bbox": {
+                        "x": 370,
+                        "y": 950,
+                        "w": "80.0",
+                        "h": "60.0"
+                    },
+                    "class": "macromolecule",
+                    "label": "CaM",
+                    "statesandinfos": [],
+                    "parent": "glyph15",
+                    "ports": []
+                }
+            }
+        },
+        {
+            "data": {
+                "sbgn": {
+                    "id": "glyph22",
+                    "bbox": {
+                        "x": 670,
+                        "y": 830,
+                        "w": "120.0",
+                        "h": "60.0"
+                    },
+                    "class": "macromolecule",
+                    "label": "γCaMKII",
+                    "statesandinfos": [
+                        {
+                            "id": "glyph22a",
+                            "clazz": "state variable",
+                            "state": {
+                                "variable": "T287"
+                            },
+                            "bbox": {
+                                "x": -25,
+                                "y": -50,
+                                "w": "53.0",
+                                "h": "24.0"
+                            }
                         },
-                        "bbox": {
+                        {
+                            "id": "glyph22b",
+                            "clazz": "state variable",
+                            "state": {
+                                "variable": "S334"
+                            },
+                            "bbox": {
+                                "x": 0,
+                                "y": 50,
+                                "w": "54.0",
+                                "h": "24.0"
+                            }
+                        }
+                    ],
+                    "parent": "glyph1",
+                    "ports": []
+                }
+            }
+        },
+        {
+            "data": {
+                "sbgn": {
+                    "id": "glyph61",
+                    "bbox": {
+                        "x": 510,
+                        "y": 900,
+                        "w": "24.0",
+                        "h": "24.0"
+                    },
+                    "class": "dissociation",
+                    "statesandinfos": [],
+                    "parent": "glyph1",
+                    "ports": [
+                        {
+                            "id": "glyph61.1",
+                            "x": -100,
+                            "y": 0
+                        },
+                        {
+                            "id": "glyph61.2",
+                            "x": 100,
+                            "y": 0
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "data": {
+                "sbgn": {
+                    "id": "glyph35",
+                    "bbox": {
+                        "x": 850,
+                        "y": 830,
+                        "w": "108.0",
+                        "h": "60.0"
+                    },
+                    "class": "macromolecule",
+                    "label": "CaMKK",
+                    "statesandinfos": [],
+                    "parent": "glyph1",
+                    "ports": []
+                }
+            }
+        },
+        {
+            "data": {
+                "sbgn": {
+                    "id": "glyph66",
+                    "bbox": {
+                        "x": 940,
+                        "y": 920,
+                        "w": "24.0",
+                        "h": "24.0"
+                    },
+                    "class": "association",
+                    "statesandinfos": [],
+                    "parent": "glyph1",
+                    "ports": [
+                        {
+                            "id": "glyph66.1",
+                            "x": -100,
+                            "y": 0
+                        },
+                        {
+                            "id": "glyph66.2",
+                            "x": 100,
+                            "y": 0
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "data": {
+                "sbgn": {
+                    "id": "glyph2",
+                    "bbox": {
+                        "x": 1140,
+                        "y": 920,
+                        "w": "178.0",
+                        "h": "18.0"
+                    },
+                    "class": "complex",
+                    "label": "Ca/Cam/gCaMKK complex",
+                    "statesandinfos": [],
+                    "parent": "glyph1",
+                    "ports": []
+                }
+            }
+        },
+        {
+            "data": {
+                "sbgn": {
+                    "id": "glyph11",
+                    "bbox": {
+                        "x": 1140,
+                        "y": 880,
+                        "w": "118.0",
+                        "h": "18.0"
+                    },
+                    "class": "complex",
+                    "label": "Ca/CaM complex",
+                    "statesandinfos": [],
+                    "parent": "glyph2",
+                    "ports": []
+                }
+            }
+        },
+        {
+            "data": {
+                "sbgn": {
+                    "id": "glyph45",
+                    "bbox": {
+                        "x": 1160,
+                        "y": 880,
+                        "w": "80.0",
+                        "h": "60.0"
+                    },
+                    "class": "macromolecule",
+                    "label": "CaM",
+                    "statesandinfos": [],
+                    "parent": "glyph11",
+                    "ports": []
+                }
+            }
+        },
+        {
+            "data": {
+                "sbgn": {
+                    "id": "glyph50",
+                    "bbox": {
+                        "x": 1090,
+                        "y": 880,
+                        "w": "40.0",
+                        "h": "40.0"
+                    },
+                    "class": "simple chemical",
+                    "label": "Ca++",
+                    "statesandinfos": [],
+                    "parent": "glyph11",
+                    "ports": []
+                }
+            }
+        },
+        {
+            "data": {
+                "sbgn": {
+                    "id": "glyph30",
+                    "bbox": {
+                        "x": 1140,
+                        "y": 970,
+                        "w": "108.0",
+                        "h": "60.0"
+                    },
+                    "class": "macromolecule",
+                    "label": "CaMKK",
+                    "statesandinfos": [],
+                    "parent": "glyph2",
+                    "ports": []
+                }
+            }
+        },
+        {
+            "data": {
+                "sbgn": {
+                    "id": "glyph17",
+                    "bbox": {
+                        "x": 680,
+                        "y": 970,
+                        "w": "118.0",
+                        "h": "18.0"
+                    },
+                    "class": "complex",
+                    "label": "Ca/CaM complex",
+                    "statesandinfos": [],
+                    "parent": "glyph1",
+                    "ports": []
+                }
+            }
+        },
+        {
+            "data": {
+                "sbgn": {
+                    "id": "glyph49",
+                    "bbox": {
+                        "x": 630,
+                        "y": 970,
+                        "w": "40.0",
+                        "h": "40.0"
+                    },
+                    "class": "simple chemical",
+                    "label": "Ca++",
+                    "statesandinfos": [],
+                    "parent": "glyph17",
+                    "ports": []
+                }
+            }
+        },
+        {
+            "data": {
+                "sbgn": {
+                    "id": "glyph43",
+                    "bbox": {
+                        "x": 700,
+                        "y": 970,
+                        "w": "80.0",
+                        "h": "60.0"
+                    },
+                    "class": "macromolecule",
+                    "label": "CaM",
+                    "statesandinfos": [],
+                    "parent": "glyph17",
+                    "ports": []
+                }
+            }
+        },
+        {
+            "data": {
+                "sbgn": {
+                    "id": "glyph33",
+                    "bbox": {
+                        "x": 480,
+                        "y": 1091,
+                        "w": "108.0",
+                        "h": "60.0"
+                    },
+                    "class": "macromolecule",
+                    "label": "CaMKIV",
+                    "statesandinfos": [
+                        {
+                            "id": "glyph33a",
+                            "clazz": "state variable",
+                            "state": {
+                                "variable": "T196"
+                            },
+                            "bbox": {
+                                "x": -25,
+                                "y": -50,
+                                "w": "53.0",
+                                "h": "24.0"
+                            }
+                        }
+                    ],
+                    "parent": "glyph1",
+                    "ports": []
+                }
+            }
+        },
+        {
+            "data": {
+                "sbgn": {
+                    "id": "glyph59",
+                    "bbox": {
+                        "x": 660,
+                        "y": 1090,
+                        "w": "24.0",
+                        "h": "24.0"
+                    },
+                    "class": "association",
+                    "statesandinfos": [],
+                    "parent": "glyph1",
+                    "ports": [
+                        {
+                            "id": "glyph59.1",
+                            "x": -100,
+                            "y": 0
+                        },
+                        {
+                            "id": "glyph59.2",
+                            "x": 100,
+                            "y": 0
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "data": {
+                "sbgn": {
+                    "id": "glyph32",
+                    "bbox": {
+                        "x": 960,
+                        "y": 1540,
+                        "w": "108.0",
+                        "h": "60.0"
+                    },
+                    "class": "macromolecule",
+                    "label": "CREB",
+                    "statesandinfos": [
+                        {
+                            "id": "glyph32a",
+                            "clazz": "state variable",
+                            "state": {},
+                            "bbox": {
+                                "x": -25,
+                                "y": -50,
+                                "w": "20.0",
+                                "h": "20.0"
+                            }
+                        }
+                    ],
+                    "parent": "glyph1",
+                    "ports": []
+                }
+            }
+        },
+        {
+            "data": {
+                "sbgn": {
+                    "id": "glyph64",
+                    "bbox": {
+                        "x": 1108,
+                        "y": 1540,
+                        "w": "24.0",
+                        "h": "24.0"
+                    },
+                    "class": "process",
+                    "statesandinfos": [],
+                    "parent": "glyph1",
+                    "ports": [
+                        {
+                            "id": "glyph64.2",
+                            "x": 100,
+                            "y": 0
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "data": {
+                "sbgn": {
+                    "id": "glyph28",
+                    "bbox": {
+                        "x": 1280,
+                        "y": 1540,
+                        "w": "108.0",
+                        "h": "60.0"
+                    },
+                    "class": "macromolecule",
+                    "label": "CREB",
+                    "statesandinfos": [
+                        {
+                            "id": "glyph28a",
+                            "clazz": "state variable",
+                            "state": {
+                                "value": "P"
+                            },
+                            "bbox": {
+                                "x": -25,
+                                "y": -50,
+                                "w": "24.0",
+                                "h": "20.0"
+                            }
+                        }
+                    ],
+                    "parent": "glyph1",
+                    "ports": []
+                }
+            }
+        },
+        {
+            "data": {
+                "sbgn": {
+                    "id": "glyph9",
+                    "bbox": {
+                        "x": 1280,
+                        "y": 1760,
+                        "w": "200.0",
+                        "h": "60.0"
+                    },
+                    "class": "phenotype",
+                    "label": "Gene expression",
+                    "statesandinfos": [],
+                    "parent": "glyph1",
+                    "ports": []
+                }
+            }
+        },
+        {
+            "data": {
+                "sbgn": {
+                    "id": "glyph5",
+                    "bbox": {
+                        "x": 760,
+                        "y": 540,
+                        "w": "177.0",
+                        "h": "18.0"
+                    },
+                    "class": "complex",
+                    "label": "Ca/Cam/gCaMKII complex",
+                    "statesandinfos": [],
+                    "parent": "glyph0",
+                    "ports": []
+                }
+            }
+        },
+        {
+            "data": {
+                "sbgn": {
+                    "id": "glyph20",
+                    "bbox": {
+                        "x": 760,
+                        "y": 490,
+                        "w": "120.0",
+                        "h": "60.0"
+                    },
+                    "class": "macromolecule",
+                    "label": "γCaMKII",
+                    "statesandinfos": [
+                        {
+                            "id": "glyph20a",
+                            "clazz": "state variable",
+                            "state": {
+                                "variable": "T287"
+                            },
+                            "bbox": {
+                                "x": -25,
+                                "y": -50,
+                                "w": "53.0",
+                                "h": "24.0"
+                            }
+                        },
+                        {
+                            "id": "glyph20b",
+                            "clazz": "state variable",
+                            "state": {
+                                "value": "P",
+                                "variable": "S334"
+                            },
+                            "bbox": {
+                                "x": 0,
+                                "y": 50,
+                                "w": "61.0",
+                                "h": "26.0"
+                            }
+                        }
+                    ],
+                    "parent": "glyph5",
+                    "ports": []
+                }
+            }
+        },
+        {
+            "data": {
+                "sbgn": {
+                    "id": "glyph18",
+                    "bbox": {
+                        "x": 760,
+                        "y": 580,
+                        "w": "118.0",
+                        "h": "18.0"
+                    },
+                    "class": "complex",
+                    "label": "Ca/CaM complex",
+                    "statesandinfos": [],
+                    "parent": "glyph5",
+                    "ports": []
+                }
+            }
+        },
+        {
+            "data": {
+                "sbgn": {
+                    "id": "glyph39",
+                    "bbox": {
+                        "x": 790,
+                        "y": 580,
+                        "w": "80.0",
+                        "h": "60.0"
+                    },
+                    "class": "macromolecule",
+                    "label": "CaM",
+                    "statesandinfos": [],
+                    "parent": "glyph18",
+                    "ports": []
+                }
+            }
+        },
+        {
+            "data": {
+                "sbgn": {
+                    "id": "glyph47",
+                    "bbox": {
+                        "x": 710,
+                        "y": 580,
+                        "w": "40.0",
+                        "h": "40.0"
+                    },
+                    "class": "simple chemical",
+                    "label": "Ca++",
+                    "statesandinfos": [],
+                    "parent": "glyph18",
+                    "ports": []
+                }
+            }
+        },
+        {
+            "data": {
+                "sbgn": {
+                    "id": "glyph7",
+                    "bbox": {
+                        "x": 440,
+                        "y": 300,
+                        "w": "177.0",
+                        "h": "18.0"
+                    },
+                    "class": "complex",
+                    "label": "Ca/Cam/gCaMKII complex",
+                    "statesandinfos": [],
+                    "parent": "glyph0",
+                    "ports": []
+                }
+            }
+        },
+        {
+            "data": {
+                "sbgn": {
+                    "id": "glyph16",
+                    "bbox": {
+                        "x": 443,
+                        "y": 340,
+                        "w": "118.0",
+                        "h": "18.0"
+                    },
+                    "class": "complex",
+                    "label": "Ca/CaM complex",
+                    "statesandinfos": [],
+                    "parent": "glyph7",
+                    "ports": []
+                }
+            }
+        },
+        {
+            "data": {
+                "sbgn": {
+                    "id": "glyph52",
+                    "bbox": {
+                        "x": 393,
+                        "y": 340,
+                        "w": "40.0",
+                        "h": "40.0"
+                    },
+                    "class": "simple chemical",
+                    "label": "Ca++",
+                    "statesandinfos": [],
+                    "parent": "glyph16",
+                    "ports": []
+                }
+            }
+        },
+        {
+            "data": {
+                "sbgn": {
+                    "id": "glyph46",
+                    "bbox": {
+                        "x": 470,
+                        "y": 340,
+                        "w": "80.0",
+                        "h": "60.0"
+                    },
+                    "class": "macromolecule",
+                    "label": "CaM",
+                    "statesandinfos": [],
+                    "parent": "glyph16",
+                    "ports": []
+                }
+            }
+        },
+        {
+            "data": {
+                "sbgn": {
+                    "id": "glyph21",
+                    "bbox": {
+                        "x": 443,
+                        "y": 250,
+                        "w": "120.0",
+                        "h": "60.0"
+                    },
+                    "class": "macromolecule",
+                    "label": "γCaMKII",
+                    "statesandinfos": [
+                        {
+                            "id": "glyph21a",
+                            "clazz": "state variable",
+                            "state": {
+                                "value": "P",
+                                "variable": "T287"
+                            },
+                            "bbox": {
+                                "x": -25,
+                                "y": -50,
+                                "w": "60.0",
+                                "h": "26.0"
+                            }
+                        },
+                        {
+                            "id": "glyph21b",
+                            "clazz": "state variable",
+                            "state": {
+                                "value": "P",
+                                "variable": "S334"
+                            },
+                            "bbox": {
+                                "x": 0,
+                                "y": 50,
+                                "w": "61.0",
+                                "h": "26.0"
+                            }
+                        }
+                    ],
+                    "parent": "glyph7",
+                    "ports": []
+                }
+            }
+        },
+        {
+            "data": {
+                "sbgn": {
+                    "id": "glyph27",
+                    "bbox": {
+                        "x": 790,
+                        "y": 260,
+                        "w": "108.0",
+                        "h": "60.0"
+                    },
+                    "class": "macromolecule",
+                    "label": "α/βCaMKII",
+                    "statesandinfos": [],
+                    "parent": "glyph0",
+                    "ports": []
+                }
+            }
+        },
+        {
+            "data": {
+                "sbgn": {
+                    "id": "glyph68",
+                    "bbox": {
+                        "x": 640,
+                        "y": 320,
+                        "w": "24.0",
+                        "h": "24.0"
+                    },
+                    "class": "process",
+                    "statesandinfos": [],
+                    "parent": "glyph0",
+                    "ports": [
+                        {
+                            "id": "glyph68.2",
+                            "x": 100,
+                            "y": 0
+                        },
+                        {
+                            "id": "glyph68.1",
+                            "x": -100,
+                            "y": 0
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "data": {
+                "sbgn": {
+                    "id": "glyph4",
+                    "bbox": {
+                        "x": 730,
+                        "y": 1270,
+                        "w": "182.0",
+                        "h": "18.0"
+                    },
+                    "class": "complex",
+                    "label": "Ca/Cam/gCaMKIV complex",
+                    "statesandinfos": [],
+                    "parent": "glyph1",
+                    "ports": []
+                }
+            }
+        },
+        {
+            "data": {
+                "sbgn": {
+                    "id": "glyph34",
+                    "bbox": {
+                        "x": 730,
+                        "y": 1321,
+                        "w": "108.0",
+                        "h": "60.0"
+                    },
+                    "class": "macromolecule",
+                    "label": "CaMKIV",
+                    "statesandinfos": [
+                        {
+                            "id": "glyph34a",
+                            "clazz": "state variable",
+                            "state": {
+                                "variable": "T196"
+                            },
+                            "bbox": {
+                                "x": -25,
+                                "y": -50,
+                                "w": "53.0",
+                                "h": "24.0"
+                            }
+                        }
+                    ],
+                    "parent": "glyph4",
+                    "ports": []
+                }
+            }
+        },
+        {
+            "data": {
+                "sbgn": {
+                    "id": "glyph14",
+                    "bbox": {
+                        "x": 730,
+                        "y": 1220,
+                        "w": "118.0",
+                        "h": "18.0"
+                    },
+                    "class": "complex",
+                    "label": "Ca/CaM complex",
+                    "statesandinfos": [],
+                    "parent": "glyph4",
+                    "ports": []
+                }
+            }
+        },
+        {
+            "data": {
+                "sbgn": {
+                    "id": "glyph53",
+                    "bbox": {
+                        "x": 680,
+                        "y": 1220,
+                        "w": "40.0",
+                        "h": "40.0"
+                    },
+                    "class": "simple chemical",
+                    "label": "Ca++",
+                    "statesandinfos": [],
+                    "parent": "glyph14",
+                    "ports": []
+                }
+            }
+        },
+        {
+            "data": {
+                "sbgn": {
+                    "id": "glyph42",
+                    "bbox": {
+                        "x": 750,
+                        "y": 1220,
+                        "w": "80.0",
+                        "h": "60.0"
+                    },
+                    "class": "macromolecule",
+                    "label": "CaM",
+                    "statesandinfos": [],
+                    "parent": "glyph14",
+                    "ports": []
+                }
+            }
+        },
+        {
+            "data": {
+                "sbgn": {
+                    "id": "glyph60",
+                    "bbox": {
+                        "x": 1140,
+                        "y": 1270,
+                        "w": "24.0",
+                        "h": "24.0"
+                    },
+                    "class": "process",
+                    "statesandinfos": [],
+                    "parent": "glyph1",
+                    "ports": [
+                        {
+                            "id": "glyph60.1",
+                            "x": -100,
+                            "y": 0
+                        },
+                        {
+                            "id": "glyph60.2",
+                            "x": 100,
+                            "y": 0
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "data": {
+                "sbgn": {
+                    "id": "glyph6",
+                    "bbox": {
+                        "x": 1330,
+                        "y": 1270,
+                        "w": "182.0",
+                        "h": "18.0"
+                    },
+                    "class": "complex",
+                    "label": "Ca/Cam/gCaMKIV complex",
+                    "statesandinfos": [],
+                    "parent": "glyph1",
+                    "ports": []
+                }
+            }
+        },
+        {
+            "data": {
+                "sbgn": {
+                    "id": "glyph29",
+                    "bbox": {
+                        "x": 1330,
+                        "y": 1321,
+                        "w": "108.0",
+                        "h": "60.0"
+                    },
+                    "class": "macromolecule",
+                    "label": "CaMKIV",
+                    "statesandinfos": [
+                        {
+                            "id": "glyph29a",
+                            "clazz": "state variable",
+                            "state": {
+                                "value": "P",
+                                "variable": "T196"
+                            },
+                            "bbox": {
+                                "x": -25,
+                                "y": -50,
+                                "w": "60.0",
+                                "h": "26.0"
+                            }
+                        }
+                    ],
+                    "parent": "glyph6",
+                    "ports": []
+                }
+            }
+        },
+        {
+            "data": {
+                "sbgn": {
+                    "id": "glyph12",
+                    "bbox": {
+                        "x": 1330,
+                        "y": 1220,
+                        "w": "118.0",
+                        "h": "18.0"
+                    },
+                    "class": "complex",
+                    "label": "Ca/CaM complex",
+                    "statesandinfos": [],
+                    "parent": "glyph6",
+                    "ports": []
+                }
+            }
+        },
+        {
+            "data": {
+                "sbgn": {
+                    "id": "glyph51",
+                    "bbox": {
+                        "x": 1280,
+                        "y": 1220,
+                        "w": "40.0",
+                        "h": "40.0"
+                    },
+                    "class": "simple chemical",
+                    "label": "Ca++",
+                    "statesandinfos": [],
+                    "parent": "glyph12",
+                    "ports": []
+                }
+            }
+        },
+        {
+            "data": {
+                "sbgn": {
+                    "id": "glyph44",
+                    "bbox": {
+                        "x": 1350,
+                        "y": 1220,
+                        "w": "80.0",
+                        "h": "60.0"
+                    },
+                    "class": "macromolecule",
+                    "label": "CaM",
+                    "statesandinfos": [],
+                    "parent": "glyph12",
+                    "ports": []
+                }
+            }
+        },
+        {
+            "data": {
+                "sbgn": {
+                    "id": "glyph26",
+                    "bbox": {
+                        "x": 850,
+                        "y": 170,
+                        "w": "108.0",
+                        "h": "60.0"
+                    },
+                    "class": "macromolecule",
+                    "label": "Cav1",
+                    "statesandinfos": [
+                        {
+                            "id": "glyph26a",
+                            "clazz": "unit of information",
+                            "label": {
+                                "text": "open"
+                            },
+                            "bbox": {
+                                "x": -25,
+                                "y": -50,
+                                "w": "39.0",
+                                "h": "16.0"
+                            }
+                        }
+                    ],
+                    "parent": "",
+                    "ports": []
+                }
+            }
+        },
+        {
+            "data": {
+                "sbgn": {
+                    "id": "glyph69",
+                    "bbox": {
+                        "x": 990,
+                        "y": 160,
+                        "w": "24.0",
+                        "h": "24.0"
+                    },
+                    "class": "process",
+                    "statesandinfos": [],
+                    "parent": "",
+                    "ports": [
+                        {
+                            "id": "glyph69.1",
                             "x": 0,
-                            "y": 50,
-                            "w": "61.0",
-                            "h": "26.0"
-                        }
-                    }
-                ],
-                "parent": "glyph5",
-                "ports": []
-            }
-        },
-        {
-            "data": {
-                "id": "glyph18",
-                "bbox": {
-                    "x": 760,
-                    "y": 580,
-                    "w": "118.0",
-                    "h": "18.0"
-                },
-                "class": "complex",
-                "label": "Ca/CaM complex",
-                "statesandinfos": [],
-                "parent": "glyph5",
-                "ports": []
-            }
-        },
-        {
-            "data": {
-                "id": "glyph39",
-                "bbox": {
-                    "x": 790,
-                    "y": 580,
-                    "w": "80.0",
-                    "h": "60.0"
-                },
-                "class": "macromolecule",
-                "label": "CaM",
-                "statesandinfos": [],
-                "parent": "glyph18",
-                "ports": []
-            }
-        },
-        {
-            "data": {
-                "id": "glyph47",
-                "bbox": {
-                    "x": 710,
-                    "y": 580,
-                    "w": "40.0",
-                    "h": "40.0"
-                },
-                "class": "simple chemical",
-                "label": "Ca++",
-                "statesandinfos": [],
-                "parent": "glyph18",
-                "ports": []
-            }
-        },
-        {
-            "data": {
-                "id": "glyph7",
-                "bbox": {
-                    "x": 440,
-                    "y": 300,
-                    "w": "177.0",
-                    "h": "18.0"
-                },
-                "class": "complex",
-                "label": "Ca/Cam/gCaMKII complex",
-                "statesandinfos": [],
-                "parent": "glyph0",
-                "ports": []
-            }
-        },
-        {
-            "data": {
-                "id": "glyph16",
-                "bbox": {
-                    "x": 443,
-                    "y": 340,
-                    "w": "118.0",
-                    "h": "18.0"
-                },
-                "class": "complex",
-                "label": "Ca/CaM complex",
-                "statesandinfos": [],
-                "parent": "glyph7",
-                "ports": []
-            }
-        },
-        {
-            "data": {
-                "id": "glyph52",
-                "bbox": {
-                    "x": 393,
-                    "y": 340,
-                    "w": "40.0",
-                    "h": "40.0"
-                },
-                "class": "simple chemical",
-                "label": "Ca++",
-                "statesandinfos": [],
-                "parent": "glyph16",
-                "ports": []
-            }
-        },
-        {
-            "data": {
-                "id": "glyph46",
-                "bbox": {
-                    "x": 470,
-                    "y": 340,
-                    "w": "80.0",
-                    "h": "60.0"
-                },
-                "class": "macromolecule",
-                "label": "CaM",
-                "statesandinfos": [],
-                "parent": "glyph16",
-                "ports": []
-            }
-        },
-        {
-            "data": {
-                "id": "glyph21",
-                "bbox": {
-                    "x": 443,
-                    "y": 250,
-                    "w": "120.0",
-                    "h": "60.0"
-                },
-                "class": "macromolecule",
-                "label": "γCaMKII",
-                "statesandinfos": [
-                    {
-                        "id": "glyph21a",
-                        "clazz": "state variable",
-                        "state": {
-                            "value": "P",
-                            "variable": "T287"
+                            "y": -100
                         },
-                        "bbox": {
-                            "x": -25,
-                            "y": -50,
-                            "w": "60.0",
-                            "h": "26.0"
-                        }
-                    },
-                    {
-                        "id": "glyph21b",
-                        "clazz": "state variable",
-                        "state": {
-                            "value": "P",
-                            "variable": "S334"
-                        },
-                        "bbox": {
+                        {
+                            "id": "glyph69.2",
                             "x": 0,
-                            "y": 50,
-                            "w": "61.0",
-                            "h": "26.0"
+                            "y": 100
                         }
-                    }
-                ],
-                "parent": "glyph7",
-                "ports": []
-            }
-        },
-        {
-            "data": {
-                "id": "glyph27",
-                "bbox": {
-                    "x": 790,
-                    "y": 260,
-                    "w": "108.0",
-                    "h": "60.0"
-                },
-                "class": "macromolecule",
-                "label": "α/βCaMKII",
-                "statesandinfos": [],
-                "parent": "glyph0",
-                "ports": []
-            }
-        },
-        {
-            "data": {
-                "id": "glyph68",
-                "bbox": {
-                    "x": 640,
-                    "y": 320,
-                    "w": "24.0",
-                    "h": "24.0"
-                },
-                "class": "process",
-                "statesandinfos": [],
-                "parent": "glyph0",
-                "ports": [
-                    {
-                        "id": "glyph68.2",
-                        "x": 100,
-                        "y": 0
-                    },
-                    {
-                        "id": "glyph68.1",
-                        "x": -100,
-                        "y": 0
-                    }
-                ]
-            }
-        },
-        {
-            "data": {
-                "id": "glyph4",
-                "bbox": {
-                    "x": 730,
-                    "y": 1270,
-                    "w": "182.0",
-                    "h": "18.0"
-                },
-                "class": "complex",
-                "label": "Ca/Cam/gCaMKIV complex",
-                "statesandinfos": [],
-                "parent": "glyph1",
-                "ports": []
-            }
-        },
-        {
-            "data": {
-                "id": "glyph34",
-                "bbox": {
-                    "x": 730,
-                    "y": 1321,
-                    "w": "108.0",
-                    "h": "60.0"
-                },
-                "class": "macromolecule",
-                "label": "CaMKIV",
-                "statesandinfos": [
-                    {
-                        "id": "glyph34a",
-                        "clazz": "state variable",
-                        "state": {
-                            "variable": "T196"
-                        },
-                        "bbox": {
-                            "x": -25,
-                            "y": -50,
-                            "w": "53.0",
-                            "h": "24.0"
-                        }
-                    }
-                ],
-                "parent": "glyph4",
-                "ports": []
-            }
-        },
-        {
-            "data": {
-                "id": "glyph14",
-                "bbox": {
-                    "x": 730,
-                    "y": 1220,
-                    "w": "118.0",
-                    "h": "18.0"
-                },
-                "class": "complex",
-                "label": "Ca/CaM complex",
-                "statesandinfos": [],
-                "parent": "glyph4",
-                "ports": []
-            }
-        },
-        {
-            "data": {
-                "id": "glyph53",
-                "bbox": {
-                    "x": 680,
-                    "y": 1220,
-                    "w": "40.0",
-                    "h": "40.0"
-                },
-                "class": "simple chemical",
-                "label": "Ca++",
-                "statesandinfos": [],
-                "parent": "glyph14",
-                "ports": []
-            }
-        },
-        {
-            "data": {
-                "id": "glyph42",
-                "bbox": {
-                    "x": 750,
-                    "y": 1220,
-                    "w": "80.0",
-                    "h": "60.0"
-                },
-                "class": "macromolecule",
-                "label": "CaM",
-                "statesandinfos": [],
-                "parent": "glyph14",
-                "ports": []
-            }
-        },
-        {
-            "data": {
-                "id": "glyph60",
-                "bbox": {
-                    "x": 1140,
-                    "y": 1270,
-                    "w": "24.0",
-                    "h": "24.0"
-                },
-                "class": "process",
-                "statesandinfos": [],
-                "parent": "glyph1",
-                "ports": [
-                    {
-                        "id": "glyph60.1",
-                        "x": -100,
-                        "y": 0
-                    },
-                    {
-                        "id": "glyph60.2",
-                        "x": 100,
-                        "y": 0
-                    }
-                ]
-            }
-        },
-        {
-            "data": {
-                "id": "glyph6",
-                "bbox": {
-                    "x": 1330,
-                    "y": 1270,
-                    "w": "182.0",
-                    "h": "18.0"
-                },
-                "class": "complex",
-                "label": "Ca/Cam/gCaMKIV complex",
-                "statesandinfos": [],
-                "parent": "glyph1",
-                "ports": []
-            }
-        },
-        {
-            "data": {
-                "id": "glyph29",
-                "bbox": {
-                    "x": 1330,
-                    "y": 1321,
-                    "w": "108.0",
-                    "h": "60.0"
-                },
-                "class": "macromolecule",
-                "label": "CaMKIV",
-                "statesandinfos": [
-                    {
-                        "id": "glyph29a",
-                        "clazz": "state variable",
-                        "state": {
-                            "value": "P",
-                            "variable": "T196"
-                        },
-                        "bbox": {
-                            "x": -25,
-                            "y": -50,
-                            "w": "60.0",
-                            "h": "26.0"
-                        }
-                    }
-                ],
-                "parent": "glyph6",
-                "ports": []
-            }
-        },
-        {
-            "data": {
-                "id": "glyph12",
-                "bbox": {
-                    "x": 1330,
-                    "y": 1220,
-                    "w": "118.0",
-                    "h": "18.0"
-                },
-                "class": "complex",
-                "label": "Ca/CaM complex",
-                "statesandinfos": [],
-                "parent": "glyph6",
-                "ports": []
-            }
-        },
-        {
-            "data": {
-                "id": "glyph51",
-                "bbox": {
-                    "x": 1280,
-                    "y": 1220,
-                    "w": "40.0",
-                    "h": "40.0"
-                },
-                "class": "simple chemical",
-                "label": "Ca++",
-                "statesandinfos": [],
-                "parent": "glyph12",
-                "ports": []
-            }
-        },
-        {
-            "data": {
-                "id": "glyph44",
-                "bbox": {
-                    "x": 1350,
-                    "y": 1220,
-                    "w": "80.0",
-                    "h": "60.0"
-                },
-                "class": "macromolecule",
-                "label": "CaM",
-                "statesandinfos": [],
-                "parent": "glyph12",
-                "ports": []
-            }
-        },
-        {
-            "data": {
-                "id": "glyph26",
-                "bbox": {
-                    "x": 850,
-                    "y": 170,
-                    "w": "108.0",
-                    "h": "60.0"
-                },
-                "class": "macromolecule",
-                "label": "Cav1",
-                "statesandinfos": [
-                    {
-                        "id": "glyph26a",
-                        "clazz": "unit of information",
-                        "label": {
-                            "text": "open"
-                        },
-                        "bbox": {
-                            "x": -25,
-                            "y": -50,
-                            "w": "39.0",
-                            "h": "16.0"
-                        }
-                    }
-                ],
-                "parent": "",
-                "ports": []
-            }
-        },
-        {
-            "data": {
-                "id": "glyph69",
-                "bbox": {
-                    "x": 990,
-                    "y": 160,
-                    "w": "24.0",
-                    "h": "24.0"
-                },
-                "class": "process",
-                "statesandinfos": [],
-                "parent": "",
-                "ports": [
-                    {
-                        "id": "glyph69.1",
-                        "x": 0,
-                        "y": -100
-                    },
-                    {
-                        "id": "glyph69.2",
-                        "x": 0,
-                        "y": 100
-                    }
-                ]
+                    ]
+                }
             }
         }
     ],

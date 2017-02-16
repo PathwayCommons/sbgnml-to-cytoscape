@@ -2,834 +2,928 @@
     "nodes": [
         {
             "data": {
-                "id": "glyph0",
-                "bbox": {
-                    "x": 644.4815409962032,
-                    "y": 95.85406258387309,
-                    "w": "450.0",
-                    "h": "260.0"
-                },
-                "class": "compartment",
-                "label": "juxtanuclear inclusion",
-                "statesandinfos": [],
-                "parent": "",
-                "ports": []
+                "sbgn": {
+                    "id": "glyph0",
+                    "bbox": {
+                        "x": 644.4815409962032,
+                        "y": 95.85406258387309,
+                        "w": "450.0",
+                        "h": "260.0"
+                    },
+                    "class": "compartment",
+                    "label": "juxtanuclear inclusion",
+                    "statesandinfos": [],
+                    "parent": "",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph35",
-                "bbox": {
-                    "x": 644.4815409962032,
-                    "y": 95.85406258387309,
-                    "w": "170.0",
-                    "h": "160.0"
-                },
-                "class": "complex",
-                "statesandinfos": [],
-                "parent": "glyph0",
-                "ports": []
+                "sbgn": {
+                    "id": "glyph35",
+                    "bbox": {
+                        "x": 644.4815409962032,
+                        "y": 95.85406258387309,
+                        "w": "170.0",
+                        "h": "160.0"
+                    },
+                    "class": "complex",
+                    "statesandinfos": [],
+                    "parent": "glyph0",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph37",
-                "bbox": {
-                    "x": 624.4815409962032,
-                    "y": 130.8540625838731,
-                    "w": "80.0",
-                    "h": "60.0"
-                },
-                "class": "macromolecule",
-                "label": "Hsp70",
-                "statesandinfos": [],
-                "parent": "glyph35",
-                "ports": []
+                "sbgn": {
+                    "id": "glyph37",
+                    "bbox": {
+                        "x": 624.4815409962032,
+                        "y": 130.8540625838731,
+                        "w": "80.0",
+                        "h": "60.0"
+                    },
+                    "class": "macromolecule",
+                    "label": "Hsp70",
+                    "statesandinfos": [],
+                    "parent": "glyph35",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph36",
-                "bbox": {
-                    "x": 644.4815409962032,
-                    "y": 60.85406258387309,
-                    "w": "120.0",
-                    "h": "60.0"
-                },
-                "class": "macromolecule",
-                "label": "misfolded protein",
-                "statesandinfos": [],
-                "parent": "glyph35",
-                "ports": []
+                "sbgn": {
+                    "id": "glyph36",
+                    "bbox": {
+                        "x": 644.4815409962032,
+                        "y": 60.85406258387309,
+                        "w": "120.0",
+                        "h": "60.0"
+                    },
+                    "class": "macromolecule",
+                    "label": "misfolded protein",
+                    "statesandinfos": [],
+                    "parent": "glyph35",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph1",
-                "bbox": {
-                    "x": 1416.5900783521877,
-                    "y": 1056.3003997694327,
-                    "w": "100.0",
-                    "h": "29.0"
-                },
-                "class": "compartment",
-                "label": "nucleus",
-                "statesandinfos": [],
-                "parent": "",
-                "ports": []
+                "sbgn": {
+                    "id": "glyph1",
+                    "bbox": {
+                        "x": 1416.5900783521877,
+                        "y": 1056.3003997694327,
+                        "w": "100.0",
+                        "h": "29.0"
+                    },
+                    "class": "compartment",
+                    "label": "nucleus",
+                    "statesandinfos": [],
+                    "parent": "",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph22",
-                "bbox": {
-                    "x": 1564.4261045164549,
-                    "y": 1263.6675557219492,
-                    "w": "60.0",
-                    "h": "60.0"
-                },
-                "class": "source and sink",
-                "statesandinfos": [],
-                "parent": "glyph1",
-                "ports": []
+                "sbgn": {
+                    "id": "glyph22",
+                    "bbox": {
+                        "x": 1564.4261045164549,
+                        "y": 1263.6675557219492,
+                        "w": "60.0",
+                        "h": "60.0"
+                    },
+                    "class": "source and sink",
+                    "statesandinfos": [],
+                    "parent": "glyph1",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph38",
-                "bbox": {
-                    "x": 1126.8237146525876,
-                    "y": 1008.752854645043,
-                    "w": "170.0",
-                    "h": "240.0"
-                },
-                "class": "complex",
-                "statesandinfos": [],
-                "parent": "glyph1",
-                "ports": []
+                "sbgn": {
+                    "id": "glyph38",
+                    "bbox": {
+                        "x": 1126.8237146525876,
+                        "y": 1008.752854645043,
+                        "w": "170.0",
+                        "h": "240.0"
+                    },
+                    "class": "complex",
+                    "statesandinfos": [],
+                    "parent": "glyph1",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph45",
-                "bbox": {
-                    "x": 1185.8237146525876,
-                    "y": 1043.752854645043,
-                    "w": "80.0",
-                    "h": "60.0"
-                },
-                "class": "macromolecule",
-                "label": "Hsp70",
-                "statesandinfos": [],
-                "parent": "glyph38",
-                "ports": []
+                "sbgn": {
+                    "id": "glyph45",
+                    "bbox": {
+                        "x": 1185.8237146525876,
+                        "y": 1043.752854645043,
+                        "w": "80.0",
+                        "h": "60.0"
+                    },
+                    "class": "macromolecule",
+                    "label": "Hsp70",
+                    "statesandinfos": [],
+                    "parent": "glyph38",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph43",
-                "bbox": {
-                    "x": 1087.8237146525876,
-                    "y": 973.752854645043,
-                    "w": "120.0",
-                    "h": "60.0"
-                },
-                "class": "macromolecule",
-                "label": "misfolded protein",
-                "statesandinfos": [],
-                "parent": "glyph38",
-                "ports": []
+                "sbgn": {
+                    "id": "glyph43",
+                    "bbox": {
+                        "x": 1087.8237146525876,
+                        "y": 973.752854645043,
+                        "w": "120.0",
+                        "h": "60.0"
+                    },
+                    "class": "macromolecule",
+                    "label": "misfolded protein",
+                    "statesandinfos": [],
+                    "parent": "glyph38",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph41",
-                "bbox": {
-                    "x": 1081.8237146525876,
-                    "y": 1043.752854645043,
-                    "w": "108.0",
-                    "h": "60.0"
-                },
-                "class": "macromolecule multimer",
-                "label": "Sis1",
-                "statesandinfos": [
-                    {
-                        "id": "glyph41a",
-                        "clazz": "unit of information",
-                        "label": {
-                            "text": "N:2"
-                        },
-                        "bbox": {
-                            "x": -25,
-                            "y": -50,
-                            "w": "31.0",
-                            "h": "16.0"
+                "sbgn": {
+                    "id": "glyph41",
+                    "bbox": {
+                        "x": 1081.8237146525876,
+                        "y": 1043.752854645043,
+                        "w": "108.0",
+                        "h": "60.0"
+                    },
+                    "class": "macromolecule multimer",
+                    "label": "Sis1",
+                    "statesandinfos": [
+                        {
+                            "id": "glyph41a",
+                            "clazz": "unit of information",
+                            "label": {
+                                "text": "N:2"
+                            },
+                            "bbox": {
+                                "x": -25,
+                                "y": -50,
+                                "w": "31.0",
+                                "h": "16.0"
+                            }
                         }
-                    }
-                ],
-                "parent": "glyph38",
-                "ports": []
+                    ],
+                    "parent": "glyph38",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph32",
-                "bbox": {
-                    "x": 1337.336717575727,
-                    "y": 1027.3654700857098,
-                    "w": "24.0",
-                    "h": "24.0"
-                },
-                "class": "dissociation",
-                "statesandinfos": [],
-                "parent": "glyph1",
-                "ports": []
+                "sbgn": {
+                    "id": "glyph32",
+                    "bbox": {
+                        "x": 1337.336717575727,
+                        "y": 1027.3654700857098,
+                        "w": "24.0",
+                        "h": "24.0"
+                    },
+                    "class": "dissociation",
+                    "statesandinfos": [],
+                    "parent": "glyph1",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph42",
-                "bbox": {
-                    "x": 1433.1233231176784,
-                    "y": 1110.3229051649325,
-                    "w": "120.0",
-                    "h": "60.0"
-                },
-                "class": "macromolecule",
-                "label": "misfolded protein",
-                "statesandinfos": [],
-                "parent": "glyph1",
-                "ports": []
+                "sbgn": {
+                    "id": "glyph42",
+                    "bbox": {
+                        "x": 1433.1233231176784,
+                        "y": 1110.3229051649325,
+                        "w": "120.0",
+                        "h": "60.0"
+                    },
+                    "class": "macromolecule",
+                    "label": "misfolded protein",
+                    "statesandinfos": [],
+                    "parent": "glyph1",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph25",
-                "bbox": {
-                    "x": 1563.9214369297797,
-                    "y": 1164.9372136910258,
-                    "w": "25.0",
-                    "h": "25.0"
-                },
-                "class": "process",
-                "statesandinfos": [],
-                "parent": "glyph1",
-                "ports": []
+                "sbgn": {
+                    "id": "glyph25",
+                    "bbox": {
+                        "x": 1563.9214369297797,
+                        "y": 1164.9372136910258,
+                        "w": "25.0",
+                        "h": "25.0"
+                    },
+                    "class": "process",
+                    "statesandinfos": [],
+                    "parent": "glyph1",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph46",
-                "bbox": {
-                    "x": 1333.4113072912696,
-                    "y": 926.1233479859889,
-                    "w": "80.0",
-                    "h": "60.0"
-                },
-                "class": "macromolecule",
-                "label": "Hsp70",
-                "statesandinfos": [],
-                "parent": "glyph1",
-                "ports": []
+                "sbgn": {
+                    "id": "glyph46",
+                    "bbox": {
+                        "x": 1333.4113072912696,
+                        "y": 926.1233479859889,
+                        "w": "80.0",
+                        "h": "60.0"
+                    },
+                    "class": "macromolecule",
+                    "label": "Hsp70",
+                    "statesandinfos": [],
+                    "parent": "glyph1",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph27",
-                "bbox": {
-                    "x": 1361.0285519263516,
-                    "y": 831.4332438169165,
-                    "w": "25.0",
-                    "h": "25.0"
-                },
-                "class": "process",
-                "statesandinfos": [],
-                "parent": "glyph1",
-                "ports": []
+                "sbgn": {
+                    "id": "glyph27",
+                    "bbox": {
+                        "x": 1361.0285519263516,
+                        "y": 831.4332438169165,
+                        "w": "25.0",
+                        "h": "25.0"
+                    },
+                    "class": "process",
+                    "statesandinfos": [],
+                    "parent": "glyph1",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph40",
-                "bbox": {
-                    "x": 1462.7595315678577,
-                    "y": 998.2347698692331,
-                    "w": "108.0",
-                    "h": "60.0"
-                },
-                "class": "macromolecule multimer",
-                "label": "Sis1",
-                "statesandinfos": [
-                    {
-                        "id": "glyph40a",
-                        "clazz": "unit of information",
-                        "label": {
-                            "text": "N:2"
-                        },
-                        "bbox": {
-                            "x": -25,
-                            "y": -50,
-                            "w": "31.0",
-                            "h": "16.0"
+                "sbgn": {
+                    "id": "glyph40",
+                    "bbox": {
+                        "x": 1462.7595315678577,
+                        "y": 998.2347698692331,
+                        "w": "108.0",
+                        "h": "60.0"
+                    },
+                    "class": "macromolecule multimer",
+                    "label": "Sis1",
+                    "statesandinfos": [
+                        {
+                            "id": "glyph40a",
+                            "clazz": "unit of information",
+                            "label": {
+                                "text": "N:2"
+                            },
+                            "bbox": {
+                                "x": -25,
+                                "y": -50,
+                                "w": "31.0",
+                                "h": "16.0"
+                            }
                         }
-                    }
-                ],
-                "parent": "glyph1",
-                "ports": []
+                    ],
+                    "parent": "glyph1",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph28",
-                "bbox": {
-                    "x": 1545.5011343346196,
-                    "y": 917.4321263909592,
-                    "w": "25.0",
-                    "h": "25.0"
-                },
-                "class": "process",
-                "statesandinfos": [],
-                "parent": "glyph1",
-                "ports": []
+                "sbgn": {
+                    "id": "glyph28",
+                    "bbox": {
+                        "x": 1545.5011343346196,
+                        "y": 917.4321263909592,
+                        "w": "25.0",
+                        "h": "25.0"
+                    },
+                    "class": "process",
+                    "statesandinfos": [],
+                    "parent": "glyph1",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph15",
-                "bbox": {
-                    "x": 1772.1064420517878,
-                    "y": 1238.4825742368978,
-                    "w": "108.0",
-                    "h": "60.0"
-                },
-                "class": "macromolecule",
-                "label": "E3(San1)",
-                "statesandinfos": [],
-                "parent": "glyph1",
-                "ports": []
+                "sbgn": {
+                    "id": "glyph15",
+                    "bbox": {
+                        "x": 1772.1064420517878,
+                        "y": 1238.4825742368978,
+                        "w": "108.0",
+                        "h": "60.0"
+                    },
+                    "class": "macromolecule",
+                    "label": "E3(San1)",
+                    "statesandinfos": [],
+                    "parent": "glyph1",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph6",
-                "bbox": {
-                    "x": 1748.14126523628,
-                    "y": 1110.298511842914,
-                    "w": "150.0",
-                    "h": "20.0"
-                },
-                "class": "complex",
-                "label": "nuclear proteasome",
-                "statesandinfos": [],
-                "parent": "glyph1",
-                "ports": []
+                "sbgn": {
+                    "id": "glyph6",
+                    "bbox": {
+                        "x": 1748.14126523628,
+                        "y": 1110.298511842914,
+                        "w": "150.0",
+                        "h": "20.0"
+                    },
+                    "class": "complex",
+                    "label": "nuclear proteasome",
+                    "statesandinfos": [],
+                    "parent": "glyph1",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph23",
-                "bbox": {
-                    "x": 1659.0417715223766,
-                    "y": 1162.8506394326487,
-                    "w": "42.0",
-                    "h": "42.0"
-                },
-                "class": "and",
-                "statesandinfos": [],
-                "parent": "glyph1",
-                "ports": []
+                "sbgn": {
+                    "id": "glyph23",
+                    "bbox": {
+                        "x": 1659.0417715223766,
+                        "y": 1162.8506394326487,
+                        "w": "42.0",
+                        "h": "42.0"
+                    },
+                    "class": "and",
+                    "statesandinfos": [],
+                    "parent": "glyph1",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph18",
-                "bbox": {
-                    "x": 712.4695713754879,
-                    "y": 393.68276370297156,
-                    "w": "108.0",
-                    "h": "60.0"
-                },
-                "class": "macromolecule",
-                "label": "E3",
-                "statesandinfos": [],
-                "parent": "",
-                "ports": []
+                "sbgn": {
+                    "id": "glyph18",
+                    "bbox": {
+                        "x": 712.4695713754879,
+                        "y": 393.68276370297156,
+                        "w": "108.0",
+                        "h": "60.0"
+                    },
+                    "class": "macromolecule",
+                    "label": "E3",
+                    "statesandinfos": [],
+                    "parent": "",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph2",
-                "bbox": {
-                    "x": 74.25648652847747,
-                    "y": 558.2793894437214,
-                    "w": "150.0",
-                    "h": "180.0"
-                },
-                "class": "complex",
-                "statesandinfos": [],
-                "parent": "",
-                "ports": []
+                "sbgn": {
+                    "id": "glyph2",
+                    "bbox": {
+                        "x": 74.25648652847747,
+                        "y": 558.2793894437214,
+                        "w": "150.0",
+                        "h": "180.0"
+                    },
+                    "class": "complex",
+                    "statesandinfos": [],
+                    "parent": "",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph16",
-                "bbox": {
-                    "x": 74.25648652847747,
-                    "y": 523.2793894437214,
-                    "w": "108.0",
-                    "h": "60.0"
-                },
-                "class": "macromolecule",
-                "label": "PolyQ aggregates",
-                "statesandinfos": [],
-                "parent": "glyph2",
-                "ports": []
+                "sbgn": {
+                    "id": "glyph16",
+                    "bbox": {
+                        "x": 74.25648652847747,
+                        "y": 523.2793894437214,
+                        "w": "108.0",
+                        "h": "60.0"
+                    },
+                    "class": "macromolecule",
+                    "label": "PolyQ aggregates",
+                    "statesandinfos": [],
+                    "parent": "glyph2",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph9",
-                "bbox": {
-                    "x": 74.25648652847747,
-                    "y": 593.2793894437214,
-                    "w": "108.0",
-                    "h": "60.0"
-                },
-                "class": "macromolecule multimer",
-                "label": "Sis1",
-                "statesandinfos": [
-                    {
-                        "id": "glyph9a",
-                        "clazz": "unit of information",
-                        "label": {
-                            "text": "N:2"
-                        },
-                        "bbox": {
-                            "x": -25,
-                            "y": -50,
-                            "w": "31.0",
-                            "h": "16.0"
+                "sbgn": {
+                    "id": "glyph9",
+                    "bbox": {
+                        "x": 74.25648652847747,
+                        "y": 593.2793894437214,
+                        "w": "108.0",
+                        "h": "60.0"
+                    },
+                    "class": "macromolecule multimer",
+                    "label": "Sis1",
+                    "statesandinfos": [
+                        {
+                            "id": "glyph9a",
+                            "clazz": "unit of information",
+                            "label": {
+                                "text": "N:2"
+                            },
+                            "bbox": {
+                                "x": -25,
+                                "y": -50,
+                                "w": "31.0",
+                                "h": "16.0"
+                            }
                         }
-                    }
-                ],
-                "parent": "glyph2",
-                "ports": []
+                    ],
+                    "parent": "glyph2",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph14",
-                "bbox": {
-                    "x": 749.2296609510565,
-                    "y": 996.6762462210249,
-                    "w": "108.0",
-                    "h": "60.0"
-                },
-                "class": "macromolecule",
-                "label": "importin",
-                "statesandinfos": [],
-                "parent": "",
-                "ports": []
+                "sbgn": {
+                    "id": "glyph14",
+                    "bbox": {
+                        "x": 749.2296609510565,
+                        "y": 996.6762462210249,
+                        "w": "108.0",
+                        "h": "60.0"
+                    },
+                    "class": "macromolecule",
+                    "label": "importin",
+                    "statesandinfos": [],
+                    "parent": "",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph44",
-                "bbox": {
-                    "x": 1090.910879834321,
-                    "y": 637.3538764917557,
-                    "w": "80.0",
-                    "h": "60.0"
-                },
-                "class": "macromolecule",
-                "label": "Hsp70",
-                "statesandinfos": [],
-                "parent": "",
-                "ports": []
+                "sbgn": {
+                    "id": "glyph44",
+                    "bbox": {
+                        "x": 1090.910879834321,
+                        "y": 637.3538764917557,
+                        "w": "80.0",
+                        "h": "60.0"
+                    },
+                    "class": "macromolecule",
+                    "label": "Hsp70",
+                    "statesandinfos": [],
+                    "parent": "",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph39",
-                "bbox": {
-                    "x": 1473.0642714040578,
-                    "y": 599.119232464463,
-                    "w": "108.0",
-                    "h": "60.0"
-                },
-                "class": "macromolecule multimer",
-                "label": "Sis1",
-                "statesandinfos": [
-                    {
-                        "id": "glyph39a",
-                        "clazz": "unit of information",
-                        "label": {
-                            "text": "N:2"
-                        },
-                        "bbox": {
-                            "x": -25,
-                            "y": -50,
-                            "w": "31.0",
-                            "h": "16.0"
+                "sbgn": {
+                    "id": "glyph39",
+                    "bbox": {
+                        "x": 1473.0642714040578,
+                        "y": 599.119232464463,
+                        "w": "108.0",
+                        "h": "60.0"
+                    },
+                    "class": "macromolecule multimer",
+                    "label": "Sis1",
+                    "statesandinfos": [
+                        {
+                            "id": "glyph39a",
+                            "clazz": "unit of information",
+                            "label": {
+                                "text": "N:2"
+                            },
+                            "bbox": {
+                                "x": -25,
+                                "y": -50,
+                                "w": "31.0",
+                                "h": "16.0"
+                            }
                         }
-                    }
-                ],
-                "parent": "",
-                "clonemarker": true,
-                "ports": []
+                    ],
+                    "parent": "",
+                    "clonemarker": true,
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph17",
-                "bbox": {
-                    "x": 249.20395770748246,
-                    "y": 461.76306406362175,
-                    "w": "108.0",
-                    "h": "60.0"
-                },
-                "class": "macromolecule",
-                "label": "PolyQ aggregates",
-                "statesandinfos": [],
-                "parent": "",
-                "ports": []
+                "sbgn": {
+                    "id": "glyph17",
+                    "bbox": {
+                        "x": 249.20395770748246,
+                        "y": 461.76306406362175,
+                        "w": "108.0",
+                        "h": "60.0"
+                    },
+                    "class": "macromolecule",
+                    "label": "PolyQ aggregates",
+                    "statesandinfos": [],
+                    "parent": "",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph33",
-                "bbox": {
-                    "x": 228.0341008480989,
-                    "y": 558.6798160191246,
-                    "w": "24.0",
-                    "h": "24.0"
-                },
-                "class": "association",
-                "statesandinfos": [],
-                "parent": "",
-                "ports": []
+                "sbgn": {
+                    "id": "glyph33",
+                    "bbox": {
+                        "x": 228.0341008480989,
+                        "y": 558.6798160191246,
+                        "w": "24.0",
+                        "h": "24.0"
+                    },
+                    "class": "association",
+                    "statesandinfos": [],
+                    "parent": "",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph10",
-                "bbox": {
-                    "x": 342.86792016812046,
-                    "y": 625.7450837001838,
-                    "w": "108.0",
-                    "h": "60.0"
-                },
-                "class": "macromolecule multimer",
-                "label": "Sis1",
-                "statesandinfos": [
-                    {
-                        "id": "glyph10a",
-                        "clazz": "unit of information",
-                        "label": {
-                            "text": "N:2"
-                        },
-                        "bbox": {
-                            "x": -25,
-                            "y": -50,
-                            "w": "31.0",
-                            "h": "16.0"
+                "sbgn": {
+                    "id": "glyph10",
+                    "bbox": {
+                        "x": 342.86792016812046,
+                        "y": 625.7450837001838,
+                        "w": "108.0",
+                        "h": "60.0"
+                    },
+                    "class": "macromolecule multimer",
+                    "label": "Sis1",
+                    "statesandinfos": [
+                        {
+                            "id": "glyph10a",
+                            "clazz": "unit of information",
+                            "label": {
+                                "text": "N:2"
+                            },
+                            "bbox": {
+                                "x": -25,
+                                "y": -50,
+                                "w": "31.0",
+                                "h": "16.0"
+                            }
                         }
-                    }
-                ],
-                "parent": "",
-                "clonemarker": true,
-                "ports": []
+                    ],
+                    "parent": "",
+                    "clonemarker": true,
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph34",
-                "bbox": {
-                    "x": 467.85690334689434,
-                    "y": 663.152099263249,
-                    "w": "24.0",
-                    "h": "24.0"
-                },
-                "class": "association",
-                "statesandinfos": [],
-                "parent": "",
-                "ports": []
+                "sbgn": {
+                    "id": "glyph34",
+                    "bbox": {
+                        "x": 467.85690334689434,
+                        "y": 663.152099263249,
+                        "w": "24.0",
+                        "h": "24.0"
+                    },
+                    "class": "association",
+                    "statesandinfos": [],
+                    "parent": "",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph24",
-                "bbox": {
-                    "x": 785.1523332787945,
-                    "y": 477.34699356551414,
-                    "w": "40.0",
-                    "h": "40.0"
-                },
-                "class": "simple chemical",
-                "label": "Ub",
-                "statesandinfos": [],
-                "parent": "",
-                "ports": []
+                "sbgn": {
+                    "id": "glyph24",
+                    "bbox": {
+                        "x": 785.1523332787945,
+                        "y": 477.34699356551414,
+                        "w": "40.0",
+                        "h": "40.0"
+                    },
+                    "class": "simple chemical",
+                    "label": "Ub",
+                    "statesandinfos": [],
+                    "parent": "",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph5",
-                "bbox": {
-                    "x": 822.3549962998766,
-                    "y": 615.1537328656647,
-                    "w": "170.0",
-                    "h": "160.0"
-                },
-                "class": "complex",
-                "statesandinfos": [],
-                "parent": "",
-                "ports": []
+                "sbgn": {
+                    "id": "glyph5",
+                    "bbox": {
+                        "x": 822.3549962998766,
+                        "y": 615.1537328656647,
+                        "w": "170.0",
+                        "h": "160.0"
+                    },
+                    "class": "complex",
+                    "statesandinfos": [],
+                    "parent": "",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph13",
-                "bbox": {
-                    "x": 822.3549962998766,
-                    "y": 580.1537328656647,
-                    "w": "120.0",
-                    "h": "60.0"
-                },
-                "class": "macromolecule",
-                "label": "misfolded protein",
-                "statesandinfos": [
-                    {
-                        "id": "glyph13a",
-                        "clazz": "state variable",
-                        "state": {},
-                        "bbox": {
-                            "x": -25,
-                            "y": -50,
-                            "w": "20.0",
-                            "h": "20.0"
+                "sbgn": {
+                    "id": "glyph13",
+                    "bbox": {
+                        "x": 822.3549962998766,
+                        "y": 580.1537328656647,
+                        "w": "120.0",
+                        "h": "60.0"
+                    },
+                    "class": "macromolecule",
+                    "label": "misfolded protein",
+                    "statesandinfos": [
+                        {
+                            "id": "glyph13a",
+                            "clazz": "state variable",
+                            "state": {},
+                            "bbox": {
+                                "x": -25,
+                                "y": -50,
+                                "w": "20.0",
+                                "h": "20.0"
+                            }
                         }
-                    }
-                ],
-                "parent": "glyph5",
-                "ports": []
+                    ],
+                    "parent": "glyph5",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph19",
-                "bbox": {
-                    "x": 802.3549962998766,
-                    "y": 650.1537328656647,
-                    "w": "80.0",
-                    "h": "60.0"
-                },
-                "class": "macromolecule",
-                "label": "Hsp70",
-                "statesandinfos": [],
-                "parent": "glyph5",
-                "ports": []
+                "sbgn": {
+                    "id": "glyph19",
+                    "bbox": {
+                        "x": 802.3549962998766,
+                        "y": 650.1537328656647,
+                        "w": "80.0",
+                        "h": "60.0"
+                    },
+                    "class": "macromolecule",
+                    "label": "Hsp70",
+                    "statesandinfos": [],
+                    "parent": "glyph5",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph29",
-                "bbox": {
-                    "x": 698.0858680201859,
-                    "y": 493.71355077752946,
-                    "w": "25.0",
-                    "h": "25.0"
-                },
-                "class": "process",
-                "statesandinfos": [],
-                "parent": "",
-                "ports": []
+                "sbgn": {
+                    "id": "glyph29",
+                    "bbox": {
+                        "x": 698.0858680201859,
+                        "y": 493.71355077752946,
+                        "w": "25.0",
+                        "h": "25.0"
+                    },
+                    "class": "process",
+                    "statesandinfos": [],
+                    "parent": "",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph3",
-                "bbox": {
-                    "x": 584.2421064378857,
-                    "y": 797.3603292857592,
-                    "w": "170.0",
-                    "h": "240.0"
-                },
-                "class": "complex",
-                "statesandinfos": [],
-                "parent": "",
-                "ports": []
+                "sbgn": {
+                    "id": "glyph3",
+                    "bbox": {
+                        "x": 584.2421064378857,
+                        "y": 797.3603292857592,
+                        "w": "170.0",
+                        "h": "240.0"
+                    },
+                    "class": "complex",
+                    "statesandinfos": [],
+                    "parent": "",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph21",
-                "bbox": {
-                    "x": 643.2421064378857,
-                    "y": 832.3603292857592,
-                    "w": "80.0",
-                    "h": "60.0"
-                },
-                "class": "macromolecule",
-                "label": "Hsp70",
-                "statesandinfos": [],
-                "parent": "glyph3",
-                "ports": []
+                "sbgn": {
+                    "id": "glyph21",
+                    "bbox": {
+                        "x": 643.2421064378857,
+                        "y": 832.3603292857592,
+                        "w": "80.0",
+                        "h": "60.0"
+                    },
+                    "class": "macromolecule",
+                    "label": "Hsp70",
+                    "statesandinfos": [],
+                    "parent": "glyph3",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph12",
-                "bbox": {
-                    "x": 545.2421064378857,
-                    "y": 762.3603292857592,
-                    "w": "120.0",
-                    "h": "60.0"
-                },
-                "class": "macromolecule",
-                "label": "misfolded protein",
-                "statesandinfos": [],
-                "parent": "glyph3",
-                "ports": []
+                "sbgn": {
+                    "id": "glyph12",
+                    "bbox": {
+                        "x": 545.2421064378857,
+                        "y": 762.3603292857592,
+                        "w": "120.0",
+                        "h": "60.0"
+                    },
+                    "class": "macromolecule",
+                    "label": "misfolded protein",
+                    "statesandinfos": [],
+                    "parent": "glyph3",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph8",
-                "bbox": {
-                    "x": 539.2421064378857,
-                    "y": 832.3603292857592,
-                    "w": "108.0",
-                    "h": "60.0"
-                },
-                "class": "macromolecule multimer",
-                "label": "Sis1",
-                "statesandinfos": [
-                    {
-                        "id": "glyph8a",
-                        "clazz": "unit of information",
-                        "label": {
-                            "text": "N:2"
-                        },
-                        "bbox": {
-                            "x": -25,
-                            "y": -50,
-                            "w": "31.0",
-                            "h": "16.0"
+                "sbgn": {
+                    "id": "glyph8",
+                    "bbox": {
+                        "x": 539.2421064378857,
+                        "y": 832.3603292857592,
+                        "w": "108.0",
+                        "h": "60.0"
+                    },
+                    "class": "macromolecule multimer",
+                    "label": "Sis1",
+                    "statesandinfos": [
+                        {
+                            "id": "glyph8a",
+                            "clazz": "unit of information",
+                            "label": {
+                                "text": "N:2"
+                            },
+                            "bbox": {
+                                "x": -25,
+                                "y": -50,
+                                "w": "31.0",
+                                "h": "16.0"
+                            }
                         }
-                    }
-                ],
-                "parent": "glyph3",
-                "ports": []
+                    ],
+                    "parent": "glyph3",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph26",
-                "bbox": {
-                    "x": 782.3757872560432,
-                    "y": 902.8385340698869,
-                    "w": "25.0",
-                    "h": "25.0"
-                },
-                "class": "process",
-                "statesandinfos": [],
-                "parent": "",
-                "ports": []
+                "sbgn": {
+                    "id": "glyph26",
+                    "bbox": {
+                        "x": 782.3757872560432,
+                        "y": 902.8385340698869,
+                        "w": "25.0",
+                        "h": "25.0"
+                    },
+                    "class": "process",
+                    "statesandinfos": [],
+                    "parent": "",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph30",
-                "bbox": {
-                    "x": 558.5033948256105,
-                    "y": 360.0878353788506,
-                    "w": "25.0",
-                    "h": "25.0"
-                },
-                "class": "process",
-                "statesandinfos": [],
-                "parent": "",
-                "ports": []
+                "sbgn": {
+                    "id": "glyph30",
+                    "bbox": {
+                        "x": 558.5033948256105,
+                        "y": 360.0878353788506,
+                        "w": "25.0",
+                        "h": "25.0"
+                    },
+                    "class": "process",
+                    "statesandinfos": [],
+                    "parent": "",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph7",
-                "bbox": {
-                    "x": 383.7159669693956,
-                    "y": 293.47477021405143,
-                    "w": "143.0",
-                    "h": "18.0"
-                },
-                "class": "complex",
-                "label": "cytosolic proteasome",
-                "statesandinfos": [],
-                "parent": "",
-                "ports": []
+                "sbgn": {
+                    "id": "glyph7",
+                    "bbox": {
+                        "x": 383.7159669693956,
+                        "y": 293.47477021405143,
+                        "w": "143.0",
+                        "h": "18.0"
+                    },
+                    "class": "complex",
+                    "label": "cytosolic proteasome",
+                    "statesandinfos": [],
+                    "parent": "",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph4",
-                "bbox": {
-                    "x": 536.1158437589588,
-                    "y": 503.67673473060097,
-                    "w": "170.0",
-                    "h": "160.0"
-                },
-                "class": "complex",
-                "statesandinfos": [],
-                "parent": "",
-                "ports": []
+                "sbgn": {
+                    "id": "glyph4",
+                    "bbox": {
+                        "x": 536.1158437589588,
+                        "y": 503.67673473060097,
+                        "w": "170.0",
+                        "h": "160.0"
+                    },
+                    "class": "complex",
+                    "statesandinfos": [],
+                    "parent": "",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph11",
-                "bbox": {
-                    "x": 536.1158437589588,
-                    "y": 468.67673473060097,
-                    "w": "120.0",
-                    "h": "60.0"
-                },
-                "class": "macromolecule",
-                "label": "misfolded protein",
-                "statesandinfos": [],
-                "parent": "glyph4",
-                "ports": []
+                "sbgn": {
+                    "id": "glyph11",
+                    "bbox": {
+                        "x": 536.1158437589588,
+                        "y": 468.67673473060097,
+                        "w": "120.0",
+                        "h": "60.0"
+                    },
+                    "class": "macromolecule",
+                    "label": "misfolded protein",
+                    "statesandinfos": [],
+                    "parent": "glyph4",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph20",
-                "bbox": {
-                    "x": 516.1158437589588,
-                    "y": 538.676734730601,
-                    "w": "80.0",
-                    "h": "60.0"
-                },
-                "class": "macromolecule",
-                "label": "Hsp70",
-                "statesandinfos": [],
-                "parent": "glyph4",
-                "ports": []
+                "sbgn": {
+                    "id": "glyph20",
+                    "bbox": {
+                        "x": 516.1158437589588,
+                        "y": 538.676734730601,
+                        "w": "80.0",
+                        "h": "60.0"
+                    },
+                    "class": "macromolecule",
+                    "label": "Hsp70",
+                    "statesandinfos": [],
+                    "parent": "glyph4",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph31",
-                "bbox": {
-                    "x": 429.9073408968045,
-                    "y": 373.17772588435366,
-                    "w": "24.0",
-                    "h": "24.0"
-                },
-                "class": "uncertain process",
-                "statesandinfos": [],
-                "parent": "",
-                "ports": []
+                "sbgn": {
+                    "id": "glyph31",
+                    "bbox": {
+                        "x": 429.9073408968045,
+                        "y": 373.17772588435366,
+                        "w": "24.0",
+                        "h": "24.0"
+                    },
+                    "class": "uncertain process",
+                    "statesandinfos": [],
+                    "parent": "",
+                    "ports": []
+                }
             }
         }
     ],

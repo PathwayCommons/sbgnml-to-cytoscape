@@ -1,434 +1,479 @@
 {
     "nodes": [
         {
-            "data": {
-                "id": "nucleoplasm",
-                "bbox": {
-                    "x": 582.819308197499,
-                    "y": 439.69303666723926,
-                    "w": "1131.507131012282",
-                    "h": "844.2160121434334"
-                },
-                "class": "compartment",
-                "label": "nucleoplasm",
-                "statesandinfos": [],
-                "parent": "",
-                "ports": []
+            "sbgn": {
+                "data": {
+                    "id": "nucleoplasm",
+                    "bbox": {
+                        "x": 582.819308197499,
+                        "y": 439.69303666723926,
+                        "w": "1131.507131012282",
+                        "h": "844.2160121434334"
+                    },
+                    "class": "compartment",
+                    "label": "nucleoplasm",
+                    "statesandinfos": [],
+                    "parent": "",
+                    "ports": []
+                }
             }
         },
         {
-            "data": {
-                "id": "http___www.reactome.org_biopax_48887Complex2697",
-                "bbox": {
-                    "x": 889.2927431678822,
-                    "y": 610.9958284178022,
-                    "w": "119.29999999999995",
-                    "h": "101.29999999999995"
-                },
-                "class": "complex",
-                "label": "53BP1:H2AX complex at site of double-strand break",
-                "statesandinfos": [],
-                "parent": "nucleoplasm",
-                "ports": []
+            "sbgn": {
+                "data": {
+                    "id": "http___www.reactome.org_biopax_48887Complex2697",
+                    "bbox": {
+                        "x": 889.2927431678822,
+                        "y": 610.9958284178022,
+                        "w": "119.29999999999995",
+                        "h": "101.29999999999995"
+                    },
+                    "class": "complex",
+                    "label": "53BP1:H2AX complex at site of double-strand break",
+                    "statesandinfos": [],
+                    "parent": "nucleoplasm",
+                    "ports": []
+                }
             }
         },
         {
-            "data": {
-                "id": "http___www.reactome.org_biopax_48887Protein8106_http___www.reactome.org_biopax_48887Complex2697",
-                "bbox": {
-                    "x": 923.1927431678822,
-                    "y": 584.5958284178022,
-                    "w": "48",
-                    "h": "45"
-                },
-                "class": "macromolecule",
-                "label": "MDC1",
-                "statesandinfos": [],
-                "parent": "http___www.reactome.org_biopax_48887Complex2697",
-                "ports": []
+            "sbgn": {
+                "data": {
+                    "id": "http___www.reactome.org_biopax_48887Protein8106_http___www.reactome.org_biopax_48887Complex2697",
+                    "bbox": {
+                        "x": 923.1927431678822,
+                        "y": 584.5958284178022,
+                        "w": "48",
+                        "h": "45"
+                    },
+                    "class": "macromolecule",
+                    "label": "MDC1",
+                    "statesandinfos": [],
+                    "parent": "http___www.reactome.org_biopax_48887Complex2697",
+                    "ports": []
+                }
             }
         },
         {
-            "data": {
-                "id": "http___www.reactome.org_biopax_48887Protein8109_http___www.reactome.org_biopax_48887Complex2697",
-                "bbox": {
-                    "x": 855.3927431678823,
-                    "y": 637.3958284178021,
-                    "w": "48",
-                    "h": "45"
-                },
-                "class": "macromolecule",
-                "label": "TP53BP1",
-                "statesandinfos": [],
-                "parent": "http___www.reactome.org_biopax_48887Complex2697",
-                "ports": []
+            "sbgn": {
+                "data": {
+                    "id": "http___www.reactome.org_biopax_48887Protein8109_http___www.reactome.org_biopax_48887Complex2697",
+                    "bbox": {
+                        "x": 855.3927431678823,
+                        "y": 637.3958284178021,
+                        "w": "48",
+                        "h": "45"
+                    },
+                    "class": "macromolecule",
+                    "label": "TP53BP1",
+                    "statesandinfos": [],
+                    "parent": "http___www.reactome.org_biopax_48887Complex2697",
+                    "ports": []
+                }
             }
         },
         {
-            "data": {
-                "id": "http___www.reactome.org_biopax_48887PhysicalEntity136_http___www.reactome.org_biopax_48887Complex2697",
-                "bbox": {
-                    "x": 907.1927431678822,
-                    "y": 634.8958284178021,
-                    "w": "40",
-                    "h": "40"
-                },
-                "class": "unspecified entity",
-                "label": "DNA double-strand break ends",
-                "statesandinfos": [],
-                "parent": "http___www.reactome.org_biopax_48887Complex2697",
-                "ports": []
+            "sbgn": {
+                "data": {
+                    "id": "http___www.reactome.org_biopax_48887PhysicalEntity136_http___www.reactome.org_biopax_48887Complex2697",
+                    "bbox": {
+                        "x": 907.1927431678822,
+                        "y": 634.8958284178021,
+                        "w": "40",
+                        "h": "40"
+                    },
+                    "class": "unspecified entity",
+                    "label": "DNA double-strand break ends",
+                    "statesandinfos": [],
+                    "parent": "http___www.reactome.org_biopax_48887Complex2697",
+                    "ports": []
+                }
             }
         },
         {
-            "data": {
-                "id": "http___www.reactome.org_biopax_48887Protein1283_http___www.reactome.org_biopax_48887Complex2697",
-                "bbox": {
-                    "x": 861.3927431678823,
-                    "y": 584.5958284178022,
-                    "w": "60",
-                    "h": "45"
-                },
-                "class": "macromolecule",
-                "label": "H2AFX",
-                "statesandinfos": [
-                    {
-                        "id": "http___www.reactome.org_biopax_48887Protein1283_http___www.reactome.org_biopax_48887Complex2697.state.1",
-                        "clazz": "state variable",
-                        "state": {
-                            "value": "P",
-                            "variable": "S139"
-                        },
-                        "bbox": {
-                            "x": 0.00000833333331229369,
-                            "y": 50,
-                            "w": "50.0",
-                            "h": "15.0"
+            "sbgn": {
+                "data": {
+                    "id": "http___www.reactome.org_biopax_48887Protein1283_http___www.reactome.org_biopax_48887Complex2697",
+                    "bbox": {
+                        "x": 861.3927431678823,
+                        "y": 584.5958284178022,
+                        "w": "60",
+                        "h": "45"
+                    },
+                    "class": "macromolecule",
+                    "label": "H2AFX",
+                    "statesandinfos": [
+                        {
+                            "id": "http___www.reactome.org_biopax_48887Protein1283_http___www.reactome.org_biopax_48887Complex2697.state.1",
+                            "clazz": "state variable",
+                            "state": {
+                                "value": "P",
+                                "variable": "S139"
+                            },
+                            "bbox": {
+                                "x": 0.00000833333331229369,
+                                "y": 50,
+                                "w": "50.0",
+                                "h": "15.0"
+                            }
                         }
-                    }
-                ],
-                "parent": "http___www.reactome.org_biopax_48887Complex2697",
-                "ports": []
+                    ],
+                    "parent": "http___www.reactome.org_biopax_48887Complex2697",
+                    "ports": []
+                }
             }
         },
         {
-            "data": {
-                "id": "http___www.reactome.org_biopax_48887Complex2701",
-                "bbox": {
-                    "x": 1064.27287370364,
-                    "y": 467.1865078784768,
-                    "w": "155.0999999999999",
-                    "h": "101.30000000000007"
-                },
-                "class": "complex",
-                "label": "BRCA1:53BP1 complex at site of DNA double-strand break",
-                "statesandinfos": [],
-                "parent": "nucleoplasm",
-                "ports": []
+            "sbgn": {
+                "data": {
+                    "id": "http___www.reactome.org_biopax_48887Complex2701",
+                    "bbox": {
+                        "x": 1064.27287370364,
+                        "y": 467.1865078784768,
+                        "w": "155.0999999999999",
+                        "h": "101.30000000000007"
+                    },
+                    "class": "complex",
+                    "label": "BRCA1:53BP1 complex at site of DNA double-strand break",
+                    "statesandinfos": [],
+                    "parent": "nucleoplasm",
+                    "ports": []
+                }
             }
         },
         {
-            "data": {
-                "id": "http___www.reactome.org_biopax_48887Protein8106_http___www.reactome.org_biopax_48887Complex2701",
-                "bbox": {
-                    "x": 1080.27287370364,
-                    "y": 440.78650787847675,
-                    "w": "48",
-                    "h": "45"
-                },
-                "class": "macromolecule",
-                "label": "MDC1",
-                "statesandinfos": [],
-                "parent": "http___www.reactome.org_biopax_48887Complex2701",
-                "ports": []
+            "sbgn": {
+                "data": {
+                    "id": "http___www.reactome.org_biopax_48887Protein8106_http___www.reactome.org_biopax_48887Complex2701",
+                    "bbox": {
+                        "x": 1080.27287370364,
+                        "y": 440.78650787847675,
+                        "w": "48",
+                        "h": "45"
+                    },
+                    "class": "macromolecule",
+                    "label": "MDC1",
+                    "statesandinfos": [],
+                    "parent": "http___www.reactome.org_biopax_48887Complex2701",
+                    "ports": []
+                }
             }
         },
         {
-            "data": {
-                "id": "http___www.reactome.org_biopax_48887Protein1277_http___www.reactome.org_biopax_48887Complex2701",
-                "bbox": {
-                    "x": 1012.4728737036401,
-                    "y": 493.58650787847677,
-                    "w": "48",
-                    "h": "45"
-                },
-                "class": "macromolecule",
-                "label": "BRCA1",
-                "statesandinfos": [],
-                "parent": "http___www.reactome.org_biopax_48887Complex2701",
-                "ports": []
+            "sbgn": {
+                "data": {
+                    "id": "http___www.reactome.org_biopax_48887Protein1277_http___www.reactome.org_biopax_48887Complex2701",
+                    "bbox": {
+                        "x": 1012.4728737036401,
+                        "y": 493.58650787847677,
+                        "w": "48",
+                        "h": "45"
+                    },
+                    "class": "macromolecule",
+                    "label": "BRCA1",
+                    "statesandinfos": [],
+                    "parent": "http___www.reactome.org_biopax_48887Complex2701",
+                    "ports": []
+                }
             }
         },
         {
-            "data": {
-                "id": "http___www.reactome.org_biopax_48887Protein8109_http___www.reactome.org_biopax_48887Complex2701",
-                "bbox": {
-                    "x": 1068.27287370364,
-                    "y": 493.58650787847677,
-                    "w": "48",
-                    "h": "45"
-                },
-                "class": "macromolecule",
-                "label": "TP53BP1",
-                "statesandinfos": [],
-                "parent": "http___www.reactome.org_biopax_48887Complex2701",
-                "ports": []
+            "sbgn": {
+                "data": {
+                    "id": "http___www.reactome.org_biopax_48887Protein8109_http___www.reactome.org_biopax_48887Complex2701",
+                    "bbox": {
+                        "x": 1068.27287370364,
+                        "y": 493.58650787847677,
+                        "w": "48",
+                        "h": "45"
+                    },
+                    "class": "macromolecule",
+                    "label": "TP53BP1",
+                    "statesandinfos": [],
+                    "parent": "http___www.reactome.org_biopax_48887Complex2701",
+                    "ports": []
+                }
             }
         },
         {
-            "data": {
-                "id": "http___www.reactome.org_biopax_48887PhysicalEntity136_http___www.reactome.org_biopax_48887Complex2701",
-                "bbox": {
-                    "x": 1120.07287370364,
-                    "y": 491.08650787847677,
-                    "w": "40",
-                    "h": "40"
-                },
-                "class": "unspecified entity",
-                "label": "DNA double-strand break ends",
-                "statesandinfos": [],
-                "parent": "http___www.reactome.org_biopax_48887Complex2701",
-                "ports": []
+            "sbgn": {
+                "data": {
+                    "id": "http___www.reactome.org_biopax_48887PhysicalEntity136_http___www.reactome.org_biopax_48887Complex2701",
+                    "bbox": {
+                        "x": 1120.07287370364,
+                        "y": 491.08650787847677,
+                        "w": "40",
+                        "h": "40"
+                    },
+                    "class": "unspecified entity",
+                    "label": "DNA double-strand break ends",
+                    "statesandinfos": [],
+                    "parent": "http___www.reactome.org_biopax_48887Complex2701",
+                    "ports": []
+                }
             }
         },
         {
-            "data": {
-                "id": "http___www.reactome.org_biopax_48887Protein1283_http___www.reactome.org_biopax_48887Complex2701",
-                "bbox": {
-                    "x": 1018.4728737036401,
-                    "y": 440.78650787847675,
-                    "w": "60",
-                    "h": "45"
-                },
-                "class": "macromolecule",
-                "label": "H2AFX",
-                "statesandinfos": [
-                    {
-                        "id": "http___www.reactome.org_biopax_48887Protein1283_http___www.reactome.org_biopax_48887Complex2701.state.1",
-                        "clazz": "state variable",
-                        "state": {
-                            "value": "P",
-                            "variable": "S139"
-                        },
-                        "bbox": {
-                            "x": 0.000005000000176854277,
-                            "y": 50,
-                            "w": "50.0",
-                            "h": "15.0"
+            "sbgn": {
+                "data": {
+                    "id": "http___www.reactome.org_biopax_48887Protein1283_http___www.reactome.org_biopax_48887Complex2701",
+                    "bbox": {
+                        "x": 1018.4728737036401,
+                        "y": 440.78650787847675,
+                        "w": "60",
+                        "h": "45"
+                    },
+                    "class": "macromolecule",
+                    "label": "H2AFX",
+                    "statesandinfos": [
+                        {
+                            "id": "http___www.reactome.org_biopax_48887Protein1283_http___www.reactome.org_biopax_48887Complex2701.state.1",
+                            "clazz": "state variable",
+                            "state": {
+                                "value": "P",
+                                "variable": "S139"
+                            },
+                            "bbox": {
+                                "x": 0.000005000000176854277,
+                                "y": 50,
+                                "w": "50.0",
+                                "h": "15.0"
+                            }
                         }
-                    }
-                ],
-                "parent": "http___www.reactome.org_biopax_48887Complex2701",
-                "ports": []
+                    ],
+                    "parent": "http___www.reactome.org_biopax_48887Complex2701",
+                    "ports": []
+                }
             }
         },
         {
-            "data": {
-                "id": "http___www.reactome.org_biopax_48887Complex2695",
-                "bbox": {
-                    "x": 693.3035261851754,
-                    "y": 98.95054098218517,
-                    "w": "119.29999999999995",
-                    "h": "55.25"
-                },
-                "class": "complex",
-                "label": "MDC1/NFBD1:gamma-H2AX complex",
-                "statesandinfos": [],
-                "parent": "nucleoplasm",
-                "ports": []
+            "sbgn": {
+                "data": {
+                    "id": "http___www.reactome.org_biopax_48887Complex2695",
+                    "bbox": {
+                        "x": 693.3035261851754,
+                        "y": 98.95054098218517,
+                        "w": "119.29999999999995",
+                        "h": "55.25"
+                    },
+                    "class": "complex",
+                    "label": "MDC1/NFBD1:gamma-H2AX complex",
+                    "statesandinfos": [],
+                    "parent": "nucleoplasm",
+                    "ports": []
+                }
             }
         },
         {
-            "data": {
-                "id": "http___www.reactome.org_biopax_48887Protein8106_http___www.reactome.org_biopax_48887Complex2695",
-                "bbox": {
-                    "x": 727.2035261851754,
-                    "y": 95.57554098218517,
-                    "w": "48",
-                    "h": "45"
-                },
-                "class": "macromolecule",
-                "label": "MDC1",
-                "statesandinfos": [],
-                "parent": "http___www.reactome.org_biopax_48887Complex2695",
-                "ports": []
+            "sbgn": {
+                "data": {
+                    "id": "http___www.reactome.org_biopax_48887Protein8106_http___www.reactome.org_biopax_48887Complex2695",
+                    "bbox": {
+                        "x": 727.2035261851754,
+                        "y": 95.57554098218517,
+                        "w": "48",
+                        "h": "45"
+                    },
+                    "class": "macromolecule",
+                    "label": "MDC1",
+                    "statesandinfos": [],
+                    "parent": "http___www.reactome.org_biopax_48887Complex2695",
+                    "ports": []
+                }
             }
         },
         {
-            "data": {
-                "id": "http___www.reactome.org_biopax_48887Protein1283_http___www.reactome.org_biopax_48887Complex2695",
-                "bbox": {
-                    "x": 665.4035261851755,
-                    "y": 95.57554098218517,
-                    "w": "60",
-                    "h": "45"
-                },
-                "class": "macromolecule",
-                "label": "H2AFX",
-                "statesandinfos": [
-                    {
-                        "id": "http___www.reactome.org_biopax_48887Protein1283_http___www.reactome.org_biopax_48887Complex2695.state.1",
-                        "clazz": "state variable",
-                        "state": {
-                            "value": "P",
-                            "variable": "S139"
-                        },
-                        "bbox": {
-                            "x": 0,
-                            "y": 50,
-                            "w": "50.0",
-                            "h": "15.0"
+            "sbgn": {
+                "data": {
+                    "id": "http___www.reactome.org_biopax_48887Protein1283_http___www.reactome.org_biopax_48887Complex2695",
+                    "bbox": {
+                        "x": 665.4035261851755,
+                        "y": 95.57554098218517,
+                        "w": "60",
+                        "h": "45"
+                    },
+                    "class": "macromolecule",
+                    "label": "H2AFX",
+                    "statesandinfos": [
+                        {
+                            "id": "http___www.reactome.org_biopax_48887Protein1283_http___www.reactome.org_biopax_48887Complex2695.state.1",
+                            "clazz": "state variable",
+                            "state": {
+                                "value": "P",
+                                "variable": "S139"
+                            },
+                            "bbox": {
+                                "x": 0,
+                                "y": 50,
+                                "w": "50.0",
+                                "h": "15.0"
+                            }
                         }
-                    }
-                ],
-                "parent": "http___www.reactome.org_biopax_48887Complex2695",
-                "ports": []
+                    ],
+                    "parent": "http___www.reactome.org_biopax_48887Complex2695",
+                    "ports": []
+                }
             }
         },
         {
-            "data": {
-                "id": "http___www.reactome.org_biopax_48887Complex2694",
-                "bbox": {
-                    "x": 715.7065630161139,
-                    "y": 679.072221067449,
-                    "w": "119.29999999999995",
-                    "h": "96.29999999999995"
-                },
-                "class": "complex",
-                "label": "gamma H2AX:MDC1/NFBD1 complex at site of DNA double-strand break",
-                "statesandinfos": [],
-                "parent": "nucleoplasm",
-                "ports": []
+            "sbgn": {
+                "data": {
+                    "id": "http___www.reactome.org_biopax_48887Complex2694",
+                    "bbox": {
+                        "x": 715.7065630161139,
+                        "y": 679.072221067449,
+                        "w": "119.29999999999995",
+                        "h": "96.29999999999995"
+                    },
+                    "class": "complex",
+                    "label": "gamma H2AX:MDC1/NFBD1 complex at site of DNA double-strand break",
+                    "statesandinfos": [],
+                    "parent": "nucleoplasm",
+                    "ports": []
+                }
             }
         },
         {
-            "data": {
-                "id": "http___www.reactome.org_biopax_48887Protein8106_http___www.reactome.org_biopax_48887Complex2694",
-                "bbox": {
-                    "x": 749.6065630161139,
-                    "y": 655.1722210674491,
-                    "w": "48",
-                    "h": "45"
-                },
-                "class": "macromolecule",
-                "label": "MDC1",
-                "statesandinfos": [],
-                "parent": "http___www.reactome.org_biopax_48887Complex2694",
-                "ports": []
+            "sbgn": {
+                "data": {
+                    "id": "http___www.reactome.org_biopax_48887Protein8106_http___www.reactome.org_biopax_48887Complex2694",
+                    "bbox": {
+                        "x": 749.6065630161139,
+                        "y": 655.1722210674491,
+                        "w": "48",
+                        "h": "45"
+                    },
+                    "class": "macromolecule",
+                    "label": "MDC1",
+                    "statesandinfos": [],
+                    "parent": "http___www.reactome.org_biopax_48887Complex2694",
+                    "ports": []
+                }
             }
         },
         {
-            "data": {
-                "id": "http___www.reactome.org_biopax_48887PhysicalEntity136_http___www.reactome.org_biopax_48887Complex2694",
-                "bbox": {
-                    "x": 677.806563016114,
-                    "y": 705.472221067449,
-                    "w": "40",
-                    "h": "40"
-                },
-                "class": "unspecified entity",
-                "label": "DNA double-strand break ends",
-                "statesandinfos": [],
-                "parent": "http___www.reactome.org_biopax_48887Complex2694",
-                "ports": []
+            "sbgn": {
+                "data": {
+                    "id": "http___www.reactome.org_biopax_48887PhysicalEntity136_http___www.reactome.org_biopax_48887Complex2694",
+                    "bbox": {
+                        "x": 677.806563016114,
+                        "y": 705.472221067449,
+                        "w": "40",
+                        "h": "40"
+                    },
+                    "class": "unspecified entity",
+                    "label": "DNA double-strand break ends",
+                    "statesandinfos": [],
+                    "parent": "http___www.reactome.org_biopax_48887Complex2694",
+                    "ports": []
+                }
             }
         },
         {
-            "data": {
-                "id": "http___www.reactome.org_biopax_48887Protein1283_http___www.reactome.org_biopax_48887Complex2694",
-                "bbox": {
-                    "x": 687.806563016114,
-                    "y": 655.1722210674491,
-                    "w": "60",
-                    "h": "45"
-                },
-                "class": "macromolecule",
-                "label": "H2AFX",
-                "statesandinfos": [
-                    {
-                        "id": "http___www.reactome.org_biopax_48887Protein1283_http___www.reactome.org_biopax_48887Complex2694.state.1",
-                        "clazz": "state variable",
-                        "state": {
-                            "value": "P",
-                            "variable": "S139"
-                        },
-                        "bbox": {
-                            "x": 0,
-                            "y": 50,
-                            "w": "50.0",
-                            "h": "15.0"
+            "sbgn": {
+                "data": {
+                    "id": "http___www.reactome.org_biopax_48887Protein1283_http___www.reactome.org_biopax_48887Complex2694",
+                    "bbox": {
+                        "x": 687.806563016114,
+                        "y": 655.1722210674491,
+                        "w": "60",
+                        "h": "45"
+                    },
+                    "class": "macromolecule",
+                    "label": "H2AFX",
+                    "statesandinfos": [
+                        {
+                            "id": "http___www.reactome.org_biopax_48887Protein1283_http___www.reactome.org_biopax_48887Complex2694.state.1",
+                            "clazz": "state variable",
+                            "state": {
+                                "value": "P",
+                                "variable": "S139"
+                            },
+                            "bbox": {
+                                "x": 0,
+                                "y": 50,
+                                "w": "50.0",
+                                "h": "15.0"
+                            }
                         }
-                    }
-                ],
-                "parent": "http___www.reactome.org_biopax_48887Complex2694",
-                "ports": []
+                    ],
+                    "parent": "http___www.reactome.org_biopax_48887Complex2694",
+                    "ports": []
+                }
             }
         },
         {
-            "data": {
-                "id": "http___www.reactome.org_biopax_48887Complex2698",
-                "bbox": {
-                    "x": 382.1108680822181,
-                    "y": 541.7120572151105,
-                    "w": "119.30000000000001",
-                    "h": "96.29999999999995"
-                },
-                "class": "complex",
-                "label": "gamma-H2AX:NBS1 complex at the site of double-strand break",
-                "statesandinfos": [],
-                "parent": "nucleoplasm",
-                "ports": []
+            "sbgn": {
+                "data": {
+                    "id": "http___www.reactome.org_biopax_48887Complex2698",
+                    "bbox": {
+                        "x": 382.1108680822181,
+                        "y": 541.7120572151105,
+                        "w": "119.30000000000001",
+                        "h": "96.29999999999995"
+                    },
+                    "class": "complex",
+                    "label": "gamma-H2AX:NBS1 complex at the site of double-strand break",
+                    "statesandinfos": [],
+                    "parent": "nucleoplasm",
+                    "ports": []
+                }
             }
         },
         {
-            "data": {
-                "id": "http___www.reactome.org_biopax_48887PhysicalEntity136_http___www.reactome.org_biopax_48887Complex2698",
-                "bbox": {
-                    "x": 344.21086808221804,
-                    "y": 568.1120572151104,
-                    "w": "40",
-                    "h": "40"
-                },
-                "class": "unspecified entity",
-                "label": "DNA double-strand break ends",
-                "statesandinfos": [],
-                "parent": "http___www.reactome.org_biopax_48887Complex2698",
-                "ports": []
+            "sbgn": {
+                "data": {
+                    "id": "http___www.reactome.org_biopax_48887PhysicalEntity136_http___www.reactome.org_biopax_48887Complex2698",
+                    "bbox": {
+                        "x": 344.21086808221804,
+                        "y": 568.1120572151104,
+                        "w": "40",
+                        "h": "40"
+                    },
+                    "class": "unspecified entity",
+                    "label": "DNA double-strand break ends",
+                    "statesandinfos": [],
+                    "parent": "http___www.reactome.org_biopax_48887Complex2698",
+                    "ports": []
+                }
             }
         },
         {
-            "data": {
-                "id": "http___www.reactome.org_biopax_48887Protein1283_http___www.reactome.org_biopax_48887Complex2698",
-                "bbox": {
-                    "x": 354.21086808221804,
-                    "y": 517.8120572151105,
-                    "w": "60",
-                    "h": "45"
-                },
-                "class": "macromolecule",
-                "label": "H2AFX",
-                "statesandinfos": [
-                    {
-                        "id": "http___www.reactome.org_biopax_48887Protein1283_http___www.reactome.org_biopax_48887Complex2698.state.1",
-                        "clazz": "state variable",
-                        "state": {
-                            "value": "P",
-                            "variable": "S139"
-                        },
-                        "bbox": {
-                            "x": 0,
-                            "y": 50,
-                            "w": "50.0",
-                            "h": "15.0"
+            "sbgn": {
+                "data": {
+                    "id": "http___www.reactome.org_biopax_48887Protein1283_http___www.reactome.org_biopax_48887Complex2698",
+                    "bbox": {
+                        "x": 354.21086808221804,
+                        "y": 517.8120572151105,
+                        "w": "60",
+                        "h": "45"
+                    },
+                    "class": "macromolecule",
+                    "label": "H2AFX",
+                    "statesandinfos": [
+                        {
+                            "id": "http___www.reactome.org_biopax_48887Protein1283_http___www.reactome.org_biopax_48887Complex2698.state.1",
+                            "clazz": "state variable",
+                            "state": {
+                                "value": "P",
+                                "variable": "S139"
+                            },
+                            "bbox": {
+                                "x": 0,
+                                "y": 50,
+                                "w": "50.0",
+                                "h": "15.0"
+                            }
                         }
-                    }
-                ],
-                "parent": "http___www.reactome.org_biopax_48887Complex2698",
-                "ports": []
+                    ],
+                    "parent": "http___www.reactome.org_biopax_48887Complex2698",
+                    "ports": []
+                }
             }
         },
         {
-            "data": {
+            "sbgn": {
+                "data": {
                 "id": "http___www.reactome.org_biopax_48887Protein1271_http___www.reactome.org_biopax_48887Complex2698",
                 "bbox": {
                     "x": 416.01086808221805,
@@ -441,6 +486,7 @@
                 "statesandinfos": [],
                 "parent": "http___www.reactome.org_biopax_48887Complex2698",
                 "ports": []
+                }
             }
         },
         {

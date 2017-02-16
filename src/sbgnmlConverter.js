@@ -261,7 +261,7 @@ var sbgnmlConverter = {
 
     nodeObj.ports = ports;
 
-    var cytoscapeJsNode = {data: nodeObj};
+    var cytoscapeJsNode = {data: {sbgn: nodeObj}};
     jsonArray.push(cytoscapeJsNode);
   },
   traverseNodes: function (ele, jsonArray, parent, compartments) {
