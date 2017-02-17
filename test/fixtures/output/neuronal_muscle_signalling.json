@@ -12,7 +12,8 @@
                     },
                     "class": "compartment",
                     "label": "synaptic cleft",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -30,7 +31,8 @@
                     },
                     "class": "macromolecule",
                     "label": "AChE",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph1",
                     "ports": []
                 }
@@ -47,7 +49,8 @@
                         "h": "20"
                     },
                     "class": "process",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph1",
                     "ports": []
                 }
@@ -65,7 +68,8 @@
                     },
                     "class": "simple chemical",
                     "label": "acetate",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph1",
                     "ports": []
                 }
@@ -82,7 +86,8 @@
                         "h": "20"
                     },
                     "class": "process",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph1",
                     "ports": []
                 }
@@ -100,7 +105,8 @@
                     },
                     "class": "simple chemical",
                     "label": "ACh",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph1",
                     "ports": []
                 }
@@ -118,7 +124,8 @@
                     },
                     "class": "simple chemical",
                     "label": "choline",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph1",
                     "ports": []
                 }
@@ -136,7 +143,8 @@
                     },
                     "class": "compartment",
                     "label": "synaptic button",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -154,7 +162,8 @@
                     },
                     "class": "compartment",
                     "label": "synaptic vesicle",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph0",
                     "ports": []
                 }
@@ -172,7 +181,8 @@
                     },
                     "class": "simple chemical",
                     "label": "ACh",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph14",
                     "ports": []
                 }
@@ -190,7 +200,8 @@
                     },
                     "class": "macromolecule",
                     "label": "CHT1",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph0",
                     "ports": []
                 }
@@ -208,7 +219,8 @@
                     },
                     "class": "simple chemical",
                     "label": "Ach",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph0",
                     "ports": []
                 }
@@ -226,7 +238,8 @@
                     },
                     "class": "macromolecule",
                     "label": "vAChT",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph0",
                     "ports": []
                 }
@@ -243,7 +256,8 @@
                         "h": "20"
                     },
                     "class": "process",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph0",
                     "ports": []
                 }
@@ -261,7 +275,8 @@
                     },
                     "class": "macromolecule",
                     "label": "ChAT",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph0",
                     "ports": []
                 }
@@ -279,7 +294,8 @@
                     },
                     "class": "macromolecule",
                     "label": "SNARE",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph0",
                     "ports": []
                 }
@@ -296,7 +312,8 @@
                         "h": "20"
                     },
                     "class": "process",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph0",
                     "ports": []
                 }
@@ -314,7 +331,8 @@
                     },
                     "class": "simple chemical",
                     "label": "choline",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph0",
                     "ports": []
                 }
@@ -332,7 +350,8 @@
                     },
                     "class": "simple chemical",
                     "label": "acetyl CoA",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph0",
                     "ports": []
                 }
@@ -349,7 +368,8 @@
                         "h": "20"
                     },
                     "class": "process",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph0",
                     "ports": []
                 }
@@ -367,7 +387,8 @@
                     },
                     "class": "compartment",
                     "label": "muscle cytosol",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -385,7 +406,8 @@
                     },
                     "class": "macromolecule",
                     "label": "nAChR",
-                    "statesandinfos": [
+                    "unitInformationArray": [],
+                    "stateVariableArray": [
                         {
                             "id": "glyph20a",
                             "clazz": "state variable",
@@ -416,7 +438,8 @@
                         "h": "20"
                     },
                     "class": "process",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph2",
                     "ports": []
                 }
@@ -434,7 +457,8 @@
                     },
                     "class": "simple chemical",
                     "label": "Ca2+",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph2",
                     "ports": []
                 }
@@ -451,7 +475,8 @@
                         "h": "20"
                     },
                     "class": "association",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph2",
                     "ports": []
                 }
@@ -468,7 +493,8 @@
                         "h": "136.5"
                     },
                     "class": "complex",
-                    "statesandinfos": [
+                    "unitInformationArray": [],
+                    "stateVariableArray": [
                         {
                             "id": "glyph38a",
                             "clazz": "state variable",
@@ -500,7 +526,8 @@
                     },
                     "class": "macromolecule",
                     "label": "myosin",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph38",
                     "ports": []
                 }
@@ -518,7 +545,8 @@
                     },
                     "class": "macromolecule",
                     "label": "actin",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph38",
                     "ports": []
                 }
@@ -536,7 +564,8 @@
                     },
                     "class": "simple chemical",
                     "label": "ATP",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph38",
                     "ports": []
                 }
@@ -554,7 +583,8 @@
                     },
                     "class": "simple chemical",
                     "label": "Pi",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph2",
                     "ports": []
                 }
@@ -571,7 +601,8 @@
                         "h": "20"
                     },
                     "class": "process",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph2",
                     "ports": []
                 }
@@ -589,7 +620,8 @@
                     },
                     "class": "simple chemical",
                     "label": "ADP",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph2",
                     "ports": []
                 }
@@ -606,7 +638,8 @@
                         "h": "20"
                     },
                     "class": "dissociation",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph2",
                     "ports": []
                 }
@@ -624,7 +657,8 @@
                     },
                     "class": "macromolecule",
                     "label": "actin",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph2",
                     "ports": []
                 }
@@ -642,7 +676,8 @@
                     },
                     "class": "simple chemical",
                     "label": "ATP",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph2",
                     "ports": []
                 }
@@ -660,7 +695,8 @@
                     },
                     "class": "macromolecule",
                     "label": "myosin",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph2",
                     "ports": []
                 }
@@ -677,7 +713,8 @@
                         "h": "20"
                     },
                     "class": "association",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph2",
                     "ports": []
                 }
@@ -694,7 +731,8 @@
                         "h": "136.5"
                     },
                     "class": "complex",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph2",
                     "ports": []
                 }
@@ -712,7 +750,8 @@
                     },
                     "class": "macromolecule",
                     "label": "myosin",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph36",
                     "ports": []
                 }
@@ -730,7 +769,8 @@
                     },
                     "class": "simple chemical",
                     "label": "ATP",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph36",
                     "ports": []
                 }
@@ -748,7 +788,8 @@
                     },
                     "class": "macromolecule",
                     "label": "nAChR",
-                    "statesandinfos": [
+                    "unitInformationArray": [],
+                    "stateVariableArray": [
                         {
                             "id": "glyph21a",
                             "clazz": "state variable",
@@ -779,7 +820,8 @@
                         "h": "20"
                     },
                     "class": "process",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph2",
                     "ports": []
                 }
@@ -796,7 +838,8 @@
                         "h": "136.5"
                     },
                     "class": "complex",
-                    "statesandinfos": [
+                    "unitInformationArray": [],
+                    "stateVariableArray": [
                         {
                             "id": "glyph37a",
                             "clazz": "state variable",
@@ -828,7 +871,8 @@
                     },
                     "class": "macromolecule",
                     "label": "actin",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph37",
                     "ports": []
                 }
@@ -846,7 +890,8 @@
                     },
                     "class": "macromolecule",
                     "label": "myosin",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph37",
                     "ports": []
                 }
@@ -864,7 +909,8 @@
                     },
                     "class": "phenotype",
                     "label": "muscle contraction",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph2",
                     "ports": []
                 }
@@ -882,7 +928,8 @@
                     },
                     "class": "simple chemical",
                     "label": "Ca2+",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph2",
                     "ports": []
                 }

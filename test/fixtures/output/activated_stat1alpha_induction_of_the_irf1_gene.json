@@ -11,7 +11,8 @@
                         "h": "60.0"
                     },
                     "class": "source and sink",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -28,7 +29,8 @@
                         "h": "20.0"
                     },
                     "class": "process",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -46,7 +48,7 @@
                     },
                     "class": "nucleic acid feature",
                     "label": "IRF1",
-                    "statesandinfos": [
+                    "unitInformationArray": [
                         {
                             "id": "glyph3a",
                             "clazz": "unit of information",
@@ -61,6 +63,7 @@
                             }
                         }
                     ],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -77,7 +80,8 @@
                         "h": "60.0"
                     },
                     "class": "source and sink",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -94,7 +98,8 @@
                         "h": "20.0"
                     },
                     "class": "process",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -112,7 +117,7 @@
                     },
                     "class": "macromolecule",
                     "label": "IRF1",
-                    "statesandinfos": [
+                    "unitInformationArray": [
                         {
                             "id": "glyph15a",
                             "clazz": "unit of information",
@@ -127,6 +132,7 @@
                             }
                         }
                     ],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -144,7 +150,7 @@
                     },
                     "class": "nucleic acid feature",
                     "label": "IRF1",
-                    "statesandinfos": [
+                    "unitInformationArray": [
                         {
                             "id": "glyph14a",
                             "clazz": "unit of information",
@@ -159,6 +165,7 @@
                             }
                         }
                     ],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -175,7 +182,8 @@
                         "h": "270.0"
                     },
                     "class": "complex",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -192,7 +200,8 @@
                         "h": "140.0"
                     },
                     "class": "complex",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph13",
                     "ports": []
                 }
@@ -210,7 +219,7 @@
                     },
                     "class": "macromolecule",
                     "label": "STAT1α",
-                    "statesandinfos": [
+                    "unitInformationArray": [
                         {
                             "id": "glyph10a",
                             "clazz": "unit of information",
@@ -223,7 +232,9 @@
                                 "w": "53.0",
                                 "h": "18.0"
                             }
-                        },
+                        }
+                    ],
+                    "stateVariableArray": [
                         {
                             "id": "glyph10b",
                             "clazz": "state variable",
@@ -270,7 +281,7 @@
                     },
                     "class": "nucleic acid feature",
                     "label": "IRF1-GAS",
-                    "statesandinfos": [
+                    "unitInformationArray": [
                         {
                             "id": "glyph12a",
                             "clazz": "unit of information",
@@ -285,6 +296,7 @@
                             }
                         }
                     ],
+                    "stateVariableArray": [],
                     "parent": "glyph13",
                     "ports": []
                 }
@@ -301,7 +313,8 @@
                         "h": "40.0"
                     },
                     "class": "and",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -318,7 +331,8 @@
                         "h": "140.0"
                     },
                     "class": "complex",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -336,7 +350,7 @@
                     },
                     "class": "macromolecule",
                     "label": "STAT1α",
-                    "statesandinfos": [
+                    "unitInformationArray": [
                         {
                             "id": "glyph1a",
                             "clazz": "unit of information",
@@ -349,7 +363,9 @@
                                 "w": "53.0",
                                 "h": "18.0"
                             }
-                        },
+                        }
+                    ],
+                    "stateVariableArray": [
                         {
                             "id": "glyph1b",
                             "clazz": "state variable",
@@ -396,7 +412,7 @@
                     },
                     "class": "nucleic acid feature",
                     "label": "IRF1-GAS",
-                    "statesandinfos": [
+                    "unitInformationArray": [
                         {
                             "id": "glyph2a",
                             "clazz": "unit of information",
@@ -411,6 +427,7 @@
                             }
                         }
                     ],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -427,7 +444,8 @@
                         "h": "20.0"
                     },
                     "class": "association",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }

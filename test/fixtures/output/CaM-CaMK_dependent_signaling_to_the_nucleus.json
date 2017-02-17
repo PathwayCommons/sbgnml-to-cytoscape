@@ -12,7 +12,8 @@
                     },
                     "class": "compartment",
                     "label": "neuron",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -30,7 +31,8 @@
                     },
                     "class": "compartment",
                     "label": "nucleus",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph0",
                     "ports": []
                 }
@@ -48,7 +50,7 @@
                     },
                     "class": "macromolecule",
                     "label": "Cav1",
-                    "statesandinfos": [
+                    "unitInformationArray": [
                         {
                             "id": "glyph36a",
                             "clazz": "unit of information",
@@ -63,6 +65,7 @@
                             }
                         }
                     ],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -80,7 +83,8 @@
                     },
                     "class": "perturbing agent",
                     "label": "depolarization",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -97,7 +101,8 @@
                         "h": "24.0"
                     },
                     "class": "process",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": [
                         {
@@ -126,7 +131,8 @@
                     },
                     "class": "simple chemical",
                     "label": "Ca++",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -144,7 +150,8 @@
                     },
                     "class": "simple chemical",
                     "label": "Ca++",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph0",
                     "ports": []
                 }
@@ -162,7 +169,8 @@
                     },
                     "class": "macromolecule",
                     "label": "CaM",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph0",
                     "ports": []
                 }
@@ -179,7 +187,8 @@
                         "h": "24.0"
                     },
                     "class": "association",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph0",
                     "ports": [
                         {
@@ -208,7 +217,8 @@
                     },
                     "class": "macromolecule",
                     "label": "γCaMKII",
-                    "statesandinfos": [
+                    "unitInformationArray": [],
+                    "stateVariableArray": [
                         {
                             "id": "glyph24a",
                             "clazz": "state variable",
@@ -254,7 +264,8 @@
                     },
                     "class": "complex",
                     "label": "Ca/CaM complex",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph0",
                     "ports": []
                 }
@@ -272,7 +283,8 @@
                     },
                     "class": "macromolecule",
                     "label": "CaM",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph10",
                     "ports": []
                 }
@@ -290,7 +302,8 @@
                     },
                     "class": "simple chemical",
                     "label": "Ca++",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph10",
                     "ports": []
                 }
@@ -307,7 +320,8 @@
                         "h": "24.0"
                     },
                     "class": "association",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph0",
                     "ports": [
                         {
@@ -336,7 +350,8 @@
                     },
                     "class": "macromolecule",
                     "label": "CaN",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph0",
                     "ports": []
                 }
@@ -353,7 +368,8 @@
                         "h": "24.0"
                     },
                     "class": "process",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph0",
                     "ports": [
                         {
@@ -382,7 +398,8 @@
                     },
                     "class": "complex",
                     "label": "Ca/Cam/gCaMKII complex",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph0",
                     "ports": []
                 }
@@ -400,7 +417,8 @@
                     },
                     "class": "macromolecule",
                     "label": "γCaMKII",
-                    "statesandinfos": [
+                    "unitInformationArray": [],
+                    "stateVariableArray": [
                         {
                             "id": "glyph23a",
                             "clazz": "state variable",
@@ -445,7 +463,8 @@
                     },
                     "class": "complex",
                     "label": "Ca/CaM complex",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph8",
                     "ports": []
                 }
@@ -463,7 +482,8 @@
                     },
                     "class": "simple chemical",
                     "label": "Ca++",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph13",
                     "ports": []
                 }
@@ -481,7 +501,8 @@
                     },
                     "class": "macromolecule",
                     "label": "CaM",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph13",
                     "ports": []
                 }
@@ -498,7 +519,8 @@
                         "h": "24.0"
                     },
                     "class": "process",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph0",
                     "ports": [
                         {
@@ -527,7 +549,8 @@
                     },
                     "class": "complex",
                     "label": "Ca/Cam/gCaMKII complex",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph1",
                     "ports": []
                 }
@@ -545,7 +568,8 @@
                     },
                     "class": "macromolecule",
                     "label": "γCaMKII",
-                    "statesandinfos": [
+                    "unitInformationArray": [],
+                    "stateVariableArray": [
                         {
                             "id": "glyph25a",
                             "clazz": "state variable",
@@ -590,7 +614,8 @@
                     },
                     "class": "complex",
                     "label": "Ca/CaM complex",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph3",
                     "ports": []
                 }
@@ -608,7 +633,8 @@
                     },
                     "class": "simple chemical",
                     "label": "Ca++",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph15",
                     "ports": []
                 }
@@ -626,7 +652,8 @@
                     },
                     "class": "macromolecule",
                     "label": "CaM",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph15",
                     "ports": []
                 }
@@ -644,7 +671,8 @@
                     },
                     "class": "macromolecule",
                     "label": "γCaMKII",
-                    "statesandinfos": [
+                    "unitInformationArray": [],
+                    "stateVariableArray": [
                         {
                             "id": "glyph22a",
                             "clazz": "state variable",
@@ -688,7 +716,8 @@
                         "h": "24.0"
                     },
                     "class": "dissociation",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph1",
                     "ports": [
                         {
@@ -717,7 +746,8 @@
                     },
                     "class": "macromolecule",
                     "label": "CaMKK",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph1",
                     "ports": []
                 }
@@ -734,7 +764,8 @@
                         "h": "24.0"
                     },
                     "class": "association",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph1",
                     "ports": [
                         {
@@ -763,7 +794,8 @@
                     },
                     "class": "complex",
                     "label": "Ca/Cam/gCaMKK complex",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph1",
                     "ports": []
                 }
@@ -781,7 +813,8 @@
                     },
                     "class": "complex",
                     "label": "Ca/CaM complex",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph2",
                     "ports": []
                 }
@@ -799,7 +832,8 @@
                     },
                     "class": "macromolecule",
                     "label": "CaM",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph11",
                     "ports": []
                 }
@@ -817,7 +851,8 @@
                     },
                     "class": "simple chemical",
                     "label": "Ca++",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph11",
                     "ports": []
                 }
@@ -835,7 +870,8 @@
                     },
                     "class": "macromolecule",
                     "label": "CaMKK",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph2",
                     "ports": []
                 }
@@ -853,7 +889,8 @@
                     },
                     "class": "complex",
                     "label": "Ca/CaM complex",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph1",
                     "ports": []
                 }
@@ -871,7 +908,8 @@
                     },
                     "class": "simple chemical",
                     "label": "Ca++",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph17",
                     "ports": []
                 }
@@ -889,7 +927,8 @@
                     },
                     "class": "macromolecule",
                     "label": "CaM",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph17",
                     "ports": []
                 }
@@ -907,7 +946,8 @@
                     },
                     "class": "macromolecule",
                     "label": "CaMKIV",
-                    "statesandinfos": [
+                    "unitInformationArray": [],
+                    "stateVariableArray": [
                         {
                             "id": "glyph33a",
                             "clazz": "state variable",
@@ -938,7 +978,8 @@
                         "h": "24.0"
                     },
                     "class": "association",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph1",
                     "ports": [
                         {
@@ -967,7 +1008,8 @@
                     },
                     "class": "macromolecule",
                     "label": "CREB",
-                    "statesandinfos": [
+                    "unitInformationArray": [],
+                    "stateVariableArray": [
                         {
                             "id": "glyph32a",
                             "clazz": "state variable",
@@ -996,7 +1038,8 @@
                         "h": "24.0"
                     },
                     "class": "process",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph1",
                     "ports": [
                         {
@@ -1020,7 +1063,8 @@
                     },
                     "class": "macromolecule",
                     "label": "CREB",
-                    "statesandinfos": [
+                    "unitInformationArray": [],
+                    "stateVariableArray": [
                         {
                             "id": "glyph28a",
                             "clazz": "state variable",
@@ -1052,7 +1096,8 @@
                     },
                     "class": "phenotype",
                     "label": "Gene expression",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph1",
                     "ports": []
                 }
@@ -1070,7 +1115,8 @@
                     },
                     "class": "complex",
                     "label": "Ca/Cam/gCaMKII complex",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph0",
                     "ports": []
                 }
@@ -1088,7 +1134,8 @@
                     },
                     "class": "macromolecule",
                     "label": "γCaMKII",
-                    "statesandinfos": [
+                    "unitInformationArray": [],
+                    "stateVariableArray": [
                         {
                             "id": "glyph20a",
                             "clazz": "state variable",
@@ -1134,7 +1181,8 @@
                     },
                     "class": "complex",
                     "label": "Ca/CaM complex",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph5",
                     "ports": []
                 }
@@ -1152,7 +1200,8 @@
                     },
                     "class": "macromolecule",
                     "label": "CaM",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph18",
                     "ports": []
                 }
@@ -1170,7 +1219,8 @@
                     },
                     "class": "simple chemical",
                     "label": "Ca++",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph18",
                     "ports": []
                 }
@@ -1188,7 +1238,8 @@
                     },
                     "class": "complex",
                     "label": "Ca/Cam/gCaMKII complex",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph0",
                     "ports": []
                 }
@@ -1206,7 +1257,8 @@
                     },
                     "class": "complex",
                     "label": "Ca/CaM complex",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph7",
                     "ports": []
                 }
@@ -1224,7 +1276,8 @@
                     },
                     "class": "simple chemical",
                     "label": "Ca++",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph16",
                     "ports": []
                 }
@@ -1242,7 +1295,8 @@
                     },
                     "class": "macromolecule",
                     "label": "CaM",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph16",
                     "ports": []
                 }
@@ -1260,7 +1314,8 @@
                     },
                     "class": "macromolecule",
                     "label": "γCaMKII",
-                    "statesandinfos": [
+                    "unitInformationArray": [],
+                    "stateVariableArray": [
                         {
                             "id": "glyph21a",
                             "clazz": "state variable",
@@ -1307,7 +1362,8 @@
                     },
                     "class": "macromolecule",
                     "label": "α/βCaMKII",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph0",
                     "ports": []
                 }
@@ -1324,7 +1380,8 @@
                         "h": "24.0"
                     },
                     "class": "process",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph0",
                     "ports": [
                         {
@@ -1353,7 +1410,8 @@
                     },
                     "class": "complex",
                     "label": "Ca/Cam/gCaMKIV complex",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph1",
                     "ports": []
                 }
@@ -1371,7 +1429,8 @@
                     },
                     "class": "macromolecule",
                     "label": "CaMKIV",
-                    "statesandinfos": [
+                    "unitInformationArray": [],
+                    "stateVariableArray": [
                         {
                             "id": "glyph34a",
                             "clazz": "state variable",
@@ -1403,7 +1462,8 @@
                     },
                     "class": "complex",
                     "label": "Ca/CaM complex",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph4",
                     "ports": []
                 }
@@ -1421,7 +1481,8 @@
                     },
                     "class": "simple chemical",
                     "label": "Ca++",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph14",
                     "ports": []
                 }
@@ -1439,7 +1500,8 @@
                     },
                     "class": "macromolecule",
                     "label": "CaM",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph14",
                     "ports": []
                 }
@@ -1456,7 +1518,8 @@
                         "h": "24.0"
                     },
                     "class": "process",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph1",
                     "ports": [
                         {
@@ -1485,7 +1548,8 @@
                     },
                     "class": "complex",
                     "label": "Ca/Cam/gCaMKIV complex",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph1",
                     "ports": []
                 }
@@ -1503,7 +1567,8 @@
                     },
                     "class": "macromolecule",
                     "label": "CaMKIV",
-                    "statesandinfos": [
+                    "unitInformationArray": [],
+                    "stateVariableArray": [
                         {
                             "id": "glyph29a",
                             "clazz": "state variable",
@@ -1536,7 +1601,8 @@
                     },
                     "class": "complex",
                     "label": "Ca/CaM complex",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph6",
                     "ports": []
                 }
@@ -1554,7 +1620,8 @@
                     },
                     "class": "simple chemical",
                     "label": "Ca++",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph12",
                     "ports": []
                 }
@@ -1572,7 +1639,8 @@
                     },
                     "class": "macromolecule",
                     "label": "CaM",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph12",
                     "ports": []
                 }
@@ -1590,7 +1658,7 @@
                     },
                     "class": "macromolecule",
                     "label": "Cav1",
-                    "statesandinfos": [
+                    "unitInformationArray": [
                         {
                             "id": "glyph26a",
                             "clazz": "unit of information",
@@ -1605,6 +1673,7 @@
                             }
                         }
                     ],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -1621,7 +1690,8 @@
                         "h": "24.0"
                     },
                     "class": "process",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": [
                         {

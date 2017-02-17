@@ -12,7 +12,8 @@
                     },
                     "class": "macromolecule",
                     "label": "hexokinase",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -30,7 +31,8 @@
                     },
                     "class": "simple chemical",
                     "label": "glucose",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -48,7 +50,8 @@
                     },
                     "class": "simple chemical",
                     "label": "ATP",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "clonemarker": true,
                     "ports": []
@@ -66,7 +69,8 @@
                         "h": "20.0"
                     },
                     "class": "process",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -84,7 +88,8 @@
                     },
                     "class": "simple chemical",
                     "label": "ADP",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "clonemarker": true,
                     "ports": []
@@ -103,7 +108,8 @@
                     },
                     "class": "simple chemical",
                     "label": "ADP",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "clonemarker": true,
                     "ports": []
@@ -122,7 +128,8 @@
                     },
                     "class": "simple chemical",
                     "label": "ATP",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "clonemarker": true,
                     "ports": []
@@ -141,7 +148,8 @@
                     },
                     "class": "simple chemical",
                     "label": "glucose 6P",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -159,7 +167,8 @@
                     },
                     "class": "simple chemical",
                     "label": "fructose 6P",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -177,7 +186,8 @@
                     },
                     "class": "macromolecule",
                     "label": "triose-P isomerase",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -195,7 +205,8 @@
                     },
                     "class": "simple chemical",
                     "label": "fructose 1,6P",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -213,7 +224,8 @@
                     },
                     "class": "macromolecule",
                     "label": "glucose-6P isomerase",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -230,7 +242,8 @@
                         "h": "20.0"
                     },
                     "class": "process",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -248,7 +261,8 @@
                     },
                     "class": "macromolecule",
                     "label": "phospho fructokinase",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -265,7 +279,8 @@
                         "h": "20.0"
                     },
                     "class": "process",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -283,7 +298,8 @@
                     },
                     "class": "macromolecule",
                     "label": "adolase",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -300,7 +316,8 @@
                         "h": "20.0"
                     },
                     "class": "process",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -318,7 +335,8 @@
                     },
                     "class": "macromolecule",
                     "label": "GAPDH",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -336,7 +354,8 @@
                     },
                     "class": "simple chemical",
                     "label": "GA-3P",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -354,7 +373,8 @@
                     },
                     "class": "simple chemical",
                     "label": "Pi",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -372,7 +392,8 @@
                     },
                     "class": "simple chemical",
                     "label": "NAD",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -390,7 +411,8 @@
                     },
                     "class": "simple chemical",
                     "label": "H+",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -407,7 +429,8 @@
                         "h": "20.0"
                     },
                     "class": "process",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -425,7 +448,8 @@
                     },
                     "class": "simple chemical",
                     "label": "NADH",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -443,7 +467,8 @@
                     },
                     "class": "macromolecule",
                     "label": "PGK1",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -461,7 +486,8 @@
                     },
                     "class": "macromolecule",
                     "label": "PG mutase",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -479,7 +505,8 @@
                     },
                     "class": "macromolecule",
                     "label": "enolase",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -497,7 +524,8 @@
                     },
                     "class": "macromolecule",
                     "label": "pyruvate kinase",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -515,7 +543,8 @@
                     },
                     "class": "simple chemical",
                     "label": "1,3 BPG",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -533,7 +562,8 @@
                     },
                     "class": "simple chemical",
                     "label": "ADP",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "clonemarker": true,
                     "ports": []
@@ -552,7 +582,8 @@
                     },
                     "class": "simple chemical",
                     "label": "ATP",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "clonemarker": true,
                     "ports": []
@@ -570,7 +601,8 @@
                         "h": "20.0"
                     },
                     "class": "process",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -588,7 +620,8 @@
                     },
                     "class": "simple chemical",
                     "label": "3 PG",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -605,7 +638,8 @@
                         "h": "20.0"
                     },
                     "class": "process",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -623,7 +657,8 @@
                     },
                     "class": "simple chemical",
                     "label": "2 PG",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -641,7 +676,8 @@
                     },
                     "class": "simple chemical",
                     "label": "H2O",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -658,7 +694,8 @@
                         "h": "20.0"
                     },
                     "class": "process",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -676,7 +713,8 @@
                     },
                     "class": "simple chemical",
                     "label": "PEP",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -694,7 +732,8 @@
                     },
                     "class": "simple chemical",
                     "label": "ADP",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "clonemarker": true,
                     "ports": []
@@ -713,7 +752,8 @@
                     },
                     "class": "simple chemical",
                     "label": "ATP",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "clonemarker": true,
                     "ports": []
@@ -731,7 +771,8 @@
                         "h": "20.0"
                     },
                     "class": "process",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -749,7 +790,8 @@
                     },
                     "class": "simple chemical",
                     "label": "pyruvate",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -766,7 +808,8 @@
                         "h": "20.0"
                     },
                     "class": "process",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -784,7 +827,8 @@
                     },
                     "class": "simple chemical",
                     "label": "DHA-P",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }

@@ -12,7 +12,8 @@
                     },
                     "class": "compartment",
                     "label": "cytosol",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -30,7 +31,8 @@
                     },
                     "class": "simple chemical",
                     "label": "PDXate",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "cytosol",
                     "ports": []
                 }
@@ -48,7 +50,8 @@
                     },
                     "class": "simple chemical",
                     "label": "PXLP",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "cytosol",
                     "ports": []
                 }
@@ -66,7 +69,8 @@
                     },
                     "class": "simple chemical",
                     "label": "PDX",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "cytosol",
                     "ports": []
                 }
@@ -84,7 +88,8 @@
                     },
                     "class": "simple chemical",
                     "label": "PXA",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "cytosol",
                     "ports": []
                 }
@@ -102,7 +107,8 @@
                     },
                     "class": "simple chemical",
                     "label": "PDXP",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "cytosol",
                     "ports": []
                 }
@@ -120,7 +126,8 @@
                     },
                     "class": "simple chemical",
                     "label": "PXL",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "cytosol",
                     "ports": []
                 }
@@ -138,7 +145,8 @@
                     },
                     "class": "complex",
                     "label": "2xPNPO:2xFMN",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "cytosol",
                     "ports": []
                 }
@@ -156,7 +164,8 @@
                     },
                     "class": "simple chemical",
                     "label": "FMN",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "http___purl.org_pc2_4_Complex_30d74cbefecaa3b05b9cdfacad488329",
                     "ports": []
                 }
@@ -174,7 +183,8 @@
                     },
                     "class": "macromolecule",
                     "label": "PNPO",
-                    "statesandinfos": [
+                    "unitInformationArray": [],
+                    "stateVariableArray": [
                         {
                             "id": "http___purl.org_pc2_4_Protein_269f509de4b089e3814c8883cba1da2a_http___purl.org_pc2_4_Complex_30d74cbefecaa3b05b9cdfacad488329.state.1",
                             "clazz": "state variable",
@@ -206,7 +216,8 @@
                     },
                     "class": "complex",
                     "label": "2xPDXK:2xZn2+",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "cytosol",
                     "ports": []
                 }
@@ -224,7 +235,8 @@
                     },
                     "class": "simple chemical",
                     "label": "Zn2+",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "http___purl.org_pc2_4_Complex_bb744f8a7e7637ffafa1c8061c4977a0",
                     "ports": []
                 }
@@ -242,7 +254,8 @@
                     },
                     "class": "macromolecule",
                     "label": "PDXK",
-                    "statesandinfos": [
+                    "unitInformationArray": [],
+                    "stateVariableArray": [
                         {
                             "id": "http___purl.org_pc2_4_Protein_1b235ff261fe500a6447d1b99f212fac_http___purl.org_pc2_4_Complex_bb744f8a7e7637ffafa1c8061c4977a0.state.1",
                             "clazz": "state variable",
@@ -274,7 +287,8 @@
                     },
                     "class": "simple chemical",
                     "label": "NH4+",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "cytosol",
                     "ports": []
                 }
@@ -292,7 +306,8 @@
                     },
                     "class": "complex",
                     "label": "2xAOX1:cofactors",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "cytosol",
                     "ports": []
                 }
@@ -310,7 +325,8 @@
                     },
                     "class": "macromolecule",
                     "label": "AOX1",
-                    "statesandinfos": [
+                    "unitInformationArray": [],
+                    "stateVariableArray": [
                         {
                             "id": "http___purl.org_pc2_4_Protein_10eb099b277fbb1b0efe28055d04533c_http___purl.org_pc2_4_Complex_1727e90f52ed647723f8fec499a6df32.state.1",
                             "clazz": "state variable",
@@ -342,7 +358,8 @@
                     },
                     "class": "simple chemical",
                     "label": "(4Fe-4S)(2+)",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "http___purl.org_pc2_4_Complex_1727e90f52ed647723f8fec499a6df32",
                     "ports": []
                 }
@@ -360,7 +377,8 @@
                     },
                     "class": "simple chemical",
                     "label": "FAD",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "http___purl.org_pc2_4_Complex_1727e90f52ed647723f8fec499a6df32",
                     "clonemarker": true,
                     "ports": []
@@ -379,7 +397,8 @@
                     },
                     "class": "simple chemical",
                     "label": "MPT",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "http___purl.org_pc2_4_Complex_1727e90f52ed647723f8fec499a6df32",
                     "ports": []
                 }
@@ -397,7 +416,8 @@
                     },
                     "class": "simple chemical",
                     "label": "PXAP",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "cytosol",
                     "ports": []
                 }
@@ -415,7 +435,8 @@
                     },
                     "class": "simple chemical",
                     "label": "ADP",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "cytosol",
                     "clonemarker": true,
                     "ports": []
@@ -434,7 +455,8 @@
                     },
                     "class": "simple chemical",
                     "label": "ATP",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "cytosol",
                     "clonemarker": true,
                     "ports": []
@@ -453,7 +475,8 @@
                     },
                     "class": "simple chemical",
                     "label": "ATP",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "cytosol",
                     "clonemarker": true,
                     "ports": []
@@ -472,7 +495,8 @@
                     },
                     "class": "simple chemical",
                     "label": "H2O2",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "cytosol",
                     "clonemarker": true,
                     "ports": []
@@ -491,7 +515,8 @@
                     },
                     "class": "simple chemical",
                     "label": "H2O2",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "cytosol",
                     "clonemarker": true,
                     "ports": []
@@ -510,7 +535,8 @@
                     },
                     "class": "simple chemical",
                     "label": "H2O2",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "cytosol",
                     "clonemarker": true,
                     "ports": []
@@ -529,7 +555,8 @@
                     },
                     "class": "simple chemical",
                     "label": "O2",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "cytosol",
                     "clonemarker": true,
                     "ports": []
@@ -548,7 +575,8 @@
                     },
                     "class": "simple chemical",
                     "label": "O2",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "cytosol",
                     "clonemarker": true,
                     "ports": []
@@ -567,7 +595,8 @@
                     },
                     "class": "simple chemical",
                     "label": "H2O",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "cytosol",
                     "clonemarker": true,
                     "ports": []
@@ -586,7 +615,8 @@
                     },
                     "class": "simple chemical",
                     "label": "H2O",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "cytosol",
                     "clonemarker": true,
                     "ports": []
@@ -605,7 +635,8 @@
                     },
                     "class": "simple chemical",
                     "label": "ADP",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "cytosol",
                     "clonemarker": true,
                     "ports": []
@@ -624,7 +655,8 @@
                     },
                     "class": "simple chemical",
                     "label": "ADP",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "cytosol",
                     "clonemarker": true,
                     "ports": []
@@ -643,7 +675,8 @@
                     },
                     "class": "simple chemical",
                     "label": "ATP",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "cytosol",
                     "clonemarker": true,
                     "ports": []
@@ -662,7 +695,8 @@
                     },
                     "class": "simple chemical",
                     "label": "O2",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "cytosol",
                     "clonemarker": true,
                     "ports": []
@@ -680,7 +714,8 @@
                         "h": "15"
                     },
                     "class": "process",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "cytosol",
                     "ports": []
                 }
@@ -697,7 +732,8 @@
                         "h": "15"
                     },
                     "class": "process",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "cytosol",
                     "ports": []
                 }
@@ -714,7 +750,8 @@
                         "h": "15"
                     },
                     "class": "process",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "cytosol",
                     "ports": []
                 }
@@ -731,7 +768,8 @@
                         "h": "15"
                     },
                     "class": "process",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "cytosol",
                     "ports": []
                 }
@@ -748,7 +786,8 @@
                         "h": "15"
                     },
                     "class": "process",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "cytosol",
                     "ports": []
                 }
@@ -765,7 +804,8 @@
                         "h": "15"
                     },
                     "class": "process",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "cytosol",
                     "ports": []
                 }

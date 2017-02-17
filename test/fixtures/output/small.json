@@ -12,7 +12,8 @@
                     },
                     "class": "macromolecule",
                     "label": "CNR1",
-                    "statesandinfos": [
+                    "unitInformationArray": [],
+                    "stateVariableArray": [
                         {
                             "id": "http___pathwaycommons_org_pc2_Protein_e390810ac5c9e1fac8d14e7e3cf20994.info.1",
                             "clazz": "state variable",
@@ -44,7 +45,8 @@
                     },
                     "class": "simple chemical",
                     "label": "Win 55212-2",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -61,7 +63,8 @@
                         "h": "15.0"
                     },
                     "class": "process",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": [
                         {
@@ -90,7 +93,8 @@
                     },
                     "class": "macromolecule",
                     "label": "CNR1",
-                    "statesandinfos": [
+                    "unitInformationArray": [],
+                    "stateVariableArray": [
                         {
                             "id": "http___pathwaycommons_org_pc2_Protein_3c410501913e286019942ef459fe25f7.info.1",
                             "clazz": "state variable",

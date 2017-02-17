@@ -12,7 +12,8 @@
                     },
                     "class": "compartment",
                     "label": "juxtanuclear inclusion",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -29,7 +30,8 @@
                         "h": "160.0"
                     },
                     "class": "complex",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph0",
                     "ports": []
                 }
@@ -47,7 +49,8 @@
                     },
                     "class": "macromolecule",
                     "label": "Hsp70",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph35",
                     "ports": []
                 }
@@ -65,7 +68,8 @@
                     },
                     "class": "macromolecule",
                     "label": "misfolded protein",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph35",
                     "ports": []
                 }
@@ -83,7 +87,8 @@
                     },
                     "class": "compartment",
                     "label": "nucleus",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -100,7 +105,8 @@
                         "h": "60.0"
                     },
                     "class": "source and sink",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph1",
                     "ports": []
                 }
@@ -117,7 +123,8 @@
                         "h": "240.0"
                     },
                     "class": "complex",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph1",
                     "ports": []
                 }
@@ -135,7 +142,8 @@
                     },
                     "class": "macromolecule",
                     "label": "Hsp70",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph38",
                     "ports": []
                 }
@@ -153,7 +161,8 @@
                     },
                     "class": "macromolecule",
                     "label": "misfolded protein",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph38",
                     "ports": []
                 }
@@ -171,7 +180,7 @@
                     },
                     "class": "macromolecule multimer",
                     "label": "Sis1",
-                    "statesandinfos": [
+                    "unitInformationArray": [
                         {
                             "id": "glyph41a",
                             "clazz": "unit of information",
@@ -186,6 +195,7 @@
                             }
                         }
                     ],
+                    "stateVariableArray": [],
                     "parent": "glyph38",
                     "ports": []
                 }
@@ -202,7 +212,8 @@
                         "h": "24.0"
                     },
                     "class": "dissociation",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph1",
                     "ports": []
                 }
@@ -220,7 +231,8 @@
                     },
                     "class": "macromolecule",
                     "label": "misfolded protein",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph1",
                     "ports": []
                 }
@@ -237,7 +249,8 @@
                         "h": "25.0"
                     },
                     "class": "process",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph1",
                     "ports": []
                 }
@@ -255,7 +268,8 @@
                     },
                     "class": "macromolecule",
                     "label": "Hsp70",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph1",
                     "ports": []
                 }
@@ -272,7 +286,8 @@
                         "h": "25.0"
                     },
                     "class": "process",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph1",
                     "ports": []
                 }
@@ -290,7 +305,7 @@
                     },
                     "class": "macromolecule multimer",
                     "label": "Sis1",
-                    "statesandinfos": [
+                    "unitInformationArray": [
                         {
                             "id": "glyph40a",
                             "clazz": "unit of information",
@@ -305,6 +320,7 @@
                             }
                         }
                     ],
+                    "stateVariableArray": [],
                     "parent": "glyph1",
                     "ports": []
                 }
@@ -321,7 +337,8 @@
                         "h": "25.0"
                     },
                     "class": "process",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph1",
                     "ports": []
                 }
@@ -339,7 +356,8 @@
                     },
                     "class": "macromolecule",
                     "label": "E3(San1)",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph1",
                     "ports": []
                 }
@@ -357,7 +375,8 @@
                     },
                     "class": "complex",
                     "label": "nuclear proteasome",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph1",
                     "ports": []
                 }
@@ -374,7 +393,8 @@
                         "h": "42.0"
                     },
                     "class": "and",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph1",
                     "ports": []
                 }
@@ -392,7 +412,8 @@
                     },
                     "class": "macromolecule",
                     "label": "E3",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -409,7 +430,8 @@
                         "h": "180.0"
                     },
                     "class": "complex",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -427,7 +449,8 @@
                     },
                     "class": "macromolecule",
                     "label": "PolyQ aggregates",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph2",
                     "ports": []
                 }
@@ -445,7 +468,7 @@
                     },
                     "class": "macromolecule multimer",
                     "label": "Sis1",
-                    "statesandinfos": [
+                    "unitInformationArray": [
                         {
                             "id": "glyph9a",
                             "clazz": "unit of information",
@@ -460,6 +483,7 @@
                             }
                         }
                     ],
+                    "stateVariableArray": [],
                     "parent": "glyph2",
                     "ports": []
                 }
@@ -477,7 +501,8 @@
                     },
                     "class": "macromolecule",
                     "label": "importin",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -495,7 +520,8 @@
                     },
                     "class": "macromolecule",
                     "label": "Hsp70",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -513,7 +539,7 @@
                     },
                     "class": "macromolecule multimer",
                     "label": "Sis1",
-                    "statesandinfos": [
+                    "unitInformationArray": [
                         {
                             "id": "glyph39a",
                             "clazz": "unit of information",
@@ -528,6 +554,7 @@
                             }
                         }
                     ],
+                    "stateVariableArray": [],
                     "parent": "",
                     "clonemarker": true,
                     "ports": []
@@ -546,7 +573,8 @@
                     },
                     "class": "macromolecule",
                     "label": "PolyQ aggregates",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -563,7 +591,8 @@
                         "h": "24.0"
                     },
                     "class": "association",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -581,7 +610,7 @@
                     },
                     "class": "macromolecule multimer",
                     "label": "Sis1",
-                    "statesandinfos": [
+                    "unitInformationArray": [
                         {
                             "id": "glyph10a",
                             "clazz": "unit of information",
@@ -596,6 +625,7 @@
                             }
                         }
                     ],
+                    "stateVariableArray": [],
                     "parent": "",
                     "clonemarker": true,
                     "ports": []
@@ -613,7 +643,8 @@
                         "h": "24.0"
                     },
                     "class": "association",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -631,7 +662,8 @@
                     },
                     "class": "simple chemical",
                     "label": "Ub",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -648,7 +680,8 @@
                         "h": "160.0"
                     },
                     "class": "complex",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -666,7 +699,8 @@
                     },
                     "class": "macromolecule",
                     "label": "misfolded protein",
-                    "statesandinfos": [
+                    "unitInformationArray": [],
+                    "stateVariableArray": [
                         {
                             "id": "glyph13a",
                             "clazz": "state variable",
@@ -696,7 +730,8 @@
                     },
                     "class": "macromolecule",
                     "label": "Hsp70",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph5",
                     "ports": []
                 }
@@ -713,7 +748,8 @@
                         "h": "25.0"
                     },
                     "class": "process",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -730,7 +766,8 @@
                         "h": "240.0"
                     },
                     "class": "complex",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -748,7 +785,8 @@
                     },
                     "class": "macromolecule",
                     "label": "Hsp70",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph3",
                     "ports": []
                 }
@@ -766,7 +804,8 @@
                     },
                     "class": "macromolecule",
                     "label": "misfolded protein",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph3",
                     "ports": []
                 }
@@ -784,7 +823,7 @@
                     },
                     "class": "macromolecule multimer",
                     "label": "Sis1",
-                    "statesandinfos": [
+                    "unitInformationArray": [
                         {
                             "id": "glyph8a",
                             "clazz": "unit of information",
@@ -799,6 +838,7 @@
                             }
                         }
                     ],
+                    "stateVariableArray": [],
                     "parent": "glyph3",
                     "ports": []
                 }
@@ -815,7 +855,8 @@
                         "h": "25.0"
                     },
                     "class": "process",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -832,7 +873,8 @@
                         "h": "25.0"
                     },
                     "class": "process",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -850,7 +892,8 @@
                     },
                     "class": "complex",
                     "label": "cytosolic proteasome",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -867,7 +910,8 @@
                         "h": "160.0"
                     },
                     "class": "complex",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
@@ -885,7 +929,8 @@
                     },
                     "class": "macromolecule",
                     "label": "misfolded protein",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph4",
                     "ports": []
                 }
@@ -903,7 +948,8 @@
                     },
                     "class": "macromolecule",
                     "label": "Hsp70",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "glyph4",
                     "ports": []
                 }
@@ -920,7 +966,8 @@
                         "h": "24.0"
                     },
                     "class": "uncertain process",
-                    "statesandinfos": [],
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
                     "parent": "",
                     "ports": []
                 }
