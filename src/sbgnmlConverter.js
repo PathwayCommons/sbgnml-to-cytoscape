@@ -147,7 +147,6 @@ var sbgnmlConverter = {
   },
   stateAndInfoProp: function (ele, parentBbox) {
     var self = this;
-    // var stateAndInfoArray = [];
     var stateVariableArray = [];
     var unitInformationArray = [];
 
@@ -166,7 +165,6 @@ var sbgnmlConverter = {
         };
         info.bbox = self.stateAndInfoBboxProp(glyph, parentBbox);
         unitInformationArray.push(info);
-        // stateAndInfoArray.push(info);
       } else if (glyph.className === 'state variable') {
         info.id = glyph.getAttribute('id') || undefined;
         info.clazz = glyph.className || undefined;
@@ -179,13 +177,10 @@ var sbgnmlConverter = {
         };
         info.bbox = self.stateAndInfoBboxProp(glyph, parentBbox);
         stateVariableArray.push(info);
-        // stateAndInfoArray.push(info);
       }
     }
 
-
-    // return stateAndInfoArray;
-    return {'unitInformationArray': unitInformationArray, 'stateVariableArray': stateVariableArray};
+    return {'unitsOfInformation': unitInformationArray, 'stateVariables': stateVariableArray};
   },
   addParentInfoToNode: function (ele, nodeObj, parent, compartments) {
     var self = this;
@@ -232,9 +227,8 @@ var sbgnmlConverter = {
     var label = self.findChildNode(ele, 'label');
     nodeObj.label = (label && label.getAttribute('text')) || undefined;
     // add state and info box information
-    // nodeObj.statesandinfos = self.stateAndInfoProp(ele, nodeObj.bbox);
-    nodeObj.unitInformationArray = self.stateAndInfoProp(ele, nodeObj.bbox).unitInformationArray;
-    nodeObj.stateVariableArray = self.stateAndInfoProp(ele, nodeObj.bbox).stateVariableArray;
+    nodeObj.unitInformationArray = self.stateAndInfoProp(ele, nodeObj.bbox).unitsOfInformation;
+    nodeObj.stateVariableArray = self.stateAndInfoProp(ele, nodeObj.bbox).stateVariables;
     // adding parent information
     self.addParentInfoToNode(ele, nodeObj, parent, compartments);
 
