@@ -2,543 +2,621 @@
     "nodes": [
         {
             "data": {
-                "id": "glyph4",
-                "bbox": {
-                    "x": 318.1589165885067,
-                    "y": 162.59898679973332,
-                    "w": "60.0",
-                    "h": "60.0"
-                },
-                "class": "simple chemical",
-                "label": "ATP",
-                "statesandinfos": [],
-                "parent": "",
-                "clonemarker": true,
-                "ports": []
+                "sbgn": {
+                    "id": "glyph4",
+                    "bbox": {
+                        "x": 318.1589165885067,
+                        "y": 162.59898679973332,
+                        "w": "60.0",
+                        "h": "60.0"
+                    },
+                    "class": "simple chemical",
+                    "label": "ATP",
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
+                    "parent": "",
+                    "clonemarker": true,
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph5",
-                "bbox": {
-                    "x": 368.7150698032765,
-                    "y": 353.3425311332147,
-                    "w": "60.0",
-                    "h": "60.0"
-                },
-                "class": "simple chemical",
-                "label": "ADP",
-                "statesandinfos": [],
-                "parent": "",
-                "clonemarker": true,
-                "ports": []
+                "sbgn": {
+                    "id": "glyph5",
+                    "bbox": {
+                        "x": 368.7150698032765,
+                        "y": 353.3425311332147,
+                        "w": "60.0",
+                        "h": "60.0"
+                    },
+                    "class": "simple chemical",
+                    "label": "ADP",
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
+                    "parent": "",
+                    "clonemarker": true,
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph7",
-                "bbox": {
-                    "x": 423.4601247086921,
-                    "y": 103.68144699737059,
-                    "w": "60.0",
-                    "h": "60.0"
-                },
-                "class": "simple chemical",
-                "label": "ATP",
-                "statesandinfos": [],
-                "parent": "",
-                "clonemarker": true,
-                "ports": []
+                "sbgn": {
+                    "id": "glyph7",
+                    "bbox": {
+                        "x": 423.4601247086921,
+                        "y": 103.68144699737059,
+                        "w": "60.0",
+                        "h": "60.0"
+                    },
+                    "class": "simple chemical",
+                    "label": "ATP",
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
+                    "parent": "",
+                    "clonemarker": true,
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph6",
-                "bbox": {
-                    "x": 514.8286564804162,
-                    "y": 40.16169718646756,
-                    "w": "60.0",
-                    "h": "60.0"
-                },
-                "class": "simple chemical",
-                "label": "ADP",
-                "statesandinfos": [],
-                "parent": "",
-                "clonemarker": true,
-                "ports": []
+                "sbgn": {
+                    "id": "glyph6",
+                    "bbox": {
+                        "x": 514.8286564804162,
+                        "y": 40.16169718646756,
+                        "w": "60.0",
+                        "h": "60.0"
+                    },
+                    "class": "simple chemical",
+                    "label": "ADP",
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
+                    "parent": "",
+                    "clonemarker": true,
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph10",
-                "bbox": {
-                    "x": 588.775693273037,
-                    "y": 410.5318087906144,
-                    "w": "60.0",
-                    "h": "60.0"
-                },
-                "class": "simple chemical",
-                "label": "ATP",
-                "statesandinfos": [],
-                "parent": "",
-                "clonemarker": true,
-                "ports": []
+                "sbgn": {
+                    "id": "glyph10",
+                    "bbox": {
+                        "x": 588.775693273037,
+                        "y": 410.5318087906144,
+                        "w": "60.0",
+                        "h": "60.0"
+                    },
+                    "class": "simple chemical",
+                    "label": "ATP",
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
+                    "parent": "",
+                    "clonemarker": true,
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph9",
-                "bbox": {
-                    "x": 497.6859428037237,
-                    "y": 352.2241646137692,
-                    "w": "60.0",
-                    "h": "60.0"
-                },
-                "class": "simple chemical",
-                "label": "ADP",
-                "statesandinfos": [],
-                "parent": "",
-                "clonemarker": true,
-                "ports": []
+                "sbgn": {
+                    "id": "glyph9",
+                    "bbox": {
+                        "x": 497.6859428037237,
+                        "y": 352.2241646137692,
+                        "w": "60.0",
+                        "h": "60.0"
+                    },
+                    "class": "simple chemical",
+                    "label": "ADP",
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
+                    "parent": "",
+                    "clonemarker": true,
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph2",
-                "bbox": {
-                    "x": 467.18302213209245,
-                    "y": 240.2873064873903,
-                    "w": "100.0",
-                    "h": "60.0"
-                },
-                "class": "macromolecule",
-                "label": "RAF",
-                "statesandinfos": [
-                    {
-                        "id": "glyph2a",
-                        "clazz": "state variable",
-                        "state": {
-                            "value": "P"
-                        },
-                        "bbox": {
-                            "x": 0,
-                            "y": 50,
-                            "w": "25.0",
-                            "h": "22.0"
+                "sbgn": {
+                    "id": "glyph2",
+                    "bbox": {
+                        "x": 467.18302213209245,
+                        "y": 240.2873064873903,
+                        "w": "100.0",
+                        "h": "60.0"
+                    },
+                    "class": "macromolecule",
+                    "label": "RAF",
+                    "unitInformationArray": [],
+                    "stateVariableArray": [
+                        {
+                            "id": "glyph2a",
+                            "clazz": "state variable",
+                            "state": {
+                                "value": "P"
+                            },
+                            "bbox": {
+                                "x": 0,
+                                "y": 50,
+                                "w": "25.0",
+                                "h": "22.0"
+                            }
                         }
-                    }
-                ],
-                "parent": "",
-                "ports": []
+                    ],
+                    "parent": "",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph18",
-                "bbox": {
-                    "x": 944.040949176361,
-                    "y": 284.0657446868406,
-                    "w": "60.0",
-                    "h": "60.0"
-                },
-                "class": "simple chemical",
-                "label": "ADP",
-                "statesandinfos": [],
-                "parent": "",
-                "clonemarker": true,
-                "ports": []
+                "sbgn": {
+                    "id": "glyph18",
+                    "bbox": {
+                        "x": 944.040949176361,
+                        "y": 284.0657446868406,
+                        "w": "60.0",
+                        "h": "60.0"
+                    },
+                    "class": "simple chemical",
+                    "label": "ADP",
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
+                    "parent": "",
+                    "clonemarker": true,
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph16",
-                "bbox": {
-                    "x": 689.1314585303767,
-                    "y": 482.44467100584745,
-                    "w": "60.0",
-                    "h": "60.0"
-                },
-                "class": "simple chemical",
-                "label": "ADP",
-                "statesandinfos": [],
-                "parent": "",
-                "clonemarker": true,
-                "ports": []
+                "sbgn": {
+                    "id": "glyph16",
+                    "bbox": {
+                        "x": 689.1314585303767,
+                        "y": 482.44467100584745,
+                        "w": "60.0",
+                        "h": "60.0"
+                    },
+                    "class": "simple chemical",
+                    "label": "ADP",
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
+                    "parent": "",
+                    "clonemarker": true,
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph15",
-                "bbox": {
-                    "x": 882.8443326294546,
-                    "y": 482.5246268128043,
-                    "w": "60.0",
-                    "h": "60.0"
-                },
-                "class": "simple chemical",
-                "label": "ATP",
-                "statesandinfos": [],
-                "parent": "",
-                "clonemarker": true,
-                "ports": []
+                "sbgn": {
+                    "id": "glyph15",
+                    "bbox": {
+                        "x": 882.8443326294546,
+                        "y": 482.5246268128043,
+                        "w": "60.0",
+                        "h": "60.0"
+                    },
+                    "class": "simple chemical",
+                    "label": "ATP",
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
+                    "parent": "",
+                    "clonemarker": true,
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph17",
-                "bbox": {
-                    "x": 759.9810408902129,
-                    "y": 220.58540441014577,
-                    "w": "60.0",
-                    "h": "60.0"
-                },
-                "class": "simple chemical",
-                "label": "ATP",
-                "statesandinfos": [],
-                "parent": "",
-                "clonemarker": true,
-                "ports": []
+                "sbgn": {
+                    "id": "glyph17",
+                    "bbox": {
+                        "x": 759.9810408902129,
+                        "y": 220.58540441014577,
+                        "w": "60.0",
+                        "h": "60.0"
+                    },
+                    "class": "simple chemical",
+                    "label": "ATP",
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
+                    "parent": "",
+                    "clonemarker": true,
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph12",
-                "bbox": {
-                    "x": 722.5240088762721,
-                    "y": 352.770069365478,
-                    "w": "100.0",
-                    "h": "60.0"
-                },
-                "class": "macromolecule",
-                "label": "MEK",
-                "statesandinfos": [
-                    {
-                        "id": "glyph12a",
-                        "clazz": "state variable",
-                        "state": {
-                            "value": "2P"
-                        },
-                        "bbox": {
-                            "x": 0,
-                            "y": 50,
-                            "w": "32.0",
-                            "h": "22.0"
+                "sbgn": {
+                    "id": "glyph12",
+                    "bbox": {
+                        "x": 722.5240088762721,
+                        "y": 352.770069365478,
+                        "w": "100.0",
+                        "h": "60.0"
+                    },
+                    "class": "macromolecule",
+                    "label": "MEK",
+                    "unitInformationArray": [],
+                    "stateVariableArray": [
+                        {
+                            "id": "glyph12a",
+                            "clazz": "state variable",
+                            "state": {
+                                "value": "2P"
+                            },
+                            "bbox": {
+                                "x": 0,
+                                "y": 50,
+                                "w": "32.0",
+                                "h": "22.0"
+                            }
                         }
-                    }
-                ],
-                "parent": "",
-                "ports": []
+                    ],
+                    "parent": "",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph19",
-                "bbox": {
-                    "x": 887.0312955929699,
-                    "y": 188.01104320899924,
-                    "w": "100.0",
-                    "h": "60.0"
-                },
-                "class": "macromolecule",
-                "label": "ERK",
-                "statesandinfos": [
-                    {
-                        "id": "glyph19a",
-                        "clazz": "state variable",
-                        "state": {
-                            "value": "2P"
-                        },
-                        "bbox": {
-                            "x": -25,
-                            "y": 50,
-                            "w": "32.0",
-                            "h": "22.0"
+                "sbgn": {
+                    "id": "glyph19",
+                    "bbox": {
+                        "x": 887.0312955929699,
+                        "y": 188.01104320899924,
+                        "w": "100.0",
+                        "h": "60.0"
+                    },
+                    "class": "macromolecule",
+                    "label": "ERK",
+                    "unitInformationArray": [],
+                    "stateVariableArray": [
+                        {
+                            "id": "glyph19a",
+                            "clazz": "state variable",
+                            "state": {
+                                "value": "2P"
+                            },
+                            "bbox": {
+                                "x": -25,
+                                "y": 50,
+                                "w": "32.0",
+                                "h": "22.0"
+                            }
                         }
-                    }
-                ],
-                "parent": "",
-                "ports": []
+                    ],
+                    "parent": "",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph20",
-                "bbox": {
-                    "x": 971.0567176507191,
-                    "y": 84.6685272739719,
-                    "w": "100.0",
-                    "h": "60.0"
-                },
-                "class": "tag",
-                "label": "ERK",
-                "statesandinfos": [],
-                "parent": "",
-                "ports": []
+                "sbgn": {
+                    "id": "glyph20",
+                    "bbox": {
+                        "x": 971.0567176507191,
+                        "y": 84.6685272739719,
+                        "w": "100.0",
+                        "h": "60.0"
+                    },
+                    "class": "tag",
+                    "label": "ERK",
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
+                    "parent": "",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph1",
-                "bbox": {
-                    "x": 213.55056132706864,
-                    "y": 236.18933213306605,
-                    "w": "100.0",
-                    "h": "60.0"
-                },
-                "class": "macromolecule",
-                "label": "RAS",
-                "statesandinfos": [
-                    {
-                        "id": "glyph1a",
-                        "clazz": "state variable",
-                        "state": {
-                            "value": "active"
-                        },
-                        "bbox": {
-                            "x": 0,
-                            "y": 50,
-                            "w": "50.0",
-                            "h": "26.0"
+                "sbgn": {
+                    "id": "glyph1",
+                    "bbox": {
+                        "x": 213.55056132706864,
+                        "y": 236.18933213306605,
+                        "w": "100.0",
+                        "h": "60.0"
+                    },
+                    "class": "macromolecule",
+                    "label": "RAS",
+                    "unitInformationArray": [],
+                    "stateVariableArray": [
+                        {
+                            "id": "glyph1a",
+                            "clazz": "state variable",
+                            "state": {
+                                "value": "active"
+                            },
+                            "bbox": {
+                                "x": 0,
+                                "y": 50,
+                                "w": "50.0",
+                                "h": "26.0"
+                            }
                         }
-                    }
-                ],
-                "parent": "",
-                "ports": []
+                    ],
+                    "parent": "",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph0",
-                "bbox": {
-                    "x": 60.134389512288635,
-                    "y": 200.02587224541605,
-                    "w": "100.0",
-                    "h": "60.0"
-                },
-                "class": "tag",
-                "label": "RAS",
-                "statesandinfos": [],
-                "parent": "",
-                "ports": []
+                "sbgn": {
+                    "id": "glyph0",
+                    "bbox": {
+                        "x": 60.134389512288635,
+                        "y": 200.02587224541605,
+                        "w": "100.0",
+                        "h": "60.0"
+                    },
+                    "class": "tag",
+                    "label": "RAS",
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
+                    "parent": "",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph24",
-                "bbox": {
-                    "x": 607.5584862953788,
-                    "y": 216.36466489184716,
-                    "w": "100.0",
-                    "h": "60.0"
-                },
-                "class": "macromolecule",
-                "label": "MEK",
-                "statesandinfos": [
-                    {
-                        "id": "glyph24a",
-                        "clazz": "state variable",
-                        "state": {
-                            "value": "P"
-                        },
-                        "bbox": {
-                            "x": -25,
-                            "y": 50,
-                            "w": "25.0",
-                            "h": "22.0"
+                "sbgn": {
+                    "id": "glyph24",
+                    "bbox": {
+                        "x": 607.5584862953788,
+                        "y": 216.36466489184716,
+                        "w": "100.0",
+                        "h": "60.0"
+                    },
+                    "class": "macromolecule",
+                    "label": "MEK",
+                    "unitInformationArray": [],
+                    "stateVariableArray": [
+                        {
+                            "id": "glyph24a",
+                            "clazz": "state variable",
+                            "state": {
+                                "value": "P"
+                            },
+                            "bbox": {
+                                "x": -25,
+                                "y": 50,
+                                "w": "25.0",
+                                "h": "22.0"
+                            }
                         }
-                    }
-                ],
-                "parent": "",
-                "ports": []
+                    ],
+                    "parent": "",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph11",
-                "bbox": {
-                    "x": 592.6185230656652,
-                    "y": 313.4502085225929,
-                    "w": "20.0",
-                    "h": "20.0"
-                },
-                "class": "process",
-                "statesandinfos": [],
-                "parent": "",
-                "ports": []
+                "sbgn": {
+                    "id": "glyph11",
+                    "bbox": {
+                        "x": 592.6185230656652,
+                        "y": 313.4502085225929,
+                        "w": "20.0",
+                        "h": "20.0"
+                    },
+                    "class": "process",
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
+                    "parent": "",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph25",
-                "bbox": {
-                    "x": 247.4431965319236,
-                    "y": 338.29565236558483,
-                    "w": "100.0",
-                    "h": "60.0"
-                },
-                "class": "macromolecule",
-                "label": "RAF",
-                "statesandinfos": [
-                    {
-                        "id": "glyph25a",
-                        "clazz": "state variable",
-                        "state": {},
-                        "bbox": {
-                            "x": 0,
-                            "y": 50,
-                            "w": "20.0",
-                            "h": "22.0"
+                "sbgn": {
+                    "id": "glyph25",
+                    "bbox": {
+                        "x": 247.4431965319236,
+                        "y": 338.29565236558483,
+                        "w": "100.0",
+                        "h": "60.0"
+                    },
+                    "class": "macromolecule",
+                    "label": "RAF",
+                    "unitInformationArray": [],
+                    "stateVariableArray": [
+                        {
+                            "id": "glyph25a",
+                            "clazz": "state variable",
+                            "state": {},
+                            "bbox": {
+                                "x": 0,
+                                "y": 50,
+                                "w": "20.0",
+                                "h": "22.0"
+                            }
                         }
-                    }
-                ],
-                "parent": "",
-                "ports": []
+                    ],
+                    "parent": "",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph3",
-                "bbox": {
-                    "x": 337.77918025112933,
-                    "y": 259.13454532846924,
-                    "w": "20.0",
-                    "h": "20.0"
-                },
-                "class": "process",
-                "statesandinfos": [],
-                "parent": "",
-                "ports": []
+                "sbgn": {
+                    "id": "glyph3",
+                    "bbox": {
+                        "x": 337.77918025112933,
+                        "y": 259.13454532846924,
+                        "w": "20.0",
+                        "h": "20.0"
+                    },
+                    "class": "process",
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
+                    "parent": "",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph23",
-                "bbox": {
-                    "x": 631.3665810796247,
-                    "y": 93.61445750305336,
-                    "w": "100.0",
-                    "h": "60.0"
-                },
-                "class": "macromolecule",
-                "label": "MEK",
-                "statesandinfos": [
-                    {
-                        "id": "glyph23a",
-                        "clazz": "state variable",
-                        "state": {},
-                        "bbox": {
-                            "x": -25,
-                            "y": 50,
-                            "w": "20.0",
-                            "h": "22.0"
+                "sbgn": {
+                    "id": "glyph23",
+                    "bbox": {
+                        "x": 631.3665810796247,
+                        "y": 93.61445750305336,
+                        "w": "100.0",
+                        "h": "60.0"
+                    },
+                    "class": "macromolecule",
+                    "label": "MEK",
+                    "unitInformationArray": [],
+                    "stateVariableArray": [
+                        {
+                            "id": "glyph23a",
+                            "clazz": "state variable",
+                            "state": {},
+                            "bbox": {
+                                "x": -25,
+                                "y": 50,
+                                "w": "20.0",
+                                "h": "22.0"
+                            }
                         }
-                    }
-                ],
-                "parent": "",
-                "ports": []
+                    ],
+                    "parent": "",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph8",
-                "bbox": {
-                    "x": 516.9252315842282,
-                    "y": 142.01290840429613,
-                    "w": "20.0",
-                    "h": "20.0"
-                },
-                "class": "process",
-                "statesandinfos": [],
-                "parent": "",
-                "ports": []
+                "sbgn": {
+                    "id": "glyph8",
+                    "bbox": {
+                        "x": 516.9252315842282,
+                        "y": 142.01290840429613,
+                        "w": "20.0",
+                        "h": "20.0"
+                    },
+                    "class": "process",
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
+                    "parent": "",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph22",
-                "bbox": {
-                    "x": 786.1602768573573,
-                    "y": 557.4534904328991,
-                    "w": "100.0",
-                    "h": "60.0"
-                },
-                "class": "macromolecule",
-                "label": "ERK",
-                "statesandinfos": [
-                    {
-                        "id": "glyph22a",
-                        "clazz": "state variable",
-                        "state": {},
-                        "bbox": {
-                            "x": -25,
-                            "y": 50,
-                            "w": "20.0",
-                            "h": "22.0"
+                "sbgn": {
+                    "id": "glyph22",
+                    "bbox": {
+                        "x": 786.1602768573573,
+                        "y": 557.4534904328991,
+                        "w": "100.0",
+                        "h": "60.0"
+                    },
+                    "class": "macromolecule",
+                    "label": "ERK",
+                    "unitInformationArray": [],
+                    "stateVariableArray": [
+                        {
+                            "id": "glyph22a",
+                            "clazz": "state variable",
+                            "state": {},
+                            "bbox": {
+                                "x": -25,
+                                "y": 50,
+                                "w": "20.0",
+                                "h": "22.0"
+                            }
                         }
-                    }
-                ],
-                "parent": "",
-                "ports": []
+                    ],
+                    "parent": "",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph13",
-                "bbox": {
-                    "x": 844.4300288939096,
-                    "y": 284.87165823750354,
-                    "w": "20.0",
-                    "h": "20.0"
-                },
-                "class": "process",
-                "statesandinfos": [],
-                "parent": "",
-                "ports": []
+                "sbgn": {
+                    "id": "glyph13",
+                    "bbox": {
+                        "x": 844.4300288939096,
+                        "y": 284.87165823750354,
+                        "w": "20.0",
+                        "h": "20.0"
+                    },
+                    "class": "process",
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
+                    "parent": "",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph14",
-                "bbox": {
-                    "x": 783.7402046808443,
-                    "y": 453.1501505501591,
-                    "w": "20.0",
-                    "h": "20.0"
-                },
-                "class": "process",
-                "statesandinfos": [],
-                "parent": "",
-                "ports": []
+                "sbgn": {
+                    "id": "glyph14",
+                    "bbox": {
+                        "x": 783.7402046808443,
+                        "y": 453.1501505501591,
+                        "w": "20.0",
+                        "h": "20.0"
+                    },
+                    "class": "process",
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
+                    "parent": "",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "glyph21",
-                "bbox": {
-                    "x": 872.1517334162531,
-                    "y": 378.5680972732039,
-                    "w": "100.0",
-                    "h": "60.0"
-                },
-                "class": "macromolecule",
-                "label": "ERK",
-                "statesandinfos": [
-                    {
-                        "id": "glyph21a",
-                        "clazz": "state variable",
-                        "state": {
-                            "value": "P"
-                        },
-                        "bbox": {
-                            "x": -25,
-                            "y": 50,
-                            "w": "25.0",
-                            "h": "22.0"
+                "sbgn": {
+                    "id": "glyph21",
+                    "bbox": {
+                        "x": 872.1517334162531,
+                        "y": 378.5680972732039,
+                        "w": "100.0",
+                        "h": "60.0"
+                    },
+                    "class": "macromolecule",
+                    "label": "ERK",
+                    "unitInformationArray": [],
+                    "stateVariableArray": [
+                        {
+                            "id": "glyph21a",
+                            "clazz": "state variable",
+                            "state": {
+                                "value": "P"
+                            },
+                            "bbox": {
+                                "x": -25,
+                                "y": 50,
+                                "w": "25.0",
+                                "h": "22.0"
+                            }
                         }
-                    }
-                ],
-                "parent": "",
-                "ports": []
+                    ],
+                    "parent": "",
+                    "ports": []
+                }
             }
         }
     ],

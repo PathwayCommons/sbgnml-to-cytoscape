@@ -2,693 +2,813 @@
     "nodes": [
         {
             "data": {
-                "id": "cytosol",
-                "bbox": {
-                    "x": 452.7430049567573,
-                    "y": 333.48802842124593,
-                    "w": "867.0453600025485",
-                    "h": "628.8691109836662"
-                },
-                "class": "compartment",
-                "label": "cytosol",
-                "statesandinfos": [],
-                "parent": "",
-                "ports": []
+                "sbgn": {
+                    "id": "cytosol",
+                    "bbox": {
+                        "x": 452.7430049567573,
+                        "y": 333.48802842124593,
+                        "w": "867.0453600025485",
+                        "h": "628.8691109836662"
+                    },
+                    "class": "compartment",
+                    "label": "cytosol",
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
+                    "parent": "",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "http___purl.org_pc2_4_SmallMolecule_2b7802ab3b846710b6711f7966cb4f8a",
-                "bbox": {
-                    "x": 805.6767760571307,
-                    "y": 487.96548091824866,
-                    "w": "48",
-                    "h": "40"
-                },
-                "class": "simple chemical",
-                "label": "PDXate",
-                "statesandinfos": [],
-                "parent": "cytosol",
-                "ports": []
+                "sbgn": {
+                    "id": "http___purl.org_pc2_4_SmallMolecule_2b7802ab3b846710b6711f7966cb4f8a",
+                    "bbox": {
+                        "x": 805.6767760571307,
+                        "y": 487.96548091824866,
+                        "w": "48",
+                        "h": "40"
+                    },
+                    "class": "simple chemical",
+                    "label": "PDXate",
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
+                    "parent": "cytosol",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "http___purl.org_pc2_4_SmallMolecule_20effea8daaecd76b87fc5a7be9c2efb",
-                "bbox": {
-                    "x": 407.9187816422349,
-                    "y": 411.3572613997627,
-                    "w": "48",
-                    "h": "40"
-                },
-                "class": "simple chemical",
-                "label": "PXLP",
-                "statesandinfos": [],
-                "parent": "cytosol",
-                "ports": []
+                "sbgn": {
+                    "id": "http___purl.org_pc2_4_SmallMolecule_20effea8daaecd76b87fc5a7be9c2efb",
+                    "bbox": {
+                        "x": 407.9187816422349,
+                        "y": 411.3572613997627,
+                        "w": "48",
+                        "h": "40"
+                    },
+                    "class": "simple chemical",
+                    "label": "PXLP",
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
+                    "parent": "cytosol",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "http___purl.org_pc2_4_SmallMolecule_88449f8c414354b2e2be74e69a31b118",
-                "bbox": {
-                    "x": 373.6508334994996,
-                    "y": 40.80347292941277,
-                    "w": "48",
-                    "h": "40"
-                },
-                "class": "simple chemical",
-                "label": "PDX",
-                "statesandinfos": [],
-                "parent": "cytosol",
-                "ports": []
+                "sbgn": {
+                    "id": "http___purl.org_pc2_4_SmallMolecule_88449f8c414354b2e2be74e69a31b118",
+                    "bbox": {
+                        "x": 373.6508334994996,
+                        "y": 40.80347292941277,
+                        "w": "48",
+                        "h": "40"
+                    },
+                    "class": "simple chemical",
+                    "label": "PDX",
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
+                    "parent": "cytosol",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "http___purl.org_pc2_4_SmallMolecule_8316df479bb3709e8d15776878a7e571",
-                "bbox": {
-                    "x": 141.37537585233918,
-                    "y": 626.172583913079,
-                    "w": "48",
-                    "h": "40"
-                },
-                "class": "simple chemical",
-                "label": "PXA",
-                "statesandinfos": [],
-                "parent": "cytosol",
-                "ports": []
+                "sbgn": {
+                    "id": "http___purl.org_pc2_4_SmallMolecule_8316df479bb3709e8d15776878a7e571",
+                    "bbox": {
+                        "x": 141.37537585233918,
+                        "y": 626.172583913079,
+                        "w": "48",
+                        "h": "40"
+                    },
+                    "class": "simple chemical",
+                    "label": "PXA",
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
+                    "parent": "cytosol",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "http___purl.org_pc2_4_SmallMolecule_e61c1707d13ae8ff9ca13303af87b996",
-                "bbox": {
-                    "x": 393.2591013412315,
-                    "y": 219.13234558934388,
-                    "w": "48",
-                    "h": "40"
-                },
-                "class": "simple chemical",
-                "label": "PDXP",
-                "statesandinfos": [],
-                "parent": "cytosol",
-                "ports": []
+                "sbgn": {
+                    "id": "http___purl.org_pc2_4_SmallMolecule_e61c1707d13ae8ff9ca13303af87b996",
+                    "bbox": {
+                        "x": 393.2591013412315,
+                        "y": 219.13234558934388,
+                        "w": "48",
+                        "h": "40"
+                    },
+                    "class": "simple chemical",
+                    "label": "PDXP",
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
+                    "parent": "cytosol",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "http___purl.org_pc2_4_SmallMolecule_059742ba750ed7c0a4385fc152766cd1",
-                "bbox": {
-                    "x": 612.5593953548562,
-                    "y": 475.98209678966884,
-                    "w": "48",
-                    "h": "40"
-                },
-                "class": "simple chemical",
-                "label": "PXL",
-                "statesandinfos": [],
-                "parent": "cytosol",
-                "ports": []
+                "sbgn": {
+                    "id": "http___purl.org_pc2_4_SmallMolecule_059742ba750ed7c0a4385fc152766cd1",
+                    "bbox": {
+                        "x": 612.5593953548562,
+                        "y": 475.98209678966884,
+                        "w": "48",
+                        "h": "40"
+                    },
+                    "class": "simple chemical",
+                    "label": "PXL",
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
+                    "parent": "cytosol",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "http___purl.org_pc2_4_Complex_30d74cbefecaa3b05b9cdfacad488329",
-                "bbox": {
-                    "x": 135.93605594275982,
-                    "y": 371.95808616702533,
-                    "w": "118.7",
-                    "h": "45.25"
-                },
-                "class": "complex",
-                "label": "2xPNPO:2xFMN",
-                "statesandinfos": [],
-                "parent": "cytosol",
-                "ports": []
+                "sbgn": {
+                    "id": "http___purl.org_pc2_4_Complex_30d74cbefecaa3b05b9cdfacad488329",
+                    "bbox": {
+                        "x": 135.93605594275982,
+                        "y": 371.95808616702533,
+                        "w": "118.7",
+                        "h": "45.25"
+                    },
+                    "class": "complex",
+                    "label": "2xPNPO:2xFMN",
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
+                    "parent": "cytosol",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "http___purl.org_pc2_4_SmallMolecule_c3394cf65de6c31664d8f1f300339e17_http___purl.org_pc2_4_Complex_30d74cbefecaa3b05b9cdfacad488329",
-                "bbox": {
-                    "x": 169.53605594275982,
-                    "y": 371.08308616702533,
-                    "w": "48",
-                    "h": "40"
-                },
-                "class": "simple chemical",
-                "label": "FMN",
-                "statesandinfos": [],
-                "parent": "http___purl.org_pc2_4_Complex_30d74cbefecaa3b05b9cdfacad488329",
-                "ports": []
+                "sbgn": {
+                    "id": "http___purl.org_pc2_4_SmallMolecule_c3394cf65de6c31664d8f1f300339e17_http___purl.org_pc2_4_Complex_30d74cbefecaa3b05b9cdfacad488329",
+                    "bbox": {
+                        "x": 169.53605594275982,
+                        "y": 371.08308616702533,
+                        "w": "48",
+                        "h": "40"
+                    },
+                    "class": "simple chemical",
+                    "label": "FMN",
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
+                    "parent": "http___purl.org_pc2_4_Complex_30d74cbefecaa3b05b9cdfacad488329",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "http___purl.org_pc2_4_Protein_269f509de4b089e3814c8883cba1da2a_http___purl.org_pc2_4_Complex_30d74cbefecaa3b05b9cdfacad488329",
-                "bbox": {
-                    "x": 108.33605594275981,
-                    "y": 368.58308616702533,
-                    "w": "60",
-                    "h": "35"
-                },
-                "class": "macromolecule",
-                "label": "PNPO",
-                "statesandinfos": [
-                    {
-                        "id": "http___purl.org_pc2_4_Protein_269f509de4b089e3814c8883cba1da2a_http___purl.org_pc2_4_Complex_30d74cbefecaa3b05b9cdfacad488329.state.1",
-                        "clazz": "state variable",
-                        "state": {
-                            "value": "x[1 - 261]"
-                        },
-                        "bbox": {
-                            "x": 0,
-                            "y": 50,
-                            "w": "50.0",
-                            "h": "15.0"
+                "sbgn": {
+                    "id": "http___purl.org_pc2_4_Protein_269f509de4b089e3814c8883cba1da2a_http___purl.org_pc2_4_Complex_30d74cbefecaa3b05b9cdfacad488329",
+                    "bbox": {
+                        "x": 108.33605594275981,
+                        "y": 368.58308616702533,
+                        "w": "60",
+                        "h": "35"
+                    },
+                    "class": "macromolecule",
+                    "label": "PNPO",
+                    "unitInformationArray": [],
+                    "stateVariableArray": [
+                        {
+                            "id": "http___purl.org_pc2_4_Protein_269f509de4b089e3814c8883cba1da2a_http___purl.org_pc2_4_Complex_30d74cbefecaa3b05b9cdfacad488329.state.1",
+                            "clazz": "state variable",
+                            "state": {
+                                "value": "x[1 - 261]"
+                            },
+                            "bbox": {
+                                "x": 0,
+                                "y": 50,
+                                "w": "50.0",
+                                "h": "15.0"
+                            }
                         }
-                    }
-                ],
-                "parent": "http___purl.org_pc2_4_Complex_30d74cbefecaa3b05b9cdfacad488329",
-                "ports": []
+                    ],
+                    "parent": "http___purl.org_pc2_4_Complex_30d74cbefecaa3b05b9cdfacad488329",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "http___purl.org_pc2_4_Complex_bb744f8a7e7637ffafa1c8061c4977a0",
-                "bbox": {
-                    "x": 441.26171808966194,
-                    "y": 570.0741061842778,
-                    "w": "118.69999999999999",
-                    "h": "45.25"
-                },
-                "class": "complex",
-                "label": "2xPDXK:2xZn2+",
-                "statesandinfos": [],
-                "parent": "cytosol",
-                "ports": []
+                "sbgn": {
+                    "id": "http___purl.org_pc2_4_Complex_bb744f8a7e7637ffafa1c8061c4977a0",
+                    "bbox": {
+                        "x": 441.26171808966194,
+                        "y": 570.0741061842778,
+                        "w": "118.69999999999999",
+                        "h": "45.25"
+                    },
+                    "class": "complex",
+                    "label": "2xPDXK:2xZn2+",
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
+                    "parent": "cytosol",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "http___purl.org_pc2_4_SmallMolecule_e2b8ad8b66fd7603dfacf0a739e90361_http___purl.org_pc2_4_Complex_bb744f8a7e7637ffafa1c8061c4977a0",
-                "bbox": {
-                    "x": 474.86171808966196,
-                    "y": 569.1991061842778,
-                    "w": "48",
-                    "h": "40"
-                },
-                "class": "simple chemical",
-                "label": "Zn2+",
-                "statesandinfos": [],
-                "parent": "http___purl.org_pc2_4_Complex_bb744f8a7e7637ffafa1c8061c4977a0",
-                "ports": []
+                "sbgn": {
+                    "id": "http___purl.org_pc2_4_SmallMolecule_e2b8ad8b66fd7603dfacf0a739e90361_http___purl.org_pc2_4_Complex_bb744f8a7e7637ffafa1c8061c4977a0",
+                    "bbox": {
+                        "x": 474.86171808966196,
+                        "y": 569.1991061842778,
+                        "w": "48",
+                        "h": "40"
+                    },
+                    "class": "simple chemical",
+                    "label": "Zn2+",
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
+                    "parent": "http___purl.org_pc2_4_Complex_bb744f8a7e7637ffafa1c8061c4977a0",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "http___purl.org_pc2_4_Protein_1b235ff261fe500a6447d1b99f212fac_http___purl.org_pc2_4_Complex_bb744f8a7e7637ffafa1c8061c4977a0",
-                "bbox": {
-                    "x": 413.661718089662,
-                    "y": 566.6991061842778,
-                    "w": "60",
-                    "h": "35"
-                },
-                "class": "macromolecule",
-                "label": "PDXK",
-                "statesandinfos": [
-                    {
-                        "id": "http___purl.org_pc2_4_Protein_1b235ff261fe500a6447d1b99f212fac_http___purl.org_pc2_4_Complex_bb744f8a7e7637ffafa1c8061c4977a0.state.1",
-                        "clazz": "state variable",
-                        "state": {
-                            "value": "x[1 - 312]"
-                        },
-                        "bbox": {
-                            "x": 0.000033333333343913786,
-                            "y": 50,
-                            "w": "50.0",
-                            "h": "15.0"
+                "sbgn": {
+                    "id": "http___purl.org_pc2_4_Protein_1b235ff261fe500a6447d1b99f212fac_http___purl.org_pc2_4_Complex_bb744f8a7e7637ffafa1c8061c4977a0",
+                    "bbox": {
+                        "x": 413.661718089662,
+                        "y": 566.6991061842778,
+                        "w": "60",
+                        "h": "35"
+                    },
+                    "class": "macromolecule",
+                    "label": "PDXK",
+                    "unitInformationArray": [],
+                    "stateVariableArray": [
+                        {
+                            "id": "http___purl.org_pc2_4_Protein_1b235ff261fe500a6447d1b99f212fac_http___purl.org_pc2_4_Complex_bb744f8a7e7637ffafa1c8061c4977a0.state.1",
+                            "clazz": "state variable",
+                            "state": {
+                                "value": "x[1 - 312]"
+                            },
+                            "bbox": {
+                                "x": 0.000033333333343913786,
+                                "y": 50,
+                                "w": "50.0",
+                                "h": "15.0"
+                            }
                         }
-                    }
-                ],
-                "parent": "http___purl.org_pc2_4_Complex_bb744f8a7e7637ffafa1c8061c4977a0",
-                "ports": []
+                    ],
+                    "parent": "http___purl.org_pc2_4_Complex_bb744f8a7e7637ffafa1c8061c4977a0",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "http___purl.org_pc2_4_SmallMolecule_88179082aacab03e631c9b8dc9c0cc0d",
-                "bbox": {
-                    "x": 354.8595329162648,
-                    "y": 493.9651771573655,
-                    "w": "48",
-                    "h": "40"
-                },
-                "class": "simple chemical",
-                "label": "NH4+",
-                "statesandinfos": [],
-                "parent": "cytosol",
-                "ports": []
+                "sbgn": {
+                    "id": "http___purl.org_pc2_4_SmallMolecule_88179082aacab03e631c9b8dc9c0cc0d",
+                    "bbox": {
+                        "x": 354.8595329162648,
+                        "y": 493.9651771573655,
+                        "w": "48",
+                        "h": "40"
+                    },
+                    "class": "simple chemical",
+                    "label": "NH4+",
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
+                    "parent": "cytosol",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "http___purl.org_pc2_4_Complex_1727e90f52ed647723f8fec499a6df32",
-                "bbox": {
-                    "x": 820.1656849580315,
-                    "y": 349.8555022931632,
-                    "w": "118.70000000000005",
-                    "h": "90.69999999999999"
-                },
-                "class": "complex",
-                "label": "2xAOX1:cofactors",
-                "statesandinfos": [],
-                "parent": "cytosol",
-                "ports": []
+                "sbgn": {
+                    "id": "http___purl.org_pc2_4_Complex_1727e90f52ed647723f8fec499a6df32",
+                    "bbox": {
+                        "x": 820.1656849580315,
+                        "y": 349.8555022931632,
+                        "w": "118.70000000000005",
+                        "h": "90.69999999999999"
+                    },
+                    "class": "complex",
+                    "label": "2xAOX1:cofactors",
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
+                    "parent": "cytosol",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "http___purl.org_pc2_4_Protein_10eb099b277fbb1b0efe28055d04533c_http___purl.org_pc2_4_Complex_1727e90f52ed647723f8fec499a6df32",
-                "bbox": {
-                    "x": 792.5656849580315,
-                    "y": 323.75550229316326,
-                    "w": "60",
-                    "h": "35"
-                },
-                "class": "macromolecule",
-                "label": "AOX1",
-                "statesandinfos": [
-                    {
-                        "id": "http___purl.org_pc2_4_Protein_10eb099b277fbb1b0efe28055d04533c_http___purl.org_pc2_4_Complex_1727e90f52ed647723f8fec499a6df32.state.1",
-                        "clazz": "state variable",
-                        "state": {
-                            "value": "x[1 - 1338]"
-                        },
-                        "bbox": {
-                            "x": 0,
-                            "y": 50,
-                            "w": "50.0",
-                            "h": "15.0"
+                "sbgn": {
+                    "id": "http___purl.org_pc2_4_Protein_10eb099b277fbb1b0efe28055d04533c_http___purl.org_pc2_4_Complex_1727e90f52ed647723f8fec499a6df32",
+                    "bbox": {
+                        "x": 792.5656849580315,
+                        "y": 323.75550229316326,
+                        "w": "60",
+                        "h": "35"
+                    },
+                    "class": "macromolecule",
+                    "label": "AOX1",
+                    "unitInformationArray": [],
+                    "stateVariableArray": [
+                        {
+                            "id": "http___purl.org_pc2_4_Protein_10eb099b277fbb1b0efe28055d04533c_http___purl.org_pc2_4_Complex_1727e90f52ed647723f8fec499a6df32.state.1",
+                            "clazz": "state variable",
+                            "state": {
+                                "value": "x[1 - 1338]"
+                            },
+                            "bbox": {
+                                "x": 0,
+                                "y": 50,
+                                "w": "50.0",
+                                "h": "15.0"
+                            }
                         }
-                    }
-                ],
-                "parent": "http___purl.org_pc2_4_Complex_1727e90f52ed647723f8fec499a6df32",
-                "ports": []
+                    ],
+                    "parent": "http___purl.org_pc2_4_Complex_1727e90f52ed647723f8fec499a6df32",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "http___purl.org_pc2_4_SmallMolecule_033520cffb36b4edd567f814414b4acf_http___purl.org_pc2_4_Complex_1727e90f52ed647723f8fec499a6df32",
-                "bbox": {
-                    "x": 853.7656849580316,
-                    "y": 326.25550229316326,
-                    "w": "48",
-                    "h": "40"
-                },
-                "class": "simple chemical",
-                "label": "(4Fe-4S)(2+)",
-                "statesandinfos": [],
-                "parent": "http___purl.org_pc2_4_Complex_1727e90f52ed647723f8fec499a6df32",
-                "ports": []
+                "sbgn": {
+                    "id": "http___purl.org_pc2_4_SmallMolecule_033520cffb36b4edd567f814414b4acf_http___purl.org_pc2_4_Complex_1727e90f52ed647723f8fec499a6df32",
+                    "bbox": {
+                        "x": 853.7656849580316,
+                        "y": 326.25550229316326,
+                        "w": "48",
+                        "h": "40"
+                    },
+                    "class": "simple chemical",
+                    "label": "(4Fe-4S)(2+)",
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
+                    "parent": "http___purl.org_pc2_4_Complex_1727e90f52ed647723f8fec499a6df32",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "http___purl.org_pc2_4_SmallMolecule_5071b82d38e1c940eeb5f4a8c71c6934_http___purl.org_pc2_4_Complex_1727e90f52ed647723f8fec499a6df32",
-                "bbox": {
-                    "x": 835.7656849580316,
-                    "y": 373.45550229316325,
-                    "w": "36",
-                    "h": "40"
-                },
-                "class": "simple chemical",
-                "label": "FAD",
-                "statesandinfos": [],
-                "parent": "http___purl.org_pc2_4_Complex_1727e90f52ed647723f8fec499a6df32",
-                "clonemarker": true,
-                "ports": []
+                "sbgn": {
+                    "id": "http___purl.org_pc2_4_SmallMolecule_5071b82d38e1c940eeb5f4a8c71c6934_http___purl.org_pc2_4_Complex_1727e90f52ed647723f8fec499a6df32",
+                    "bbox": {
+                        "x": 835.7656849580316,
+                        "y": 373.45550229316325,
+                        "w": "36",
+                        "h": "40"
+                    },
+                    "class": "simple chemical",
+                    "label": "FAD",
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
+                    "parent": "http___purl.org_pc2_4_Complex_1727e90f52ed647723f8fec499a6df32",
+                    "clonemarker": true,
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "http___purl.org_pc2_4_SmallMolecule_78ca41315683997f30659d5a46af366b_http___purl.org_pc2_4_Complex_1727e90f52ed647723f8fec499a6df32",
-                "bbox": {
-                    "x": 786.5656849580315,
-                    "y": 373.45550229316325,
-                    "w": "48",
-                    "h": "40"
-                },
-                "class": "simple chemical",
-                "label": "MPT",
-                "statesandinfos": [],
-                "parent": "http___purl.org_pc2_4_Complex_1727e90f52ed647723f8fec499a6df32",
-                "ports": []
+                "sbgn": {
+                    "id": "http___purl.org_pc2_4_SmallMolecule_78ca41315683997f30659d5a46af366b_http___purl.org_pc2_4_Complex_1727e90f52ed647723f8fec499a6df32",
+                    "bbox": {
+                        "x": 786.5656849580315,
+                        "y": 373.45550229316325,
+                        "w": "48",
+                        "h": "40"
+                    },
+                    "class": "simple chemical",
+                    "label": "MPT",
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
+                    "parent": "http___purl.org_pc2_4_Complex_1727e90f52ed647723f8fec499a6df32",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "http___purl.org_pc2_4_SmallMolecule_afa59f5c733d2dbf4f07e09c6117ba71",
-                "bbox": {
-                    "x": 199.86631864527652,
-                    "y": 483.07247276504165,
-                    "w": "48",
-                    "h": "40"
-                },
-                "class": "simple chemical",
-                "label": "PXAP",
-                "statesandinfos": [],
-                "parent": "cytosol",
-                "ports": []
+                "sbgn": {
+                    "id": "http___purl.org_pc2_4_SmallMolecule_afa59f5c733d2dbf4f07e09c6117ba71",
+                    "bbox": {
+                        "x": 199.86631864527652,
+                        "y": 483.07247276504165,
+                        "w": "48",
+                        "h": "40"
+                    },
+                    "class": "simple chemical",
+                    "label": "PXAP",
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
+                    "parent": "cytosol",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "http___purl.org_pc2_4_SmallMolecule_f206dac25614ddf411b7935ba3e90a52http___purl.org_pc2_4_BiochemicalReaction_672850ff7265bb20daba71ad02ea716cLEFT_TO_RIGHT",
-                "bbox": {
-                    "x": 299.2624488422904,
-                    "y": 116.46636083564405,
-                    "w": "36",
-                    "h": "40"
-                },
-                "class": "simple chemical",
-                "label": "ADP",
-                "statesandinfos": [],
-                "parent": "cytosol",
-                "clonemarker": true,
-                "ports": []
+                "sbgn": {
+                    "id": "http___purl.org_pc2_4_SmallMolecule_f206dac25614ddf411b7935ba3e90a52http___purl.org_pc2_4_BiochemicalReaction_672850ff7265bb20daba71ad02ea716cLEFT_TO_RIGHT",
+                    "bbox": {
+                        "x": 299.2624488422904,
+                        "y": 116.46636083564405,
+                        "w": "36",
+                        "h": "40"
+                    },
+                    "class": "simple chemical",
+                    "label": "ADP",
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
+                    "parent": "cytosol",
+                    "clonemarker": true,
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "http___purl.org_pc2_4_SmallMolecule_1c06b4a932bf168e21f7d14cb36906e6http___purl.org_pc2_4_BiochemicalReaction_b740a81d273dd6cbec8d902ebb363227LEFT_TO_RIGHT",
-                "bbox": {
-                    "x": 572.2323428043862,
-                    "y": 550.6640933503571,
-                    "w": "36",
-                    "h": "40"
-                },
-                "class": "simple chemical",
-                "label": "ATP",
-                "statesandinfos": [],
-                "parent": "cytosol",
-                "clonemarker": true,
-                "ports": []
+                "sbgn": {
+                    "id": "http___purl.org_pc2_4_SmallMolecule_1c06b4a932bf168e21f7d14cb36906e6http___purl.org_pc2_4_BiochemicalReaction_b740a81d273dd6cbec8d902ebb363227LEFT_TO_RIGHT",
+                    "bbox": {
+                        "x": 572.2323428043862,
+                        "y": 550.6640933503571,
+                        "w": "36",
+                        "h": "40"
+                    },
+                    "class": "simple chemical",
+                    "label": "ATP",
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
+                    "parent": "cytosol",
+                    "clonemarker": true,
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "http___purl.org_pc2_4_SmallMolecule_1c06b4a932bf168e21f7d14cb36906e6http___purl.org_pc2_4_BiochemicalReaction_672850ff7265bb20daba71ad02ea716cLEFT_TO_RIGHT",
-                "bbox": {
-                    "x": 460.4766304450781,
-                    "y": 93.53955295878407,
-                    "w": "36",
-                    "h": "40"
-                },
-                "class": "simple chemical",
-                "label": "ATP",
-                "statesandinfos": [],
-                "parent": "cytosol",
-                "clonemarker": true,
-                "ports": []
+                "sbgn": {
+                    "id": "http___purl.org_pc2_4_SmallMolecule_1c06b4a932bf168e21f7d14cb36906e6http___purl.org_pc2_4_BiochemicalReaction_672850ff7265bb20daba71ad02ea716cLEFT_TO_RIGHT",
+                    "bbox": {
+                        "x": 460.4766304450781,
+                        "y": 93.53955295878407,
+                        "w": "36",
+                        "h": "40"
+                    },
+                    "class": "simple chemical",
+                    "label": "ATP",
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
+                    "parent": "cytosol",
+                    "clonemarker": true,
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "http___purl.org_pc2_4_SmallMolecule_292f40eecee225d66bffbd1085de4353http___purl.org_pc2_4_BiochemicalReaction_38fe63aaf0680b6a23821a7568ddf02dLEFT_TO_RIGHT",
-                "bbox": {
-                    "x": 508.0677311037572,
-                    "y": 314.51199146571906,
-                    "w": "36",
-                    "h": "40"
-                },
-                "class": "simple chemical",
-                "label": "H2O2",
-                "statesandinfos": [],
-                "parent": "cytosol",
-                "clonemarker": true,
-                "ports": []
+                "sbgn": {
+                    "id": "http___purl.org_pc2_4_SmallMolecule_292f40eecee225d66bffbd1085de4353http___purl.org_pc2_4_BiochemicalReaction_38fe63aaf0680b6a23821a7568ddf02dLEFT_TO_RIGHT",
+                    "bbox": {
+                        "x": 508.0677311037572,
+                        "y": 314.51199146571906,
+                        "w": "36",
+                        "h": "40"
+                    },
+                    "class": "simple chemical",
+                    "label": "H2O2",
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
+                    "parent": "cytosol",
+                    "clonemarker": true,
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "http___purl.org_pc2_4_SmallMolecule_292f40eecee225d66bffbd1085de4353http___purl.org_pc2_4_BiochemicalReaction_15907d245c801b55be8cef31ab143afdLEFT_TO_RIGHT",
-                "bbox": {
-                    "x": 276.2997826758208,
-                    "y": 512.2382338371451,
-                    "w": "36",
-                    "h": "40"
-                },
-                "class": "simple chemical",
-                "label": "H2O2",
-                "statesandinfos": [],
-                "parent": "cytosol",
-                "clonemarker": true,
-                "ports": []
+                "sbgn": {
+                    "id": "http___purl.org_pc2_4_SmallMolecule_292f40eecee225d66bffbd1085de4353http___purl.org_pc2_4_BiochemicalReaction_15907d245c801b55be8cef31ab143afdLEFT_TO_RIGHT",
+                    "bbox": {
+                        "x": 276.2997826758208,
+                        "y": 512.2382338371451,
+                        "w": "36",
+                        "h": "40"
+                    },
+                    "class": "simple chemical",
+                    "label": "H2O2",
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
+                    "parent": "cytosol",
+                    "clonemarker": true,
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "http___purl.org_pc2_4_SmallMolecule_292f40eecee225d66bffbd1085de4353http___purl.org_pc2_4_BiochemicalReaction_60515a97cff0a17de37f3ae46659d6bcLEFT_TO_RIGHT",
-                "bbox": {
-                    "x": 765.5268746426669,
-                    "y": 561.5212635219591,
-                    "w": "36",
-                    "h": "40"
-                },
-                "class": "simple chemical",
-                "label": "H2O2",
-                "statesandinfos": [],
-                "parent": "cytosol",
-                "clonemarker": true,
-                "ports": []
+                "sbgn": {
+                    "id": "http___purl.org_pc2_4_SmallMolecule_292f40eecee225d66bffbd1085de4353http___purl.org_pc2_4_BiochemicalReaction_60515a97cff0a17de37f3ae46659d6bcLEFT_TO_RIGHT",
+                    "bbox": {
+                        "x": 765.5268746426669,
+                        "y": 561.5212635219591,
+                        "w": "36",
+                        "h": "40"
+                    },
+                    "class": "simple chemical",
+                    "label": "H2O2",
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
+                    "parent": "cytosol",
+                    "clonemarker": true,
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "http___purl.org_pc2_4_SmallMolecule_70b704f552443c5739ac3222c48a7f7fhttp___purl.org_pc2_4_BiochemicalReaction_38fe63aaf0680b6a23821a7568ddf02dLEFT_TO_RIGHT",
-                "bbox": {
-                    "x": 482.7301260434543,
-                    "y": 234.82159041178352,
-                    "w": "36",
-                    "h": "40"
-                },
-                "class": "simple chemical",
-                "label": "O2",
-                "statesandinfos": [],
-                "parent": "cytosol",
-                "clonemarker": true,
-                "ports": []
+                "sbgn": {
+                    "id": "http___purl.org_pc2_4_SmallMolecule_70b704f552443c5739ac3222c48a7f7fhttp___purl.org_pc2_4_BiochemicalReaction_38fe63aaf0680b6a23821a7568ddf02dLEFT_TO_RIGHT",
+                    "bbox": {
+                        "x": 482.7301260434543,
+                        "y": 234.82159041178352,
+                        "w": "36",
+                        "h": "40"
+                    },
+                    "class": "simple chemical",
+                    "label": "O2",
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
+                    "parent": "cytosol",
+                    "clonemarker": true,
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "http___purl.org_pc2_4_SmallMolecule_70b704f552443c5739ac3222c48a7f7fhttp___purl.org_pc2_4_BiochemicalReaction_15907d245c801b55be8cef31ab143afdLEFT_TO_RIGHT",
-                "bbox": {
-                    "x": 334.8581939648135,
-                    "y": 349.85427715290984,
-                    "w": "36",
-                    "h": "40"
-                },
-                "class": "simple chemical",
-                "label": "O2",
-                "statesandinfos": [],
-                "parent": "cytosol",
-                "clonemarker": true,
-                "ports": []
+                "sbgn": {
+                    "id": "http___purl.org_pc2_4_SmallMolecule_70b704f552443c5739ac3222c48a7f7fhttp___purl.org_pc2_4_BiochemicalReaction_15907d245c801b55be8cef31ab143afdLEFT_TO_RIGHT",
+                    "bbox": {
+                        "x": 334.8581939648135,
+                        "y": 349.85427715290984,
+                        "w": "36",
+                        "h": "40"
+                    },
+                    "class": "simple chemical",
+                    "label": "O2",
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
+                    "parent": "cytosol",
+                    "clonemarker": true,
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "http___purl.org_pc2_4_SmallMolecule_e9500430c906d471a6cda842c93312e2http___purl.org_pc2_4_BiochemicalReaction_15907d245c801b55be8cef31ab143afdLEFT_TO_RIGHT",
-                "bbox": {
-                    "x": 265.7084546722531,
-                    "y": 341.81769068111083,
-                    "w": "36",
-                    "h": "40"
-                },
-                "class": "simple chemical",
-                "label": "H2O",
-                "statesandinfos": [],
-                "parent": "cytosol",
-                "clonemarker": true,
-                "ports": []
+                "sbgn": {
+                    "id": "http___purl.org_pc2_4_SmallMolecule_e9500430c906d471a6cda842c93312e2http___purl.org_pc2_4_BiochemicalReaction_15907d245c801b55be8cef31ab143afdLEFT_TO_RIGHT",
+                    "bbox": {
+                        "x": 265.7084546722531,
+                        "y": 341.81769068111083,
+                        "w": "36",
+                        "h": "40"
+                    },
+                    "class": "simple chemical",
+                    "label": "H2O",
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
+                    "parent": "cytosol",
+                    "clonemarker": true,
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "http___purl.org_pc2_4_SmallMolecule_e9500430c906d471a6cda842c93312e2http___purl.org_pc2_4_BiochemicalReaction_60515a97cff0a17de37f3ae46659d6bcLEFT_TO_RIGHT",
-                "bbox": {
-                    "x": 695.738999150007,
-                    "y": 400.05234998344207,
-                    "w": "36",
-                    "h": "40"
-                },
-                "class": "simple chemical",
-                "label": "H2O",
-                "statesandinfos": [],
-                "parent": "cytosol",
-                "clonemarker": true,
-                "ports": []
+                "sbgn": {
+                    "id": "http___purl.org_pc2_4_SmallMolecule_e9500430c906d471a6cda842c93312e2http___purl.org_pc2_4_BiochemicalReaction_60515a97cff0a17de37f3ae46659d6bcLEFT_TO_RIGHT",
+                    "bbox": {
+                        "x": 695.738999150007,
+                        "y": 400.05234998344207,
+                        "w": "36",
+                        "h": "40"
+                    },
+                    "class": "simple chemical",
+                    "label": "H2O",
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
+                    "parent": "cytosol",
+                    "clonemarker": true,
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "http___purl.org_pc2_4_SmallMolecule_f206dac25614ddf411b7935ba3e90a52http___purl.org_pc2_4_BiochemicalReaction_39e2c558a8bff86658047ecac40d2f98LEFT_TO_RIGHT",
-                "bbox": {
-                    "x": 44.4863536675312,
-                    "y": 600.6701280605118,
-                    "w": "36",
-                    "h": "40"
-                },
-                "class": "simple chemical",
-                "label": "ADP",
-                "statesandinfos": [],
-                "parent": "cytosol",
-                "clonemarker": true,
-                "ports": []
+                "sbgn": {
+                    "id": "http___purl.org_pc2_4_SmallMolecule_f206dac25614ddf411b7935ba3e90a52http___purl.org_pc2_4_BiochemicalReaction_39e2c558a8bff86658047ecac40d2f98LEFT_TO_RIGHT",
+                    "bbox": {
+                        "x": 44.4863536675312,
+                        "y": 600.6701280605118,
+                        "w": "36",
+                        "h": "40"
+                    },
+                    "class": "simple chemical",
+                    "label": "ADP",
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
+                    "parent": "cytosol",
+                    "clonemarker": true,
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "http___purl.org_pc2_4_SmallMolecule_f206dac25614ddf411b7935ba3e90a52http___purl.org_pc2_4_BiochemicalReaction_b740a81d273dd6cbec8d902ebb363227LEFT_TO_RIGHT",
-                "bbox": {
-                    "x": 542.1737494978518,
-                    "y": 403.49325823457724,
-                    "w": "36",
-                    "h": "40"
-                },
-                "class": "simple chemical",
-                "label": "ADP",
-                "statesandinfos": [],
-                "parent": "cytosol",
-                "clonemarker": true,
-                "ports": []
+                "sbgn": {
+                    "id": "http___purl.org_pc2_4_SmallMolecule_f206dac25614ddf411b7935ba3e90a52http___purl.org_pc2_4_BiochemicalReaction_b740a81d273dd6cbec8d902ebb363227LEFT_TO_RIGHT",
+                    "bbox": {
+                        "x": 542.1737494978518,
+                        "y": 403.49325823457724,
+                        "w": "36",
+                        "h": "40"
+                    },
+                    "class": "simple chemical",
+                    "label": "ADP",
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
+                    "parent": "cytosol",
+                    "clonemarker": true,
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "http___purl.org_pc2_4_SmallMolecule_1c06b4a932bf168e21f7d14cb36906e6http___purl.org_pc2_4_BiochemicalReaction_39e2c558a8bff86658047ecac40d2f98LEFT_TO_RIGHT",
-                "bbox": {
-                    "x": 38.97032495548303,
-                    "y": 505.0486895316653,
-                    "w": "36",
-                    "h": "40"
-                },
-                "class": "simple chemical",
-                "label": "ATP",
-                "statesandinfos": [],
-                "parent": "cytosol",
-                "clonemarker": true,
-                "ports": []
+                "sbgn": {
+                    "id": "http___purl.org_pc2_4_SmallMolecule_1c06b4a932bf168e21f7d14cb36906e6http___purl.org_pc2_4_BiochemicalReaction_39e2c558a8bff86658047ecac40d2f98LEFT_TO_RIGHT",
+                    "bbox": {
+                        "x": 38.97032495548303,
+                        "y": 505.0486895316653,
+                        "w": "36",
+                        "h": "40"
+                    },
+                    "class": "simple chemical",
+                    "label": "ATP",
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
+                    "parent": "cytosol",
+                    "clonemarker": true,
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "http___purl.org_pc2_4_SmallMolecule_70b704f552443c5739ac3222c48a7f7fhttp___purl.org_pc2_4_BiochemicalReaction_60515a97cff0a17de37f3ae46659d6bcLEFT_TO_RIGHT",
-                "bbox": {
-                    "x": 687.70445606391,
-                    "y": 565.2867338928235,
-                    "w": "36",
-                    "h": "40"
-                },
-                "class": "simple chemical",
-                "label": "O2",
-                "statesandinfos": [],
-                "parent": "cytosol",
-                "clonemarker": true,
-                "ports": []
+                "sbgn": {
+                    "id": "http___purl.org_pc2_4_SmallMolecule_70b704f552443c5739ac3222c48a7f7fhttp___purl.org_pc2_4_BiochemicalReaction_60515a97cff0a17de37f3ae46659d6bcLEFT_TO_RIGHT",
+                    "bbox": {
+                        "x": 687.70445606391,
+                        "y": 565.2867338928235,
+                        "w": "36",
+                        "h": "40"
+                    },
+                    "class": "simple chemical",
+                    "label": "O2",
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
+                    "parent": "cytosol",
+                    "clonemarker": true,
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "http___purl.org_pc2_4_BiochemicalReaction_38fe63aaf0680b6a23821a7568ddf02dLEFT_TO_RIGHT",
-                "bbox": {
-                    "x": 426.3836942460163,
-                    "y": 310.273320585258,
-                    "w": "15",
-                    "h": "15"
-                },
-                "class": "process",
-                "statesandinfos": [],
-                "parent": "cytosol",
-                "ports": []
+                "sbgn": {
+                    "id": "http___purl.org_pc2_4_BiochemicalReaction_38fe63aaf0680b6a23821a7568ddf02dLEFT_TO_RIGHT",
+                    "bbox": {
+                        "x": 426.3836942460163,
+                        "y": 310.273320585258,
+                        "w": "15",
+                        "h": "15"
+                    },
+                    "class": "process",
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
+                    "parent": "cytosol",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "http___purl.org_pc2_4_BiochemicalReaction_15907d245c801b55be8cef31ab143afdLEFT_TO_RIGHT",
-                "bbox": {
-                    "x": 291.7401778265759,
-                    "y": 426.2304675819395,
-                    "w": "15",
-                    "h": "15"
-                },
-                "class": "process",
-                "statesandinfos": [],
-                "parent": "cytosol",
-                "ports": []
+                "sbgn": {
+                    "id": "http___purl.org_pc2_4_BiochemicalReaction_15907d245c801b55be8cef31ab143afdLEFT_TO_RIGHT",
+                    "bbox": {
+                        "x": 291.7401778265759,
+                        "y": 426.2304675819395,
+                        "w": "15",
+                        "h": "15"
+                    },
+                    "class": "process",
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
+                    "parent": "cytosol",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "http___purl.org_pc2_4_BiochemicalReaction_b740a81d273dd6cbec8d902ebb363227LEFT_TO_RIGHT",
-                "bbox": {
-                    "x": 505.9625187648553,
-                    "y": 479.60531479794895,
-                    "w": "15",
-                    "h": "15"
-                },
-                "class": "process",
-                "statesandinfos": [],
-                "parent": "cytosol",
-                "ports": []
+                "sbgn": {
+                    "id": "http___purl.org_pc2_4_BiochemicalReaction_b740a81d273dd6cbec8d902ebb363227LEFT_TO_RIGHT",
+                    "bbox": {
+                        "x": 505.9625187648553,
+                        "y": 479.60531479794895,
+                        "w": "15",
+                        "h": "15"
+                    },
+                    "class": "process",
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
+                    "parent": "cytosol",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "http___purl.org_pc2_4_BiochemicalReaction_60515a97cff0a17de37f3ae46659d6bcLEFT_TO_RIGHT",
-                "bbox": {
-                    "x": 715.3107796004094,
-                    "y": 482.27270701057773,
-                    "w": "15",
-                    "h": "15"
-                },
-                "class": "process",
-                "statesandinfos": [],
-                "parent": "cytosol",
-                "ports": []
+                "sbgn": {
+                    "id": "http___purl.org_pc2_4_BiochemicalReaction_60515a97cff0a17de37f3ae46659d6bcLEFT_TO_RIGHT",
+                    "bbox": {
+                        "x": 715.3107796004094,
+                        "y": 482.27270701057773,
+                        "w": "15",
+                        "h": "15"
+                    },
+                    "class": "process",
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
+                    "parent": "cytosol",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "http___purl.org_pc2_4_BiochemicalReaction_39e2c558a8bff86658047ecac40d2f98LEFT_TO_RIGHT",
-                "bbox": {
-                    "x": 116.03486315695777,
-                    "y": 543.9596466765838,
-                    "w": "15",
-                    "h": "15"
-                },
-                "class": "process",
-                "statesandinfos": [],
-                "parent": "cytosol",
-                "ports": []
+                "sbgn": {
+                    "id": "http___purl.org_pc2_4_BiochemicalReaction_39e2c558a8bff86658047ecac40d2f98LEFT_TO_RIGHT",
+                    "bbox": {
+                        "x": 116.03486315695777,
+                        "y": 543.9596466765838,
+                        "w": "15",
+                        "h": "15"
+                    },
+                    "class": "process",
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
+                    "parent": "cytosol",
+                    "ports": []
+                }
             }
         },
         {
             "data": {
-                "id": "http___purl.org_pc2_4_BiochemicalReaction_672850ff7265bb20daba71ad02ea716cLEFT_TO_RIGHT",
-                "bbox": {
-                    "x": 381.9579805714479,
-                    "y": 127.59561760300019,
-                    "w": "15",
-                    "h": "15"
-                },
-                "class": "process",
-                "statesandinfos": [],
-                "parent": "cytosol",
-                "ports": []
+                "sbgn": {
+                    "id": "http___purl.org_pc2_4_BiochemicalReaction_672850ff7265bb20daba71ad02ea716cLEFT_TO_RIGHT",
+                    "bbox": {
+                        "x": 381.9579805714479,
+                        "y": 127.59561760300019,
+                        "w": "15",
+                        "h": "15"
+                    },
+                    "class": "process",
+                    "unitInformationArray": [],
+                    "stateVariableArray": [],
+                    "parent": "cytosol",
+                    "ports": []
+                }
             }
         }
     ],

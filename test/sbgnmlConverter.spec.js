@@ -54,6 +54,7 @@ describe('sbgnmlConverter', function () {
     for (var i = 0; i < outputFiles.length; i++) {
       var text = getFileText(fixtureFiles[i]);
       actual = JSON.stringify(converter.convert(text), null, 4);
+
       expected = JSON.stringify(outputFiles[i], null, 4);
 
       assert.deepEqual(expected, actual);
