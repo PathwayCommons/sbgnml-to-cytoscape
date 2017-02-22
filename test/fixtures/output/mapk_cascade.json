@@ -12,8 +12,8 @@
                     },
                     "class": "simple chemical",
                     "label": "ATP",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "",
                     "clonemarker": true,
                     "ports": []
@@ -32,8 +32,8 @@
                     },
                     "class": "simple chemical",
                     "label": "ADP",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "",
                     "clonemarker": true,
                     "ports": []
@@ -52,8 +52,8 @@
                     },
                     "class": "simple chemical",
                     "label": "ATP",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "",
                     "clonemarker": true,
                     "ports": []
@@ -72,8 +72,8 @@
                     },
                     "class": "simple chemical",
                     "label": "ADP",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "",
                     "clonemarker": true,
                     "ports": []
@@ -92,8 +92,8 @@
                     },
                     "class": "simple chemical",
                     "label": "ATP",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "",
                     "clonemarker": true,
                     "ports": []
@@ -112,8 +112,8 @@
                     },
                     "class": "simple chemical",
                     "label": "ADP",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "",
                     "clonemarker": true,
                     "ports": []
@@ -132,8 +132,8 @@
                     },
                     "class": "macromolecule",
                     "label": "RAF",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [
+                    "unitsOfInformation": [],
+                    "stateVariables": [
                         {
                             "id": "glyph2a",
                             "clazz": "state variable",
@@ -165,8 +165,8 @@
                     },
                     "class": "simple chemical",
                     "label": "ADP",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "",
                     "clonemarker": true,
                     "ports": []
@@ -185,8 +185,8 @@
                     },
                     "class": "simple chemical",
                     "label": "ADP",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "",
                     "clonemarker": true,
                     "ports": []
@@ -205,8 +205,8 @@
                     },
                     "class": "simple chemical",
                     "label": "ATP",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "",
                     "clonemarker": true,
                     "ports": []
@@ -225,8 +225,8 @@
                     },
                     "class": "simple chemical",
                     "label": "ATP",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "",
                     "clonemarker": true,
                     "ports": []
@@ -245,8 +245,8 @@
                     },
                     "class": "macromolecule",
                     "label": "MEK",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [
+                    "unitsOfInformation": [],
+                    "stateVariables": [
                         {
                             "id": "glyph12a",
                             "clazz": "state variable",
@@ -278,8 +278,8 @@
                     },
                     "class": "macromolecule",
                     "label": "ERK",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [
+                    "unitsOfInformation": [],
+                    "stateVariables": [
                         {
                             "id": "glyph19a",
                             "clazz": "state variable",
@@ -311,8 +311,8 @@
                     },
                     "class": "tag",
                     "label": "ERK",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "",
                     "ports": []
                 }
@@ -330,8 +330,8 @@
                     },
                     "class": "macromolecule",
                     "label": "RAS",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [
+                    "unitsOfInformation": [],
+                    "stateVariables": [
                         {
                             "id": "glyph1a",
                             "clazz": "state variable",
@@ -363,8 +363,8 @@
                     },
                     "class": "tag",
                     "label": "RAS",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "",
                     "ports": []
                 }
@@ -382,8 +382,8 @@
                     },
                     "class": "macromolecule",
                     "label": "MEK",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [
+                    "unitsOfInformation": [],
+                    "stateVariables": [
                         {
                             "id": "glyph24a",
                             "clazz": "state variable",
@@ -414,8 +414,8 @@
                         "h": "20.0"
                     },
                     "class": "process",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "",
                     "ports": []
                 }
@@ -433,8 +433,8 @@
                     },
                     "class": "macromolecule",
                     "label": "RAF",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [
+                    "unitsOfInformation": [],
+                    "stateVariables": [
                         {
                             "id": "glyph25a",
                             "clazz": "state variable",
@@ -463,8 +463,8 @@
                         "h": "20.0"
                     },
                     "class": "process",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "",
                     "ports": []
                 }
@@ -482,8 +482,8 @@
                     },
                     "class": "macromolecule",
                     "label": "MEK",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [
+                    "unitsOfInformation": [],
+                    "stateVariables": [
                         {
                             "id": "glyph23a",
                             "clazz": "state variable",
@@ -512,8 +512,8 @@
                         "h": "20.0"
                     },
                     "class": "process",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "",
                     "ports": []
                 }
@@ -531,8 +531,8 @@
                     },
                     "class": "macromolecule",
                     "label": "ERK",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [
+                    "unitsOfInformation": [],
+                    "stateVariables": [
                         {
                             "id": "glyph22a",
                             "clazz": "state variable",
@@ -561,8 +561,8 @@
                         "h": "20.0"
                     },
                     "class": "process",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "",
                     "ports": []
                 }
@@ -579,8 +579,8 @@
                         "h": "20.0"
                     },
                     "class": "process",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "",
                     "ports": []
                 }
@@ -598,8 +598,8 @@
                     },
                     "class": "macromolecule",
                     "label": "ERK",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [
+                    "unitsOfInformation": [],
+                    "stateVariables": [
                         {
                             "id": "glyph21a",
                             "clazz": "state variable",

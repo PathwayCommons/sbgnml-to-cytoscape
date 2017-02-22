@@ -12,8 +12,8 @@
                     },
                     "class": "compartment",
                     "label": "nucleoplasm",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "",
                     "ports": []
                 }
@@ -31,8 +31,8 @@
                     },
                     "class": "complex",
                     "label": "53BP1:H2AX complex at site of double-strand break",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "nucleoplasm",
                     "ports": []
                 }
@@ -50,8 +50,8 @@
                     },
                     "class": "macromolecule",
                     "label": "MDC1",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "http___www.reactome.org_biopax_48887Complex2697",
                     "ports": []
                 }
@@ -69,8 +69,8 @@
                     },
                     "class": "macromolecule",
                     "label": "TP53BP1",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "http___www.reactome.org_biopax_48887Complex2697",
                     "ports": []
                 }
@@ -88,8 +88,8 @@
                     },
                     "class": "unspecified entity",
                     "label": "DNA double-strand break ends",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "http___www.reactome.org_biopax_48887Complex2697",
                     "ports": []
                 }
@@ -107,8 +107,8 @@
                     },
                     "class": "macromolecule",
                     "label": "H2AFX",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [
+                    "unitsOfInformation": [],
+                    "stateVariables": [
                         {
                             "id": "http___www.reactome.org_biopax_48887Protein1283_http___www.reactome.org_biopax_48887Complex2697.state.1",
                             "clazz": "state variable",
@@ -141,8 +141,8 @@
                     },
                     "class": "complex",
                     "label": "BRCA1:53BP1 complex at site of DNA double-strand break",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "nucleoplasm",
                     "ports": []
                 }
@@ -160,8 +160,8 @@
                     },
                     "class": "macromolecule",
                     "label": "MDC1",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "http___www.reactome.org_biopax_48887Complex2701",
                     "ports": []
                 }
@@ -179,8 +179,8 @@
                     },
                     "class": "macromolecule",
                     "label": "BRCA1",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "http___www.reactome.org_biopax_48887Complex2701",
                     "ports": []
                 }
@@ -198,8 +198,8 @@
                     },
                     "class": "macromolecule",
                     "label": "TP53BP1",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "http___www.reactome.org_biopax_48887Complex2701",
                     "ports": []
                 }
@@ -217,8 +217,8 @@
                     },
                     "class": "unspecified entity",
                     "label": "DNA double-strand break ends",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "http___www.reactome.org_biopax_48887Complex2701",
                     "ports": []
                 }
@@ -236,8 +236,8 @@
                     },
                     "class": "macromolecule",
                     "label": "H2AFX",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [
+                    "unitsOfInformation": [],
+                    "stateVariables": [
                         {
                             "id": "http___www.reactome.org_biopax_48887Protein1283_http___www.reactome.org_biopax_48887Complex2701.state.1",
                             "clazz": "state variable",
@@ -270,8 +270,8 @@
                     },
                     "class": "complex",
                     "label": "MDC1/NFBD1:gamma-H2AX complex",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "nucleoplasm",
                     "ports": []
                 }
@@ -289,8 +289,8 @@
                     },
                     "class": "macromolecule",
                     "label": "MDC1",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "http___www.reactome.org_biopax_48887Complex2695",
                     "ports": []
                 }
@@ -308,8 +308,8 @@
                     },
                     "class": "macromolecule",
                     "label": "H2AFX",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [
+                    "unitsOfInformation": [],
+                    "stateVariables": [
                         {
                             "id": "http___www.reactome.org_biopax_48887Protein1283_http___www.reactome.org_biopax_48887Complex2695.state.1",
                             "clazz": "state variable",
@@ -342,8 +342,8 @@
                     },
                     "class": "complex",
                     "label": "gamma H2AX:MDC1/NFBD1 complex at site of DNA double-strand break",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "nucleoplasm",
                     "ports": []
                 }
@@ -361,8 +361,8 @@
                     },
                     "class": "macromolecule",
                     "label": "MDC1",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "http___www.reactome.org_biopax_48887Complex2694",
                     "ports": []
                 }
@@ -380,8 +380,8 @@
                     },
                     "class": "unspecified entity",
                     "label": "DNA double-strand break ends",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "http___www.reactome.org_biopax_48887Complex2694",
                     "ports": []
                 }
@@ -399,8 +399,8 @@
                     },
                     "class": "macromolecule",
                     "label": "H2AFX",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [
+                    "unitsOfInformation": [],
+                    "stateVariables": [
                         {
                             "id": "http___www.reactome.org_biopax_48887Protein1283_http___www.reactome.org_biopax_48887Complex2694.state.1",
                             "clazz": "state variable",
@@ -433,8 +433,8 @@
                     },
                     "class": "complex",
                     "label": "gamma-H2AX:NBS1 complex at the site of double-strand break",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "nucleoplasm",
                     "ports": []
                 }
@@ -452,8 +452,8 @@
                     },
                     "class": "unspecified entity",
                     "label": "DNA double-strand break ends",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "http___www.reactome.org_biopax_48887Complex2698",
                     "ports": []
                 }
@@ -471,8 +471,8 @@
                     },
                     "class": "macromolecule",
                     "label": "H2AFX",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [
+                    "unitsOfInformation": [],
+                    "stateVariables": [
                         {
                             "id": "http___www.reactome.org_biopax_48887Protein1283_http___www.reactome.org_biopax_48887Complex2698.state.1",
                             "clazz": "state variable",
@@ -505,8 +505,8 @@
                     },
                     "class": "macromolecule",
                     "label": "NBN",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "http___www.reactome.org_biopax_48887Complex2698",
                     "ports": []
                 }
@@ -524,8 +524,8 @@
                     },
                     "class": "macromolecule",
                     "label": "NBN",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [
+                    "unitsOfInformation": [],
+                    "stateVariables": [
                         {
                             "id": "http___www.reactome.org_biopax_48887Protein8107.state.1",
                             "clazz": "state variable",
@@ -558,8 +558,8 @@
                     },
                     "class": "macromolecule",
                     "label": "BRCA1",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "nucleoplasm",
                     "ports": []
                 }
@@ -577,8 +577,8 @@
                     },
                     "class": "macromolecule",
                     "label": "H2AFX",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [
+                    "unitsOfInformation": [],
+                    "stateVariables": [
                         {
                             "id": "http___www.reactome.org_biopax_48887Protein1283.state.1",
                             "clazz": "state variable",
@@ -611,8 +611,8 @@
                     },
                     "class": "complex",
                     "label": "MRN",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "nucleoplasm",
                     "ports": []
                 }
@@ -630,8 +630,8 @@
                     },
                     "class": "macromolecule",
                     "label": "RAD50",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "http___www.reactome.org_biopax_48887Complex465",
                     "ports": []
                 }
@@ -649,8 +649,8 @@
                     },
                     "class": "macromolecule",
                     "label": "MRE11A",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "http___www.reactome.org_biopax_48887Complex465",
                     "ports": []
                 }
@@ -668,8 +668,8 @@
                     },
                     "class": "macromolecule",
                     "label": "NBN",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "http___www.reactome.org_biopax_48887Complex465",
                     "ports": []
                 }
@@ -687,8 +687,8 @@
                     },
                     "class": "complex",
                     "label": "DNA double-strand break ends: MRN complex",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "nucleoplasm",
                     "ports": []
                 }
@@ -706,8 +706,8 @@
                     },
                     "class": "macromolecule",
                     "label": "RAD50",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "http___www.reactome.org_biopax_48887Complex2700",
                     "ports": []
                 }
@@ -725,8 +725,8 @@
                     },
                     "class": "unspecified entity",
                     "label": "DNA double-strand break ends",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "http___www.reactome.org_biopax_48887Complex2700",
                     "ports": []
                 }
@@ -744,8 +744,8 @@
                     },
                     "class": "macromolecule",
                     "label": "H2AFX",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [
+                    "unitsOfInformation": [],
+                    "stateVariables": [
                         {
                             "id": "http___www.reactome.org_biopax_48887Protein1283_http___www.reactome.org_biopax_48887Complex2700.state.1",
                             "clazz": "state variable",
@@ -778,8 +778,8 @@
                     },
                     "class": "macromolecule",
                     "label": "MRE11A",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "http___www.reactome.org_biopax_48887Complex2700",
                     "ports": []
                 }
@@ -797,8 +797,8 @@
                     },
                     "class": "macromolecule",
                     "label": "NBN",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "http___www.reactome.org_biopax_48887Complex2700",
                     "ports": []
                 }
@@ -816,8 +816,8 @@
                     },
                     "class": "macromolecule",
                     "label": "ATM",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [
+                    "unitsOfInformation": [],
+                    "stateVariables": [
                         {
                             "id": "http___www.reactome.org_biopax_48887Protein8104.state.1",
                             "clazz": "state variable",
@@ -850,8 +850,8 @@
                     },
                     "class": "macromolecule",
                     "label": "TP53BP1",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "nucleoplasm",
                     "ports": []
                 }
@@ -869,8 +869,8 @@
                     },
                     "class": "macromolecule",
                     "label": "BRCA1",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [
+                    "unitsOfInformation": [],
+                    "stateVariables": [
                         {
                             "id": "http___www.reactome.org_biopax_48887Protein8105.state.1",
                             "clazz": "state variable",
@@ -931,8 +931,8 @@
                     },
                     "class": "macromolecule",
                     "label": "MDC1",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "nucleoplasm",
                     "ports": []
                 }
@@ -950,8 +950,8 @@
                     },
                     "class": "macromolecule",
                     "label": "RAD50",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "nucleoplasm",
                     "ports": []
                 }
@@ -969,8 +969,8 @@
                     },
                     "class": "macromolecule",
                     "label": "H2AFX",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "nucleoplasm",
                     "ports": []
                 }
@@ -988,8 +988,8 @@
                     },
                     "class": "complex",
                     "label": "ATM associated with DNA double-strand break ends",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "nucleoplasm",
                     "ports": []
                 }
@@ -1007,8 +1007,8 @@
                     },
                     "class": "macromolecule",
                     "label": "MDC1",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "http___www.reactome.org_biopax_48887Complex2696",
                     "ports": []
                 }
@@ -1026,8 +1026,8 @@
                     },
                     "class": "macromolecule",
                     "label": "H2AFX",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [
+                    "unitsOfInformation": [],
+                    "stateVariables": [
                         {
                             "id": "http___www.reactome.org_biopax_48887Protein1283_http___www.reactome.org_biopax_48887Complex2696.state.1",
                             "clazz": "state variable",
@@ -1060,8 +1060,8 @@
                     },
                     "class": "macromolecule",
                     "label": "ATM",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [
+                    "unitsOfInformation": [],
+                    "stateVariables": [
                         {
                             "id": "http___www.reactome.org_biopax_48887Protein8104_http___www.reactome.org_biopax_48887Complex2696.state.1",
                             "clazz": "state variable",
@@ -1094,8 +1094,8 @@
                     },
                     "class": "macromolecule",
                     "label": "NBN",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "nucleoplasm",
                     "ports": []
                 }
@@ -1113,8 +1113,8 @@
                     },
                     "class": "macromolecule",
                     "label": "MRE11A",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "nucleoplasm",
                     "ports": []
                 }
@@ -1132,8 +1132,8 @@
                     },
                     "class": "complex",
                     "label": "gamma H2AX-coated DNA double-strand break ends",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "nucleoplasm",
                     "ports": []
                 }
@@ -1151,8 +1151,8 @@
                     },
                     "class": "unspecified entity",
                     "label": "DNA double-strand break ends",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "http___www.reactome.org_biopax_48887Complex2693",
                     "ports": []
                 }
@@ -1170,8 +1170,8 @@
                     },
                     "class": "macromolecule",
                     "label": "H2AFX",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [
+                    "unitsOfInformation": [],
+                    "stateVariables": [
                         {
                             "id": "http___www.reactome.org_biopax_48887Protein1283_http___www.reactome.org_biopax_48887Complex2693.state.1",
                             "clazz": "state variable",
@@ -1204,8 +1204,8 @@
                     },
                     "class": "complex",
                     "label": "RAD50:MRE11 complex",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "nucleoplasm",
                     "ports": []
                 }
@@ -1223,8 +1223,8 @@
                     },
                     "class": "macromolecule",
                     "label": "RAD50",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "http___www.reactome.org_biopax_48887Complex2699",
                     "ports": []
                 }
@@ -1242,8 +1242,8 @@
                     },
                     "class": "macromolecule",
                     "label": "MRE11A",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "http___www.reactome.org_biopax_48887Complex2699",
                     "ports": []
                 }
@@ -1261,8 +1261,8 @@
                     },
                     "class": "macromolecule",
                     "label": "MDC1",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [
+                    "unitsOfInformation": [],
+                    "stateVariables": [
                         {
                             "id": "http___www.reactome.org_biopax_48887Protein8108.state.1",
                             "clazz": "state variable",
@@ -1294,8 +1294,8 @@
                     },
                     "class": "simple chemical",
                     "label": "ATP",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "nucleoplasm",
                     "clonemarker": true,
                     "ports": []
@@ -1314,8 +1314,8 @@
                     },
                     "class": "simple chemical",
                     "label": "ADP",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "nucleoplasm",
                     "clonemarker": true,
                     "ports": []
@@ -1334,8 +1334,8 @@
                     },
                     "class": "simple chemical",
                     "label": "ADP",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "nucleoplasm",
                     "clonemarker": true,
                     "ports": []
@@ -1354,8 +1354,8 @@
                     },
                     "class": "simple chemical",
                     "label": "ADP",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "nucleoplasm",
                     "clonemarker": true,
                     "ports": []
@@ -1374,8 +1374,8 @@
                     },
                     "class": "simple chemical",
                     "label": "ADP",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "nucleoplasm",
                     "clonemarker": true,
                     "ports": []
@@ -1394,8 +1394,8 @@
                     },
                     "class": "simple chemical",
                     "label": "ATP",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "nucleoplasm",
                     "clonemarker": true,
                     "ports": []
@@ -1414,8 +1414,8 @@
                     },
                     "class": "simple chemical",
                     "label": "ATP",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "nucleoplasm",
                     "clonemarker": true,
                     "ports": []
@@ -1434,8 +1434,8 @@
                     },
                     "class": "simple chemical",
                     "label": "ATP",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "nucleoplasm",
                     "clonemarker": true,
                     "ports": []
@@ -1453,8 +1453,8 @@
                         "h": "15"
                     },
                     "class": "process",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "nucleoplasm",
                     "ports": []
                 }
@@ -1471,8 +1471,8 @@
                         "h": "15"
                     },
                     "class": "process",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "nucleoplasm",
                     "ports": []
                 }
@@ -1489,8 +1489,8 @@
                         "h": "15"
                     },
                     "class": "process",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "nucleoplasm",
                     "ports": []
                 }
@@ -1507,8 +1507,8 @@
                         "h": "15"
                     },
                     "class": "process",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "nucleoplasm",
                     "ports": []
                 }
@@ -1525,8 +1525,8 @@
                         "h": "15"
                     },
                     "class": "process",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "nucleoplasm",
                     "ports": []
                 }
@@ -1543,8 +1543,8 @@
                         "h": "15"
                     },
                     "class": "process",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "nucleoplasm",
                     "ports": []
                 }
@@ -1561,8 +1561,8 @@
                         "h": "15"
                     },
                     "class": "process",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "nucleoplasm",
                     "ports": []
                 }
@@ -1579,8 +1579,8 @@
                         "h": "15"
                     },
                     "class": "process",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "nucleoplasm",
                     "ports": []
                 }
@@ -1597,8 +1597,8 @@
                         "h": "15"
                     },
                     "class": "process",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "nucleoplasm",
                     "ports": []
                 }
@@ -1615,8 +1615,8 @@
                         "h": "15"
                     },
                     "class": "process",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "nucleoplasm",
                     "ports": []
                 }
@@ -1633,8 +1633,8 @@
                         "h": "15"
                     },
                     "class": "process",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "nucleoplasm",
                     "ports": []
                 }
@@ -1651,8 +1651,8 @@
                         "h": "15"
                     },
                     "class": "process",
-                    "unitInformationArray": [],
-                    "stateVariableArray": [],
+                    "unitsOfInformation": [],
+                    "stateVariables": [],
                     "parent": "nucleoplasm",
                     "ports": []
                 }
