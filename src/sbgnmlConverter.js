@@ -276,7 +276,7 @@ var sbgnmlConverter = {
 
     var eleClass = ele.className;
 
-    if (eleClass === 'complex' || eleClass === 'submap') {
+    if (eleClass === 'complex' || eleClass === 'complex multimer' || eleClass === 'submap') {
       self.addCytoscapeJsNode(ele, jsonArray, parent, compartments);
 
       var childGlyphs = self.findChildNodes(ele, 'glyph');

@@ -16,7 +16,8 @@ var fixtureFiles = [
   './fixtures/input/vitamins_b6_activation_to_pyridoxal_phosphate.xml',
 
 
-  './fixtures/input/small.xml'
+  './fixtures/input/small.xml',
+  './fixtures/input/complex_multimer.xml'
 ];
 
 var outputFiles = [
@@ -31,7 +32,8 @@ var outputFiles = [
   require('./fixtures/output/vitamins_b6_activation_to_pyridoxal_phosphate.json'),
 
 
-  require('./fixtures/output/small.json')
+  require('./fixtures/output/small.json'),
+  require('./fixtures/output/complex_multimer.json')
 ];
 
 var getFileText = function (filename) {
