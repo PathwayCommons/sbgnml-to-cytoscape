@@ -1,10 +1,20 @@
 {
   "name": "sbgnml-to-cytoscape",
+<<<<<<< e33f900d6d80831d9544b23c8e734bb2bfddae2b
   "version": "2.0.1",
   "description": "A tool to convert sbgn-ml files to json",
   "main": "src/index.js",
+=======
+  "version": "1.1.1",
+  "description": "A tool to convert sbgn-ml files to json for Cytoscape.js",
+  "main": "dist/sbgnml-to-cytoscape.js",
+>>>>>>> reworked package tooling
   "scripts": {
-    "test": "gulp run-test"
+    "clean": "rm -rf dist/*",
+    "build": "browserify --standalone sbgnml-to-cytoscape -e src/index.js -d -t [ babelify --comments false ] | derequire > dist/sbgnml-to-cytoscape.js",
+    "watch": "watchify --standalone sbgnml-to-cytoscape -e src/index.js -d -t [ babelify --comments false ] -o 'derequire > dist/sbgnml-to-cytoscape.js' --poll=50 --verbose",
+    "build-test": "browserify test/*.js -o test/testenv/test-bundle.js -d",
+    "watch-test": "watchify test/*.js -o test/testenv/test-bundle.js -d --poll=50 --verbose"
   },
   "repository": {
     "type": "git",
@@ -16,7 +26,11 @@
     "sbgn-ml",
     "json",
     "converter",
-    "biology"
+    "biology",
+    "cytoscape",
+    "cytoscape.js",
+    "graph",
+    "xml"
   ],
   "author": "Dylan Fong",
   "license": "MIT",
@@ -25,19 +39,15 @@
   },
   "homepage": "https://github.com/PathwayCommons/sbgnml-converter#readme",
   "devDependencies": {
-    "babel-eslint": "^6.1.2",
-    "browser-sync": "^2.17.5",
-    "browserify": "^13.1.1",
-    "del": "^2.2.2",
-    "eslint": "^3.9.1",
-    "eslint-config-airbnb-es5": "^1.1.0",
-    "eslint-plugin-react": "^6.6.0",
-    "gulp": "^3.9.1",
-    "gulp-eslint": "^3.0.1",
-    "gulp-mocha-phantomjs": "^0.12.0",
-    "gulp-util": "^3.0.7",
-    "mocha": "^3.1.2",
-    "mocha-phantomjs": "^4.1.0",
-    "vinyl-source-stream": "^1.1.0"
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-latest": "^6.22.0",
+    "babel-register": "^6.23.0",
+    "babelify": "^7.3.0",
+    "browserify": "^14.1.0",
+    "chai": "^3.5.0",
+    "derequire": "^2.0.6",
+    "eslint": "^3.16.1",
+    "mocha": "^3.2.0",
+    "watchify": "^3.9.0"
   }
 }

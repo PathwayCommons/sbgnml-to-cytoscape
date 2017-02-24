@@ -51,6 +51,3 @@ node_modules/
 test/testenv/testBundle.js
 test/testenv/fixtures/*
 
-dist/*.js
-dist/index.html
-dist/*.map
