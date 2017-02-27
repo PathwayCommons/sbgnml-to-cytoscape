@@ -1,8 +1,40 @@
 /* jslint browser: true */
 /* global ActiveXObject: false */
 
+const validSbgnClass = require('./sbgnTags.js');
+
+
+const findChildNodes = (ele, tag) => {
+  // find child nodes at depth level of 1 relative to the element
+  return ele.childNodes.filter(child => child.nodeType === 1 && child.tagName === tag);
+};
+
+const findChildNode = (ele, tag)  => {
+  const childNodes = findChildNodes(ele, tag);
+  return childNodes.length > 0 ? childNodes[0] : undefined;
+};
+
+const parsedBBox = (element) => {
+  const bb = findChildNode(element, 'bbox');
+  const parsedBB = {};
+  if (bb != null) {
+    parsedBB.x = parseFloat(bb.getAttribute('x'));
+    parsedBB.y = parseFloat(bb.getAttribute('y'));
+    parsedBB.w = parseFloat(bb.getAttribute('w'));
+    parsedBB.h = parseFloat(bb.getAttribute('h'));
+  }
+  return parsedBB;
+};
+
+const inBBox = (bb1, bb2) => {
+  return bb1.x > bb2.x &&
+         bb1.y > bb2.y &&
+         bb1.x + bb1.w < bb2.x + bb2.w &&
+         bb1.y + bb1.h < bb2.y + bb2.h;
+};
+
 var sbgnmlConverter = {
-  loadXMLFromString: function (text) {
+  loadXMLFromString (text) {
     var doc;
     if (window.ActiveXObject) {
       doc = new ActiveXObject('Microsoft.XMLDOM');
@@ -20,61 +52,22 @@ var sbgnmlConverter = {
 
     return doc;
   },
-  sbgnmlTags: {
-    'unspecified entity': true,
-    'simple chemical': true,
-    'macromolecule': true,
-    'nucleic acid feature': true,
-    'perturbing agent': true,
-    'source and sink': true,
-    'complex': true,
-    'process': true,
-    'omitted process': true,
-    'uncertain process': true,
-    'association': true,
-    'dissociation': true,
-    'phenotype': true,
-    'tag': true,
-    'consumption': true,
-    'production': true,
-    'modulation': true,
-    'stimulation': true,
-    'catalysis': true,
-    'inhibition': true,
-    'necessary stimulation': true,
-    'logic arc': true,
-    'equivalence arc': true,
-    'and operator': true,
-    'or operator': true,
-    'not operator': true,
-    'and': true,
-    'or': true,
-    'not': true,
-    'nucleic acid feature multimer': true,
-    'macromolecule multimer': true,
-    'simple chemical multimer': true,
-    'complex multimer': true,
-    'compartment': true
-  },
-  insertedNodes: {},
-  getAllCompartments: function (xmlObject) {
-    var compartments = [];
 
-    var compartmentEls = xmlObject.querySelectorAll("glyph[class='compartment']");
+  compartmentBBoxes (xmlObject) {
 
-    for (var i = 0; i < compartmentEls.length; i++) {
-      var compartment = compartmentEls[i];
-      var bbox = this.findChildNode(compartment, 'bbox');
-      compartments.push({
-        'x': parseFloat(bbox.getAttribute('x')),
-        'y': parseFloat(bbox.getAttribute('y')),
-        'w': parseFloat(bbox.getAttribute('w')),
-        'h': parseFloat(bbox.getAttribute('h')),
-        'id': compartment.getAttribute('id')
-      });
-    }
+    const compartmentEls = xmlObject.querySelectorAll('glyph[class="compartment"]');
 
-    compartments.sort(function (c1, c2) {
+    return compartmentEls.map(compartment => {
+      const {x, y, w, h} = parsedBBox(compartment);
+      return {
+        x: x,
+        y: y,
+        w: w,
+        h: h,
+        id: compartment.getAttribute('id')
+      };
+    })
+    .sort((c1, c2) => {
       if (c1.h * c1.w < c2.h * c2.w) {
         return -1;
       }
@@ -83,106 +76,68 @@ var sbgnmlConverter = {
       }
       return 0;
     });
-
-    return compartments;
   },
-  isInBoundingBox: function (bbox1, bbox2) {
-    if (bbox1.x > bbox2.x &&
-        bbox1.y > bbox2.y &&
-        bbox1.x + bbox1.w < bbox2.x + bbox2.w &&
-        bbox1.y + bbox1.h < bbox2.y + bbox2.h) {
-      return true;
-    }
-    return false;
-  },
-  bboxProp: function (ele) {
-    var bbox = {};
-    var bboxEl = ele.querySelector('bbox');
 
-    bbox.x = bboxEl.getAttribute('x');
-    bbox.y = bboxEl.getAttribute('y');
-    bbox.w = bboxEl.getAttribute('w');
-    bbox.h = bboxEl.getAttribute('h');
-    // set positions as center
-    bbox.x = parseFloat(bbox.x) + parseFloat(bbox.w) / 2;
-    bbox.y = parseFloat(bbox.y) + parseFloat(bbox.h) / 2;
+  bboxProp (ele) {
+    let bbox = parsedBBox(ele);
+
+    bbox.x = (bbox.x +  bbox.w) / 2;
+    bbox.y = (bbox.y + bbox.h) / 2;
 
     return bbox;
   },
-  stateAndInfoBboxProp: function (ele, parentBbox) {
-    var xPos = parseFloat(parentBbox.x);
-    var yPos = parseFloat(parentBbox.y);
 
-    var bbox = {};
-    var bboxEl = ele.querySelector('bbox');
+  auxItemBBox (ele, parentBbox) {
+    const {parentX, parentY, parentW, parentH} = parentBbox;
 
-    bbox.x = bboxEl.getAttribute('x');
-    bbox.y = bboxEl.getAttribute('y');
-    bbox.w = bboxEl.getAttribute('w');
-    bbox.h = bboxEl.getAttribute('h');
+    let bbox = parsedBBox(ele);
 
     // set positions as center
-    bbox.x = parseFloat(bbox.x) + parseFloat(bbox.w) / 2 - xPos;
-    bbox.y = parseFloat(bbox.y) + parseFloat(bbox.h) / 2 - yPos;
+    bbox.x = (bbox.x + bbox.w) / 2 - parentX;
+    bbox.y = (bbox.y + bbox.h) / 2 - parentY;
 
-    bbox.x = bbox.x / parseFloat(parentBbox.w) * 100;
-    bbox.y = bbox.y / parseFloat(parentBbox.h) * 100;
+    bbox.x = bbox.x / parentW * 100;
+    bbox.y = bbox.y / parentH * 100;
 
     return bbox;
   },
-  findChildNodes: function (ele, childTagName) {
-    // find child nodes at depth level of 1 relative to the element
-    var children = [];
-    for (var i = 0; i < ele.childNodes.length; i++) {
-      var child = ele.childNodes[i];
-      if (child.nodeType === 1 && child.tagName === childTagName) {
-        children.push(child);
-      }
-    }
-    return children;
-  },
-  findChildNode: function (ele, childTagName) {
-    var nodes = this.findChildNodes(ele, childTagName);
-    return nodes.length > 0 ? nodes[0] : undefined;
-  },
-  stateAndInfoProp: function (ele, parentBbox) {
+
+  stateAndInfoProp (ele, parentBBox) {
     var self = this;
-    var stateVariables = [];
-    var unitsOfInformation = [];
 
-    var childGlyphs = this.findChildNodes(ele, 'glyph');
+    const childGlyphs = findChildNodes(ele, 'glyph');
 
-    for (var i = 0; i < childGlyphs.length; i++) {
-      var glyph = childGlyphs[i];
-      var info = {};
+    const stateVars = childGlyphs.filter(child => child.className === 'state variable');
+    const unitInfos = childGlyphs.filter(child => child.className === 'unit of information');
 
-      if (glyph.className === 'unit of information') {
-        info.id = glyph.getAttribute('id') || undefined;
-        info.class = glyph.className || undefined;
-        var label = glyph.querySelector('label');
-        info.label = {
-          'text': (label && label.getAttribute('text')) || undefined
-        };
-        info.bbox = self.stateAndInfoBboxProp(glyph, parentBbox);
-        unitsOfInformation.push(info);
-      } else if (glyph.className === 'state variable') {
-        info.id = glyph.getAttribute('id') || undefined;
-        info.class = glyph.className || undefined;
-        var state = glyph.querySelector('state');
-        var value = (state && state.getAttribute('value')) || undefined;
-        var variable = (state && state.getAttribute('variable')) || undefined;
-        info.state = {
-          'value': value,
-          'variable': variable
-        };
-        info.bbox = self.stateAndInfoBboxProp(glyph, parentBbox);
-        stateVariables.push(info);
-      }
-    }
+    const stateVariables = stateVars.map(stateVar => {
+      const state = findChildNode(stateVar, 'state');
+      return {
+        id: stateVar.getAttribute('id') || '',
+        class: stateVar.className || '',
+        state: {
+          value: (state && state.getAttribute('value')) || '',
+          variable: (state && state.getAttribute('variable')) || ''
+        },
+        bbox: self.auxItemBBox(stateVar, parentBBox)
+      };
+    });
+    const unitsOfInformation = unitInfos.map(uinfo => {
+      const label = findChildNode(uinfo, 'label');
+      return {
+        id: uinfo.getAttribute('id') || '',
+        class: uinfo.className || '',
+        label: {
+          text: (label && label.getAttribute('text')) || ''
+        },
+        bbox: self.auxItemBBox(uinfo, parentBBox)
+      };
+    });
 
     return {'unitsOfInformation': unitsOfInformation, 'stateVariables': stateVariables};
   },
-  addParentInfoToNode: function (ele, nodeObj, parent, compartments) {
+
+  addParentInfoToNode (ele, nodeObj, parent, compartments) {
     var self = this;
     var compartmentRef = ele.getAttribute('compartmentRef');
 
@@ -206,80 +161,66 @@ var sbgnmlConverter = {
           'h': parseFloat(bboxEl.getAttribute('h')),
           'id': ele.getAttribute('id')
         };
-        if (self.isInBoundingBox(bbox, compartments[i])) {
+        if (inBBox(bbox, compartments[i])) {
           nodeObj.parent = compartments[i].id;
           break;
         }
       }
     }
   },
-  addCytoscapeJsNode: function (ele, jsonArray, parent, compartments) {
+  glyph2JSON (glyph) {
     var self = this;
-    var nodeObj = {};
+    var node = {};
 
-    // add id information
-    nodeObj.id = ele.getAttribute('id');
-    // add node bounding box information
-    nodeObj.bbox = self.bboxProp(ele);
-    // add class information
-    nodeObj.class = ele.className;
-    // add label information
-    var label = self.findChildNode(ele, 'label');
-    nodeObj.label = (label && label.getAttribute('text')) || undefined;
-    // add state and info box information
-    nodeObj.unitsOfInformation = self.stateAndInfoProp(ele, nodeObj.bbox).unitsOfInformation;
-    nodeObj.stateVariables = self.stateAndInfoProp(ele, nodeObj.bbox).stateVariables;
-    // adding parent information
-    self.addParentInfoToNode(ele, nodeObj, parent, compartments);
+    node.id = glyph.getAttribute('id');
+    node.bbox = self.bboxProp(glyph);
+    node.class = glyph.className;
 
-    // add clone information
-    var cloneMarkers = self.findChildNodes(ele, 'clone');
-    if (cloneMarkers.length > 0) {
-      nodeObj.clonemarker = true;
-    } else {
-      nodeObj.clonemarker = undefined;
-    }
+    var label = self.findChildNode(glyph, 'label');
+    node.label = (label && label.getAttribute('text')) || undefined;
+
+    const { unitsOfInformation, stateVariables } = self.stateAndInfoProp(glyph, node.bbox);
+    node.unitsOfInformation = unitsOfInformation;
+    node.stateVariables = stateVariables;
+
+    self.addParentInfoToNode(glyph, node, parent);
+
+    node.clonemarker = self.findChildNode(glyph, 'clone') != undefined;
 
     // add port information
-    var ports = [];
-    var portElements = ele.querySelectorAll('port');
+    const portElements = glyph.querySelectorAll('port');
+    const ports = portElements.map(port => {
+      const id = port.getAttribute('id');
+      let relativeXPos = parseFloat(port.getAttribute('x')) - node.bbox.x;
+      let relativeYPos = parseFloat(port.getAttribute('y')) - node.bbox.y;
 
-    for (var i = 0; i < portElements.length; i++) {
-      var portEl = portElements[i];
-      var id = portEl.getAttribute('id');
-      var relativeXPos = parseFloat(portEl.getAttribute('x')) - nodeObj.bbox.x;
-      var relativeYPos = parseFloat(portEl.getAttribute('y')) - nodeObj.bbox.y;
+      relativeXPos = relativeXPos / parseFloat(node.bbox.w) * 100;
+      relativeYPos = relativeYPos / parseFloat(node.bbox.h) * 100;
 
-      relativeXPos = relativeXPos / parseFloat(nodeObj.bbox.w) * 100;
-      relativeYPos = relativeYPos / parseFloat(nodeObj.bbox.h) * 100;
-
-      ports.push({
+      return {
         id: id,
         x: relativeXPos,
         y: relativeYPos
-      });
-    }
+      };
+    });
+    node.ports = ports;
 
-    nodeObj.ports = ports;
-
-    var cytoscapeJsNode = {data: {sbgn: nodeObj}};
-    jsonArray.push(cytoscapeJsNode);
+    return { data: { sbgn: node } };
   },
-  traverseNodes: function (ele, jsonArray, parent, compartments) {
-    var elId = ele.getAttribute('id');
-    if (!this.sbgnmlTags[ele.className]) {
+  traverseNodes (node, jsonArray, parent, compartments) {
+    var elId = node.getAttribute('id');
+    if (!validSbgnClass(node.className)) {
       return;
     }
-    this.insertedNodes[elId] = true;
     var self = this;
-    // add complex nodes here
 
-    var eleClass = ele.className;
 
-    if (eleClass === 'complex' || eleClass === 'complex multimer' || eleClass === 'submap') {
-      self.addCytoscapeJsNode(ele, jsonArray, parent, compartments);
+    var nodeClass = node.className;
 
-      var childGlyphs = self.findChildNodes(ele, 'glyph');
+    if (nodeClass === 'complex' || nodeClass === 'complex multimer' || nodeClass === 'submap') {
+      self.addCytoscapeJsNode(node, jsonArray, parent, compartments);
+
+      var childGlyphs = self.findChildNodes(node, 'glyph');
       for (var i = 0; i < childGlyphs.length; i++) {
         var glyph = childGlyphs[i];
         var glyphClass = glyph.className;
@@ -288,13 +229,13 @@ var sbgnmlConverter = {
         }
       }
     } else {
-      self.addCytoscapeJsNode(ele, jsonArray, parent, compartments);
+      self.addCytoscapeJsNode(node, jsonArray, parent, compartments);
     }
   },
-  getPorts: function (xmlObject) {
+  getPorts (xmlObject) {
     return ( xmlObject._cachedPorts = xmlObject._cachedPorts || xmlObject.querySelectorAll('port'));
   },
-  getGlyphs: function (xmlObject) {
+  getGlyphs (xmlObject) {
     var glyphs = xmlObject._cachedGlyphs;
 
     if (!glyphs) {
@@ -312,12 +253,12 @@ var sbgnmlConverter = {
 
     return glyphs;
   },
-  getGlyphById: function (xmlObject, id) {
+  getGlyphById (xmlObject, id) {
     this.getGlyphs(xmlObject); // make sure cache is built
 
     return xmlObject._id2glyph[id];
   },
-  getArcSourceAndTarget: function (arc, xmlObject) {
+  endPoints (arc, xmlObject) {
     // source and target can be inside of a port
     var source = arc.getAttribute('source');
     var target = arc.getAttribute('target');
@@ -360,94 +301,65 @@ var sbgnmlConverter = {
     return {'source': sourceNodeId, 'target': targetNodeId};
   },
 
-  getArcBendPointPositions: function (ele) {
-    var bendPointPositions = [];
+  bendPointPositions (arc) {
+    const self = this;
+    const bendPoints = self.findChildNodes(arc, 'next');
 
-    var children = this.findChildNodes(ele, 'next');
-
-    for (var i = 0; i < children.length; i++) {
-      var posX = children[i].getAttribute('x');
-      var posY = children[i].getAttribute('y');
-
-      bendPointPositions.push({
-        x: posX,
-        y: posY
-      });
-    }
-
-    return bendPointPositions;
+    return bendPoints.map((bendPoint) => {
+      return  {
+        x: bendPoint.getAttribute('x'),
+        y: bendPoint.getAttribute('y')
+      };
+    });
   },
-  addCytoscapeJsEdge: function (ele, jsonArray, xmlObject) {
-    if (!this.sbgnmlTags[ele.className]) {
+
+  arc2JSON (arc, xmlObject) {
+    if (!validSbgnClass(arc.className)) {
       return;
     }
 
     var self = this;
-    var sourceAndTarget = self.getArcSourceAndTarget(ele, xmlObject);
+    var {source, target} = self.endPoints(arc, xmlObject);
 
-    if (!this.insertedNodes[sourceAndTarget.source] || !this.insertedNodes[sourceAndTarget.target]) {
-      return;
-    }
+    var edge = {};
 
-    var edgeObj = {};
-    var bendPointPositions = self.getArcBendPointPositions(ele);
+    edge.id = arc.getAttribute('id') || undefined;
+    edge.class = arc.className;
+    edge.bendPointPositions = self.bendPointPositions(arc);
 
-    edgeObj.id = ele.getAttribute('id') || undefined;
-    edgeObj.class = ele.className;
-    edgeObj.bendPointPositions = bendPointPositions;
-
-    var glyphChildren = self.findChildNodes(ele, 'glyph');
-    var glyphDescendents = ele.querySelectorAll('glyph');
+    var glyphChildren = self.findChildNodes(arc, 'glyph');
+    var glyphDescendents = arc.querySelectorAll('glyph');
     if (glyphDescendents.length <= 0) {
-      edgeObj.cardinality = 0;
+      edge.cardinality = 0;
     } else {
       for (var i = 0; i < glyphChildren.length; i++) {
         if (glyphChildren[i].className === 'cardinality') {
           var label = glyphChildren[i].querySelector('label');
-          edgeObj.cardinality = label.getAttribute('text') || undefined;
+          edge.cardinality = label.getAttribute('text') || undefined;
         }
       }
     }
 
-    edgeObj.source = sourceAndTarget.source;
-    edgeObj.target = sourceAndTarget.target;
+    edge.source = source;
+    edge.target = target;
 
-    edgeObj.portsource = ele.getAttribute('source');
-    edgeObj.porttarget = ele.getAttribute('target');
+    edge.portsource = arc.getAttribute('source');
+    edge.porttarget = arc.getAttribute('target');
 
-    var cytoscapeJsEdge = {data: edgeObj};
-    jsonArray.push(cytoscapeJsEdge);
+    return { sbgn: { data: edge } };
   },
-  convert: function (sbgnmlText) {
+  convert (sbgnmlText) {
     var self = this;
-    var cytoscapeJsNodes = [];
-    var cytoscapeJsEdges = [];
 
-    var xmlObject = this.loadXMLFromString(sbgnmlText);
-
-    var compartments = self.getAllCompartments(xmlObject);
+    var xmlObject = self.loadXMLFromString(sbgnmlText);
 
     var glyphs = self.findChildNodes(xmlObject.querySelector('map'), 'glyph');
     var arcs = self.findChildNodes(xmlObject.querySelector('map'), 'arc');
 
-    var i;
-    for (i = 0; i < glyphs.length; i++) {
-      var glyph = glyphs[i];
-      self.traverseNodes(glyph, cytoscapeJsNodes, '', compartments);
-    }
-
-    for (i = 0; i < arcs.length; i++) {
-      var arc = arcs[i];
-      self.addCytoscapeJsEdge(arc, cytoscapeJsEdges, xmlObject);
-    }
-
-    var cytoscapeJsGraph = {};
-    cytoscapeJsGraph.nodes = cytoscapeJsNodes;
-    cytoscapeJsGraph.edges = cytoscapeJsEdges;
-
-    this.insertedNodes = {};
-
-    return cytoscapeJsGraph;
+    return {
+      nodes: glyphs.map(glyph => self.glyph2JSON(glyph)),
+      edges: arcs.map(arc => self.arc2JSON(arc))
+    };
   }
 };
 
