@@ -158,7 +158,7 @@ var sbgnmlConverter = {
 
       if (glyph.className === 'unit of information') {
         info.id = glyph.getAttribute('id') || undefined;
-        info.clazz = glyph.className || undefined;
+        info.class = glyph.className || undefined;
         var label = glyph.querySelector('label');
         info.label = {
           'text': (label && label.getAttribute('text')) || undefined
@@ -167,7 +167,7 @@ var sbgnmlConverter = {
         unitsOfInformation.push(info);
       } else if (glyph.className === 'state variable') {
         info.id = glyph.getAttribute('id') || undefined;
-        info.clazz = glyph.className || undefined;
+        info.class = glyph.className || undefined;
         var state = glyph.querySelector('state');
         var value = (state && state.getAttribute('value')) || undefined;
         var variable = (state && state.getAttribute('variable')) || undefined;

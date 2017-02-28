@@ -53,7 +53,7 @@
                     "unitsOfInformation": [
                         {
                             "id": "glyph36a",
-                            "clazz": "unit of information",
+                            "class": "unit of information",
                             "label": {
                                 "text": "close"
                             },
@@ -221,7 +221,7 @@
                     "stateVariables": [
                         {
                             "id": "glyph24a",
-                            "clazz": "state variable",
+                            "class": "state variable",
                             "state": {
                                 "variable": "T287"
                             },
@@ -234,7 +234,7 @@
                         },
                         {
                             "id": "glyph24b",
-                            "clazz": "state variable",
+                            "class": "state variable",
                             "state": {
                                 "value": "P",
                                 "variable": "S334"
@@ -421,7 +421,7 @@
                     "stateVariables": [
                         {
                             "id": "glyph23a",
-                            "clazz": "state variable",
+                            "class": "state variable",
                             "state": {
                                 "variable": "T287"
                             },
@@ -434,7 +434,7 @@
                         },
                         {
                             "id": "glyph23b",
-                            "clazz": "state variable",
+                            "class": "state variable",
                             "state": {
                                 "variable": "S334"
                             },
@@ -572,7 +572,7 @@
                     "stateVariables": [
                         {
                             "id": "glyph25a",
-                            "clazz": "state variable",
+                            "class": "state variable",
                             "state": {
                                 "variable": "T287"
                             },
@@ -585,7 +585,7 @@
                         },
                         {
                             "id": "glyph25b",
-                            "clazz": "state variable",
+                            "class": "state variable",
                             "state": {
                                 "variable": "S334"
                             },
@@ -675,7 +675,7 @@
                     "stateVariables": [
                         {
                             "id": "glyph22a",
-                            "clazz": "state variable",
+                            "class": "state variable",
                             "state": {
                                 "variable": "T287"
                             },
@@ -688,7 +688,7 @@
                         },
                         {
                             "id": "glyph22b",
-                            "clazz": "state variable",
+                            "class": "state variable",
                             "state": {
                                 "variable": "S334"
                             },
@@ -950,7 +950,7 @@
                     "stateVariables": [
                         {
                             "id": "glyph33a",
-                            "clazz": "state variable",
+                            "class": "state variable",
                             "state": {
                                 "variable": "T196"
                             },
@@ -1012,7 +1012,7 @@
                     "stateVariables": [
                         {
                             "id": "glyph32a",
-                            "clazz": "state variable",
+                            "class": "state variable",
                             "state": {},
                             "bbox": {
                                 "x": -25,
@@ -1067,7 +1067,7 @@
                     "stateVariables": [
                         {
                             "id": "glyph28a",
-                            "clazz": "state variable",
+                            "class": "state variable",
                             "state": {
                                 "value": "P"
                             },
@@ -1138,7 +1138,7 @@
                     "stateVariables": [
                         {
                             "id": "glyph20a",
-                            "clazz": "state variable",
+                            "class": "state variable",
                             "state": {
                                 "variable": "T287"
                             },
@@ -1151,7 +1151,7 @@
                         },
                         {
                             "id": "glyph20b",
-                            "clazz": "state variable",
+                            "class": "state variable",
                             "state": {
                                 "value": "P",
                                 "variable": "S334"
@@ -1318,7 +1318,7 @@
                     "stateVariables": [
                         {
                             "id": "glyph21a",
-                            "clazz": "state variable",
+                            "class": "state variable",
                             "state": {
                                 "value": "P",
                                 "variable": "T287"
@@ -1332,7 +1332,7 @@
                         },
                         {
                             "id": "glyph21b",
-                            "clazz": "state variable",
+                            "class": "state variable",
                             "state": {
                                 "value": "P",
                                 "variable": "S334"
@@ -1433,7 +1433,7 @@
                     "stateVariables": [
                         {
                             "id": "glyph34a",
-                            "clazz": "state variable",
+                            "class": "state variable",
                             "state": {
                                 "variable": "T196"
                             },
@@ -1571,7 +1571,7 @@
                     "stateVariables": [
                         {
                             "id": "glyph29a",
-                            "clazz": "state variable",
+                            "class": "state variable",
                             "state": {
                                 "value": "P",
                                 "variable": "T196"
@@ -1661,7 +1661,7 @@
                     "unitsOfInformation": [
                         {
                             "id": "glyph26a",
-                            "clazz": "unit of information",
+                            "class": "unit of information",
                             "label": {
                                 "text": "open"
                             },

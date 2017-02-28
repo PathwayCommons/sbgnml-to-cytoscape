@@ -136,7 +136,7 @@
                     "stateVariables": [
                         {
                             "id": "glyph2a",
-                            "clazz": "state variable",
+                            "class": "state variable",
                             "state": {
                                 "value": "P"
                             },
@@ -249,7 +249,7 @@
                     "stateVariables": [
                         {
                             "id": "glyph12a",
-                            "clazz": "state variable",
+                            "class": "state variable",
                             "state": {
                                 "value": "2P"
                             },
@@ -282,7 +282,7 @@
                     "stateVariables": [
                         {
                             "id": "glyph19a",
-                            "clazz": "state variable",
+                            "class": "state variable",
                             "state": {
                                 "value": "2P"
                             },
@@ -334,7 +334,7 @@
                     "stateVariables": [
                         {
                             "id": "glyph1a",
-                            "clazz": "state variable",
+                            "class": "state variable",
                             "state": {
                                 "value": "active"
                             },
@@ -386,7 +386,7 @@
                     "stateVariables": [
                         {
                             "id": "glyph24a",
-                            "clazz": "state variable",
+                            "class": "state variable",
                             "state": {
                                 "value": "P"
                             },
@@ -437,7 +437,7 @@
                     "stateVariables": [
                         {
                             "id": "glyph25a",
-                            "clazz": "state variable",
+                            "class": "state variable",
                             "state": {},
                             "bbox": {
                                 "x": 0,
@@ -486,7 +486,7 @@
                     "stateVariables": [
                         {
                             "id": "glyph23a",
-                            "clazz": "state variable",
+                            "class": "state variable",
                             "state": {},
                             "bbox": {
                                 "x": -25,
@@ -535,7 +535,7 @@
                     "stateVariables": [
                         {
                             "id": "glyph22a",
-                            "clazz": "state variable",
+                            "class": "state variable",
                             "state": {},
                             "bbox": {
                                 "x": -25,
@@ -602,7 +602,7 @@
                     "stateVariables": [
                         {
                             "id": "glyph21a",
-                            "clazz": "state variable",
+                            "class": "state variable",
                             "state": {
                                 "value": "P"
                             },

@@ -410,7 +410,7 @@
                     "stateVariables": [
                         {
                             "id": "glyph20a",
-                            "clazz": "state variable",
+                            "class": "state variable",
                             "state": {
                                 "value": "closed"
                             },
@@ -497,7 +497,7 @@
                     "stateVariables": [
                         {
                             "id": "glyph38a",
-                            "clazz": "state variable",
+                            "class": "state variable",
                             "state": {
                                 "value": "relaxed"
                             },
@@ -792,7 +792,7 @@
                     "stateVariables": [
                         {
                             "id": "glyph21a",
-                            "clazz": "state variable",
+                            "class": "state variable",
                             "state": {
                                 "value": "open"
                             },
@@ -842,7 +842,7 @@
                     "stateVariables": [
                         {
                             "id": "glyph37a",
-                            "clazz": "state variable",
+                            "class": "state variable",
                             "state": {
                                 "value": "tense"
                             },

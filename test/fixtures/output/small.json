@@ -16,7 +16,7 @@
                     "stateVariables": [
                         {
                             "id": "http___pathwaycommons_org_pc2_Protein_e390810ac5c9e1fac8d14e7e3cf20994.info.1",
-                            "clazz": "state variable",
+                            "class": "state variable",
                             "state": {
                                 "value": "active"
                             },
@@ -97,7 +97,7 @@
                     "stateVariables": [
                         {
                             "id": "http___pathwaycommons_org_pc2_Protein_3c410501913e286019942ef459fe25f7.info.1",
-                            "clazz": "state variable",
+                            "class": "state variable",
                             "state": {
                                 "value": "inactive"
                             },

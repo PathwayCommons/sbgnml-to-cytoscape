@@ -51,7 +51,7 @@
                     "unitsOfInformation": [
                         {
                             "id": "glyph3a",
-                            "clazz": "unit of information",
+                            "class": "unit of information",
                             "label": {
                                 "text": "ct:mRNA"
                             },
@@ -120,7 +120,7 @@
                     "unitsOfInformation": [
                         {
                             "id": "glyph15a",
-                            "clazz": "unit of information",
+                            "class": "unit of information",
                             "label": {
                                 "text": "mt:prot"
                             },
@@ -153,7 +153,7 @@
                     "unitsOfInformation": [
                         {
                             "id": "glyph14a",
-                            "clazz": "unit of information",
+                            "class": "unit of information",
                             "label": {
                                 "text": "ct:gene"
                             },
@@ -222,7 +222,7 @@
                     "unitsOfInformation": [
                         {
                             "id": "glyph10a",
-                            "clazz": "unit of information",
+                            "class": "unit of information",
                             "label": {
                                 "text": "mt:prot"
                             },
@@ -237,7 +237,7 @@
                     "stateVariables": [
                         {
                             "id": "glyph10b",
-                            "clazz": "state variable",
+                            "class": "state variable",
                             "state": {
                                 "value": "P",
                                 "variable": "Y701"
@@ -251,7 +251,7 @@
                         },
                         {
                             "id": "glyph10c",
-                            "clazz": "state variable",
+                            "class": "state variable",
                             "state": {
                                 "value": "P",
                                 "variable": "Y727"
@@ -284,7 +284,7 @@
                     "unitsOfInformation": [
                         {
                             "id": "glyph12a",
-                            "clazz": "unit of information",
+                            "class": "unit of information",
                             "label": {
                                 "text": "ct:grr"
                             },
@@ -353,7 +353,7 @@
                     "unitsOfInformation": [
                         {
                             "id": "glyph1a",
-                            "clazz": "unit of information",
+                            "class": "unit of information",
                             "label": {
                                 "text": "mt:prot"
                             },
@@ -368,7 +368,7 @@
                     "stateVariables": [
                         {
                             "id": "glyph1b",
-                            "clazz": "state variable",
+                            "class": "state variable",
                             "state": {
                                 "value": "P",
                                 "variable": "Y701"
@@ -382,7 +382,7 @@
                         },
                         {
                             "id": "glyph1c",
-                            "clazz": "state variable",
+                            "class": "state variable",
                             "state": {
                                 "value": "P",
                                 "variable": "Y727"
@@ -415,7 +415,7 @@
                     "unitsOfInformation": [
                         {
                             "id": "glyph2a",
-                            "clazz": "unit of information",
+                            "class": "unit of information",
                             "label": {
                                 "text": "ct:grr"
                             },

@@ -187,7 +187,7 @@
                     "stateVariables": [
                         {
                             "id": "http___purl.org_pc2_4_Protein_269f509de4b089e3814c8883cba1da2a_http___purl.org_pc2_4_Complex_30d74cbefecaa3b05b9cdfacad488329.state.1",
-                            "clazz": "state variable",
+                            "class": "state variable",
                             "state": {
                                 "value": "x[1 - 261]"
                             },
@@ -258,7 +258,7 @@
                     "stateVariables": [
                         {
                             "id": "http___purl.org_pc2_4_Protein_1b235ff261fe500a6447d1b99f212fac_http___purl.org_pc2_4_Complex_bb744f8a7e7637ffafa1c8061c4977a0.state.1",
-                            "clazz": "state variable",
+                            "class": "state variable",
                             "state": {
                                 "value": "x[1 - 312]"
                             },
@@ -329,7 +329,7 @@
                     "stateVariables": [
                         {
                             "id": "http___purl.org_pc2_4_Protein_10eb099b277fbb1b0efe28055d04533c_http___purl.org_pc2_4_Complex_1727e90f52ed647723f8fec499a6df32.state.1",
-                            "clazz": "state variable",
+                            "class": "state variable",
                             "state": {
                                 "value": "x[1 - 1338]"
                             },

@@ -111,7 +111,7 @@
                     "stateVariables": [
                         {
                             "id": "http___www.reactome.org_biopax_48887Protein1283_http___www.reactome.org_biopax_48887Complex2697.state.1",
-                            "clazz": "state variable",
+                            "class": "state variable",
                             "state": {
                                 "value": "P",
                                 "variable": "S139"
@@ -240,7 +240,7 @@
                     "stateVariables": [
                         {
                             "id": "http___www.reactome.org_biopax_48887Protein1283_http___www.reactome.org_biopax_48887Complex2701.state.1",
-                            "clazz": "state variable",
+                            "class": "state variable",
                             "state": {
                                 "value": "P",
                                 "variable": "S139"
@@ -312,7 +312,7 @@
                     "stateVariables": [
                         {
                             "id": "http___www.reactome.org_biopax_48887Protein1283_http___www.reactome.org_biopax_48887Complex2695.state.1",
-                            "clazz": "state variable",
+                            "class": "state variable",
                             "state": {
                                 "value": "P",
                                 "variable": "S139"
@@ -403,7 +403,7 @@
                     "stateVariables": [
                         {
                             "id": "http___www.reactome.org_biopax_48887Protein1283_http___www.reactome.org_biopax_48887Complex2694.state.1",
-                            "clazz": "state variable",
+                            "class": "state variable",
                             "state": {
                                 "value": "P",
                                 "variable": "S139"
@@ -475,7 +475,7 @@
                     "stateVariables": [
                         {
                             "id": "http___www.reactome.org_biopax_48887Protein1283_http___www.reactome.org_biopax_48887Complex2698.state.1",
-                            "clazz": "state variable",
+                            "class": "state variable",
                             "state": {
                                 "value": "P",
                                 "variable": "S139"
@@ -528,7 +528,7 @@
                     "stateVariables": [
                         {
                             "id": "http___www.reactome.org_biopax_48887Protein8107.state.1",
-                            "clazz": "state variable",
+                            "class": "state variable",
                             "state": {
                                 "value": "P",
                                 "variable": "S343"
@@ -581,7 +581,7 @@
                     "stateVariables": [
                         {
                             "id": "http___www.reactome.org_biopax_48887Protein1283.state.1",
-                            "clazz": "state variable",
+                            "class": "state variable",
                             "state": {
                                 "value": "P",
                                 "variable": "S139"
@@ -748,7 +748,7 @@
                     "stateVariables": [
                         {
                             "id": "http___www.reactome.org_biopax_48887Protein1283_http___www.reactome.org_biopax_48887Complex2700.state.1",
-                            "clazz": "state variable",
+                            "class": "state variable",
                             "state": {
                                 "value": "P",
                                 "variable": "S139"
@@ -820,7 +820,7 @@
                     "stateVariables": [
                         {
                             "id": "http___www.reactome.org_biopax_48887Protein8104.state.1",
-                            "clazz": "state variable",
+                            "class": "state variable",
                             "state": {
                                 "value": "P",
                                 "variable": "S1981"
@@ -873,7 +873,7 @@
                     "stateVariables": [
                         {
                             "id": "http___www.reactome.org_biopax_48887Protein8105.state.1",
-                            "clazz": "state variable",
+                            "class": "state variable",
                             "state": {
                                 "value": "P",
                                 "variable": "S1542"
@@ -887,7 +887,7 @@
                         },
                         {
                             "id": "http___www.reactome.org_biopax_48887Protein8105.state.2",
-                            "clazz": "state variable",
+                            "class": "state variable",
                             "state": {
                                 "value": "P",
                                 "variable": "S1189"
@@ -901,7 +901,7 @@
                         },
                         {
                             "id": "http___www.reactome.org_biopax_48887Protein8105.state.3",
-                            "clazz": "state variable",
+                            "class": "state variable",
                             "state": {
                                 "value": "P",
                                 "variable": "S1524"
@@ -1030,7 +1030,7 @@
                     "stateVariables": [
                         {
                             "id": "http___www.reactome.org_biopax_48887Protein1283_http___www.reactome.org_biopax_48887Complex2696.state.1",
-                            "clazz": "state variable",
+                            "class": "state variable",
                             "state": {
                                 "value": "P",
                                 "variable": "S139"
@@ -1064,7 +1064,7 @@
                     "stateVariables": [
                         {
                             "id": "http___www.reactome.org_biopax_48887Protein8104_http___www.reactome.org_biopax_48887Complex2696.state.1",
-                            "clazz": "state variable",
+                            "class": "state variable",
                             "state": {
                                 "value": "P",
                                 "variable": "S1981"
@@ -1174,7 +1174,7 @@
                     "stateVariables": [
                         {
                             "id": "http___www.reactome.org_biopax_48887Protein1283_http___www.reactome.org_biopax_48887Complex2693.state.1",
-                            "clazz": "state variable",
+                            "class": "state variable",
                             "state": {
                                 "value": "P",
                                 "variable": "S139"
@@ -1265,7 +1265,7 @@
                     "stateVariables": [
                         {
                             "id": "http___www.reactome.org_biopax_48887Protein8108.state.1",
-                            "clazz": "state variable",
+                            "class": "state variable",
                             "state": {
                                 "value": "P"
                             },

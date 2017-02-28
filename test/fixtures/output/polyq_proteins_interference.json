@@ -183,7 +183,7 @@
                     "unitsOfInformation": [
                         {
                             "id": "glyph41a",
-                            "clazz": "unit of information",
+                            "class": "unit of information",
                             "label": {
                                 "text": "N:2"
                             },
@@ -308,7 +308,7 @@
                     "unitsOfInformation": [
                         {
                             "id": "glyph40a",
-                            "clazz": "unit of information",
+                            "class": "unit of information",
                             "label": {
                                 "text": "N:2"
                             },
@@ -471,7 +471,7 @@
                     "unitsOfInformation": [
                         {
                             "id": "glyph9a",
-                            "clazz": "unit of information",
+                            "class": "unit of information",
                             "label": {
                                 "text": "N:2"
                             },
@@ -542,7 +542,7 @@
                     "unitsOfInformation": [
                         {
                             "id": "glyph39a",
-                            "clazz": "unit of information",
+                            "class": "unit of information",
                             "label": {
                                 "text": "N:2"
                             },
@@ -613,7 +613,7 @@
                     "unitsOfInformation": [
                         {
                             "id": "glyph10a",
-                            "clazz": "unit of information",
+                            "class": "unit of information",
                             "label": {
                                 "text": "N:2"
                             },
@@ -703,7 +703,7 @@
                     "stateVariables": [
                         {
                             "id": "glyph13a",
-                            "clazz": "state variable",
+                            "class": "state variable",
                             "state": {},
                             "bbox": {
                                 "x": -25,
@@ -826,7 +826,7 @@
                     "unitsOfInformation": [
                         {
                             "id": "glyph8a",
-                            "clazz": "unit of information",
+                            "class": "unit of information",
                             "label": {
                                 "text": "N:2"
                             },
