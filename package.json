@@ -49,5 +49,8 @@
     "eslint": "^3.16.1",
     "mocha": "^3.2.0",
     "watchify": "^3.9.0"
+  },
+  "dependencies": {
+    "xml-js": "^1.0.2"
   }
 }
