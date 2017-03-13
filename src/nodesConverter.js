@@ -9,37 +9,28 @@ const getCenteredBbox = (glyph) => {
   };
 };
 
+const getId = (glyph) => glyph._attributes.id;
 
-const getId = (glyph) => {
-  return glyph._attributes.id;
-};
+const getClass = (glyph) => glyph._attributes['class'];
 
-const getClass = (glyph) => {
-  return glyph._attributes['class'];
-};
+const getLabel = (glyph) => glyph.label._attributes.text;
 
-const getLabel = (glyph) => {
-  return glyph.label._attributes.text;
-};
+const getParent = (glyph) => glyph._attributes.compartmentRef;
 
-const getParent = (glyph) => {
-  return glyph._attributes.compartmentRef;
-};
+const getPorts = (glyph) => [];
 
-const getClonemarker = (glyph) => {
-  return glyph.clone != null;
-};
+const getClonemarker = (glyph) => glyph.clone !== undefined;
 
 const getState = (glyph) => {
-  const variable = glyph.state._attributes.variable;
+  const stateVariable = glyph.state._attributes.variable;
   const value = glyph.state._attributes.value;
   return {
-    variable: variable ? variable : '',
+    variable: stateVariable ? stateVariable : '',
     value: value ? value : ''
   };
 };
 
-const getSvar = (glyph) => {
+const getStateVar = (glyph) => {
   return {
     id: getId(glyph),
     'class': getClass(glyph),
@@ -47,19 +38,7 @@ const getSvar = (glyph) => {
   };
 };
 
-const getSVars = (glyph) => {
-  let sVars = [];
-  if (glyph.glyph != null) {
-
-    sVars = sVars.concat(glyph.glyph)
-    .filter((g) =>  g._attributes['class'] == 'state variable')
-    .map((g) => getSvar(g));
-  }
-
-  return sVars;
-};
-
-const getUinfo = (glyph) => {
+const getUnitOfInformation = (glyph) => {
   return {
     id: getId(glyph),
     'class': getClass(glyph),
@@ -69,59 +48,62 @@ const getUinfo = (glyph) => {
   };
 };
 
-const getUInfos = (glyph) => {
-  let uInfos = [];
-  if (glyph.glyph != null) {
-    uInfos = uInfos.concat(glyph.glyph)
-    .filter((g) =>  g._attributes['class'] == 'unit of information')
-    .map((g) => getUinfo(g));
-  }
-  return uInfos;
+const getStateVars = (glyph) => {
+  return getChildrenArray(glyph)
+    .filter((child) =>  getClass(child) === 'state variable')
+    .map((stateVar) => getStateVar(stateVar));
 };
 
-const convertGlyph = (g, parent='') => {
+const getUnitsOfInformation = (glyph) => {
+  return getChildrenArray(glyph)
+    .filter((child) =>  getClass(child) === 'unit of information')
+    .map((g) => getUnitOfInformation(g));
+};
+
+const getChildren = (glyph) => {
+  return getChildrenArray(glyph).filter((child) => {
+    return getClass(child) !== 'unit of information' && getClass(child) !== 'state variable';
+  });
+};
+
+const getChildrenArray = (glyph) => {
+  if (glyph.glyph === undefined) {
+    return [];
+  }
+  return [].concat([].concat(glyph.glyph));
+};
+
+const convertGlyph = (glyph, parent='') => {
   return {
     data: {
-      // original: g,
-      id: getId(g),
-      'class': getClass(g),
-      label: getLabel(g),
-      parent: getParent(g) || parent,
-      clonemarker: getClonemarker(g),
-      stateVariables: getSVars(g),
-      unitsOfInformation: getUInfos(g),
-      bbox: getCenteredBbox(g)
+      id: getId(glyph),
+      'class': getClass(glyph),
+      label: getLabel(glyph),
+      ports: getPorts(glyph),
+      parent: glyph.parent || getParent(glyph) || parent,  // immediate parent takes precendence over compartments
+      clonemarker: getClonemarker(glyph),
+      stateVariables: getStateVars(glyph),
+      unitsOfInformation: getUnitsOfInformation(glyph),
+      bbox: getCenteredBbox(glyph)
     }
   };
 };
 
 module.exports = (glyphs) => {
-  const nodeIdMap = new Set();
+  const nodeIdSet = new Set();
   const stack = [];
   const nodes = [];
 
   stack.push(...glyphs);
   while (stack.length > 0) {
-    // get curr glyph
-    // process glyph
-    // for each of the glyphs children add a parent field with the id of the curr glyph
-    // push children onto stack
-
-    const children = [];
-
     const currGlyph = stack.pop();
-    console.log(currGlyph);
     const currGlyphId = getId(currGlyph);
     const processedGlyph = convertGlyph(currGlyph);
-    nodes.push(processedGlyph);
 
-    nodeIdMap.add(currGlyphId);
-    if (currGlyph.glyph) {
-      children.push([].concat(currGlyph.glyph).filter((child) => {
-        const childClass = getClass(child);
-        return childClass !== 'unit of information' || childClass !== 'state variable';
-      }));
-    }
+    nodes.push(processedGlyph);
+    nodeIdSet.add(currGlyphId);
+
+    const children = getChildren(currGlyph);
     for (let child of children) {
       child.parent = currGlyphId;
     }
@@ -130,6 +112,6 @@ module.exports = (glyphs) => {
 
   return {
     nodes: nodes,
-    nodeIdMap: nodeIdMap
+    nodeIdSet: nodeIdSet
   };
 };

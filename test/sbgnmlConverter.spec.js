@@ -6,6 +6,66 @@ var expect = require('chai').expect;
 var fixtures = require('./fixtures');
 
 describe('sbgnmlConverter', function () {
+    it('should convert a node from sbgnml to a cytoscape.js compatible JSON', function () {
+    // const i0 = makeSbgnml(
+  //   `
+  //   <glyph id="glyph8" class="source and sink">
+  //     <bbox y="571.1691314755299" x="352.15049199906457" w="60.0" h="60.0" />
+  //   </glyph>
+  //   <glyph id="glyph8" class="source and sink">
+  //     <bbox y="571.1691314755299" x="352.15049199906457" w="60.0" h="60.0" />
+  //   </glyph>`
+  //   );
+   //
+  //   const i1 = makeSbgnml(
+  //  `<glyph id="glyph8" class="source and sink">
+  //     <bbox y="571.1691314755299" x="352.15049199906457" w="60.0" h="60.0" />
+  //   </glyph>
+  //   <glyph id="glyph8" class="source and sink">
+  //      <bbox y="571.1691314755299" x="352.15049199906457" w="60.0" h="60.0" />
+  //   </glyph>`
+  //   );
+   //
+  //   const i2 = makeSbgnml(
+  //  `<glyph id="glyph8" class="source and sink">
+  //     <bbox y="571.1691314755299" x="352.15049199906457" w="60.0" h="60.0" />
+  //   </glyph>
+  //   `
+  //   );
+  //   const i3 = makeSbgnml('');
+  //   const output = {
+  //     nodes: [
+  //       {
+  //           "data": {
+  //               "sbgn": {
+  //                   "id": "glyph8",
+  //                   "bbox": {
+  //                       "x": 382.15049199906457,
+  //                       "y": 601.1691314755299,
+  //                       "w": "60.0",
+  //                       "h": "60.0"
+  //                   },
+  //                   "class": "source and sink",
+  //                   "unitsOfInformation": [],
+  //                   "stateVariables": [],
+  //                   "parent": "",
+  //                   "ports": []
+  //               }
+  //           }
+  //       }
+  //     ],
+  //     edges: []
+  //   };
+  //   nconvert(i0);
+    // convert(i1);
+    // convert(i2);
+    // convert(i3);
+    // convert(i4);
+
+    // expect(convert(input)).to.equal(output);
+
+  });
+
   // it('should return an object containing a nodes and edges array', function () {
   //
   // });

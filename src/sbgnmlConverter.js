@@ -6,14 +6,21 @@ const edgesConverter = require('./edgesConverter');
 
 module.exports = (sbgnmlText) => {
 
-  const converted = convert.xml2js(sbgnmlText, {compact: true, spaces: 4, trim: true, nativeType: true });
+  const converted = convert.xml2js(sbgnmlText, {compact: true, spaces: 2, trim: true, nativeType: true });
   const result = converted.sbgn.map;
 
-  const glyphs = result.glyph ? result.glyph : [];
-  const arcs = result.arc ? result.arc : [];
+  const glyphs = [];
+  const arcs = [];
+  if (result.glyph) {
+    glyphs.push(...result.glyph);
+  }
+  if (result.arc) {
+    arcs.push(...result.arc);
+  }
 
-  const {nodes: nodes, nodeIdMap: nodeIdMap} = nodesConverter([].concat(glyphs));
-  const edges = edgesConverter(arcs, nodeIdMap);
+
+  const {nodes: nodes, nodeIdSet: nodeIdSet} = nodesConverter(glyphs);
+  const edges = edgesConverter(arcs, nodeIdSet);
 
   console.log(nodes);
   console.log(edges);
