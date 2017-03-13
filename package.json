@@ -10,6 +10,7 @@
   "main": "dist/sbgnml-to-cytoscape.js",
 >>>>>>> reworked package tooling
   "scripts": {
+    "test": "mocha --require babel-polyfill --compilers js:babel-register",
     "clean": "rm -rf dist/*",
     "build": "browserify --standalone sbgnml-to-cytoscape -e src/index.js -d -t [ babelify --comments false ] | derequire > dist/sbgnml-to-cytoscape.js",
     "watch": "watchify --standalone sbgnml-to-cytoscape -e src/index.js -d -t [ babelify --comments false ] -o 'derequire > dist/sbgnml-to-cytoscape.js' --poll=50 --verbose",

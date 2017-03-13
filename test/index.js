@@ -1,1 +1,2 @@
-require('./sbgnmlConverter.spec.js');
+require('./sbgnmlConverter.spec');
+require('./nodesConverter.spec');
