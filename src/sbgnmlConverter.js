@@ -6,7 +6,14 @@ const edgesConverter = require('./edgesConverter');
 
 module.exports = (sbgnmlText) => {
 
+  if (sbgnmlText === null) {
+    throw new Error(`'${sbgnmlText} is invalid input.`);
+  }
+
   const converted = convert.xml2js(sbgnmlText, {compact: true, spaces: 2, trim: true, nativeType: true });
+  if (!converted || !converted.sbgn || !converted.sbgn.map) {
+    return {nodes: [], edges: []};
+  }
   const result = converted.sbgn.map;
 
   const glyphs = [];

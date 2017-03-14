@@ -6,7 +6,7 @@ var expect = require('chai').expect;
 var fixtures = require('./fixtures');
 
 describe('sbgnmlConverter', function () {
-    it('should convert a node from sbgnml to a cytoscape.js compatible JSON', function () {
+    // it('should convert a node from sbgnml to a cytoscape.js compatible JSON', function () {
     // const i0 = makeSbgnml(
   //   `
   //   <glyph id="glyph8" class="source and sink">
@@ -64,15 +64,24 @@ describe('sbgnmlConverter', function () {
 
     // expect(convert(input)).to.equal(output);
 
+  // });
+
+  it('should return an object containing a nodes and edges array for these inputs', function () {
+    const garbage = ['', false, true];
+    garbage.map((g) => {
+      expect(convert(g)).to.deep.equal({nodes:[], edges:[]});
+    });
   });
 
-  // it('should return an object containing a nodes and edges array', function () {
-  //
-  // });
-  //
-  // it('should throw an error for invalid inputs', function () {
-  //
-  // });
+  it('should throw an error for invalid inputs', function () {
+    const nullTest = function() { convert(null); };
+    const undefinedTest = function() { convert(undefined); };
+    const objTest = function() { convert({'blah': 'blah'}); };
+
+    expect(nullTest).to.throw(Error);
+    expect(undefinedTest).to.throw(TypeError);
+    expect(objTest).to.throw(Error);
+  });
   //
   //
   // it('should process sbgnml files and output the expected fixture file', function () {
