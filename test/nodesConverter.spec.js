@@ -88,7 +88,6 @@ describe('nodesConverter', function () {
             unitsOfInformation: [],
             "parent": "",
             "clonemarker": true,
-            "ports": []
         },
       },
       {
@@ -123,7 +122,6 @@ describe('nodesConverter', function () {
             ],
             "parent": "",
             "clonemarker": true,
-            "ports": []
         }
       }
     ];
@@ -137,10 +135,6 @@ describe('nodesConverter', function () {
   });
 
   it('should convert compound nodes', function () {
-    // compartment -> complex
-    // complex -> compartment
-    // compartment -> compartment
-    // complex -> complex
     const input = makeSbgnml(
       `
       <glyph id="23" class="complex multimer">
@@ -160,7 +154,6 @@ describe('nodesConverter', function () {
           "id": "23",
           "class": "complex multimer",
           "label": "complex m",
-          "ports": [],
           "parent": "",
           "clonemarker": false,
           "stateVariables": [],
@@ -178,7 +171,6 @@ describe('nodesConverter', function () {
           "id": "23c",
           "class": "simple chemical",
           "label": "ATP",
-          "ports": [],
           "parent": "23",
           "clonemarker": false,
           "stateVariables": [],
@@ -223,7 +215,6 @@ describe('nodesConverter', function () {
             "id": "23",
             "class": "complex multimer",
             "label": "complex m",
-            "ports": [],
             "parent": "glyph1",
             "clonemarker": false,
             "stateVariables": [],
@@ -241,7 +232,6 @@ describe('nodesConverter', function () {
             "id": "23c",
             "class": "simple chemical",
             "label": "ATP",
-            "ports": [],
             "parent": "23",
             "clonemarker": false,
             "stateVariables": [],
@@ -259,7 +249,6 @@ describe('nodesConverter', function () {
             "id": "glyph1",
             "class": "compartment",
             "label": "synaptic cleft",
-            "ports": [],
             "parent": "",
             "clonemarker": false,
             "stateVariables": [],

@@ -9,15 +9,13 @@ const getCenteredBbox = (glyph) => {
   };
 };
 
-const getId = (glyph) => glyph._attributes.id;
+const getId = (glyph) => glyph._attributes ? glyph._attributes.id : '';
 
-const getClass = (glyph) => glyph._attributes['class'];
+const getClass = (glyph) => glyph._attributes ? glyph._attributes['class'] : '';
 
-const getLabel = (glyph) => glyph.label._attributes.text;
+const getLabel = (glyph) => glyph.label ? glyph.label._attributes ? glyph.label._attributes.text : '' : '';
 
-const getParent = (glyph) => glyph._attributes.compartmentRef;
-
-const getPorts = (glyph) => [];
+const getParent = (glyph) => glyph._attributes ? glyph._attributes.compartmentRef : '';
 
 const getClonemarker = (glyph) => glyph.clone !== undefined;
 
@@ -43,7 +41,7 @@ const getUnitOfInformation = (glyph) => {
     id: getId(glyph),
     'class': getClass(glyph),
     label: {
-      text: glyph.label._attributes.text
+      text: glyph.label._attributes.text ? glyph.label._attributes.text : ''
     }
   };
 };
@@ -70,7 +68,7 @@ const getChildrenArray = (glyph) => {
   if (glyph.glyph === undefined) {
     return [];
   }
-  return [].concat([].concat(glyph.glyph));
+  return [].concat(glyph.glyph);
 };
 
 const convertGlyph = (glyph, parent='') => {
@@ -79,7 +77,6 @@ const convertGlyph = (glyph, parent='') => {
       id: getId(glyph),
       'class': getClass(glyph),
       label: getLabel(glyph),
-      ports: getPorts(glyph),
       parent: glyph.parent || getParent(glyph) || parent,  // immediate parent takes precendence over compartments
       clonemarker: getClonemarker(glyph),
       stateVariables: getStateVars(glyph),
