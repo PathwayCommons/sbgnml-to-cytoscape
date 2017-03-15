@@ -25,12 +25,8 @@ module.exports = (sbgnmlText) => {
     arcs.push(...result.arc);
   }
 
-
   const {nodes: nodes, nodeIdSet: nodeIdSet} = nodesConverter(glyphs);
   const edges = edgesConverter(arcs, nodeIdSet);
-
-  console.log(nodes);
-  console.log(edges);
 
   return {nodes: nodes, edges: edges};
 };

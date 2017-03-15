@@ -41,9 +41,9 @@ const output = [
   require('./output/small.json'),
   require('./output/complex_multimer.json'),
 
-  {},
-  {},
-  {},  // TODO: Run the converter on these
+  require('./output/p53-Dependent_G1_DNA.sbgn.json'),
+  require('./output/pc_signallingByBMP.sbgn.json'),
+  require('./output/TP53_regulates_trans.sbgn.json')
 ];
 
 module.exports = {

@@ -39,7 +39,7 @@ describe('edgesConverter', function () {
     expect(res).to.deep.equal(output);
   });
 
-  it('should filter edges that witohout a source or target node in the node id set', function () {
+  it('should filter edges without a source or target node in the node id set', function () {
     const input = makeSbgnml(
       `
       <arc target="glyph13" source="glyph21" class="consumption">

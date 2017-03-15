@@ -1,0 +1,2704 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "http___identifiers_org_reactome_R-HSA-201422LEFT_TO_RIGHT",
+        "class": "process",
+        "label": "",
+        "parent": "Cytosol",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 261.18210999999997,
+          "y": 625.269,
+          "w": 15,
+          "h": 15
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___identifiers_org_reactome_R-HSA-202626LEFT_TO_RIGHT",
+        "class": "process",
+        "label": "",
+        "parent": "Cytosol",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 392.71475,
+          "y": 838.4455,
+          "w": 15,
+          "h": 15
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___identifiers_org_reactome_R-HSA-201445LEFT_TO_RIGHT",
+        "class": "process",
+        "label": "",
+        "parent": "Cytosol",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 217.024,
+          "y": 911.6537,
+          "w": 15,
+          "h": 15
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_SmallMolecule_d0f5223d3271f1a1459cab70d70af3abhttp___identifiers_org_reactome_R-HSA-201476LEFT_TO_RIGHT",
+        "class": "simple chemical",
+        "label": "ATP",
+        "parent": "Cytosol",
+        "clonemarker": true,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 530.97855,
+          "y": 1126.8091,
+          "w": 45,
+          "h": 15
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_SmallMolecule_1f6431bab98da72b6d68e7a207839591http___identifiers_org_reactome_R-HSA-201443LEFT_TO_RIGHT",
+        "class": "simple chemical",
+        "label": "ADP",
+        "parent": "Cytosol",
+        "clonemarker": true,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 771.1567,
+          "y": 1170.4199,
+          "w": 45,
+          "h": 15
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_SmallMolecule_d0f5223d3271f1a1459cab70d70af3abhttp___identifiers_org_reactome_R-HSA-201443LEFT_TO_RIGHT",
+        "class": "simple chemical",
+        "label": "ATP",
+        "parent": "Cytosol",
+        "clonemarker": true,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 788.5257,
+          "y": 1095.995,
+          "w": 45,
+          "h": 15
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_SmallMolecule_1f6431bab98da72b6d68e7a207839591http___identifiers_org_reactome_R-HSA-201476LEFT_TO_RIGHT",
+        "class": "simple chemical",
+        "label": "ADP",
+        "parent": "Cytosol",
+        "clonemarker": true,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 473.78348,
+          "y": 1119.2179,
+          "w": 45,
+          "h": 15
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_8edb21880923d29b363259e2b3c814e8",
+        "class": "macromolecule",
+        "label": "SMURF",
+        "parent": "Cytosol",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 131.07335999999998,
+          "y": 756.3882,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_d2edfa539306388d718b083aaa7e5043",
+        "class": "macromolecule",
+        "label": "SMAD9",
+        "parent": "Cytosol",
+        "clonemarker": false,
+        "stateVariables": [
+          {
+            "id": "http___pathwaycommons_org_pc2_Protein_d2edfa539306388d718b083aaa7e5043.info.1",
+            "class": "state variable",
+            "state": {
+              "variable": "467",
+              "value": "opser"
+            }
+          },
+          {
+            "id": "http___pathwaycommons_org_pc2_Protein_d2edfa539306388d718b083aaa7e5043.state.2",
+            "class": "state variable",
+            "state": {
+              "variable": "465",
+              "value": "opser"
+            }
+          },
+          {
+            "id": "http___pathwaycommons_org_pc2_Protein_d2edfa539306388d718b083aaa7e5043.info.3",
+            "class": "state variable",
+            "state": {
+              "variable": "",
+              "value": "x[1 - 467]"
+            }
+          }
+        ],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 83.18012,
+          "y": 548.0644,
+          "w": 85,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Complex_799d05e962f94c7c03a6871fd7320d2b",
+        "class": "complex",
+        "label": "I-SMAD:SMURF",
+        "parent": "Cytosol",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 712.9909,
+          "y": 1123.109,
+          "w": 52,
+          "h": 59
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_a6f751c4d1cb4ea06321ada6de213b1d_http___pathwaycommons_org_pc2_Complex_799d05e962f94c7c03a6871fd7320d2b",
+        "class": "macromolecule",
+        "label": "I-SMAD",
+        "parent": "http___pathwaycommons_org_pc2_Complex_799d05e962f94c7c03a6871fd7320d2b",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 712.9909,
+          "y": 1138.109,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_8edb21880923d29b363259e2b3c814e8_http___pathwaycommons_org_pc2_Complex_799d05e962f94c7c03a6871fd7320d2b",
+        "class": "macromolecule",
+        "label": "SMURF",
+        "parent": "http___pathwaycommons_org_pc2_Complex_799d05e962f94c7c03a6871fd7320d2b",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 712.9909,
+          "y": 1108.109,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_367c4c69c7fe934553564971c41937a6",
+        "class": "macromolecule",
+        "label": "SMAD5",
+        "parent": "Cytosol",
+        "clonemarker": false,
+        "stateVariables": [
+          {
+            "id": "http___pathwaycommons_org_pc2_Protein_367c4c69c7fe934553564971c41937a6.info.1",
+            "class": "state variable",
+            "state": {
+              "variable": "",
+              "value": "x[2 - 465]"
+            }
+          },
+          {
+            "id": "http___pathwaycommons_org_pc2_Protein_367c4c69c7fe934553564971c41937a6.state.2",
+            "class": "state variable",
+            "state": {
+              "variable": "465",
+              "value": "opser"
+            }
+          },
+          {
+            "id": "http___pathwaycommons_org_pc2_Protein_367c4c69c7fe934553564971c41937a6.info.3",
+            "class": "state variable",
+            "state": {
+              "variable": "463",
+              "value": "opser"
+            }
+          }
+        ],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 83.18012,
+          "y": 513.0643600000001,
+          "w": 85,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_50baf78508272a3536a117bddaa45d42",
+        "class": "macromolecule",
+        "label": "SMAD4",
+        "parent": "Cytosol",
+        "clonemarker": false,
+        "stateVariables": [
+          {
+            "id": "http___pathwaycommons_org_pc2_Protein_50baf78508272a3536a117bddaa45d42.info.1",
+            "class": "state variable",
+            "state": {
+              "variable": "",
+              "value": "x[1 - 552]"
+            }
+          }
+        ],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 186.14249,
+          "y": 689.9113,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Complex_47b40f3c07861fe278cca379440b09f9",
+        "class": "complex",
+        "label": "p-2S-SMAD1/5/8:SMAD4",
+        "parent": "Cytosol",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 498.5285,
+          "y": 513.241865,
+          "w": 52,
+          "h": 64.00003
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_50baf78508272a3536a117bddaa45d42_http___pathwaycommons_org_pc2_Complex_47b40f3c07861fe278cca379440b09f9",
+        "class": "macromolecule",
+        "label": "SMAD4",
+        "parent": "http___pathwaycommons_org_pc2_Complex_47b40f3c07861fe278cca379440b09f9",
+        "clonemarker": false,
+        "stateVariables": [
+          {
+            "id": "http___pathwaycommons_org_pc2_Protein_50baf78508272a3536a117bddaa45d42_http___pathwaycommons_org_pc2_Complex_47b40f3c07861fe278cca379440b09f9.info.1",
+            "class": "state variable",
+            "state": {
+              "variable": "",
+              "value": "x[1 - 552]"
+            }
+          }
+        ],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 498.5285,
+          "y": 495.74185,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_a96dc2dbb65e93026a64f52379f04c0c_http___pathwaycommons_org_pc2_Complex_47b40f3c07861fe278cca379440b09f9",
+        "class": "macromolecule",
+        "label": "p-2S-SMAD1/5/8",
+        "parent": "http___pathwaycommons_org_pc2_Complex_47b40f3c07861fe278cca379440b09f9",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 498.5285,
+          "y": 530.7419,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_a6f751c4d1cb4ea06321ada6de213b1d",
+        "class": "macromolecule",
+        "label": "I-SMAD",
+        "parent": "Cytosol",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 639.2499,
+          "y": 1095.7896,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_ed521c0faffb480b03236aa7c805f965",
+        "class": "macromolecule",
+        "label": "SMAD5",
+        "parent": "Cytosol",
+        "clonemarker": false,
+        "stateVariables": [
+          {
+            "id": "http___pathwaycommons_org_pc2_Protein_ed521c0faffb480b03236aa7c805f965.info.1",
+            "class": "state variable",
+            "state": {
+              "variable": "",
+              "value": "x[2 - 465]"
+            }
+          }
+        ],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 154.68011,
+          "y": 548.0644,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_fe3f3a573931f5c18ff7e9cbb953b8e2",
+        "class": "macromolecule",
+        "label": "SMAD9",
+        "parent": "Cytosol",
+        "clonemarker": false,
+        "stateVariables": [
+          {
+            "id": "http___pathwaycommons_org_pc2_Protein_fe3f3a573931f5c18ff7e9cbb953b8e2.info.1",
+            "class": "state variable",
+            "state": {
+              "variable": "",
+              "value": "x[1 - 467]"
+            }
+          }
+        ],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 154.68011,
+          "y": 513.0643600000001,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_157909f46f1db1bcf8849a8a14397b62",
+        "class": "macromolecule",
+        "label": "SMAD7",
+        "parent": "Cytosol",
+        "clonemarker": false,
+        "stateVariables": [
+          {
+            "id": "http___pathwaycommons_org_pc2_Protein_157909f46f1db1bcf8849a8a14397b62.info.1",
+            "class": "state variable",
+            "state": {
+              "variable": "",
+              "value": "x[1 - 426]"
+            }
+          }
+        ],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 154.68011,
+          "y": 478.06436,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_7b350e1108544c197b552904f38f80cd",
+        "class": "macromolecule",
+        "label": "SMAD6",
+        "parent": "Cytosol",
+        "clonemarker": false,
+        "stateVariables": [
+          {
+            "id": "http___pathwaycommons_org_pc2_Protein_7b350e1108544c197b552904f38f80cd.info.1",
+            "class": "state variable",
+            "state": {
+              "variable": "",
+              "value": "x[1 - 496]"
+            }
+          }
+        ],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 117.680115,
+          "y": 618.0644,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_98685a619321744ea1c3e9983ca4a786",
+        "class": "macromolecule",
+        "label": "SMURF2",
+        "parent": "Cytosol",
+        "clonemarker": false,
+        "stateVariables": [
+          {
+            "id": "http___pathwaycommons_org_pc2_Protein_98685a619321744ea1c3e9983ca4a786.info.1",
+            "class": "state variable",
+            "state": {
+              "variable": "",
+              "value": "x[1 - 748]"
+            }
+          }
+        ],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 64.68012,
+          "y": 618.0644,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_95a43db2c727e47741bd6763e01ef452",
+        "class": "macromolecule",
+        "label": "SMAD1",
+        "parent": "Cytosol",
+        "clonemarker": false,
+        "stateVariables": [
+          {
+            "id": "http___pathwaycommons_org_pc2_Protein_95a43db2c727e47741bd6763e01ef452.info.1",
+            "class": "state variable",
+            "state": {
+              "variable": "465",
+              "value": "opser"
+            }
+          },
+          {
+            "id": "http___pathwaycommons_org_pc2_Protein_95a43db2c727e47741bd6763e01ef452.state.2",
+            "class": "state variable",
+            "state": {
+              "variable": "",
+              "value": "x[1 - 465]"
+            }
+          },
+          {
+            "id": "http___pathwaycommons_org_pc2_Protein_95a43db2c727e47741bd6763e01ef452.info.3",
+            "class": "state variable",
+            "state": {
+              "variable": "463",
+              "value": "opser"
+            }
+          }
+        ],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 83.18012,
+          "y": 478.06436,
+          "w": 85,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_e9d84df7771fbce4b303714185eb6913",
+        "class": "macromolecule",
+        "label": "SMAD1",
+        "parent": "Cytosol",
+        "clonemarker": false,
+        "stateVariables": [
+          {
+            "id": "http___pathwaycommons_org_pc2_Protein_e9d84df7771fbce4b303714185eb6913.info.1",
+            "class": "state variable",
+            "state": {
+              "variable": "",
+              "value": "x[1 - 465]"
+            }
+          }
+        ],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 117.680115,
+          "y": 583.0644,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_30bb0cb49913e6a49630d6a490b17bdd",
+        "class": "macromolecule",
+        "label": "SMURF1",
+        "parent": "Cytosol",
+        "clonemarker": false,
+        "stateVariables": [
+          {
+            "id": "http___pathwaycommons_org_pc2_Protein_30bb0cb49913e6a49630d6a490b17bdd.info.1",
+            "class": "state variable",
+            "state": {
+              "variable": "",
+              "value": "x[1 - 757]"
+            }
+          }
+        ],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 64.68012,
+          "y": 583.0644,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_551eb065b57a0adcb6eeaee7152e156b",
+        "class": "macromolecule",
+        "label": "SMAD1/5/8",
+        "parent": "Cytosol",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 410.68652,
+          "y": 1119.4281,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Complex_c3e5e9b34045b84ebe3db6d7288efdc8",
+        "class": "complex",
+        "label": "I-SMAD:p-2S-SMAD1/5/8",
+        "parent": "Cytosol",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 308.26782,
+          "y": 659.7093,
+          "w": 52,
+          "h": 59
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_a6f751c4d1cb4ea06321ada6de213b1d_http___pathwaycommons_org_pc2_Complex_c3e5e9b34045b84ebe3db6d7288efdc8",
+        "class": "macromolecule",
+        "label": "I-SMAD",
+        "parent": "http___pathwaycommons_org_pc2_Complex_c3e5e9b34045b84ebe3db6d7288efdc8",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 308.26782,
+          "y": 674.7093,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_a96dc2dbb65e93026a64f52379f04c0c_http___pathwaycommons_org_pc2_Complex_c3e5e9b34045b84ebe3db6d7288efdc8",
+        "class": "macromolecule",
+        "label": "p-2S-SMAD1/5/8",
+        "parent": "http___pathwaycommons_org_pc2_Complex_c3e5e9b34045b84ebe3db6d7288efdc8",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 308.26782,
+          "y": 644.7093,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_a96dc2dbb65e93026a64f52379f04c0c",
+        "class": "macromolecule",
+        "label": "p-2S-SMAD1/5/8",
+        "parent": "Cytosol",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 287.3748,
+          "y": 866.41724,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___identifiers_org_reactome_R-HSA-201475LEFT_TO_RIGHT",
+        "class": "process",
+        "label": "",
+        "parent": "plasma_membrane",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 1347.6014,
+          "y": 1750.8265,
+          "w": 15,
+          "h": 15
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___identifiers_org_reactome_R-HSA-201821LEFT_TO_RIGHT",
+        "class": "process",
+        "label": "",
+        "parent": "plasma_membrane",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 1415.2865,
+          "y": 1660.8013,
+          "w": 15,
+          "h": 15
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___identifiers_org_reactome_R-HSA-202604LEFT_TO_RIGHT",
+        "class": "process",
+        "label": "",
+        "parent": "plasma_membrane",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 2201.5593,
+          "y": 2123.9578,
+          "w": 15,
+          "h": 15
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___identifiers_org_reactome_R-HSA-201443LEFT_TO_RIGHT",
+        "class": "process",
+        "label": "",
+        "parent": "plasma_membrane",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 1368.6953,
+          "y": 1697.2859,
+          "w": 15,
+          "h": 15
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_7a1685a2c892cf0ebfe5e09e7a1dacb1",
+        "class": "macromolecule",
+        "label": "BMPR1B",
+        "parent": "plasma_membrane",
+        "clonemarker": false,
+        "stateVariables": [
+          {
+            "id": "http___pathwaycommons_org_pc2_Protein_7a1685a2c892cf0ebfe5e09e7a1dacb1.info.1",
+            "class": "state variable",
+            "state": {
+              "variable": "",
+              "value": "x[14 - 502]"
+            }
+          },
+          {
+            "id": "http___pathwaycommons_org_pc2_Protein_7a1685a2c892cf0ebfe5e09e7a1dacb1.state.2",
+            "class": "state variable",
+            "state": {
+              "variable": "",
+              "value": "opser"
+            }
+          }
+        ],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 2226.4011,
+          "y": 2527.883,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_0c16d9c8d2817dc901070d51d767fc90",
+        "class": "macromolecule",
+        "label": "ACVR2A",
+        "parent": "plasma_membrane",
+        "clonemarker": false,
+        "stateVariables": [
+          {
+            "id": "http___pathwaycommons_org_pc2_Protein_0c16d9c8d2817dc901070d51d767fc90.info.1",
+            "class": "state variable",
+            "state": {
+              "variable": "",
+              "value": "x[20 - 513]"
+            }
+          }
+        ],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 2226.4011,
+          "y": 2492.883,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_6d28b6e8c31ef69e374231fc4e3c1772",
+        "class": "macromolecule",
+        "label": "BMPR1A",
+        "parent": "plasma_membrane",
+        "clonemarker": false,
+        "stateVariables": [
+          {
+            "id": "http___pathwaycommons_org_pc2_Protein_6d28b6e8c31ef69e374231fc4e3c1772.info.1",
+            "class": "state variable",
+            "state": {
+              "variable": "",
+              "value": "x[24 - 532]"
+            }
+          }
+        ],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 2226.4011,
+          "y": 2457.883,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Complex_01d3e439bda1a81d76312ad6faac1876",
+        "class": "complex",
+        "label": "BMP:BMPR",
+        "parent": "plasma_membrane",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 1556.9788,
+          "y": 1747.1598,
+          "w": 52,
+          "h": 94
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_0efdabc05e726bc6c5684c047f5b1a9d_http___pathwaycommons_org_pc2_Complex_01d3e439bda1a81d76312ad6faac1876",
+        "class": "macromolecule",
+        "label": "Type I receptor",
+        "parent": "http___pathwaycommons_org_pc2_Complex_01d3e439bda1a81d76312ad6faac1876",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 1556.9788,
+          "y": 1779.6598,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_519d98d39c17e3101fad32d1bed5f2c4_http___pathwaycommons_org_pc2_Complex_01d3e439bda1a81d76312ad6faac1876",
+        "class": "macromolecule",
+        "label": "Type II receptor",
+        "parent": "http___pathwaycommons_org_pc2_Complex_01d3e439bda1a81d76312ad6faac1876",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 1556.9788,
+          "y": 1749.6598,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_607d6d3222076241f69a7f421933b1cf_http___pathwaycommons_org_pc2_Complex_01d3e439bda1a81d76312ad6faac1876",
+        "class": "macromolecule",
+        "label": "BMP2",
+        "parent": "http___pathwaycommons_org_pc2_Complex_01d3e439bda1a81d76312ad6faac1876",
+        "clonemarker": false,
+        "stateVariables": [
+          {
+            "id": "http___pathwaycommons_org_pc2_Protein_607d6d3222076241f69a7f421933b1cf_http___pathwaycommons_org_pc2_Complex_01d3e439bda1a81d76312ad6faac1876.info.1",
+            "class": "state variable",
+            "state": {
+              "variable": "",
+              "value": "x[283 - 396]"
+            }
+          }
+        ],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 1556.9788,
+          "y": 1714.6598,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_f27a1e7ce09582cfbe5b26a00d999ced",
+        "class": "macromolecule",
+        "label": "ACVR2B",
+        "parent": "plasma_membrane",
+        "clonemarker": false,
+        "stateVariables": [
+          {
+            "id": "http___pathwaycommons_org_pc2_Protein_f27a1e7ce09582cfbe5b26a00d999ced.info.1",
+            "class": "state variable",
+            "state": {
+              "variable": "",
+              "value": "x[19 - 512]"
+            }
+          }
+        ],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 2173.4011,
+          "y": 2527.883,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Complex_6a2cbf47e64ecdbf8f0f8ae8ff0e86ec",
+        "class": "complex",
+        "label": "BMP2:BMP type II receptor:Phospho-BMP type I receptor:I-SMAD",
+        "parent": "plasma_membrane",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 1481.1305,
+          "y": 1908.1683,
+          "w": 52,
+          "h": 124
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_519d98d39c17e3101fad32d1bed5f2c4_http___pathwaycommons_org_pc2_Complex_6a2cbf47e64ecdbf8f0f8ae8ff0e86ec",
+        "class": "macromolecule",
+        "label": "Type II receptor",
+        "parent": "http___pathwaycommons_org_pc2_Complex_6a2cbf47e64ecdbf8f0f8ae8ff0e86ec",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 1481.1305,
+          "y": 1955.6683,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_a6f751c4d1cb4ea06321ada6de213b1d_http___pathwaycommons_org_pc2_Complex_6a2cbf47e64ecdbf8f0f8ae8ff0e86ec",
+        "class": "macromolecule",
+        "label": "I-SMAD",
+        "parent": "http___pathwaycommons_org_pc2_Complex_6a2cbf47e64ecdbf8f0f8ae8ff0e86ec",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 1481.1305,
+          "y": 1925.6683,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_607d6d3222076241f69a7f421933b1cf_http___pathwaycommons_org_pc2_Complex_6a2cbf47e64ecdbf8f0f8ae8ff0e86ec",
+        "class": "macromolecule",
+        "label": "BMP2",
+        "parent": "http___pathwaycommons_org_pc2_Complex_6a2cbf47e64ecdbf8f0f8ae8ff0e86ec",
+        "clonemarker": false,
+        "stateVariables": [
+          {
+            "id": "http___pathwaycommons_org_pc2_Protein_607d6d3222076241f69a7f421933b1cf_http___pathwaycommons_org_pc2_Complex_6a2cbf47e64ecdbf8f0f8ae8ff0e86ec.info.1",
+            "class": "state variable",
+            "state": {
+              "variable": "",
+              "value": "x[283 - 396]"
+            }
+          }
+        ],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 1481.1305,
+          "y": 1860.6683,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_88c058cc72c8d9c33437527d57578c8c_http___pathwaycommons_org_pc2_Complex_6a2cbf47e64ecdbf8f0f8ae8ff0e86ec",
+        "class": "macromolecule",
+        "label": "p-4S-BMPRI",
+        "parent": "http___pathwaycommons_org_pc2_Complex_6a2cbf47e64ecdbf8f0f8ae8ff0e86ec",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 1481.1305,
+          "y": 1895.6683,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_ba0c6a9b0a8948bf9c42052f5075cd67",
+        "class": "macromolecule",
+        "label": "BMPR2",
+        "parent": "plasma_membrane",
+        "clonemarker": false,
+        "stateVariables": [
+          {
+            "id": "http___pathwaycommons_org_pc2_Protein_ba0c6a9b0a8948bf9c42052f5075cd67.info.1",
+            "class": "state variable",
+            "state": {
+              "variable": "",
+              "value": "x[27 - 1038]"
+            }
+          }
+        ],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 2173.4011,
+          "y": 2492.883,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Complex_493d0698c410b3155d8edc9a8be64761",
+        "class": "complex",
+        "label": "BMP:BMPRII:P-BMPRI",
+        "parent": "plasma_membrane",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 1385.6548,
+          "y": 1846.891,
+          "w": 52,
+          "h": 94
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_519d98d39c17e3101fad32d1bed5f2c4_http___pathwaycommons_org_pc2_Complex_493d0698c410b3155d8edc9a8be64761",
+        "class": "macromolecule",
+        "label": "Type II receptor",
+        "parent": "http___pathwaycommons_org_pc2_Complex_493d0698c410b3155d8edc9a8be64761",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 1385.6548,
+          "y": 1879.391,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_607d6d3222076241f69a7f421933b1cf_http___pathwaycommons_org_pc2_Complex_493d0698c410b3155d8edc9a8be64761",
+        "class": "macromolecule",
+        "label": "BMP2",
+        "parent": "http___pathwaycommons_org_pc2_Complex_493d0698c410b3155d8edc9a8be64761",
+        "clonemarker": false,
+        "stateVariables": [
+          {
+            "id": "http___pathwaycommons_org_pc2_Protein_607d6d3222076241f69a7f421933b1cf_http___pathwaycommons_org_pc2_Complex_493d0698c410b3155d8edc9a8be64761.info.1",
+            "class": "state variable",
+            "state": {
+              "variable": "",
+              "value": "x[283 - 396]"
+            }
+          }
+        ],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 1385.6548,
+          "y": 1814.391,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_88c058cc72c8d9c33437527d57578c8c_http___pathwaycommons_org_pc2_Complex_493d0698c410b3155d8edc9a8be64761",
+        "class": "macromolecule",
+        "label": "p-4S-BMPRI",
+        "parent": "http___pathwaycommons_org_pc2_Complex_493d0698c410b3155d8edc9a8be64761",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 1385.6548,
+          "y": 1849.391,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Complex_8144cb7f2385e6327ed393616a4263bb",
+        "class": "complex",
+        "label": "BMPRII:BMPRI",
+        "parent": "plasma_membrane",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 2182.8113,
+          "y": 1965.0079,
+          "w": 52,
+          "h": 59
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_0efdabc05e726bc6c5684c047f5b1a9d_http___pathwaycommons_org_pc2_Complex_8144cb7f2385e6327ed393616a4263bb",
+        "class": "macromolecule",
+        "label": "Type I receptor",
+        "parent": "http___pathwaycommons_org_pc2_Complex_8144cb7f2385e6327ed393616a4263bb",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 2182.8113,
+          "y": 1980.0079,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_519d98d39c17e3101fad32d1bed5f2c4_http___pathwaycommons_org_pc2_Complex_8144cb7f2385e6327ed393616a4263bb",
+        "class": "macromolecule",
+        "label": "Type II receptor",
+        "parent": "http___pathwaycommons_org_pc2_Complex_8144cb7f2385e6327ed393616a4263bb",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 2182.8113,
+          "y": 1950.0079,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Complex_bbbc2082593a7b4665e3174b884d6119",
+        "class": "complex",
+        "label": "BMPRII dimer",
+        "parent": "plasma_membrane",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 2206.409,
+          "y": 2279.775,
+          "w": 52,
+          "h": 29
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_519d98d39c17e3101fad32d1bed5f2c4_http___pathwaycommons_org_pc2_Complex_bbbc2082593a7b4665e3174b884d6119",
+        "class": "macromolecule",
+        "label": "Type II receptor",
+        "parent": "http___pathwaycommons_org_pc2_Complex_bbbc2082593a7b4665e3174b884d6119",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 2206.409,
+          "y": 2279.775,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Complex_0a06530908bb2b4f145f14b67e31fed5",
+        "class": "complex",
+        "label": "BMPRI dimer",
+        "parent": "plasma_membrane",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 2178.367,
+          "y": 2201.551,
+          "w": 52,
+          "h": 29
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_0efdabc05e726bc6c5684c047f5b1a9d_http___pathwaycommons_org_pc2_Complex_0a06530908bb2b4f145f14b67e31fed5",
+        "class": "macromolecule",
+        "label": "Type I receptor",
+        "parent": "http___pathwaycommons_org_pc2_Complex_0a06530908bb2b4f145f14b67e31fed5",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 2178.367,
+          "y": 2201.551,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Complex_1ad19bc2c8e6069532a5bbae079a6bc3",
+        "class": "complex",
+        "label": "BMP:p-BMPR:I-SMAD:SMURF",
+        "parent": "plasma_membrane",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 1533.794,
+          "y": 1659.8213,
+          "w": 105,
+          "h": 124
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_519d98d39c17e3101fad32d1bed5f2c4_http___pathwaycommons_org_pc2_Complex_1ad19bc2c8e6069532a5bbae079a6bc3",
+        "class": "macromolecule",
+        "label": "Type II receptor",
+        "parent": "http___pathwaycommons_org_pc2_Complex_1ad19bc2c8e6069532a5bbae079a6bc3",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 1560.294,
+          "y": 1612.3213,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_a6f751c4d1cb4ea06321ada6de213b1d_http___pathwaycommons_org_pc2_Complex_1ad19bc2c8e6069532a5bbae079a6bc3",
+        "class": "macromolecule",
+        "label": "I-SMAD",
+        "parent": "http___pathwaycommons_org_pc2_Complex_1ad19bc2c8e6069532a5bbae079a6bc3",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 1507.294,
+          "y": 1707.3213,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_8edb21880923d29b363259e2b3c814e8_http___pathwaycommons_org_pc2_Complex_1ad19bc2c8e6069532a5bbae079a6bc3",
+        "class": "macromolecule",
+        "label": "SMURF",
+        "parent": "http___pathwaycommons_org_pc2_Complex_1ad19bc2c8e6069532a5bbae079a6bc3",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 1507.294,
+          "y": 1677.3213,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_607d6d3222076241f69a7f421933b1cf_http___pathwaycommons_org_pc2_Complex_1ad19bc2c8e6069532a5bbae079a6bc3",
+        "class": "macromolecule",
+        "label": "BMP2",
+        "parent": "http___pathwaycommons_org_pc2_Complex_1ad19bc2c8e6069532a5bbae079a6bc3",
+        "clonemarker": false,
+        "stateVariables": [
+          {
+            "id": "http___pathwaycommons_org_pc2_Protein_607d6d3222076241f69a7f421933b1cf_http___pathwaycommons_org_pc2_Complex_1ad19bc2c8e6069532a5bbae079a6bc3.info.1",
+            "class": "state variable",
+            "state": {
+              "variable": "",
+              "value": "x[283 - 396]"
+            }
+          }
+        ],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 1507.294,
+          "y": 1612.3213,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_88c058cc72c8d9c33437527d57578c8c_http___pathwaycommons_org_pc2_Complex_1ad19bc2c8e6069532a5bbae079a6bc3",
+        "class": "macromolecule",
+        "label": "p-4S-BMPRI",
+        "parent": "http___pathwaycommons_org_pc2_Complex_1ad19bc2c8e6069532a5bbae079a6bc3",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 1507.294,
+          "y": 1647.3213,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_b88994cd51a2befd1dac54c7565cb73a",
+        "class": "macromolecule",
+        "label": "BMPR1B",
+        "parent": "plasma_membrane",
+        "clonemarker": false,
+        "stateVariables": [
+          {
+            "id": "http___pathwaycommons_org_pc2_Protein_b88994cd51a2befd1dac54c7565cb73a.info.1",
+            "class": "state variable",
+            "state": {
+              "variable": "",
+              "value": "x[14 - 502]"
+            }
+          }
+        ],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 2173.4011,
+          "y": 2457.883,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_3fdb2226158c1b5b7c4d3b400c8c88f8",
+        "class": "macromolecule",
+        "label": "BMPR1A",
+        "parent": "plasma_membrane",
+        "clonemarker": false,
+        "stateVariables": [
+          {
+            "id": "http___pathwaycommons_org_pc2_Protein_3fdb2226158c1b5b7c4d3b400c8c88f8.info.1",
+            "class": "state variable",
+            "state": {
+              "variable": "218",
+              "value": "opser"
+            }
+          },
+          {
+            "id": "http___pathwaycommons_org_pc2_Protein_3fdb2226158c1b5b7c4d3b400c8c88f8.state.2",
+            "class": "state variable",
+            "state": {
+              "variable": "",
+              "value": "x[24 - 532]"
+            }
+          },
+          {
+            "id": "http___pathwaycommons_org_pc2_Protein_3fdb2226158c1b5b7c4d3b400c8c88f8.info.3",
+            "class": "state variable",
+            "state": {
+              "variable": "215",
+              "value": "opser"
+            }
+          },
+          {
+            "id": "http___pathwaycommons_org_pc2_Protein_3fdb2226158c1b5b7c4d3b400c8c88f8.state.4",
+            "class": "state variable",
+            "state": {
+              "variable": "220",
+              "value": "opser"
+            }
+          },
+          {
+            "id": "http___pathwaycommons_org_pc2_Protein_3fdb2226158c1b5b7c4d3b400c8c88f8.info.5",
+            "class": "state variable",
+            "state": {
+              "variable": "216",
+              "value": "opser"
+            }
+          }
+        ],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 2191.9011,
+          "y": 2422.883,
+          "w": 85,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___identifiers_org_reactome_R-HSA-201810LEFT_TO_RIGHT",
+        "class": "process",
+        "label": "",
+        "parent": "extracellular_region",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 1979.813,
+          "y": 1277.9683,
+          "w": 15,
+          "h": 15
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___identifiers_org_reactome_R-HSA-201457LEFT_TO_RIGHT",
+        "class": "process",
+        "label": "",
+        "parent": "extracellular_region",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 2005.8118,
+          "y": 1458.0452,
+          "w": 15,
+          "h": 15
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Complex_c4398e975103fbca58de24b36d22861d",
+        "class": "complex",
+        "label": "Ligand Trap:BMP2",
+        "parent": "extracellular_region",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 1943.7789,
+          "y": 1161.2719,
+          "w": 52,
+          "h": 64
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_092dafb1e607bc6e722e3bafc24f07f0_http___pathwaycommons_org_pc2_Complex_c4398e975103fbca58de24b36d22861d",
+        "class": "macromolecule",
+        "label": "Ligand Trap",
+        "parent": "http___pathwaycommons_org_pc2_Complex_c4398e975103fbca58de24b36d22861d",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 1943.7789,
+          "y": 1178.7719,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_607d6d3222076241f69a7f421933b1cf_http___pathwaycommons_org_pc2_Complex_c4398e975103fbca58de24b36d22861d",
+        "class": "macromolecule",
+        "label": "BMP2",
+        "parent": "http___pathwaycommons_org_pc2_Complex_c4398e975103fbca58de24b36d22861d",
+        "clonemarker": false,
+        "stateVariables": [
+          {
+            "id": "http___pathwaycommons_org_pc2_Protein_607d6d3222076241f69a7f421933b1cf_http___pathwaycommons_org_pc2_Complex_c4398e975103fbca58de24b36d22861d.info.1",
+            "class": "state variable",
+            "state": {
+              "variable": "",
+              "value": "x[283 - 396]"
+            }
+          }
+        ],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 1943.7789,
+          "y": 1143.7719,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_837ac0f3a0ab18c3b5fdeef9ab835214",
+        "class": "macromolecule",
+        "label": "GREM2",
+        "parent": "extracellular_region",
+        "clonemarker": false,
+        "stateVariables": [
+          {
+            "id": "http___pathwaycommons_org_pc2_Protein_837ac0f3a0ab18c3b5fdeef9ab835214.info.1",
+            "class": "state variable",
+            "state": {
+              "variable": "",
+              "value": "x[22 - 168]"
+            }
+          }
+        ],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 2378.5693,
+          "y": 986.1911,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_092dafb1e607bc6e722e3bafc24f07f0",
+        "class": "macromolecule",
+        "label": "Ligand Trap",
+        "parent": "extracellular_region",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 2011.9814,
+          "y": 1354.0951,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_82cd74b56de44d8e270024a7be9d79e6",
+        "class": "macromolecule",
+        "label": "CER1",
+        "parent": "extracellular_region",
+        "clonemarker": false,
+        "stateVariables": [
+          {
+            "id": "http___pathwaycommons_org_pc2_Protein_82cd74b56de44d8e270024a7be9d79e6.info.1",
+            "class": "state variable",
+            "state": {
+              "variable": "",
+              "value": "x[18 - 267]"
+            }
+          }
+        ],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 2325.5693,
+          "y": 1091.1912,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_6c7378610b40920f6a139e9d3a829333",
+        "class": "macromolecule",
+        "label": "NOG",
+        "parent": "extracellular_region",
+        "clonemarker": false,
+        "stateVariables": [
+          {
+            "id": "http___pathwaycommons_org_pc2_Protein_6c7378610b40920f6a139e9d3a829333.info.1",
+            "class": "state variable",
+            "state": {
+              "variable": "",
+              "value": "x[28 - 232]"
+            }
+          }
+        ],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 2325.5693,
+          "y": 1056.1912,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Complex_ba5af9c28bc7f66ca059881332e36a85",
+        "class": "complex",
+        "label": "BMP2 dimer",
+        "parent": "extracellular_region",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 1916.2074,
+          "y": 1370.6777,
+          "w": 52,
+          "h": 29
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_607d6d3222076241f69a7f421933b1cf_http___pathwaycommons_org_pc2_Complex_ba5af9c28bc7f66ca059881332e36a85",
+        "class": "macromolecule",
+        "label": "BMP2",
+        "parent": "http___pathwaycommons_org_pc2_Complex_ba5af9c28bc7f66ca059881332e36a85",
+        "clonemarker": false,
+        "stateVariables": [
+          {
+            "id": "http___pathwaycommons_org_pc2_Protein_607d6d3222076241f69a7f421933b1cf_http___pathwaycommons_org_pc2_Complex_ba5af9c28bc7f66ca059881332e36a85.info.1",
+            "class": "state variable",
+            "state": {
+              "variable": "",
+              "value": "x[283 - 396]"
+            }
+          }
+        ],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 1916.2074,
+          "y": 1370.6777,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_c0fc78119bb2cc162233cdcdb512f142",
+        "class": "macromolecule",
+        "label": "FSTL1",
+        "parent": "extracellular_region",
+        "clonemarker": false,
+        "stateVariables": [
+          {
+            "id": "http___pathwaycommons_org_pc2_Protein_c0fc78119bb2cc162233cdcdb512f142.info.1",
+            "class": "state variable",
+            "state": {
+              "variable": "",
+              "value": "x[21 - 308]"
+            }
+          }
+        ],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 2325.5693,
+          "y": 1021.1911,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_33d3d5a689d377f6f45ccf33ceb1cab9",
+        "class": "macromolecule",
+        "label": "CHRDL1",
+        "parent": "extracellular_region",
+        "clonemarker": false,
+        "stateVariables": [
+          {
+            "id": "http___pathwaycommons_org_pc2_Protein_33d3d5a689d377f6f45ccf33ceb1cab9.info.1",
+            "class": "state variable",
+            "state": {
+              "variable": "",
+              "value": "x[22 - 450]"
+            }
+          }
+        ],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 2325.5693,
+          "y": 986.1911,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___identifiers_org_reactome_R-HSA-201423LEFT_TO_RIGHT",
+        "class": "process",
+        "label": "",
+        "parent": "Nucleoplasm",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 1324.9952,
+          "y": 351.1058,
+          "w": 15,
+          "h": 15
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___identifiers_org_reactome_R-HSA-201425LEFT_TO_RIGHT",
+        "class": "process",
+        "label": "",
+        "parent": "Nucleoplasm",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 1360.236,
+          "y": 281.83987,
+          "w": 15,
+          "h": 15
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___identifiers_org_reactome_R-HSA-201472LEFT_TO_RIGHT",
+        "class": "process",
+        "label": "",
+        "parent": "Nucleoplasm",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 1127.9579,
+          "y": 338.27985,
+          "w": 15,
+          "h": 15
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_e8d4ddbd8b27d28014b758874e6ec374",
+        "class": "macromolecule",
+        "label": "UBE2D1",
+        "parent": "Nucleoplasm",
+        "clonemarker": false,
+        "stateVariables": [
+          {
+            "id": "http___pathwaycommons_org_pc2_Protein_e8d4ddbd8b27d28014b758874e6ec374.info.1",
+            "class": "state variable",
+            "state": {
+              "variable": "",
+              "value": "x[1 - 147]"
+            }
+          }
+        ],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 1693.041,
+          "y": 156.8107,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_0792231f2b66f578c2b3ff6b4a8ca6b2",
+        "class": "macromolecule",
+        "label": "UBE2D3",
+        "parent": "Nucleoplasm",
+        "clonemarker": false,
+        "stateVariables": [
+          {
+            "id": "http___pathwaycommons_org_pc2_Protein_0792231f2b66f578c2b3ff6b4a8ca6b2.info.1",
+            "class": "state variable",
+            "state": {
+              "variable": "",
+              "value": "x[1 - 147]"
+            }
+          }
+        ],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 1640.041,
+          "y": 156.8107,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_4d2b3e1c3133818bfae0b43b20b467ff",
+        "class": "macromolecule",
+        "label": "Nuclear ubiquitin ligase",
+        "parent": "Nucleoplasm",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 1395.9502,
+          "y": 207.37488,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_16b2739cec6395cb4d8b65d2583d4c82",
+        "class": "macromolecule",
+        "label": "SMAD1",
+        "parent": "Nucleoplasm",
+        "clonemarker": false,
+        "stateVariables": [
+          {
+            "id": "http___pathwaycommons_org_pc2_Protein_16b2739cec6395cb4d8b65d2583d4c82.info.1",
+            "class": "state variable",
+            "state": {
+              "variable": "",
+              "value": "x[1 - 465]"
+            }
+          },
+          {
+            "id": "http___pathwaycommons_org_pc2_Protein_16b2739cec6395cb4d8b65d2583d4c82.state.2",
+            "class": "state variable",
+            "state": {
+              "variable": "465",
+              "value": "opser"
+            }
+          },
+          {
+            "id": "http___pathwaycommons_org_pc2_Protein_16b2739cec6395cb4d8b65d2583d4c82.info.3",
+            "class": "state variable",
+            "state": {
+              "variable": "463",
+              "value": "opser"
+            }
+          }
+        ],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 1658.541,
+          "y": 121.81069,
+          "w": 85,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_035481f4255c4ea3e809025dbb8dac97",
+        "class": "macromolecule",
+        "label": "SMAD9",
+        "parent": "Nucleoplasm",
+        "clonemarker": false,
+        "stateVariables": [
+          {
+            "id": "http___pathwaycommons_org_pc2_Protein_035481f4255c4ea3e809025dbb8dac97.info.1",
+            "class": "state variable",
+            "state": {
+              "variable": "467",
+              "value": "opser"
+            }
+          },
+          {
+            "id": "http___pathwaycommons_org_pc2_Protein_035481f4255c4ea3e809025dbb8dac97.state.2",
+            "class": "state variable",
+            "state": {
+              "variable": "465",
+              "value": "opser"
+            }
+          },
+          {
+            "id": "http___pathwaycommons_org_pc2_Protein_035481f4255c4ea3e809025dbb8dac97.info.3",
+            "class": "state variable",
+            "state": {
+              "variable": "",
+              "value": "x[1 - 467]"
+            }
+          }
+        ],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 1658.541,
+          "y": 86.81069,
+          "w": 85,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Complex_67e385c83392aebb20cfaed64cb604da",
+        "class": "complex",
+        "label": "p-2S-SMAD1/5/8:SMAD4",
+        "parent": "Nucleoplasm",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 1235.9509,
+          "y": 268.16708,
+          "w": 52,
+          "h": 64
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_efa9911a829a6f6a9afbc9f64987065d_http___pathwaycommons_org_pc2_Complex_67e385c83392aebb20cfaed64cb604da",
+        "class": "macromolecule",
+        "label": "Phospho-R-SMAD1/5/9",
+        "parent": "http___pathwaycommons_org_pc2_Complex_67e385c83392aebb20cfaed64cb604da",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 1235.9509,
+          "y": 285.66708,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_2eff6866d62cd6c7437d98d8c842ebf4_http___pathwaycommons_org_pc2_Complex_67e385c83392aebb20cfaed64cb604da",
+        "class": "macromolecule",
+        "label": "SMAD4",
+        "parent": "http___pathwaycommons_org_pc2_Complex_67e385c83392aebb20cfaed64cb604da",
+        "clonemarker": false,
+        "stateVariables": [
+          {
+            "id": "http___pathwaycommons_org_pc2_Protein_2eff6866d62cd6c7437d98d8c842ebf4_http___pathwaycommons_org_pc2_Complex_67e385c83392aebb20cfaed64cb604da.info.1",
+            "class": "state variable",
+            "state": {
+              "variable": "",
+              "value": "x[1 - 552]"
+            }
+          }
+        ],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 1235.9509,
+          "y": 250.66708,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Complex_8a024b17e691f3c11fca7a95a6153d1f",
+        "class": "complex",
+        "label": "p-2S-SMAD1/5/8:SMAD4:SKI",
+        "parent": "Nucleoplasm",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 1371.4199,
+          "y": 468.92078,
+          "w": 52,
+          "h": 99
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_efa9911a829a6f6a9afbc9f64987065d_http___pathwaycommons_org_pc2_Complex_8a024b17e691f3c11fca7a95a6153d1f",
+        "class": "macromolecule",
+        "label": "Phospho-R-SMAD1/5/9",
+        "parent": "http___pathwaycommons_org_pc2_Complex_8a024b17e691f3c11fca7a95a6153d1f",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 1371.4199,
+          "y": 503.92078,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_2126462faf058906f41eeb2dd55226c1_http___pathwaycommons_org_pc2_Complex_8a024b17e691f3c11fca7a95a6153d1f",
+        "class": "macromolecule",
+        "label": "SKI",
+        "parent": "http___pathwaycommons_org_pc2_Complex_8a024b17e691f3c11fca7a95a6153d1f",
+        "clonemarker": false,
+        "stateVariables": [
+          {
+            "id": "http___pathwaycommons_org_pc2_Protein_2126462faf058906f41eeb2dd55226c1_http___pathwaycommons_org_pc2_Complex_8a024b17e691f3c11fca7a95a6153d1f.info.1",
+            "class": "state variable",
+            "state": {
+              "variable": "",
+              "value": "x[1 - 728]"
+            }
+          }
+        ],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 1371.4199,
+          "y": 468.92078,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_2eff6866d62cd6c7437d98d8c842ebf4_http___pathwaycommons_org_pc2_Complex_8a024b17e691f3c11fca7a95a6153d1f",
+        "class": "macromolecule",
+        "label": "SMAD4",
+        "parent": "http___pathwaycommons_org_pc2_Complex_8a024b17e691f3c11fca7a95a6153d1f",
+        "clonemarker": false,
+        "stateVariables": [
+          {
+            "id": "http___pathwaycommons_org_pc2_Protein_2eff6866d62cd6c7437d98d8c842ebf4_http___pathwaycommons_org_pc2_Complex_8a024b17e691f3c11fca7a95a6153d1f.info.1",
+            "class": "state variable",
+            "state": {
+              "variable": "",
+              "value": "x[1 - 552]"
+            }
+          }
+        ],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 1371.4199,
+          "y": 433.92078,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_2126462faf058906f41eeb2dd55226c1",
+        "class": "macromolecule",
+        "label": "SKI",
+        "parent": "Nucleoplasm",
+        "clonemarker": false,
+        "stateVariables": [
+          {
+            "id": "http___pathwaycommons_org_pc2_Protein_2126462faf058906f41eeb2dd55226c1.info.1",
+            "class": "state variable",
+            "state": {
+              "variable": "",
+              "value": "x[1 - 728]"
+            }
+          }
+        ],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 1233.4128,
+          "y": 367.74344,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_91518303be58fe764428ccf1f01ac76b",
+        "class": "macromolecule",
+        "label": "SMAD5",
+        "parent": "Nucleoplasm",
+        "clonemarker": false,
+        "stateVariables": [
+          {
+            "id": "http___pathwaycommons_org_pc2_Protein_91518303be58fe764428ccf1f01ac76b.info.1",
+            "class": "state variable",
+            "state": {
+              "variable": "",
+              "value": "x[2 - 465]"
+            }
+          },
+          {
+            "id": "http___pathwaycommons_org_pc2_Protein_91518303be58fe764428ccf1f01ac76b.state.2",
+            "class": "state variable",
+            "state": {
+              "variable": "465",
+              "value": "opser"
+            }
+          },
+          {
+            "id": "http___pathwaycommons_org_pc2_Protein_91518303be58fe764428ccf1f01ac76b.info.3",
+            "class": "state variable",
+            "state": {
+              "variable": "463",
+              "value": "opser"
+            }
+          }
+        ],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 1658.541,
+          "y": 51.81069,
+          "w": 85,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___identifiers_org_reactome_R-HSA-201476LEFT_TO_RIGHT",
+        "class": "process",
+        "label": "",
+        "parent": "early_endosome_membrane",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 758.6879,
+          "y": 1637.578,
+          "w": 15,
+          "h": 15
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___identifiers_org_reactome_R-HSA-201648LEFT_TO_RIGHT",
+        "class": "process",
+        "label": "",
+        "parent": "early_endosome_membrane",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 856.40735,
+          "y": 1733.6724,
+          "w": 15,
+          "h": 15
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___identifiers_org_reactome_R-HSA-201453LEFT_TO_RIGHT",
+        "class": "process",
+        "label": "",
+        "parent": "early_endosome_membrane",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 485.94458,
+          "y": 1470.1045,
+          "w": 15,
+          "h": 15
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Complex_e9f4df379e9ac187f28783655cb2f376",
+        "class": "complex",
+        "label": "BMP:p-BMPR:Endofin:p-2S-SMAD1/5/8",
+        "parent": "early_endosome_membrane",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 607.964,
+          "y": 1741.431,
+          "w": 105,
+          "h": 129
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_519d98d39c17e3101fad32d1bed5f2c4_http___pathwaycommons_org_pc2_Complex_e9f4df379e9ac187f28783655cb2f376",
+        "class": "macromolecule",
+        "label": "Type II receptor",
+        "parent": "http___pathwaycommons_org_pc2_Complex_e9f4df379e9ac187f28783655cb2f376",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 634.464,
+          "y": 1691.431,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_be99774a55a8265c4d1c9b56c4819122_http___pathwaycommons_org_pc2_Complex_e9f4df379e9ac187f28783655cb2f376",
+        "class": "macromolecule",
+        "label": "ZFYVE16",
+        "parent": "http___pathwaycommons_org_pc2_Complex_e9f4df379e9ac187f28783655cb2f376",
+        "clonemarker": false,
+        "stateVariables": [
+          {
+            "id": "http___pathwaycommons_org_pc2_Protein_be99774a55a8265c4d1c9b56c4819122_http___pathwaycommons_org_pc2_Complex_e9f4df379e9ac187f28783655cb2f376.info.1",
+            "class": "state variable",
+            "state": {
+              "variable": "",
+              "value": "x[1 - 1539]"
+            }
+          }
+        ],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 581.464,
+          "y": 1726.431,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_a96dc2dbb65e93026a64f52379f04c0c_http___pathwaycommons_org_pc2_Complex_e9f4df379e9ac187f28783655cb2f376",
+        "class": "macromolecule",
+        "label": "p-2S-SMAD1/5/8",
+        "parent": "http___pathwaycommons_org_pc2_Complex_e9f4df379e9ac187f28783655cb2f376",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 581.464,
+          "y": 1791.431,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_607d6d3222076241f69a7f421933b1cf_http___pathwaycommons_org_pc2_Complex_e9f4df379e9ac187f28783655cb2f376",
+        "class": "macromolecule",
+        "label": "BMP2",
+        "parent": "http___pathwaycommons_org_pc2_Complex_e9f4df379e9ac187f28783655cb2f376",
+        "clonemarker": false,
+        "stateVariables": [
+          {
+            "id": "http___pathwaycommons_org_pc2_Protein_607d6d3222076241f69a7f421933b1cf_http___pathwaycommons_org_pc2_Complex_e9f4df379e9ac187f28783655cb2f376.info.1",
+            "class": "state variable",
+            "state": {
+              "variable": "",
+              "value": "x[283 - 396]"
+            }
+          }
+        ],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 581.464,
+          "y": 1691.431,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_88c058cc72c8d9c33437527d57578c8c_http___pathwaycommons_org_pc2_Complex_e9f4df379e9ac187f28783655cb2f376",
+        "class": "macromolecule",
+        "label": "p-4S-BMPRI",
+        "parent": "http___pathwaycommons_org_pc2_Complex_e9f4df379e9ac187f28783655cb2f376",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 581.464,
+          "y": 1761.431,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Complex_bfbec38aec18585aeb17641c1b8f6841",
+        "class": "complex",
+        "label": "BMP:p-BMPR:Endofin",
+        "parent": "early_endosome_membrane",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 415.17578,
+          "y": 1363.8315,
+          "w": 52,
+          "h": 129
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_519d98d39c17e3101fad32d1bed5f2c4_http___pathwaycommons_org_pc2_Complex_bfbec38aec18585aeb17641c1b8f6841",
+        "class": "macromolecule",
+        "label": "Type II receptor",
+        "parent": "http___pathwaycommons_org_pc2_Complex_bfbec38aec18585aeb17641c1b8f6841",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 415.17578,
+          "y": 1413.8315,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_be99774a55a8265c4d1c9b56c4819122_http___pathwaycommons_org_pc2_Complex_bfbec38aec18585aeb17641c1b8f6841",
+        "class": "macromolecule",
+        "label": "ZFYVE16",
+        "parent": "http___pathwaycommons_org_pc2_Complex_bfbec38aec18585aeb17641c1b8f6841",
+        "clonemarker": false,
+        "stateVariables": [
+          {
+            "id": "http___pathwaycommons_org_pc2_Protein_be99774a55a8265c4d1c9b56c4819122_http___pathwaycommons_org_pc2_Complex_bfbec38aec18585aeb17641c1b8f6841.info.1",
+            "class": "state variable",
+            "state": {
+              "variable": "",
+              "value": "x[1 - 1539]"
+            }
+          }
+        ],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 415.17578,
+          "y": 1348.8315,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_607d6d3222076241f69a7f421933b1cf_http___pathwaycommons_org_pc2_Complex_bfbec38aec18585aeb17641c1b8f6841",
+        "class": "macromolecule",
+        "label": "BMP2",
+        "parent": "http___pathwaycommons_org_pc2_Complex_bfbec38aec18585aeb17641c1b8f6841",
+        "clonemarker": false,
+        "stateVariables": [
+          {
+            "id": "http___pathwaycommons_org_pc2_Protein_607d6d3222076241f69a7f421933b1cf_http___pathwaycommons_org_pc2_Complex_bfbec38aec18585aeb17641c1b8f6841.info.1",
+            "class": "state variable",
+            "state": {
+              "variable": "",
+              "value": "x[283 - 396]"
+            }
+          }
+        ],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 415.17578,
+          "y": 1313.8315,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_88c058cc72c8d9c33437527d57578c8c_http___pathwaycommons_org_pc2_Complex_bfbec38aec18585aeb17641c1b8f6841",
+        "class": "macromolecule",
+        "label": "p-4S-BMPRI",
+        "parent": "http___pathwaycommons_org_pc2_Complex_bfbec38aec18585aeb17641c1b8f6841",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 415.17578,
+          "y": 1383.8315,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Complex_9645428d17f9ccecd38bf9659abb3979",
+        "class": "complex",
+        "label": "BMP:p-BMPR:Endofin:SMAD1/5/8",
+        "parent": "early_endosome_membrane",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 874.1365,
+          "y": 1901.3767,
+          "w": 105,
+          "h": 129
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_519d98d39c17e3101fad32d1bed5f2c4_http___pathwaycommons_org_pc2_Complex_9645428d17f9ccecd38bf9659abb3979",
+        "class": "macromolecule",
+        "label": "Type II receptor",
+        "parent": "http___pathwaycommons_org_pc2_Complex_9645428d17f9ccecd38bf9659abb3979",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 900.6365,
+          "y": 1851.3767,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_be99774a55a8265c4d1c9b56c4819122_http___pathwaycommons_org_pc2_Complex_9645428d17f9ccecd38bf9659abb3979",
+        "class": "macromolecule",
+        "label": "ZFYVE16",
+        "parent": "http___pathwaycommons_org_pc2_Complex_9645428d17f9ccecd38bf9659abb3979",
+        "clonemarker": false,
+        "stateVariables": [
+          {
+            "id": "http___pathwaycommons_org_pc2_Protein_be99774a55a8265c4d1c9b56c4819122_http___pathwaycommons_org_pc2_Complex_9645428d17f9ccecd38bf9659abb3979.info.1",
+            "class": "state variable",
+            "state": {
+              "variable": "",
+              "value": "x[1 - 1539]"
+            }
+          }
+        ],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 847.6365,
+          "y": 1886.3767,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_551eb065b57a0adcb6eeaee7152e156b_http___pathwaycommons_org_pc2_Complex_9645428d17f9ccecd38bf9659abb3979",
+        "class": "macromolecule",
+        "label": "SMAD1/5/8",
+        "parent": "http___pathwaycommons_org_pc2_Complex_9645428d17f9ccecd38bf9659abb3979",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 847.6365,
+          "y": 1951.3767,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_607d6d3222076241f69a7f421933b1cf_http___pathwaycommons_org_pc2_Complex_9645428d17f9ccecd38bf9659abb3979",
+        "class": "macromolecule",
+        "label": "BMP2",
+        "parent": "http___pathwaycommons_org_pc2_Complex_9645428d17f9ccecd38bf9659abb3979",
+        "clonemarker": false,
+        "stateVariables": [
+          {
+            "id": "http___pathwaycommons_org_pc2_Protein_607d6d3222076241f69a7f421933b1cf_http___pathwaycommons_org_pc2_Complex_9645428d17f9ccecd38bf9659abb3979.info.1",
+            "class": "state variable",
+            "state": {
+              "variable": "",
+              "value": "x[283 - 396]"
+            }
+          }
+        ],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 847.6365,
+          "y": 1851.3767,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_88c058cc72c8d9c33437527d57578c8c_http___pathwaycommons_org_pc2_Complex_9645428d17f9ccecd38bf9659abb3979",
+        "class": "macromolecule",
+        "label": "p-4S-BMPRI",
+        "parent": "http___pathwaycommons_org_pc2_Complex_9645428d17f9ccecd38bf9659abb3979",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 847.6365,
+          "y": 1921.3767,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_be99774a55a8265c4d1c9b56c4819122",
+        "class": "macromolecule",
+        "label": "ZFYVE16",
+        "parent": "early_endosome_membrane",
+        "clonemarker": false,
+        "stateVariables": [
+          {
+            "id": "http___pathwaycommons_org_pc2_Protein_be99774a55a8265c4d1c9b56c4819122.info.1",
+            "class": "state variable",
+            "state": {
+              "variable": "",
+              "value": "x[1 - 1539]"
+            }
+          }
+        ],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 1065.167,
+          "y": 1924.977,
+          "w": 48,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "Cytosol",
+        "class": "compartment",
+        "label": "Cytosol",
+        "parent": "",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 425.85292,
+          "y": 821.74216,
+          "w": 774.3456,
+          "h": 716.3556
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "plasma_membrane",
+        "class": "compartment",
+        "label": "plasma_membrane",
+        "parent": "",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 1795.25125,
+          "y": 2069.102185,
+          "w": 914.2997,
+          "h": 946.56177
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "extracellular_region",
+        "class": "compartment",
+        "label": "extracellular_region",
+        "parent": "",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 2146.38837,
+          "y": 1219.61813,
+          "w": 516.36194,
+          "h": 495.85406
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "Nucleoplasm",
+        "class": "compartment",
+        "label": "Nucleoplasm",
+        "parent": "",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 1418.74945,
+          "y": 278.86573,
+          "w": 600.5831,
+          "h": 483.11008
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "early_endosome_membrane",
+        "class": "compartment",
+        "label": "early_endosome_membrane",
+        "parent": "",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 739.17138,
+          "y": 1632.604085,
+          "w": 703.9912,
+          "h": 670.54517
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "class": "catalysis",
+        "cardinality": 0,
+        "source": "http___pathwaycommons_org_pc2_Complex_ba5af9c28bc7f66ca059881332e36a85",
+        "target": "http___identifiers_org_reactome_R-HSA-201457LEFT_TO_RIGHT"
+      }
+    },
+    {
+      "data": {
+        "class": "catalysis",
+        "cardinality": 0,
+        "source": "http___pathwaycommons_org_pc2_Complex_01d3e439bda1a81d76312ad6faac1876",
+        "target": "http___identifiers_org_reactome_R-HSA-201443LEFT_TO_RIGHT"
+      }
+    },
+    {
+      "data": {
+        "class": "catalysis",
+        "cardinality": 0,
+        "source": "http___pathwaycommons_org_pc2_Protein_8edb21880923d29b363259e2b3c814e8",
+        "target": "http___identifiers_org_reactome_R-HSA-201445LEFT_TO_RIGHT"
+      }
+    },
+    {
+      "data": {
+        "class": "catalysis",
+        "cardinality": 0,
+        "source": "http___pathwaycommons_org_pc2_Complex_493d0698c410b3155d8edc9a8be64761",
+        "target": "http___identifiers_org_reactome_R-HSA-201476LEFT_TO_RIGHT"
+      }
+    },
+    {
+      "data": {
+        "class": "catalysis",
+        "cardinality": 0,
+        "source": "http___pathwaycommons_org_pc2_Protein_4d2b3e1c3133818bfae0b43b20b467ff",
+        "target": "http___identifiers_org_reactome_R-HSA-201425LEFT_TO_RIGHT"
+      }
+    }
+  ]
+}
