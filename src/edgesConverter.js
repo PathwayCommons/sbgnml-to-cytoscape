@@ -1,3 +1,5 @@
+const getId = (arc) => arc._attributes ? arc._attributes.id : undefined;
+
 const getClass = (arc) => arc._attributes ? arc._attributes.class : '';
 
 const getSource = (arc) => arc._attributes ? arc._attributes.source : '';
@@ -9,6 +11,7 @@ const getCardinality = (glyph) => parseInt(glyph.label._attributes.text);
 const convertArc = (arc) => {
   return {
     data: {
+      id: getId(arc),
       'class': getClass(arc),
       cardinality: arc.glyph ? getCardinality(arc.glyph): 0,
       source: getSource(arc),

@@ -18,7 +18,7 @@ describe('edgesConverter', function () {
   it('should convert edges', function () {
     const input = makeSbgnml(
       `
-      <arc target="glyph13" source="glyph21" class="consumption">
+      <arc id="glyph21-13" target="glyph13" source="glyph21" class="consumption">
          <start y="347.8180972732039" x="863.0538165387796" />
          <end y="295.62165823750354" x="847.6106014608313" />
       </arc>
@@ -27,6 +27,7 @@ describe('edgesConverter', function () {
 
     const output = [{
       data: {
+        id: 'glyph21-13',
         'class': 'consumption',
         'source': 'glyph21',
         'target': 'glyph13',
