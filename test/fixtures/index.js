@@ -17,7 +17,11 @@ const input = [
 
 
   '/input/small.xml',
-  '/input/complex_multimer.xml'
+  '/input/complex_multimer.xml',
+
+  '/input/p53-Dependent_G1_DNA.sbgn.xml',
+  '/input/pc_signallingByBMP.sbgn.xml',
+  '/input/TP53_regulates_trans.sbgn.xml'
 ].map(function (fname) {
   return fs.readFileSync(__dirname + fname, 'utf8');
 });
@@ -35,7 +39,11 @@ const output = [
 
 
   require('./output/small.json'),
-  require('./output/complex_multimer.json')
+  require('./output/complex_multimer.json'),
+
+  {},
+  {},
+  {},  // TODO: Run the converter on these
 ];
 
 module.exports = {
