@@ -1,5 +1,7 @@
+const objPath = require('object-path');
+
 const getCenteredBbox = (glyph) => {
-  let {x:x, y:y, w:w, h:h} = glyph.bbox._attributes;
+  let {x:x, y:y, w:w, h:h} = objPath.get(glyph, 'bbox._attributes', {x: 0, y: 0, w: 0, h: 0});
 
   return {
     x: parseFloat(x) + ( parseFloat(w) / 2 ),
@@ -9,22 +11,20 @@ const getCenteredBbox = (glyph) => {
   };
 };
 
-const getId = (glyph) => glyph._attributes ? glyph._attributes.id : '';
+const getId = (glyph) => objPath.get(glyph, '_attributes.id');
 
-const getClass = (glyph) => glyph._attributes ? glyph._attributes['class'] : '';
+const getClass = (glyph) => objPath.get(glyph, '_attributes.class', '');
 
-const getLabel = (glyph) => glyph.label ? glyph.label._attributes ? glyph.label._attributes.text : '' : '';
+const getLabel = (glyph) => objPath.get(glyph, 'label._attributes.text', '');
 
-const getParent = (glyph) => glyph._attributes ? glyph._attributes.compartmentRef : '';
+const getParent = (glyph) => objPath.get(glyph, '_attributes.compartmentRef', '');
 
 const getClonemarker = (glyph) => glyph.clone !== undefined;
 
 const getState = (glyph) => {
-  const stateVariable = glyph.state._attributes.variable;
-  const value = glyph.state._attributes.value;
   return {
-    variable: stateVariable ? stateVariable : '',
-    value: value ? value : ''
+    variable: objPath.get(glyph, 'state._attributes.variable', ''),
+    value: objPath.get(glyph, 'state._attributes.value', '')
   };
 };
 
@@ -41,7 +41,7 @@ const getUnitOfInformation = (glyph) => {
     id: getId(glyph),
     'class': getClass(glyph),
     label: {
-      text: glyph.label._attributes.text ? glyph.label._attributes.text : ''
+      text: objPath.get(glyph, 'label._attributes.text', '')
     }
   };
 };
@@ -65,10 +65,7 @@ const getChildren = (glyph) => {
 };
 
 const getChildrenArray = (glyph) => {
-  if (glyph.glyph === undefined) {
-    return [];
-  }
-  return [].concat(glyph.glyph);
+  return [].concat(objPath.get(glyph, 'glyph', []));
 };
 
 const convertGlyph = (glyph, parent='') => {

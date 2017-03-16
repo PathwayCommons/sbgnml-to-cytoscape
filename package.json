@@ -52,6 +52,7 @@
     "watchify": "^3.9.0"
   },
   "dependencies": {
+    "object-path": "^0.11.4",
     "xml-js": "^1.0.2"
   }
 }

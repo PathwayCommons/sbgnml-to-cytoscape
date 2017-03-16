@@ -1,12 +1,19 @@
-const getId = (arc) => arc._attributes ? arc._attributes.id : undefined;
+const objPath = require('object-path');
 
-const getClass = (arc) => arc._attributes ? arc._attributes.class : '';
+const getId = (arc) => objPath.get(arc, '_attributes.id');
 
-const getSource = (arc) => arc._attributes ? arc._attributes.source : '';
+const getClass = (arc) => objPath.get(arc, '_attributes.class', '');
 
-const getTarget = (arc) => arc._attributes ? arc._attributes.target : '';
+const getSource = (arc) => {
+  const source = objPath.get(arc, '_attributes.source', '');
+  return source.replace('InputPort_', '').replace('OutputPort_', '');
+};
+const getTarget = (arc) => {
+  const target = objPath.get(arc, '_attributes.target', '');
+  return target.replace('InputPort_', '').replace('OutputPort_', '');
+};
 
-const getCardinality = (glyph) => parseInt(glyph.label._attributes.text);
+const getCardinality = (glyph) => parseInt(objPath.get(glyph, 'label._attributes.text', ''));
 
 const convertArc = (arc) => {
   return {
