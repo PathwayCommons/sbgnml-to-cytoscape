@@ -4,14 +4,10 @@ const getId = (arc) => objPath.get(arc, '_attributes.id');
 
 const getClass = (arc) => objPath.get(arc, '_attributes.class', '');
 
-const getSource = (arc) => {
-  const source = objPath.get(arc, '_attributes.source', '');
-  return source.replace('InputPort_', '').replace('OutputPort_', '');
-};
-const getTarget = (arc) => {
-  const target = objPath.get(arc, '_attributes.target', '');
-  return target.replace('InputPort_', '').replace('OutputPort_', '');
-};
+const getSource = (arc) => objPath.get(arc, '_attributes.source', '');
+
+const getTarget = (arc) => objPath.get(arc, '_attributes.target', '');
+
 
 const getCardinality = (glyph) => parseInt(objPath.get(glyph, 'label._attributes.text', ''));
 
@@ -27,10 +23,17 @@ const convertArc = (arc) => {
   };
 };
 
-const validEdge = (arc, nodeIdSet) => nodeIdSet.has(getSource(arc)) && nodeIdSet.has(getTarget(arc));
+const validEdge = (arc, nodeIdSet, portIdMap) => {
+  const srcNodeId = getSource(arc);
+  const tgtNodeId = getTarget(arc);
 
-const validEdges = (arcs, nodeIdSet) => arcs.filter((arc) => validEdge(arc, nodeIdSet));
+  return (nodeIdSet.has(srcNodeId) || nodeIdSet.has(portIdMap.get(srcNodeId)))
+  && (nodeIdSet.has(tgtNodeId) || nodeIdSet.has(portIdMap.get(tgtNodeId)));
+};
 
-const convertEdges = (arcs, nodeIdSet) => validEdges(arcs, nodeIdSet).map(arc => convertArc(arc));
+
+const validEdges = (arcs, nodeIdSet, portIdMap) => arcs.filter((arc) => validEdge(arc, nodeIdSet, portIdMap));
+
+const convertEdges = (arcs, nodeIdSet, portIdMap) => validEdges(arcs, nodeIdSet, portIdMap).map(arc => convertArc(arc));
 
 module.exports = convertEdges;

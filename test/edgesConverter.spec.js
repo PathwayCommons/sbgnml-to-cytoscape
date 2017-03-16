@@ -35,7 +35,7 @@ describe('edgesConverter', function () {
       }
     }];
     const js = convert.xml2js(input, {compact: true, spaces: 2, trim: true, nativeType: true });
-    const res = econvert([].concat(js.sbgn.map.arc), new Set(['glyph21', 'glyph13']));
+    const res = econvert([].concat(js.sbgn.map.arc), new Set(['glyph21', 'glyph13']), new Map());
 
     expect(res).to.deep.equal(output);
   });
@@ -52,7 +52,7 @@ describe('edgesConverter', function () {
 
     const output = [];
     const js = convert.xml2js(input, {compact: true, spaces: 2, trim: true, nativeType: true });
-    const res = econvert([].concat(js.sbgn.map.arc), new Set());
+    const res = econvert([].concat(js.sbgn.map.arc), new Set(), new Map());
 
     expect(res).to.deep.equal(output);
   });

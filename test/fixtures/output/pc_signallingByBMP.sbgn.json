@@ -2662,6 +2662,25 @@
   "edges": [
     {
       "data": {
+        "id": "http___identifiers_org_reactome_R-HSA-201422LEFT_TO_RIGHT-output--to--http___pathwaycommons_org_pc2_Complex_47b40f3c07861fe278cca379440b09f9",
+        "class": "production",
+        "cardinality": 0,
+        "source": "OutputPort_http___identifiers_org_reactome_R-HSA-201422LEFT_TO_RIGHT",
+        "target": "http___pathwaycommons_org_pc2_Complex_47b40f3c07861fe278cca379440b09f9"
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Complex_0a06530908bb2b4f145f14b67e31fed5--to--http___identifiers_org_reactome_R-HSA-202604LEFT_TO_RIGHT-input",
+        "class": "consumption",
+        "cardinality": 0,
+        "source": "http___pathwaycommons_org_pc2_Complex_0a06530908bb2b4f145f14b67e31fed5",
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-202604LEFT_TO_RIGHT"
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Complex_ba5af9c28bc7f66ca059881332e36a85--to--http___identifiers_org_reactome_R-HSA-201457LEFT_TO_RIGHT",
         "class": "catalysis",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_ba5af9c28bc7f66ca059881332e36a85",
@@ -2670,6 +2689,187 @@
     },
     {
       "data": {
+        "id": "http___identifiers_org_reactome_R-HSA-201443LEFT_TO_RIGHT-output--to--http___pathwaycommons_org_pc2_Complex_493d0698c410b3155d8edc9a8be64761",
+        "class": "production",
+        "cardinality": 0,
+        "source": "OutputPort_http___identifiers_org_reactome_R-HSA-201443LEFT_TO_RIGHT",
+        "target": "http___pathwaycommons_org_pc2_Complex_493d0698c410b3155d8edc9a8be64761"
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_a96dc2dbb65e93026a64f52379f04c0c--to--http___identifiers_org_reactome_R-HSA-202626LEFT_TO_RIGHT-input",
+        "class": "consumption",
+        "cardinality": 0,
+        "source": "http___pathwaycommons_org_pc2_Protein_a96dc2dbb65e93026a64f52379f04c0c",
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-202626LEFT_TO_RIGHT"
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Complex_01d3e439bda1a81d76312ad6faac1876--to--http___identifiers_org_reactome_R-HSA-201443LEFT_TO_RIGHT-input",
+        "class": "consumption",
+        "cardinality": 0,
+        "source": "http___pathwaycommons_org_pc2_Complex_01d3e439bda1a81d76312ad6faac1876",
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-201443LEFT_TO_RIGHT"
+      }
+    },
+    {
+      "data": {
+        "id": "http___identifiers_org_reactome_R-HSA-201453LEFT_TO_RIGHT-output--to--http___pathwaycommons_org_pc2_Complex_bfbec38aec18585aeb17641c1b8f6841",
+        "class": "production",
+        "cardinality": 0,
+        "source": "OutputPort_http___identifiers_org_reactome_R-HSA-201453LEFT_TO_RIGHT",
+        "target": "http___pathwaycommons_org_pc2_Complex_bfbec38aec18585aeb17641c1b8f6841"
+      }
+    },
+    {
+      "data": {
+        "id": "http___identifiers_org_reactome_R-HSA-201453LEFT_TO_RIGHT-output--to--http___pathwaycommons_org_pc2_Protein_a96dc2dbb65e93026a64f52379f04c0c",
+        "class": "production",
+        "cardinality": 0,
+        "source": "OutputPort_http___identifiers_org_reactome_R-HSA-201453LEFT_TO_RIGHT",
+        "target": "http___pathwaycommons_org_pc2_Protein_a96dc2dbb65e93026a64f52379f04c0c"
+      }
+    },
+    {
+      "data": {
+        "id": "http___identifiers_org_reactome_R-HSA-201648LEFT_TO_RIGHT-output--to--http___pathwaycommons_org_pc2_Complex_9645428d17f9ccecd38bf9659abb3979",
+        "class": "production",
+        "cardinality": 0,
+        "source": "OutputPort_http___identifiers_org_reactome_R-HSA-201648LEFT_TO_RIGHT",
+        "target": "http___pathwaycommons_org_pc2_Complex_9645428d17f9ccecd38bf9659abb3979"
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_50baf78508272a3536a117bddaa45d42--to--http___identifiers_org_reactome_R-HSA-201422LEFT_TO_RIGHT-input",
+        "class": "consumption",
+        "cardinality": 0,
+        "source": "http___pathwaycommons_org_pc2_Protein_50baf78508272a3536a117bddaa45d42",
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-201422LEFT_TO_RIGHT"
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Complex_493d0698c410b3155d8edc9a8be64761--to--http___identifiers_org_reactome_R-HSA-201821LEFT_TO_RIGHT-input",
+        "class": "consumption",
+        "cardinality": 0,
+        "source": "http___pathwaycommons_org_pc2_Complex_493d0698c410b3155d8edc9a8be64761",
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-201821LEFT_TO_RIGHT"
+      }
+    },
+    {
+      "data": {
+        "id": "http___identifiers_org_reactome_R-HSA-201476LEFT_TO_RIGHT-output--to--http___pathwaycommons_org_pc2_SmallMolecule_1f6431bab98da72b6d68e7a207839591http___identifiers_org_reactome_R-HSA-201476LEFT_TO_RIGHT",
+        "class": "production",
+        "cardinality": 2,
+        "source": "OutputPort_http___identifiers_org_reactome_R-HSA-201476LEFT_TO_RIGHT",
+        "target": "http___pathwaycommons_org_pc2_SmallMolecule_1f6431bab98da72b6d68e7a207839591http___identifiers_org_reactome_R-HSA-201476LEFT_TO_RIGHT"
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_a6f751c4d1cb4ea06321ada6de213b1d--to--http___identifiers_org_reactome_R-HSA-202626LEFT_TO_RIGHT-input",
+        "class": "consumption",
+        "cardinality": 0,
+        "source": "http___pathwaycommons_org_pc2_Protein_a6f751c4d1cb4ea06321ada6de213b1d",
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-202626LEFT_TO_RIGHT"
+      }
+    },
+    {
+      "data": {
+        "id": "http___identifiers_org_reactome_R-HSA-201476LEFT_TO_RIGHT-output--to--http___pathwaycommons_org_pc2_Complex_e9f4df379e9ac187f28783655cb2f376",
+        "class": "production",
+        "cardinality": 0,
+        "source": "OutputPort_http___identifiers_org_reactome_R-HSA-201476LEFT_TO_RIGHT",
+        "target": "http___pathwaycommons_org_pc2_Complex_e9f4df379e9ac187f28783655cb2f376"
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Complex_799d05e962f94c7c03a6871fd7320d2b--to--http___identifiers_org_reactome_R-HSA-201821LEFT_TO_RIGHT-input",
+        "class": "consumption",
+        "cardinality": 0,
+        "source": "http___pathwaycommons_org_pc2_Complex_799d05e962f94c7c03a6871fd7320d2b",
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-201821LEFT_TO_RIGHT"
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_551eb065b57a0adcb6eeaee7152e156b--to--http___identifiers_org_reactome_R-HSA-201445LEFT_TO_RIGHT-input",
+        "class": "consumption",
+        "cardinality": 0,
+        "source": "http___pathwaycommons_org_pc2_Protein_551eb065b57a0adcb6eeaee7152e156b",
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-201445LEFT_TO_RIGHT"
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_SmallMolecule_d0f5223d3271f1a1459cab70d70af3abhttp___identifiers_org_reactome_R-HSA-201443LEFT_TO_RIGHT--to--http___identifiers_org_reactome_R-HSA-201443LEFT_TO_RIGHT-input",
+        "class": "consumption",
+        "cardinality": 8,
+        "source": "http___pathwaycommons_org_pc2_SmallMolecule_d0f5223d3271f1a1459cab70d70af3abhttp___identifiers_org_reactome_R-HSA-201443LEFT_TO_RIGHT",
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-201443LEFT_TO_RIGHT"
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Complex_493d0698c410b3155d8edc9a8be64761--to--http___identifiers_org_reactome_R-HSA-201648LEFT_TO_RIGHT-input",
+        "class": "consumption",
+        "cardinality": 0,
+        "source": "http___pathwaycommons_org_pc2_Complex_493d0698c410b3155d8edc9a8be64761",
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-201648LEFT_TO_RIGHT"
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_a6f751c4d1cb4ea06321ada6de213b1d--to--http___identifiers_org_reactome_R-HSA-201475LEFT_TO_RIGHT-input",
+        "class": "consumption",
+        "cardinality": 0,
+        "source": "http___pathwaycommons_org_pc2_Protein_a6f751c4d1cb4ea06321ada6de213b1d",
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-201475LEFT_TO_RIGHT"
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Complex_67e385c83392aebb20cfaed64cb604da--to--http___identifiers_org_reactome_R-HSA-201425LEFT_TO_RIGHT-input",
+        "class": "consumption",
+        "cardinality": 0,
+        "source": "http___pathwaycommons_org_pc2_Complex_67e385c83392aebb20cfaed64cb604da",
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-201425LEFT_TO_RIGHT"
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Complex_8144cb7f2385e6327ed393616a4263bb--to--http___identifiers_org_reactome_R-HSA-201457LEFT_TO_RIGHT-input",
+        "class": "consumption",
+        "cardinality": 0,
+        "source": "http___pathwaycommons_org_pc2_Complex_8144cb7f2385e6327ed393616a4263bb",
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-201457LEFT_TO_RIGHT"
+      }
+    },
+    {
+      "data": {
+        "id": "http___identifiers_org_reactome_R-HSA-201821LEFT_TO_RIGHT-output--to--http___pathwaycommons_org_pc2_Complex_1ad19bc2c8e6069532a5bbae079a6bc3",
+        "class": "production",
+        "cardinality": 0,
+        "source": "OutputPort_http___identifiers_org_reactome_R-HSA-201821LEFT_TO_RIGHT",
+        "target": "http___pathwaycommons_org_pc2_Complex_1ad19bc2c8e6069532a5bbae079a6bc3"
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_a96dc2dbb65e93026a64f52379f04c0c--to--http___identifiers_org_reactome_R-HSA-201422LEFT_TO_RIGHT-input",
+        "class": "consumption",
+        "cardinality": 0,
+        "source": "http___pathwaycommons_org_pc2_Protein_a96dc2dbb65e93026a64f52379f04c0c",
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-201422LEFT_TO_RIGHT"
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Complex_01d3e439bda1a81d76312ad6faac1876--to--http___identifiers_org_reactome_R-HSA-201443LEFT_TO_RIGHT",
         "class": "catalysis",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_01d3e439bda1a81d76312ad6faac1876",
@@ -2678,6 +2878,142 @@
     },
     {
       "data": {
+        "id": "http___identifiers_org_reactome_R-HSA-202626LEFT_TO_RIGHT-output--to--http___pathwaycommons_org_pc2_Complex_c3e5e9b34045b84ebe3db6d7288efdc8",
+        "class": "production",
+        "cardinality": 0,
+        "source": "OutputPort_http___identifiers_org_reactome_R-HSA-202626LEFT_TO_RIGHT",
+        "target": "http___pathwaycommons_org_pc2_Complex_c3e5e9b34045b84ebe3db6d7288efdc8"
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Complex_67e385c83392aebb20cfaed64cb604da--to--http___identifiers_org_reactome_R-HSA-201423LEFT_TO_RIGHT-input",
+        "class": "consumption",
+        "cardinality": 0,
+        "source": "http___pathwaycommons_org_pc2_Complex_67e385c83392aebb20cfaed64cb604da",
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-201423LEFT_TO_RIGHT"
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_551eb065b57a0adcb6eeaee7152e156b--to--http___identifiers_org_reactome_R-HSA-201648LEFT_TO_RIGHT-input",
+        "class": "consumption",
+        "cardinality": 0,
+        "source": "http___pathwaycommons_org_pc2_Protein_551eb065b57a0adcb6eeaee7152e156b",
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-201648LEFT_TO_RIGHT"
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Complex_ba5af9c28bc7f66ca059881332e36a85--to--http___identifiers_org_reactome_R-HSA-201810LEFT_TO_RIGHT-input",
+        "class": "consumption",
+        "cardinality": 0,
+        "source": "http___pathwaycommons_org_pc2_Complex_ba5af9c28bc7f66ca059881332e36a85",
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-201810LEFT_TO_RIGHT"
+      }
+    },
+    {
+      "data": {
+        "id": "http___identifiers_org_reactome_R-HSA-201810LEFT_TO_RIGHT-output--to--http___pathwaycommons_org_pc2_Complex_c4398e975103fbca58de24b36d22861d",
+        "class": "production",
+        "cardinality": 0,
+        "source": "OutputPort_http___identifiers_org_reactome_R-HSA-201810LEFT_TO_RIGHT",
+        "target": "http___pathwaycommons_org_pc2_Complex_c4398e975103fbca58de24b36d22861d"
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_092dafb1e607bc6e722e3bafc24f07f0--to--http___identifiers_org_reactome_R-HSA-201810LEFT_TO_RIGHT-input",
+        "class": "consumption",
+        "cardinality": 0,
+        "source": "http___pathwaycommons_org_pc2_Protein_092dafb1e607bc6e722e3bafc24f07f0",
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-201810LEFT_TO_RIGHT"
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_2126462faf058906f41eeb2dd55226c1--to--http___identifiers_org_reactome_R-HSA-201423LEFT_TO_RIGHT-input",
+        "class": "consumption",
+        "cardinality": 0,
+        "source": "http___pathwaycommons_org_pc2_Protein_2126462faf058906f41eeb2dd55226c1",
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-201423LEFT_TO_RIGHT"
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Complex_493d0698c410b3155d8edc9a8be64761--to--http___identifiers_org_reactome_R-HSA-201475LEFT_TO_RIGHT-input",
+        "class": "consumption",
+        "cardinality": 0,
+        "source": "http___pathwaycommons_org_pc2_Complex_493d0698c410b3155d8edc9a8be64761",
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-201475LEFT_TO_RIGHT"
+      }
+    },
+    {
+      "data": {
+        "id": "http___identifiers_org_reactome_R-HSA-202604LEFT_TO_RIGHT-output--to--http___pathwaycommons_org_pc2_Complex_8144cb7f2385e6327ed393616a4263bb",
+        "class": "production",
+        "cardinality": 0,
+        "source": "OutputPort_http___identifiers_org_reactome_R-HSA-202604LEFT_TO_RIGHT",
+        "target": "http___pathwaycommons_org_pc2_Complex_8144cb7f2385e6327ed393616a4263bb"
+      }
+    },
+    {
+      "data": {
+        "id": "http___identifiers_org_reactome_R-HSA-201457LEFT_TO_RIGHT-output--to--http___pathwaycommons_org_pc2_Complex_01d3e439bda1a81d76312ad6faac1876",
+        "class": "production",
+        "cardinality": 0,
+        "source": "OutputPort_http___identifiers_org_reactome_R-HSA-201457LEFT_TO_RIGHT",
+        "target": "http___pathwaycommons_org_pc2_Complex_01d3e439bda1a81d76312ad6faac1876"
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Complex_e9f4df379e9ac187f28783655cb2f376--to--http___identifiers_org_reactome_R-HSA-201453LEFT_TO_RIGHT-input",
+        "class": "consumption",
+        "cardinality": 0,
+        "source": "http___pathwaycommons_org_pc2_Complex_e9f4df379e9ac187f28783655cb2f376",
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-201453LEFT_TO_RIGHT"
+      }
+    },
+    {
+      "data": {
+        "id": "http___identifiers_org_reactome_R-HSA-201472LEFT_TO_RIGHT-output--to--http___pathwaycommons_org_pc2_Complex_67e385c83392aebb20cfaed64cb604da",
+        "class": "production",
+        "cardinality": 0,
+        "source": "OutputPort_http___identifiers_org_reactome_R-HSA-201472LEFT_TO_RIGHT",
+        "target": "http___pathwaycommons_org_pc2_Complex_67e385c83392aebb20cfaed64cb604da"
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_be99774a55a8265c4d1c9b56c4819122--to--http___identifiers_org_reactome_R-HSA-201648LEFT_TO_RIGHT-input",
+        "class": "consumption",
+        "cardinality": 0,
+        "source": "http___pathwaycommons_org_pc2_Protein_be99774a55a8265c4d1c9b56c4819122",
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-201648LEFT_TO_RIGHT"
+      }
+    },
+    {
+      "data": {
+        "id": "http___identifiers_org_reactome_R-HSA-201423LEFT_TO_RIGHT-output--to--http___pathwaycommons_org_pc2_Complex_8a024b17e691f3c11fca7a95a6153d1f",
+        "class": "production",
+        "cardinality": 0,
+        "source": "OutputPort_http___identifiers_org_reactome_R-HSA-201423LEFT_TO_RIGHT",
+        "target": "http___pathwaycommons_org_pc2_Complex_8a024b17e691f3c11fca7a95a6153d1f"
+      }
+    },
+    {
+      "data": {
+        "id": "http___identifiers_org_reactome_R-HSA-201475LEFT_TO_RIGHT-output--to--http___pathwaycommons_org_pc2_Complex_6a2cbf47e64ecdbf8f0f8ae8ff0e86ec",
+        "class": "production",
+        "cardinality": 0,
+        "source": "OutputPort_http___identifiers_org_reactome_R-HSA-201475LEFT_TO_RIGHT",
+        "target": "http___pathwaycommons_org_pc2_Complex_6a2cbf47e64ecdbf8f0f8ae8ff0e86ec"
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_8edb21880923d29b363259e2b3c814e8--to--http___identifiers_org_reactome_R-HSA-201445LEFT_TO_RIGHT",
         "class": "catalysis",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Protein_8edb21880923d29b363259e2b3c814e8",
@@ -2686,6 +3022,7 @@
     },
     {
       "data": {
+        "id": "http___pathwaycommons_org_pc2_Complex_493d0698c410b3155d8edc9a8be64761--to--http___identifiers_org_reactome_R-HSA-201476LEFT_TO_RIGHT",
         "class": "catalysis",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_493d0698c410b3155d8edc9a8be64761",
@@ -2694,6 +3031,61 @@
     },
     {
       "data": {
+        "id": "http___pathwaycommons_org_pc2_Complex_47b40f3c07861fe278cca379440b09f9--to--http___identifiers_org_reactome_R-HSA-201472LEFT_TO_RIGHT-input",
+        "class": "consumption",
+        "cardinality": 0,
+        "source": "http___pathwaycommons_org_pc2_Complex_47b40f3c07861fe278cca379440b09f9",
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-201472LEFT_TO_RIGHT"
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_SmallMolecule_d0f5223d3271f1a1459cab70d70af3abhttp___identifiers_org_reactome_R-HSA-201476LEFT_TO_RIGHT--to--http___identifiers_org_reactome_R-HSA-201476LEFT_TO_RIGHT-input",
+        "class": "consumption",
+        "cardinality": 2,
+        "source": "http___pathwaycommons_org_pc2_SmallMolecule_d0f5223d3271f1a1459cab70d70af3abhttp___identifiers_org_reactome_R-HSA-201476LEFT_TO_RIGHT",
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-201476LEFT_TO_RIGHT"
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Complex_ba5af9c28bc7f66ca059881332e36a85--to--http___identifiers_org_reactome_R-HSA-201457LEFT_TO_RIGHT-input",
+        "class": "consumption",
+        "cardinality": 0,
+        "source": "http___pathwaycommons_org_pc2_Complex_ba5af9c28bc7f66ca059881332e36a85",
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-201457LEFT_TO_RIGHT"
+      }
+    },
+    {
+      "data": {
+        "id": "http___identifiers_org_reactome_R-HSA-201443LEFT_TO_RIGHT-output--to--http___pathwaycommons_org_pc2_SmallMolecule_1f6431bab98da72b6d68e7a207839591http___identifiers_org_reactome_R-HSA-201443LEFT_TO_RIGHT",
+        "class": "production",
+        "cardinality": 8,
+        "source": "OutputPort_http___identifiers_org_reactome_R-HSA-201443LEFT_TO_RIGHT",
+        "target": "http___pathwaycommons_org_pc2_SmallMolecule_1f6431bab98da72b6d68e7a207839591http___identifiers_org_reactome_R-HSA-201443LEFT_TO_RIGHT"
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Complex_bbbc2082593a7b4665e3174b884d6119--to--http___identifiers_org_reactome_R-HSA-202604LEFT_TO_RIGHT-input",
+        "class": "consumption",
+        "cardinality": 0,
+        "source": "http___pathwaycommons_org_pc2_Complex_bbbc2082593a7b4665e3174b884d6119",
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-202604LEFT_TO_RIGHT"
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Complex_9645428d17f9ccecd38bf9659abb3979--to--http___identifiers_org_reactome_R-HSA-201476LEFT_TO_RIGHT-input",
+        "class": "consumption",
+        "cardinality": 0,
+        "source": "http___pathwaycommons_org_pc2_Complex_9645428d17f9ccecd38bf9659abb3979",
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-201476LEFT_TO_RIGHT"
+      }
+    },
+    {
+      "data": {
+        "id": "http___pathwaycommons_org_pc2_Protein_4d2b3e1c3133818bfae0b43b20b467ff--to--http___identifiers_org_reactome_R-HSA-201425LEFT_TO_RIGHT",
         "class": "catalysis",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Protein_4d2b3e1c3133818bfae0b43b20b467ff",

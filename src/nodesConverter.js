@@ -1,5 +1,7 @@
 const objPath = require('object-path');
 
+const validSbgnClass = require('./sbgnTags');
+
 const getCenteredBbox = (glyph) => {
   let {x:x, y:y, w:w, h:h} = objPath.get(glyph, 'bbox._attributes', {x: 0, y: 0, w: 0, h: 0});
 
@@ -82,9 +84,18 @@ const convertGlyph = (glyph, parent='') => {
     }
   };
 };
+const getPorts = (glyph) => {
+  return [].concat(objPath.get(glyph, 'port', [])).map((port) => {
+    return {
+      id: getId(port),
+      bbox: getCenteredBbox(port)
+    };
+  });
+};
 
 module.exports = (glyphs) => {
   const nodeIdSet = new Set();
+  const portIdMap = new Map();
   const stack = [];
   const nodes = [];
 
@@ -94,18 +105,26 @@ module.exports = (glyphs) => {
     const currGlyphId = getId(currGlyph);
     const processedGlyph = convertGlyph(currGlyph);
 
-    nodes.push(processedGlyph);
-    nodeIdSet.add(currGlyphId);
+    if (validSbgnClass(processedGlyph.data['class'])) {
+      nodes.push(processedGlyph);
+      nodeIdSet.add(currGlyphId);
 
-    const children = getChildren(currGlyph);
-    for (let child of children) {
-      child.parent = currGlyphId;
+      for (const port of getPorts(currGlyph)) {
+        portIdMap.set(port.id, currGlyphId);
+      }
+
+      const children = getChildren(currGlyph);
+      for (let child of children) {
+        child.parent = currGlyphId;
+      }
+
+      stack.push(...children);
     }
-    stack.push(...children);
   }
 
   return {
     nodes: nodes,
-    nodeIdSet: nodeIdSet
+    nodeIdSet: nodeIdSet,
+    portIdMap: portIdMap
   };
 };

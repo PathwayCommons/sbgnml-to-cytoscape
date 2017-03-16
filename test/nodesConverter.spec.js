@@ -21,9 +21,10 @@ describe('nodesConverter', function () {
     const garbage = ['', false, true, {'blah': 'blah'}, {}];
 
     garbage.map((g) => {
-      const {nodes: nodes, nodeIdSet: nodeIdSet} = nconvert(g);
+      const {nodes: nodes, nodeIdSet: nodeIdSet, portIdMap} = nconvert(g);
       expect(nodes).to.deep.equal([]);
       expect(nodeIdSet.size).to.deep.equal(0);
+      expect(portIdMap.size).to.deep.equal(0);
     });
   });
 
@@ -132,6 +133,7 @@ describe('nodesConverter', function () {
     expect(res.nodes).to.deep.equal(output);
     expect(res.nodeIdSet.size).to.equal(2);
     expect(res.nodeIdSet.has('14')).to.be.true;
+    expect(res.portIdMap.size).to.equal(0);
   });
 
   it('should convert compound nodes', function () {
@@ -190,6 +192,7 @@ describe('nodesConverter', function () {
     const res = nconvert([].concat(compound.sbgn.map.glyph));
     expect(res.nodes.length).to.deep.equal(2);
     expect(res.nodes).to.deep.equal(output);
+    expect(res.portIdMap.size).to.equal(0);
   });
 
   it('should place immediate parent nodes as the parent to immediate child nodes (compounds)', function () {
@@ -269,7 +272,7 @@ describe('nodesConverter', function () {
 
     expect(res.nodes.length).to.deep.equal(3);
     expect(res.nodes).to.deep.equal(output);
-
+    expect(res.portIdMap.size).to.equal(0);
   });
 
 });
