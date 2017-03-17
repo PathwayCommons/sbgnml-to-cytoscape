@@ -30,11 +30,11 @@ describe('sbgnmlConverter', function () {
   it('should process sbgnml files and output the expected fixture file', function () {
     for (const [index, fixture] of fixtures.input.entries()) {
       const actual = convert(fixture);
-
       const expected = fixtures.output[index];
 
       expect(expected.nodes.length).to.equal(actual.nodes.length);
       expect(expected.edges.length).to.equal(actual.edges.length);
+      expect(JSON.stringify(expected, null, 2)).to.deep.equal(JSON.stringify(actual, null, 2));
     }
   });
 });

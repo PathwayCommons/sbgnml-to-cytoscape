@@ -15187,7 +15187,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Protein_29fa25a30eae48d93d6ccc86bd16b56a",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6804998LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6804998LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Protein_29fa25a30eae48d93d6ccc86bd16b56a",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-6804998LEFT_TO_RIGHT"
       }
     },
     {
@@ -15196,7 +15199,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-5689972LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Complex_ade984bb0c1476326f6ada1489c2d890"
+        "target": "http___pathwaycommons_org_pc2_Complex_ade984bb0c1476326f6ada1489c2d890",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-5689972LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Complex_ade984bb0c1476326f6ada1489c2d890"
       }
     },
     {
@@ -15205,7 +15211,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-174070LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Complex_3a46c258225bf2bb26572ecf507e564a"
+        "target": "http___pathwaycommons_org_pc2_Complex_3a46c258225bf2bb26572ecf507e564a",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-174070LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Complex_3a46c258225bf2bb26572ecf507e564a"
       }
     },
     {
@@ -15214,7 +15223,10 @@
         "class": "production",
         "cardinality": 3,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-187574LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Protein_88ad595976e84121bca3c3a5c7e46e89"
+        "target": "http___pathwaycommons_org_pc2_Protein_88ad595976e84121bca3c3a5c7e46e89",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-187574LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Protein_88ad595976e84121bca3c3a5c7e46e89"
       }
     },
     {
@@ -15223,7 +15235,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-5689972LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_PhysicalEntity_70eb76b9b19228a77f5758e0b9dae01f"
+        "target": "http___pathwaycommons_org_pc2_PhysicalEntity_70eb76b9b19228a77f5758e0b9dae01f",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-5689972LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_PhysicalEntity_70eb76b9b19228a77f5758e0b9dae01f"
       }
     },
     {
@@ -15232,7 +15247,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Protein_ec4fb14f51d05f51b7265d151d27f2f2",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-8852362LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-8852362LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Protein_ec4fb14f51d05f51b7265d151d27f2f2",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-8852362LEFT_TO_RIGHT"
       }
     },
     {
@@ -15241,7 +15259,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-187552LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Complex_a5994dfd6d7c4415fe6df472ff873b64"
+        "target": "http___pathwaycommons_org_pc2_Complex_a5994dfd6d7c4415fe6df472ff873b64",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-187552LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Complex_a5994dfd6d7c4415fe6df472ff873b64"
       }
     },
     {
@@ -15250,7 +15271,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-174105LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Complex_3a46c258225bf2bb26572ecf507e564a"
+        "target": "http___pathwaycommons_org_pc2_Complex_3a46c258225bf2bb26572ecf507e564a",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-174105LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Complex_3a46c258225bf2bb26572ecf507e564a"
       }
     },
     {
@@ -15259,7 +15283,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-349455LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Complex_2637b41051b6172f5f03e6476bfebce3"
+        "target": "http___pathwaycommons_org_pc2_Complex_2637b41051b6172f5f03e6476bfebce3",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-349455LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Complex_2637b41051b6172f5f03e6476bfebce3"
       }
     },
     {
@@ -15268,7 +15295,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_5f90c6b3b2b470db31a1283145237599",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-187552LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-187552LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_5f90c6b3b2b470db31a1283145237599",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-187552LEFT_TO_RIGHT"
       }
     },
     {
@@ -15277,7 +15307,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-174057LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Complex_a6df1096985b5f075ec88b1b0b90f80e"
+        "target": "http___pathwaycommons_org_pc2_Complex_a6df1096985b5f075ec88b1b0b90f80e",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-174057LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Complex_a6df1096985b5f075ec88b1b0b90f80e"
       }
     },
     {
@@ -15286,7 +15319,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_ab4b57f8765cdc0ce281453e224735b5",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6798374LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6798374LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_ab4b57f8765cdc0ce281453e224735b5",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-6798374LEFT_TO_RIGHT"
       }
     },
     {
@@ -15295,7 +15331,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_15c537f7506cf5b70c35fc53de2d3bca",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-8852354LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-8852354LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_15c537f7506cf5b70c35fc53de2d3bca",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-8852354LEFT_TO_RIGHT"
       }
     },
     {
@@ -15304,7 +15343,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-3786258LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Complex_cda33827bb664dee6fbef2936dc1863d"
+        "target": "http___pathwaycommons_org_pc2_Complex_cda33827bb664dee6fbef2936dc1863d",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-3786258LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Complex_cda33827bb664dee6fbef2936dc1863d"
       }
     },
     {
@@ -15313,7 +15355,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_ade984bb0c1476326f6ada1489c2d890",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6804724LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6804724LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_ade984bb0c1476326f6ada1489c2d890",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-6804724LEFT_TO_RIGHT"
       }
     },
     {
@@ -15322,7 +15367,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_8b7c90df582051a6ef6501968e1869ba",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-188350LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-188350LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_8b7c90df582051a6ef6501968e1869ba",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-188350LEFT_TO_RIGHT"
       }
     },
     {
@@ -15331,7 +15379,10 @@
         "class": "catalysis",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_ade984bb0c1476326f6ada1489c2d890",
-        "target": "http___identifiers_org_reactome_R-HSA-6804724LEFT_TO_RIGHT"
+        "target": "http___identifiers_org_reactome_R-HSA-6804724LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_ade984bb0c1476326f6ada1489c2d890",
+        "portTarget": "http___identifiers_org_reactome_R-HSA-6804724LEFT_TO_RIGHT"
       }
     },
     {
@@ -15340,7 +15391,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Rna_066a231fb05a83e5f649787f259b29b3",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6803411LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6803411LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Rna_066a231fb05a83e5f649787f259b29b3",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-6803411LEFT_TO_RIGHT"
       }
     },
     {
@@ -15349,7 +15403,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_PhysicalEntity_81e1191c0c974f9db0e53302e0107e95",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-5633460LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-5633460LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_PhysicalEntity_81e1191c0c974f9db0e53302e0107e95",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-5633460LEFT_TO_RIGHT"
       }
     },
     {
@@ -15358,7 +15415,10 @@
         "class": "production",
         "cardinality": 4,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-6805285LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_SmallMolecule_64486946a05d288afd7be7dba1d38d7ehttp___identifiers_org_reactome_R-HSA-6805285LEFT_TO_RIGHT"
+        "target": "http___pathwaycommons_org_pc2_SmallMolecule_64486946a05d288afd7be7dba1d38d7ehttp___identifiers_org_reactome_R-HSA-6805285LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-6805285LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_SmallMolecule_64486946a05d288afd7be7dba1d38d7ehttp___identifiers_org_reactome_R-HSA-6805285LEFT_TO_RIGHT"
       }
     },
     {
@@ -15367,7 +15427,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-6804998LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Complex_b1a3900ebc94b1f061d1b9534ad30243"
+        "target": "http___pathwaycommons_org_pc2_Complex_b1a3900ebc94b1f061d1b9534ad30243",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-6804998LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Complex_b1a3900ebc94b1f061d1b9534ad30243"
       }
     },
     {
@@ -15376,7 +15439,10 @@
         "class": "catalysis",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Protein_b7e80dee7367e1b25af292ecaa7c5131",
-        "target": "http___identifiers_org_reactome_R-HSA-6805479LEFT_TO_RIGHT"
+        "target": "http___identifiers_org_reactome_R-HSA-6805479LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Protein_b7e80dee7367e1b25af292ecaa7c5131",
+        "portTarget": "http___identifiers_org_reactome_R-HSA-6805479LEFT_TO_RIGHT"
       }
     },
     {
@@ -15385,7 +15451,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_b6f04d0d04cf4e873b26eef7448e6975",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-264435LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-264435LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_b6f04d0d04cf4e873b26eef7448e6975",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-264435LEFT_TO_RIGHT"
       }
     },
     {
@@ -15394,7 +15463,10 @@
         "class": "catalysis",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Protein_dcc8746aa27c0e1c33734f6c792fa161",
-        "target": "http___identifiers_org_reactome_R-HSA-349426LEFT_TO_RIGHT"
+        "target": "http___identifiers_org_reactome_R-HSA-349426LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Protein_dcc8746aa27c0e1c33734f6c792fa161",
+        "portTarget": "http___identifiers_org_reactome_R-HSA-349426LEFT_TO_RIGHT"
       }
     },
     {
@@ -15403,7 +15475,10 @@
         "class": "catalysis",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_09ef30d78fcd90bf1e7078eb5339158b",
-        "target": "http___identifiers_org_reactome_R-HSA-5689972LEFT_TO_RIGHT"
+        "target": "http___identifiers_org_reactome_R-HSA-5689972LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_09ef30d78fcd90bf1e7078eb5339158b",
+        "portTarget": "http___identifiers_org_reactome_R-HSA-5689972LEFT_TO_RIGHT"
       }
     },
     {
@@ -15412,7 +15487,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-188390LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_SmallMolecule_64486946a05d288afd7be7dba1d38d7ehttp___identifiers_org_reactome_R-HSA-188390LEFT_TO_RIGHT"
+        "target": "http___pathwaycommons_org_pc2_SmallMolecule_64486946a05d288afd7be7dba1d38d7ehttp___identifiers_org_reactome_R-HSA-188390LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-188390LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_SmallMolecule_64486946a05d288afd7be7dba1d38d7ehttp___identifiers_org_reactome_R-HSA-188390LEFT_TO_RIGHT"
       }
     },
     {
@@ -15421,7 +15499,10 @@
         "class": "production",
         "cardinality": 4,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-174105LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Protein_0d87d88638f34977379386a4a072b193"
+        "target": "http___pathwaycommons_org_pc2_Protein_0d87d88638f34977379386a4a072b193",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-174105LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Protein_0d87d88638f34977379386a4a072b193"
       }
     },
     {
@@ -15430,7 +15511,10 @@
         "class": "catalysis",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_dd20c0249ee75922e9d4fd6bb4ca7507",
-        "target": "http___identifiers_org_reactome_R-HSA-6804942LEFT_TO_RIGHT"
+        "target": "http___identifiers_org_reactome_R-HSA-6804942LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_dd20c0249ee75922e9d4fd6bb4ca7507",
+        "portTarget": "http___identifiers_org_reactome_R-HSA-6804942LEFT_TO_RIGHT"
       }
     },
     {
@@ -15439,7 +15523,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-187948LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Complex_93d9840b480377153d92abdf02d4be7a"
+        "target": "http___pathwaycommons_org_pc2_Complex_93d9840b480377153d92abdf02d4be7a",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-187948LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Complex_93d9840b480377153d92abdf02d4be7a"
       }
     },
     {
@@ -15448,7 +15535,10 @@
         "class": "consumption",
         "cardinality": 4,
         "source": "http___pathwaycommons_org_pc2_SmallMolecule_7a0daa860b7ed28fe57159caee3d73b4http___identifiers_org_reactome_R-HSA-6798374LEFT_TO_RIGHT",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6798374LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6798374LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_SmallMolecule_7a0daa860b7ed28fe57159caee3d73b4http___identifiers_org_reactome_R-HSA-6798374LEFT_TO_RIGHT",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-6798374LEFT_TO_RIGHT"
       }
     },
     {
@@ -15457,7 +15547,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Protein_74ee8a69e03aff2c8c72c9b3eb3b72c2",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-174070LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-174070LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Protein_74ee8a69e03aff2c8c72c9b3eb3b72c2",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-174070LEFT_TO_RIGHT"
       }
     },
     {
@@ -15466,7 +15559,10 @@
         "class": "catalysis",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_20166d1431843289fea4b28bb28aaf1a",
-        "target": "http___identifiers_org_reactome_R-HSA-187916LEFT_TO_RIGHT"
+        "target": "http___identifiers_org_reactome_R-HSA-187916LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_20166d1431843289fea4b28bb28aaf1a",
+        "portTarget": "http___identifiers_org_reactome_R-HSA-187916LEFT_TO_RIGHT"
       }
     },
     {
@@ -15475,7 +15571,10 @@
         "class": "catalysis",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Protein_46da111bb572c5c754066d8ba1ffed93",
-        "target": "http___identifiers_org_reactome_R-HSA-69562LEFT_TO_RIGHT"
+        "target": "http___identifiers_org_reactome_R-HSA-69562LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Protein_46da111bb572c5c754066d8ba1ffed93",
+        "portTarget": "http___identifiers_org_reactome_R-HSA-69562LEFT_TO_RIGHT"
       }
     },
     {
@@ -15484,7 +15583,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-6804996LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Complex_3f681af9800abcb0f161dce87cc1dea6"
+        "target": "http___pathwaycommons_org_pc2_Complex_3f681af9800abcb0f161dce87cc1dea6",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-6804996LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Complex_3f681af9800abcb0f161dce87cc1dea6"
       }
     },
     {
@@ -15493,7 +15595,10 @@
         "class": "production",
         "cardinality": 2,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-349426LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_SmallMolecule_64486946a05d288afd7be7dba1d38d7ehttp___identifiers_org_reactome_R-HSA-349426LEFT_TO_RIGHT"
+        "target": "http___pathwaycommons_org_pc2_SmallMolecule_64486946a05d288afd7be7dba1d38d7ehttp___identifiers_org_reactome_R-HSA-349426LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-349426LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_SmallMolecule_64486946a05d288afd7be7dba1d38d7ehttp___identifiers_org_reactome_R-HSA-349426LEFT_TO_RIGHT"
       }
     },
     {
@@ -15502,7 +15607,10 @@
         "class": "catalysis",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_d80bcd40fb753420090d65582498d5ca",
-        "target": "http___identifiers_org_reactome_R-HSA-3788705LEFT_TO_RIGHT"
+        "target": "http___identifiers_org_reactome_R-HSA-3788705LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_d80bcd40fb753420090d65582498d5ca",
+        "portTarget": "http___identifiers_org_reactome_R-HSA-3788705LEFT_TO_RIGHT"
       }
     },
     {
@@ -15511,7 +15619,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-8852337LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Complex_7dd9d3c96ac7ebf57e7c7e2dc0461577"
+        "target": "http___pathwaycommons_org_pc2_Complex_7dd9d3c96ac7ebf57e7c7e2dc0461577",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-8852337LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Complex_7dd9d3c96ac7ebf57e7c7e2dc0461577"
       }
     },
     {
@@ -15520,7 +15631,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-6803801LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Complex_8e82104bc6e926646879ce573566fa41"
+        "target": "http___pathwaycommons_org_pc2_Complex_8e82104bc6e926646879ce573566fa41",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-6803801LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Complex_8e82104bc6e926646879ce573566fa41"
       }
     },
     {
@@ -15529,7 +15643,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_a6cd9f6762e55fd5f02196e38d05efa9",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-3786258LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-3786258LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_a6cd9f6762e55fd5f02196e38d05efa9",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-3786258LEFT_TO_RIGHT"
       }
     },
     {
@@ -15538,7 +15655,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-8852351LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Complex_15c537f7506cf5b70c35fc53de2d3bca"
+        "target": "http___pathwaycommons_org_pc2_Complex_15c537f7506cf5b70c35fc53de2d3bca",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-8852351LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Complex_15c537f7506cf5b70c35fc53de2d3bca"
       }
     },
     {
@@ -15547,7 +15667,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-174124LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Protein_74ee8a69e03aff2c8c72c9b3eb3b72c2"
+        "target": "http___pathwaycommons_org_pc2_Protein_74ee8a69e03aff2c8c72c9b3eb3b72c2",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-174124LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Protein_74ee8a69e03aff2c8c72c9b3eb3b72c2"
       }
     },
     {
@@ -15556,7 +15679,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-6798615LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Complex_af7fdf49e1df584917b83f1bffc60bcf"
+        "target": "http___pathwaycommons_org_pc2_Complex_af7fdf49e1df584917b83f1bffc60bcf",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-6798615LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Complex_af7fdf49e1df584917b83f1bffc60bcf"
       }
     },
     {
@@ -15565,7 +15691,10 @@
         "class": "production",
         "cardinality": 3,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-174058LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Protein_88ad595976e84121bca3c3a5c7e46e89"
+        "target": "http___pathwaycommons_org_pc2_Protein_88ad595976e84121bca3c3a5c7e46e89",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-174058LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Protein_88ad595976e84121bca3c3a5c7e46e89"
       }
     },
     {
@@ -15574,7 +15703,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Protein_710a86d7f63f6222f1ab8fc677e06b25",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6804741LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6804741LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Protein_710a86d7f63f6222f1ab8fc677e06b25",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-6804741LEFT_TO_RIGHT"
       }
     },
     {
@@ -15583,7 +15715,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_c58d71461f488bb80e2ee06081f277b7",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6804879LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6804879LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_c58d71461f488bb80e2ee06081f277b7",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-6804879LEFT_TO_RIGHT"
       }
     },
     {
@@ -15592,7 +15727,10 @@
         "class": "catalysis",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Protein_26df112deddbfd45786df676f6188d10",
-        "target": "http___identifiers_org_reactome_R-HSA-6804441LEFT_TO_RIGHT"
+        "target": "http___identifiers_org_reactome_R-HSA-6804441LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Protein_26df112deddbfd45786df676f6188d10",
+        "portTarget": "http___identifiers_org_reactome_R-HSA-6804441LEFT_TO_RIGHT"
       }
     },
     {
@@ -15601,7 +15739,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-6804879LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Complex_0c212ec987da49a1c77027bc1f62f005"
+        "target": "http___pathwaycommons_org_pc2_Complex_0c212ec987da49a1c77027bc1f62f005",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-6804879LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Complex_0c212ec987da49a1c77027bc1f62f005"
       }
     },
     {
@@ -15610,7 +15751,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_20166d1431843289fea4b28bb28aaf1a",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-187916LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-187916LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_20166d1431843289fea4b28bb28aaf1a",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-187916LEFT_TO_RIGHT"
       }
     },
     {
@@ -15619,7 +15763,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-264435LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Complex_a6cd9f6762e55fd5f02196e38d05efa9"
+        "target": "http___pathwaycommons_org_pc2_Complex_a6cd9f6762e55fd5f02196e38d05efa9",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-264435LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Complex_a6cd9f6762e55fd5f02196e38d05efa9"
       }
     },
     {
@@ -15628,7 +15775,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_7dd9d3c96ac7ebf57e7c7e2dc0461577",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-8852351LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-8852351LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_7dd9d3c96ac7ebf57e7c7e2dc0461577",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-8852351LEFT_TO_RIGHT"
       }
     },
     {
@@ -15637,7 +15787,10 @@
         "class": "consumption",
         "cardinality": 3,
         "source": "http___pathwaycommons_org_pc2_Protein_88ad595976e84121bca3c3a5c7e46e89",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-187575LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-187575LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Protein_88ad595976e84121bca3c3a5c7e46e89",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-187575LEFT_TO_RIGHT"
       }
     },
     {
@@ -15646,7 +15799,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Dna_fb997f351a7d81230f8ce04a2fd77194",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6803801LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6803801LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Dna_fb997f351a7d81230f8ce04a2fd77194",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-6803801LEFT_TO_RIGHT"
       }
     },
     {
@@ -15655,7 +15811,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-6804942LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Complex_4ec5a6b2877173e9cfeb4ca8e05a1629"
+        "target": "http___pathwaycommons_org_pc2_Complex_4ec5a6b2877173e9cfeb4ca8e05a1629",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-6804942LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Complex_4ec5a6b2877173e9cfeb4ca8e05a1629"
       }
     },
     {
@@ -15664,7 +15823,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-174139LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Protein_5614806c6d93846bfee54c7cb295f9c3"
+        "target": "http___pathwaycommons_org_pc2_Protein_5614806c6d93846bfee54c7cb295f9c3",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-174139LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Protein_5614806c6d93846bfee54c7cb295f9c3"
       }
     },
     {
@@ -15673,7 +15835,10 @@
         "class": "consumption",
         "cardinality": 2,
         "source": "http___pathwaycommons_org_pc2_SmallMolecule_7a0daa860b7ed28fe57159caee3d73b4http___identifiers_org_reactome_R-HSA-349426LEFT_TO_RIGHT",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-349426LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-349426LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_SmallMolecule_7a0daa860b7ed28fe57159caee3d73b4http___identifiers_org_reactome_R-HSA-349426LEFT_TO_RIGHT",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-349426LEFT_TO_RIGHT"
       }
     },
     {
@@ -15682,7 +15847,10 @@
         "class": "catalysis",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_b0b02d209a95b7752c80a05fba5bf6b6",
-        "target": "http___identifiers_org_reactome_R-HSA-3215295LEFT_TO_RIGHT"
+        "target": "http___identifiers_org_reactome_R-HSA-3215295LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_b0b02d209a95b7752c80a05fba5bf6b6",
+        "portTarget": "http___identifiers_org_reactome_R-HSA-3215295LEFT_TO_RIGHT"
       }
     },
     {
@@ -15691,7 +15859,10 @@
         "class": "catalysis",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Protein_28ebc5075315ebbec390f8f664a4b8f4",
-        "target": "http___identifiers_org_reactome_R-HSA-264444LEFT_TO_RIGHT"
+        "target": "http___identifiers_org_reactome_R-HSA-264444LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Protein_28ebc5075315ebbec390f8f664a4b8f4",
+        "portTarget": "http___identifiers_org_reactome_R-HSA-264444LEFT_TO_RIGHT"
       }
     },
     {
@@ -15700,7 +15871,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-187520LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_SmallMolecule_64486946a05d288afd7be7dba1d38d7ehttp___identifiers_org_reactome_R-HSA-187520LEFT_TO_RIGHT"
+        "target": "http___pathwaycommons_org_pc2_SmallMolecule_64486946a05d288afd7be7dba1d38d7ehttp___identifiers_org_reactome_R-HSA-187520LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-187520LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_SmallMolecule_64486946a05d288afd7be7dba1d38d7ehttp___identifiers_org_reactome_R-HSA-187520LEFT_TO_RIGHT"
       }
     },
     {
@@ -15709,7 +15883,10 @@
         "class": "consumption",
         "cardinality": 4,
         "source": "http___pathwaycommons_org_pc2_SmallMolecule_7a0daa860b7ed28fe57159caee3d73b4http___identifiers_org_reactome_R-HSA-6804955LEFT_TO_RIGHT",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6804955LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6804955LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_SmallMolecule_7a0daa860b7ed28fe57159caee3d73b4http___identifiers_org_reactome_R-HSA-6804955LEFT_TO_RIGHT",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-6804955LEFT_TO_RIGHT"
       }
     },
     {
@@ -15718,7 +15895,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Protein_ab96027e9f5bdd1ec6967b1a2ad68933",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-187828LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-187828LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Protein_ab96027e9f5bdd1ec6967b1a2ad68933",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-187828LEFT_TO_RIGHT"
       }
     },
     {
@@ -15727,7 +15907,10 @@
         "class": "catalysis",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Protein_b7e80dee7367e1b25af292ecaa7c5131",
-        "target": "http___identifiers_org_reactome_R-HSA-349444LEFT_TO_RIGHT"
+        "target": "http___identifiers_org_reactome_R-HSA-349444LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Protein_b7e80dee7367e1b25af292ecaa7c5131",
+        "portTarget": "http___identifiers_org_reactome_R-HSA-349444LEFT_TO_RIGHT"
       }
     },
     {
@@ -15736,7 +15919,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-174058LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Complex_44fc2315dcf6b22d2852e59a5d30d522"
+        "target": "http___pathwaycommons_org_pc2_Complex_44fc2315dcf6b22d2852e59a5d30d522",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-174058LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Complex_44fc2315dcf6b22d2852e59a5d30d522"
       }
     },
     {
@@ -15745,7 +15931,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Rna_066a231fb05a83e5f649787f259b29b3",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6803403LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6803403LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Rna_066a231fb05a83e5f649787f259b29b3",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-6803403LEFT_TO_RIGHT"
       }
     },
     {
@@ -15754,7 +15943,10 @@
         "class": "catalysis",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Protein_b7e80dee7367e1b25af292ecaa7c5131",
-        "target": "http___identifiers_org_reactome_R-HSA-349455LEFT_TO_RIGHT"
+        "target": "http___identifiers_org_reactome_R-HSA-349455LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Protein_b7e80dee7367e1b25af292ecaa7c5131",
+        "portTarget": "http___identifiers_org_reactome_R-HSA-349455LEFT_TO_RIGHT"
       }
     },
     {
@@ -15763,7 +15955,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_SmallMolecule_7a0daa860b7ed28fe57159caee3d73b4http___identifiers_org_reactome_R-HSA-187949LEFT_TO_RIGHT",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-187949LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-187949LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_SmallMolecule_7a0daa860b7ed28fe57159caee3d73b4http___identifiers_org_reactome_R-HSA-187949LEFT_TO_RIGHT",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-187949LEFT_TO_RIGHT"
       }
     },
     {
@@ -15772,7 +15967,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-8852354LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Protein_303295515861c3ae2567a830e543c654"
+        "target": "http___pathwaycommons_org_pc2_Protein_303295515861c3ae2567a830e543c654",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-8852354LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Protein_303295515861c3ae2567a830e543c654"
       }
     },
     {
@@ -15781,7 +15979,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_a5994dfd6d7c4415fe6df472ff873b64",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-187575LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-187575LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_a5994dfd6d7c4415fe6df472ff873b64",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-187575LEFT_TO_RIGHT"
       }
     },
     {
@@ -15790,7 +15991,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_6a777484f87077c7eed46ac0563b6159",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-188386LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-188386LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_6a777484f87077c7eed46ac0563b6159",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-188386LEFT_TO_RIGHT"
       }
     },
     {
@@ -15799,7 +16003,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_ffc136648be48300971f6d0807e6948d",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-174195LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-174195LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_ffc136648be48300971f6d0807e6948d",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-174195LEFT_TO_RIGHT"
       }
     },
     {
@@ -15808,7 +16015,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Protein_46da111bb572c5c754066d8ba1ffed93",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-187934LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-187934LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Protein_46da111bb572c5c754066d8ba1ffed93",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-187934LEFT_TO_RIGHT"
       }
     },
     {
@@ -15817,7 +16027,10 @@
         "class": "catalysis",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_1a05e92bc6c2be9d151b71ad253bd02c",
-        "target": "http___identifiers_org_reactome_R-HSA-174057LEFT_TO_RIGHT"
+        "target": "http___identifiers_org_reactome_R-HSA-174057LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_1a05e92bc6c2be9d151b71ad253bd02c",
+        "portTarget": "http___identifiers_org_reactome_R-HSA-174057LEFT_TO_RIGHT"
       }
     },
     {
@@ -15826,7 +16039,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_a4ac7b7528f5458357a319ef7dcf89d9",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-3222072LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-3222072LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_a4ac7b7528f5458357a319ef7dcf89d9",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-3222072LEFT_TO_RIGHT"
       }
     },
     {
@@ -15835,7 +16051,10 @@
         "class": "inhibition",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_a764acd624e2c7fb22eca0c3343ed82a",
-        "target": "http___identifiers_org_reactome_R-HSA-6798611LEFT_TO_RIGHT"
+        "target": "http___identifiers_org_reactome_R-HSA-6798611LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_a764acd624e2c7fb22eca0c3343ed82a",
+        "portTarget": "http___identifiers_org_reactome_R-HSA-6798611LEFT_TO_RIGHT"
       }
     },
     {
@@ -15844,7 +16063,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-188390LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Complex_bb158fa6d54b70e680a9371c8a4f28e5"
+        "target": "http___pathwaycommons_org_pc2_Complex_bb158fa6d54b70e680a9371c8a4f28e5",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-188390LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Complex_bb158fa6d54b70e680a9371c8a4f28e5"
       }
     },
     {
@@ -15853,7 +16075,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_56f07ec975b4f212ce8559b7ecaf812c",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-188371LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-188371LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_56f07ec975b4f212ce8559b7ecaf812c",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-188371LEFT_TO_RIGHT"
       }
     },
     {
@@ -15862,7 +16087,10 @@
         "class": "catalysis",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_970a2f35ceb25edbf1e36a097b1e780e",
-        "target": "http___identifiers_org_reactome_R-HSA-187574LEFT_TO_RIGHT"
+        "target": "http___identifiers_org_reactome_R-HSA-187574LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_970a2f35ceb25edbf1e36a097b1e780e",
+        "portTarget": "http___identifiers_org_reactome_R-HSA-187574LEFT_TO_RIGHT"
       }
     },
     {
@@ -15871,7 +16099,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Protein_01dda0b88aedf2f6f67e09a92321df75",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-174088LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-174088LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Protein_01dda0b88aedf2f6f67e09a92321df75",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-174088LEFT_TO_RIGHT"
       }
     },
     {
@@ -15880,7 +16111,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-6793685LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Complex_25be01e0b606954fc04733f736e2a49e"
+        "target": "http___pathwaycommons_org_pc2_Complex_25be01e0b606954fc04733f736e2a49e",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-6793685LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Complex_25be01e0b606954fc04733f736e2a49e"
       }
     },
     {
@@ -15889,7 +16123,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-187506LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Protein_5fcf38bfd4cd71e0c82e20b38ebbf5e5"
+        "target": "http___pathwaycommons_org_pc2_Protein_5fcf38bfd4cd71e0c82e20b38ebbf5e5",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-187506LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Protein_5fcf38bfd4cd71e0c82e20b38ebbf5e5"
       }
     },
     {
@@ -15898,7 +16135,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-264435LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Protein_7745b13b523ccb44e9dc4924757a0d92"
+        "target": "http___pathwaycommons_org_pc2_Protein_7745b13b523ccb44e9dc4924757a0d92",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-264435LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Protein_7745b13b523ccb44e9dc4924757a0d92"
       }
     },
     {
@@ -15907,7 +16147,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-3215295LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Protein_d2fc794eaa5d04dac33f843f85522c17"
+        "target": "http___pathwaycommons_org_pc2_Protein_d2fc794eaa5d04dac33f843f85522c17",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-3215295LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Protein_d2fc794eaa5d04dac33f843f85522c17"
       }
     },
     {
@@ -15916,7 +16159,10 @@
         "class": "catalysis",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_8f2ff7c3da63aea9a270b31a3bc660c5",
-        "target": "http___identifiers_org_reactome_R-HSA-187948LEFT_TO_RIGHT"
+        "target": "http___identifiers_org_reactome_R-HSA-187948LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_8f2ff7c3da63aea9a270b31a3bc660c5",
+        "portTarget": "http___identifiers_org_reactome_R-HSA-187948LEFT_TO_RIGHT"
       }
     },
     {
@@ -15925,7 +16171,10 @@
         "class": "consumption",
         "cardinality": 12,
         "source": "http___pathwaycommons_org_pc2_Protein_88ad595976e84121bca3c3a5c7e46e89",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6804879LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6804879LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Protein_88ad595976e84121bca3c3a5c7e46e89",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-6804879LEFT_TO_RIGHT"
       }
     },
     {
@@ -15934,7 +16183,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-188371LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Complex_d80bcd40fb753420090d65582498d5ca"
+        "target": "http___pathwaycommons_org_pc2_Complex_d80bcd40fb753420090d65582498d5ca",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-188371LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Complex_d80bcd40fb753420090d65582498d5ca"
       }
     },
     {
@@ -15943,7 +16195,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_e7d66269b9f378b076e27a8c05292010",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-187552LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-187552LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_e7d66269b9f378b076e27a8c05292010",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-187552LEFT_TO_RIGHT"
       }
     },
     {
@@ -15952,7 +16207,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_dc7acf5fce53541d190bab2f0a0cc10a",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-174070LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-174070LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_dc7acf5fce53541d190bab2f0a0cc10a",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-174070LEFT_TO_RIGHT"
       }
     },
     {
@@ -15961,7 +16219,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-6804879LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_PhysicalEntity_81e1191c0c974f9db0e53302e0107e95"
+        "target": "http___pathwaycommons_org_pc2_PhysicalEntity_81e1191c0c974f9db0e53302e0107e95",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-6804879LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_PhysicalEntity_81e1191c0c974f9db0e53302e0107e95"
       }
     },
     {
@@ -15970,7 +16231,10 @@
         "class": "stimulation",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_8e82104bc6e926646879ce573566fa41",
-        "target": "http___identifiers_org_reactome_R-HSA-6803388LEFT_TO_RIGHT"
+        "target": "http___identifiers_org_reactome_R-HSA-6803388LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_8e82104bc6e926646879ce573566fa41",
+        "portTarget": "http___identifiers_org_reactome_R-HSA-6803388LEFT_TO_RIGHT"
       }
     },
     {
@@ -15979,7 +16243,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-8852362LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Complex_1e4cebbb09aabda7603a015800e9b0ab"
+        "target": "http___pathwaycommons_org_pc2_Complex_1e4cebbb09aabda7603a015800e9b0ab",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-8852362LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Complex_1e4cebbb09aabda7603a015800e9b0ab"
       }
     },
     {
@@ -15988,7 +16255,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-8852354LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Protein_5db13cac153fdda44655432d4614a454"
+        "target": "http___pathwaycommons_org_pc2_Protein_5db13cac153fdda44655432d4614a454",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-8852354LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Protein_5db13cac153fdda44655432d4614a454"
       }
     },
     {
@@ -15997,7 +16267,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_SmallMolecule_7a0daa860b7ed28fe57159caee3d73b4http___identifiers_org_reactome_R-HSA-188390LEFT_TO_RIGHT",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-188390LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-188390LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_SmallMolecule_7a0daa860b7ed28fe57159caee3d73b4http___identifiers_org_reactome_R-HSA-188390LEFT_TO_RIGHT",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-188390LEFT_TO_RIGHT"
       }
     },
     {
@@ -16006,7 +16279,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_308cb22312f783780ee59266151eb803",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-174105LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-174105LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_308cb22312f783780ee59266151eb803",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-174105LEFT_TO_RIGHT"
       }
     },
     {
@@ -16015,7 +16291,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-174139LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Complex_44fc2315dcf6b22d2852e59a5d30d522"
+        "target": "http___pathwaycommons_org_pc2_Complex_44fc2315dcf6b22d2852e59a5d30d522",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-174139LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Complex_44fc2315dcf6b22d2852e59a5d30d522"
       }
     },
     {
@@ -16024,7 +16303,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Protein_d2fc794eaa5d04dac33f843f85522c17",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-3222072LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-3222072LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Protein_d2fc794eaa5d04dac33f843f85522c17",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-3222072LEFT_TO_RIGHT"
       }
     },
     {
@@ -16033,7 +16315,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-349444LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Protein_7745b13b523ccb44e9dc4924757a0d92"
+        "target": "http___pathwaycommons_org_pc2_Protein_7745b13b523ccb44e9dc4924757a0d92",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-349444LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Protein_7745b13b523ccb44e9dc4924757a0d92"
       }
     },
     {
@@ -16042,7 +16327,10 @@
         "class": "catalysis",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_970a2f35ceb25edbf1e36a097b1e780e",
-        "target": "http___identifiers_org_reactome_R-HSA-174058LEFT_TO_RIGHT"
+        "target": "http___identifiers_org_reactome_R-HSA-174058LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_970a2f35ceb25edbf1e36a097b1e780e",
+        "portTarget": "http___identifiers_org_reactome_R-HSA-174058LEFT_TO_RIGHT"
       }
     },
     {
@@ -16051,7 +16339,10 @@
         "class": "inhibition",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_aab8c2806d82bc8bd634ebac0a6b6971",
-        "target": "http___identifiers_org_reactome_R-HSA-188383LEFT_TO_RIGHT"
+        "target": "http___identifiers_org_reactome_R-HSA-188383LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_aab8c2806d82bc8bd634ebac0a6b6971",
+        "portTarget": "http___identifiers_org_reactome_R-HSA-188383LEFT_TO_RIGHT"
       }
     },
     {
@@ -16060,7 +16351,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-5633460LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Complex_c58d71461f488bb80e2ee06081f277b7"
+        "target": "http___pathwaycommons_org_pc2_Complex_c58d71461f488bb80e2ee06081f277b7",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-5633460LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Complex_c58d71461f488bb80e2ee06081f277b7"
       }
     },
     {
@@ -16069,7 +16363,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_3a46c258225bf2bb26572ecf507e564a",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-174088LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-174088LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_3a46c258225bf2bb26572ecf507e564a",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-174088LEFT_TO_RIGHT"
       }
     },
     {
@@ -16078,7 +16375,10 @@
         "class": "stimulation",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_af7fdf49e1df584917b83f1bffc60bcf",
-        "target": "http___identifiers_org_reactome_R-HSA-6798611LEFT_TO_RIGHT"
+        "target": "http___identifiers_org_reactome_R-HSA-6798611LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_af7fdf49e1df584917b83f1bffc60bcf",
+        "portTarget": "http___identifiers_org_reactome_R-HSA-6798611LEFT_TO_RIGHT"
       }
     },
     {
@@ -16087,7 +16387,10 @@
         "class": "catalysis",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_3c19c9ea55a8966d38cabababe19fc74",
-        "target": "http___identifiers_org_reactome_R-HSA-174105LEFT_TO_RIGHT"
+        "target": "http___identifiers_org_reactome_R-HSA-174105LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_3c19c9ea55a8966d38cabababe19fc74",
+        "portTarget": "http___identifiers_org_reactome_R-HSA-174105LEFT_TO_RIGHT"
       }
     },
     {
@@ -16096,7 +16399,10 @@
         "class": "catalysis",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Protein_5e74b67349b976efd6a08c825a827c6b",
-        "target": "http___identifiers_org_reactome_R-HSA-174124LEFT_TO_RIGHT"
+        "target": "http___identifiers_org_reactome_R-HSA-174124LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Protein_5e74b67349b976efd6a08c825a827c6b",
+        "portTarget": "http___identifiers_org_reactome_R-HSA-174124LEFT_TO_RIGHT"
       }
     },
     {
@@ -16105,7 +16411,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_SmallMolecule_7a0daa860b7ed28fe57159caee3d73b4http___identifiers_org_reactome_R-HSA-187520LEFT_TO_RIGHT",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-187520LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-187520LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_SmallMolecule_7a0daa860b7ed28fe57159caee3d73b4http___identifiers_org_reactome_R-HSA-187520LEFT_TO_RIGHT",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-187520LEFT_TO_RIGHT"
       }
     },
     {
@@ -16114,7 +16423,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-6804955LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Protein_b1bd2ec0562d23ac73e2d6f093379ddb"
+        "target": "http___pathwaycommons_org_pc2_Protein_b1bd2ec0562d23ac73e2d6f093379ddb",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-6804955LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Protein_b1bd2ec0562d23ac73e2d6f093379ddb"
       }
     },
     {
@@ -16123,7 +16435,10 @@
         "class": "production",
         "cardinality": 2,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-3215295LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Protein_88ad595976e84121bca3c3a5c7e46e89"
+        "target": "http___pathwaycommons_org_pc2_Protein_88ad595976e84121bca3c3a5c7e46e89",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-3215295LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Protein_88ad595976e84121bca3c3a5c7e46e89"
       }
     },
     {
@@ -16132,7 +16447,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_SmallMolecule_7a0daa860b7ed28fe57159caee3d73b4http___identifiers_org_reactome_R-HSA-188350LEFT_TO_RIGHT",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-188350LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-188350LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_SmallMolecule_7a0daa860b7ed28fe57159caee3d73b4http___identifiers_org_reactome_R-HSA-188350LEFT_TO_RIGHT",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-188350LEFT_TO_RIGHT"
       }
     },
     {
@@ -16141,7 +16459,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-174195LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Complex_308cb22312f783780ee59266151eb803"
+        "target": "http___pathwaycommons_org_pc2_Complex_308cb22312f783780ee59266151eb803",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-174195LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Complex_308cb22312f783780ee59266151eb803"
       }
     },
     {
@@ -16150,7 +16471,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Protein_710a86d7f63f6222f1ab8fc677e06b25",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6804955LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6804955LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Protein_710a86d7f63f6222f1ab8fc677e06b25",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-6804955LEFT_TO_RIGHT"
       }
     },
     {
@@ -16159,7 +16483,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Protein_b98a7164b82dc47ae1454f4a1153d955",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-187506LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-187506LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Protein_b98a7164b82dc47ae1454f4a1153d955",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-187506LEFT_TO_RIGHT"
       }
     },
     {
@@ -16168,7 +16495,10 @@
         "class": "inhibition",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_20166d1431843289fea4b28bb28aaf1a",
-        "target": "http___identifiers_org_reactome_R-HSA-3788705LEFT_TO_RIGHT"
+        "target": "http___identifiers_org_reactome_R-HSA-3788705LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_20166d1431843289fea4b28bb28aaf1a",
+        "portTarget": "http___identifiers_org_reactome_R-HSA-3788705LEFT_TO_RIGHT"
       }
     },
     {
@@ -16177,7 +16507,10 @@
         "class": "catalysis",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_3c19c9ea55a8966d38cabababe19fc74",
-        "target": "http___identifiers_org_reactome_R-HSA-264458LEFT_TO_RIGHT"
+        "target": "http___identifiers_org_reactome_R-HSA-264458LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_3c19c9ea55a8966d38cabababe19fc74",
+        "portTarget": "http___identifiers_org_reactome_R-HSA-264458LEFT_TO_RIGHT"
       }
     },
     {
@@ -16186,7 +16519,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_0c212ec987da49a1c77027bc1f62f005",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-8852337LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-8852337LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_0c212ec987da49a1c77027bc1f62f005",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-8852337LEFT_TO_RIGHT"
       }
     },
     {
@@ -16195,7 +16531,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-6798611LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Protein_9f75714736c50a6814d3c1b913390a69"
+        "target": "http___pathwaycommons_org_pc2_Protein_9f75714736c50a6814d3c1b913390a69",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-6798611LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Protein_9f75714736c50a6814d3c1b913390a69"
       }
     },
     {
@@ -16204,7 +16543,10 @@
         "class": "catalysis",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Protein_f80051b361e077fe4cf5b99d65ef0ea3",
-        "target": "http___identifiers_org_reactome_R-HSA-6798374LEFT_TO_RIGHT"
+        "target": "http___identifiers_org_reactome_R-HSA-6798374LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Protein_f80051b361e077fe4cf5b99d65ef0ea3",
+        "portTarget": "http___identifiers_org_reactome_R-HSA-6798374LEFT_TO_RIGHT"
       }
     },
     {
@@ -16213,7 +16555,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Protein_274baf97b44c71d3a4cf4cb6c5efe2b9",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6805022LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6805022LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Protein_274baf97b44c71d3a4cf4cb6c5efe2b9",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-6805022LEFT_TO_RIGHT"
       }
     },
     {
@@ -16222,7 +16567,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Protein_28ebc5075315ebbec390f8f664a4b8f4",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-264444LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-264444LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Protein_28ebc5075315ebbec390f8f664a4b8f4",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-264444LEFT_TO_RIGHT"
       }
     },
     {
@@ -16231,7 +16579,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-187916LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Complex_a39a93c725cbd2e98c7efb3961624a20"
+        "target": "http___pathwaycommons_org_pc2_Complex_a39a93c725cbd2e98c7efb3961624a20",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-187916LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Complex_a39a93c725cbd2e98c7efb3961624a20"
       }
     },
     {
@@ -16240,7 +16591,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_1a05e92bc6c2be9d151b71ad253bd02c",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-174057LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-174057LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_1a05e92bc6c2be9d151b71ad253bd02c",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-174057LEFT_TO_RIGHT"
       }
     },
     {
@@ -16249,7 +16603,10 @@
         "class": "inhibition",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_ace1aed23ff193e27660fb25bee61aa8",
-        "target": "http___identifiers_org_reactome_R-HSA-6803411LEFT_TO_RIGHT"
+        "target": "http___identifiers_org_reactome_R-HSA-6803411LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_ace1aed23ff193e27660fb25bee61aa8",
+        "portTarget": "http___identifiers_org_reactome_R-HSA-6803411LEFT_TO_RIGHT"
       }
     },
     {
@@ -16258,7 +16615,10 @@
         "class": "catalysis",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_bb469bcd55b2e1af96e5572638d61033",
-        "target": "http___identifiers_org_reactome_R-HSA-188390LEFT_TO_RIGHT"
+        "target": "http___identifiers_org_reactome_R-HSA-188390LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_bb469bcd55b2e1af96e5572638d61033",
+        "portTarget": "http___identifiers_org_reactome_R-HSA-188390LEFT_TO_RIGHT"
       }
     },
     {
@@ -16267,7 +16627,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Protein_25a22b44286a407753a6318c9cdedd41",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-349444LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-349444LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Protein_25a22b44286a407753a6318c9cdedd41",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-349444LEFT_TO_RIGHT"
       }
     },
     {
@@ -16276,7 +16639,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_SmallMolecule_6b0765bbd068c4fa1b329461a0e9b183http___identifiers_org_reactome_R-HSA-3215295LEFT_TO_RIGHT",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-3215295LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-3215295LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_SmallMolecule_6b0765bbd068c4fa1b329461a0e9b183http___identifiers_org_reactome_R-HSA-3215295LEFT_TO_RIGHT",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-3215295LEFT_TO_RIGHT"
       }
     },
     {
@@ -16285,7 +16651,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Protein_8e914f4622af26be019754a15281d309",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6803403LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6803403LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Protein_8e914f4622af26be019754a15281d309",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-6803403LEFT_TO_RIGHT"
       }
     },
     {
@@ -16294,7 +16663,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-3215295LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Protein_c80764b60a0ce380c03c3bab342b2de8"
+        "target": "http___pathwaycommons_org_pc2_Protein_c80764b60a0ce380c03c3bab342b2de8",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-3215295LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Protein_c80764b60a0ce380c03c3bab342b2de8"
       }
     },
     {
@@ -16303,7 +16675,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_b1a3900ebc94b1f061d1b9534ad30243",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6804996LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6804996LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_b1a3900ebc94b1f061d1b9534ad30243",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-6804996LEFT_TO_RIGHT"
       }
     },
     {
@@ -16312,7 +16687,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-187574LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Complex_80c4494ad757ba084884800c05ab73a4"
+        "target": "http___pathwaycommons_org_pc2_Complex_80c4494ad757ba084884800c05ab73a4",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-187574LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Complex_80c4494ad757ba084884800c05ab73a4"
       }
     },
     {
@@ -16321,7 +16699,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Protein_46da111bb572c5c754066d8ba1ffed93",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-69562LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-69562LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Protein_46da111bb572c5c754066d8ba1ffed93",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-69562LEFT_TO_RIGHT"
       }
     },
     {
@@ -16330,7 +16711,10 @@
         "class": "production",
         "cardinality": 4,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-6798374LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_SmallMolecule_64486946a05d288afd7be7dba1d38d7ehttp___identifiers_org_reactome_R-HSA-6798374LEFT_TO_RIGHT"
+        "target": "http___pathwaycommons_org_pc2_SmallMolecule_64486946a05d288afd7be7dba1d38d7ehttp___identifiers_org_reactome_R-HSA-6798374LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-6798374LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_SmallMolecule_64486946a05d288afd7be7dba1d38d7ehttp___identifiers_org_reactome_R-HSA-6798374LEFT_TO_RIGHT"
       }
     },
     {
@@ -16339,7 +16723,10 @@
         "class": "catalysis",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_PhysicalEntity_81e1191c0c974f9db0e53302e0107e95",
-        "target": "http___identifiers_org_reactome_R-HSA-6798373LEFT_TO_RIGHT"
+        "target": "http___identifiers_org_reactome_R-HSA-6798373LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_PhysicalEntity_81e1191c0c974f9db0e53302e0107e95",
+        "portTarget": "http___identifiers_org_reactome_R-HSA-6798373LEFT_TO_RIGHT"
       }
     },
     {
@@ -16348,7 +16735,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_8b7c90df582051a6ef6501968e1869ba",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-69562LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-69562LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_8b7c90df582051a6ef6501968e1869ba",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-69562LEFT_TO_RIGHT"
       }
     },
     {
@@ -16357,7 +16747,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-6804441LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Complex_770bf8f372fe495a6a6137e9d2302392"
+        "target": "http___pathwaycommons_org_pc2_Complex_770bf8f372fe495a6a6137e9d2302392",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-6804441LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Complex_770bf8f372fe495a6a6137e9d2302392"
       }
     },
     {
@@ -16366,7 +16759,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-6803388LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Rna_066a231fb05a83e5f649787f259b29b3"
+        "target": "http___pathwaycommons_org_pc2_Rna_066a231fb05a83e5f649787f259b29b3",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-6803388LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Rna_066a231fb05a83e5f649787f259b29b3"
       }
     },
     {
@@ -16375,7 +16771,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_d80bcd40fb753420090d65582498d5ca",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-3788705LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-3788705LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_d80bcd40fb753420090d65582498d5ca",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-3788705LEFT_TO_RIGHT"
       }
     },
     {
@@ -16384,7 +16783,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-3222072LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Complex_b0b02d209a95b7752c80a05fba5bf6b6"
+        "target": "http___pathwaycommons_org_pc2_Complex_b0b02d209a95b7752c80a05fba5bf6b6",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-3222072LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Complex_b0b02d209a95b7752c80a05fba5bf6b6"
       }
     },
     {
@@ -16393,7 +16795,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_8f2ff7c3da63aea9a270b31a3bc660c5",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-187948LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-187948LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_8f2ff7c3da63aea9a270b31a3bc660c5",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-187948LEFT_TO_RIGHT"
       }
     },
     {
@@ -16402,7 +16807,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-6804996LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Complex_e26428184301cecd137420a74b806d4e"
+        "target": "http___pathwaycommons_org_pc2_Complex_e26428184301cecd137420a74b806d4e",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-6804996LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Complex_e26428184301cecd137420a74b806d4e"
       }
     },
     {
@@ -16411,7 +16819,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-188386LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Complex_bb469bcd55b2e1af96e5572638d61033"
+        "target": "http___pathwaycommons_org_pc2_Complex_bb469bcd55b2e1af96e5572638d61033",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-188386LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Complex_bb469bcd55b2e1af96e5572638d61033"
       }
     },
     {
@@ -16420,7 +16831,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-3215295LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Complex_2a98f84dd845bf4e0d129583ed536acd"
+        "target": "http___pathwaycommons_org_pc2_Complex_2a98f84dd845bf4e0d129583ed536acd",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-3215295LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Complex_2a98f84dd845bf4e0d129583ed536acd"
       }
     },
     {
@@ -16429,7 +16843,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-187575LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Complex_9f286a5123392446547d67f755691157"
+        "target": "http___pathwaycommons_org_pc2_Complex_9f286a5123392446547d67f755691157",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-187575LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Complex_9f286a5123392446547d67f755691157"
       }
     },
     {
@@ -16438,7 +16855,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-188383LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Protein_ea1d79fc711e95b973e780d9b96b690c"
+        "target": "http___pathwaycommons_org_pc2_Protein_ea1d79fc711e95b973e780d9b96b690c",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-188383LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Protein_ea1d79fc711e95b973e780d9b96b690c"
       }
     },
     {
@@ -16447,7 +16867,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Protein_127ead5393cb9c24b47db54d4a6b3b8f",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-8852362LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-8852362LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Protein_127ead5393cb9c24b47db54d4a6b3b8f",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-8852362LEFT_TO_RIGHT"
       }
     },
     {
@@ -16456,7 +16879,10 @@
         "class": "catalysis",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Protein_dcc8746aa27c0e1c33734f6c792fa161",
-        "target": "http___identifiers_org_reactome_R-HSA-6805285LEFT_TO_RIGHT"
+        "target": "http___identifiers_org_reactome_R-HSA-6805285LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Protein_dcc8746aa27c0e1c33734f6c792fa161",
+        "portTarget": "http___identifiers_org_reactome_R-HSA-6805285LEFT_TO_RIGHT"
       }
     },
     {
@@ -16465,7 +16891,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_c01ff93f913af27bcb0831a570c51a46",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-8852362LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-8852362LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_c01ff93f913af27bcb0831a570c51a46",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-8852362LEFT_TO_RIGHT"
       }
     },
     {
@@ -16474,7 +16903,10 @@
         "class": "catalysis",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_aaa6bd948cd95cfb1960dec86f9fcffb",
-        "target": "http___identifiers_org_reactome_R-HSA-187949LEFT_TO_RIGHT"
+        "target": "http___identifiers_org_reactome_R-HSA-187949LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_aaa6bd948cd95cfb1960dec86f9fcffb",
+        "portTarget": "http___identifiers_org_reactome_R-HSA-187949LEFT_TO_RIGHT"
       }
     },
     {
@@ -16483,7 +16915,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_2637b41051b6172f5f03e6476bfebce3",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-349426LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-349426LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_2637b41051b6172f5f03e6476bfebce3",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-349426LEFT_TO_RIGHT"
       }
     },
     {
@@ -16492,7 +16927,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_dd20c0249ee75922e9d4fd6bb4ca7507",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6804942LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6804942LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_dd20c0249ee75922e9d4fd6bb4ca7507",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-6804942LEFT_TO_RIGHT"
       }
     },
     {
@@ -16501,7 +16939,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_0c212ec987da49a1c77027bc1f62f005",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6793685LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6793685LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_0c212ec987da49a1c77027bc1f62f005",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-6793685LEFT_TO_RIGHT"
       }
     },
     {
@@ -16510,7 +16951,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_c58d71461f488bb80e2ee06081f277b7",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6804998LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6804998LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_c58d71461f488bb80e2ee06081f277b7",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-6804998LEFT_TO_RIGHT"
       }
     },
     {
@@ -16519,7 +16963,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-3788705LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Complex_fe1acbe5f824f8c52be285ff84be4e90"
+        "target": "http___pathwaycommons_org_pc2_Complex_fe1acbe5f824f8c52be285ff84be4e90",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-3788705LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Complex_fe1acbe5f824f8c52be285ff84be4e90"
       }
     },
     {
@@ -16528,7 +16975,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Protein_2fa53096c42af17756f3555c663e7c7a",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6803719LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6803719LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Protein_2fa53096c42af17756f3555c663e7c7a",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-6803719LEFT_TO_RIGHT"
       }
     },
     {
@@ -16537,7 +16987,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Dna_fb997f351a7d81230f8ce04a2fd77194",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-188383LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-188383LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Dna_fb997f351a7d81230f8ce04a2fd77194",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-188383LEFT_TO_RIGHT"
       }
     },
     {
@@ -16546,7 +16999,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-187574LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Complex_5f90c6b3b2b470db31a1283145237599"
+        "target": "http___pathwaycommons_org_pc2_Complex_5f90c6b3b2b470db31a1283145237599",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-187574LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Complex_5f90c6b3b2b470db31a1283145237599"
       }
     },
     {
@@ -16555,7 +17011,10 @@
         "class": "consumption",
         "cardinality": 3,
         "source": "http___pathwaycommons_org_pc2_Protein_88ad595976e84121bca3c3a5c7e46e89",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-174057LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-174057LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Protein_88ad595976e84121bca3c3a5c7e46e89",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-174057LEFT_TO_RIGHT"
       }
     },
     {
@@ -16564,7 +17023,10 @@
         "class": "production",
         "cardinality": 4,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-6804955LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_SmallMolecule_64486946a05d288afd7be7dba1d38d7ehttp___identifiers_org_reactome_R-HSA-6804955LEFT_TO_RIGHT"
+        "target": "http___pathwaycommons_org_pc2_SmallMolecule_64486946a05d288afd7be7dba1d38d7ehttp___identifiers_org_reactome_R-HSA-6804955LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-6804955LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_SmallMolecule_64486946a05d288afd7be7dba1d38d7ehttp___identifiers_org_reactome_R-HSA-6804955LEFT_TO_RIGHT"
       }
     },
     {
@@ -16573,7 +17035,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_SmallMolecule_7a0daa860b7ed28fe57159caee3d73b4http___identifiers_org_reactome_R-HSA-349455LEFT_TO_RIGHT",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-349455LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-349455LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_SmallMolecule_7a0daa860b7ed28fe57159caee3d73b4http___identifiers_org_reactome_R-HSA-349455LEFT_TO_RIGHT",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-349455LEFT_TO_RIGHT"
       }
     },
     {
@@ -16582,7 +17047,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_1a05e92bc6c2be9d151b71ad253bd02c",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-174139LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-174139LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_1a05e92bc6c2be9d151b71ad253bd02c",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-174139LEFT_TO_RIGHT"
       }
     },
     {
@@ -16591,7 +17059,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-174124LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_SmallMolecule_78fffd5746f6b75a3ec334fda2587cedhttp___identifiers_org_reactome_R-HSA-174124LEFT_TO_RIGHT"
+        "target": "http___pathwaycommons_org_pc2_SmallMolecule_78fffd5746f6b75a3ec334fda2587cedhttp___identifiers_org_reactome_R-HSA-174124LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-174124LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_SmallMolecule_78fffd5746f6b75a3ec334fda2587cedhttp___identifiers_org_reactome_R-HSA-174124LEFT_TO_RIGHT"
       }
     },
     {
@@ -16600,7 +17071,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-6805285LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Complex_ab4b57f8765cdc0ce281453e224735b5"
+        "target": "http___pathwaycommons_org_pc2_Complex_ab4b57f8765cdc0ce281453e224735b5",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-6805285LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Complex_ab4b57f8765cdc0ce281453e224735b5"
       }
     },
     {
@@ -16609,7 +17083,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_66bf1179d497f85bc35f78fb6423849e",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6805022LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6805022LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_66bf1179d497f85bc35f78fb6423849e",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-6805022LEFT_TO_RIGHT"
       }
     },
     {
@@ -16618,7 +17095,10 @@
         "class": "catalysis",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_712d55aea0f1c4c371f52fb54e654794",
-        "target": "http___identifiers_org_reactome_R-HSA-187520LEFT_TO_RIGHT"
+        "target": "http___identifiers_org_reactome_R-HSA-187520LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_712d55aea0f1c4c371f52fb54e654794",
+        "portTarget": "http___identifiers_org_reactome_R-HSA-187520LEFT_TO_RIGHT"
       }
     },
     {
@@ -16627,7 +17107,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-264418LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Protein_28ebc5075315ebbec390f8f664a4b8f4"
+        "target": "http___pathwaycommons_org_pc2_Protein_28ebc5075315ebbec390f8f664a4b8f4",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-264418LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Protein_28ebc5075315ebbec390f8f664a4b8f4"
       }
     },
     {
@@ -16636,7 +17119,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_SmallMolecule_6b0765bbd068c4fa1b329461a0e9b183http___identifiers_org_reactome_R-HSA-5689972LEFT_TO_RIGHT",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-5689972LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-5689972LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_SmallMolecule_6b0765bbd068c4fa1b329461a0e9b183http___identifiers_org_reactome_R-HSA-5689972LEFT_TO_RIGHT",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-5689972LEFT_TO_RIGHT"
       }
     },
     {
@@ -16645,7 +17131,10 @@
         "class": "catalysis",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Protein_46da111bb572c5c754066d8ba1ffed93",
-        "target": "http___identifiers_org_reactome_R-HSA-187934LEFT_TO_RIGHT"
+        "target": "http___identifiers_org_reactome_R-HSA-187934LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Protein_46da111bb572c5c754066d8ba1ffed93",
+        "portTarget": "http___identifiers_org_reactome_R-HSA-187934LEFT_TO_RIGHT"
       }
     },
     {
@@ -16654,7 +17143,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-349444LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_SmallMolecule_64486946a05d288afd7be7dba1d38d7ehttp___identifiers_org_reactome_R-HSA-349444LEFT_TO_RIGHT"
+        "target": "http___pathwaycommons_org_pc2_SmallMolecule_64486946a05d288afd7be7dba1d38d7ehttp___identifiers_org_reactome_R-HSA-349444LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-349444LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_SmallMolecule_64486946a05d288afd7be7dba1d38d7ehttp___identifiers_org_reactome_R-HSA-349444LEFT_TO_RIGHT"
       }
     },
     {
@@ -16663,7 +17155,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Protein_7745b13b523ccb44e9dc4924757a0d92",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-264418LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-264418LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Protein_7745b13b523ccb44e9dc4924757a0d92",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-264418LEFT_TO_RIGHT"
       }
     },
     {
@@ -16672,7 +17167,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-6805022LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Complex_09ef30d78fcd90bf1e7078eb5339158b"
+        "target": "http___pathwaycommons_org_pc2_Complex_09ef30d78fcd90bf1e7078eb5339158b",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-6805022LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Complex_09ef30d78fcd90bf1e7078eb5339158b"
       }
     },
     {
@@ -16681,7 +17179,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_e26428184301cecd137420a74b806d4e",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6805479LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6805479LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_e26428184301cecd137420a74b806d4e",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-6805479LEFT_TO_RIGHT"
       }
     },
     {
@@ -16690,7 +17191,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_e26428184301cecd137420a74b806d4e",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-5633460LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-5633460LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_e26428184301cecd137420a74b806d4e",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-5633460LEFT_TO_RIGHT"
       }
     },
     {
@@ -16699,7 +17203,10 @@
         "class": "consumption",
         "cardinality": 6,
         "source": "http___pathwaycommons_org_pc2_Protein_88ad595976e84121bca3c3a5c7e46e89",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6804724LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6804724LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Protein_88ad595976e84121bca3c3a5c7e46e89",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-6804724LEFT_TO_RIGHT"
       }
     },
     {
@@ -16708,7 +17215,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Protein_934a5358e34ed2434a1ddaccb6dcbf7c",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-188386LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-188386LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Protein_934a5358e34ed2434a1ddaccb6dcbf7c",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-188386LEFT_TO_RIGHT"
       }
     },
     {
@@ -16717,7 +17227,10 @@
         "class": "catalysis",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_ffc136648be48300971f6d0807e6948d",
-        "target": "http___identifiers_org_reactome_R-HSA-174195LEFT_TO_RIGHT"
+        "target": "http___identifiers_org_reactome_R-HSA-174195LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_ffc136648be48300971f6d0807e6948d",
+        "portTarget": "http___identifiers_org_reactome_R-HSA-174195LEFT_TO_RIGHT"
       }
     },
     {
@@ -16726,7 +17239,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_98b45ebc775459cf32191e6f677412ba",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-187949LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-187949LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_98b45ebc775459cf32191e6f677412ba",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-187949LEFT_TO_RIGHT"
       }
     },
     {
@@ -16735,7 +17251,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_SmallMolecule_7a0daa860b7ed28fe57159caee3d73b4http___identifiers_org_reactome_R-HSA-3788705LEFT_TO_RIGHT",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-3788705LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-3788705LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_SmallMolecule_7a0daa860b7ed28fe57159caee3d73b4http___identifiers_org_reactome_R-HSA-3788705LEFT_TO_RIGHT",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-3788705LEFT_TO_RIGHT"
       }
     },
     {
@@ -16744,7 +17263,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_a6df1096985b5f075ec88b1b0b90f80e",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-174058LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-174058LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_a6df1096985b5f075ec88b1b0b90f80e",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-174058LEFT_TO_RIGHT"
       }
     },
     {
@@ -16753,7 +17275,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-6804741LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_PhysicalEntity_81e1191c0c974f9db0e53302e0107e95"
+        "target": "http___pathwaycommons_org_pc2_PhysicalEntity_81e1191c0c974f9db0e53302e0107e95",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-6804741LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_PhysicalEntity_81e1191c0c974f9db0e53302e0107e95"
       }
     },
     {
@@ -16762,7 +17287,10 @@
         "class": "production",
         "cardinality": 4,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-6805479LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_SmallMolecule_64486946a05d288afd7be7dba1d38d7ehttp___identifiers_org_reactome_R-HSA-6805479LEFT_TO_RIGHT"
+        "target": "http___pathwaycommons_org_pc2_SmallMolecule_64486946a05d288afd7be7dba1d38d7ehttp___identifiers_org_reactome_R-HSA-6805479LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-6805479LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_SmallMolecule_64486946a05d288afd7be7dba1d38d7ehttp___identifiers_org_reactome_R-HSA-6805479LEFT_TO_RIGHT"
       }
     },
     {
@@ -16771,7 +17299,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-188350LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Complex_6a777484f87077c7eed46ac0563b6159"
+        "target": "http___pathwaycommons_org_pc2_Complex_6a777484f87077c7eed46ac0563b6159",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-188350LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Complex_6a777484f87077c7eed46ac0563b6159"
       }
     },
     {
@@ -16780,7 +17311,10 @@
         "class": "inhibition",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_20166d1431843289fea4b28bb28aaf1a",
-        "target": "http___identifiers_org_reactome_R-HSA-188371LEFT_TO_RIGHT"
+        "target": "http___identifiers_org_reactome_R-HSA-188371LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_20166d1431843289fea4b28bb28aaf1a",
+        "portTarget": "http___identifiers_org_reactome_R-HSA-188371LEFT_TO_RIGHT"
       }
     },
     {
@@ -16789,7 +17323,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-349426LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Complex_ade984bb0c1476326f6ada1489c2d890"
+        "target": "http___pathwaycommons_org_pc2_Complex_ade984bb0c1476326f6ada1489c2d890",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-349426LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Complex_ade984bb0c1476326f6ada1489c2d890"
       }
     },
     {
@@ -16798,7 +17335,10 @@
         "class": "catalysis",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_aaa6bd948cd95cfb1960dec86f9fcffb",
-        "target": "http___identifiers_org_reactome_R-HSA-188350LEFT_TO_RIGHT"
+        "target": "http___identifiers_org_reactome_R-HSA-188350LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_aaa6bd948cd95cfb1960dec86f9fcffb",
+        "portTarget": "http___identifiers_org_reactome_R-HSA-188350LEFT_TO_RIGHT"
       }
     },
     {
@@ -16807,7 +17347,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_SmallMolecule_bfafdc3d9aaa48e4e795bdbc42b341dahttp___identifiers_org_reactome_R-HSA-174124LEFT_TO_RIGHT",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-174124LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-174124LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_SmallMolecule_bfafdc3d9aaa48e4e795bdbc42b341dahttp___identifiers_org_reactome_R-HSA-174124LEFT_TO_RIGHT",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-174124LEFT_TO_RIGHT"
       }
     },
     {
@@ -16816,7 +17359,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-349455LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_SmallMolecule_64486946a05d288afd7be7dba1d38d7ehttp___identifiers_org_reactome_R-HSA-349455LEFT_TO_RIGHT"
+        "target": "http___pathwaycommons_org_pc2_SmallMolecule_64486946a05d288afd7be7dba1d38d7ehttp___identifiers_org_reactome_R-HSA-349455LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-349455LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_SmallMolecule_64486946a05d288afd7be7dba1d38d7ehttp___identifiers_org_reactome_R-HSA-349455LEFT_TO_RIGHT"
       }
     },
     {
@@ -16825,7 +17371,10 @@
         "class": "consumption",
         "cardinality": 4,
         "source": "http___pathwaycommons_org_pc2_SmallMolecule_7a0daa860b7ed28fe57159caee3d73b4http___identifiers_org_reactome_R-HSA-6805285LEFT_TO_RIGHT",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6805285LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6805285LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_SmallMolecule_7a0daa860b7ed28fe57159caee3d73b4http___identifiers_org_reactome_R-HSA-6805285LEFT_TO_RIGHT",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-6805285LEFT_TO_RIGHT"
       }
     },
     {
@@ -16834,7 +17383,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Protein_fd7a0b9dd4516a2e803e80206e26991c",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-174124LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-174124LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Protein_fd7a0b9dd4516a2e803e80206e26991c",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-174124LEFT_TO_RIGHT"
       }
     },
     {
@@ -16843,7 +17395,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_712d55aea0f1c4c371f52fb54e654794",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-187520LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-187520LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_712d55aea0f1c4c371f52fb54e654794",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-187520LEFT_TO_RIGHT"
       }
     },
     {
@@ -16852,7 +17407,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_dace20b6af2ea19a675f80842bd48230",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-349455LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-349455LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_dace20b6af2ea19a675f80842bd48230",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-349455LEFT_TO_RIGHT"
       }
     },
     {
@@ -16861,7 +17419,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-3788705LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_SmallMolecule_64486946a05d288afd7be7dba1d38d7ehttp___identifiers_org_reactome_R-HSA-3788705LEFT_TO_RIGHT"
+        "target": "http___pathwaycommons_org_pc2_SmallMolecule_64486946a05d288afd7be7dba1d38d7ehttp___identifiers_org_reactome_R-HSA-3788705LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-3788705LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_SmallMolecule_64486946a05d288afd7be7dba1d38d7ehttp___identifiers_org_reactome_R-HSA-3788705LEFT_TO_RIGHT"
       }
     },
     {
@@ -16870,7 +17431,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_98b45ebc775459cf32191e6f677412ba",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-187934LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-187934LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_98b45ebc775459cf32191e6f677412ba",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-187934LEFT_TO_RIGHT"
       }
     },
     {
@@ -16879,7 +17443,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Dna_fb997f351a7d81230f8ce04a2fd77194",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-3786258LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-3786258LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Dna_fb997f351a7d81230f8ce04a2fd77194",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-3786258LEFT_TO_RIGHT"
       }
     },
     {
@@ -16888,7 +17455,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-5689972LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Protein_274baf97b44c71d3a4cf4cb6c5efe2b9"
+        "target": "http___pathwaycommons_org_pc2_Protein_274baf97b44c71d3a4cf4cb6c5efe2b9",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-5689972LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Protein_274baf97b44c71d3a4cf4cb6c5efe2b9"
       }
     },
     {
@@ -16897,7 +17467,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-188350LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_SmallMolecule_64486946a05d288afd7be7dba1d38d7ehttp___identifiers_org_reactome_R-HSA-188350LEFT_TO_RIGHT"
+        "target": "http___pathwaycommons_org_pc2_SmallMolecule_64486946a05d288afd7be7dba1d38d7ehttp___identifiers_org_reactome_R-HSA-188350LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-188350LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_SmallMolecule_64486946a05d288afd7be7dba1d38d7ehttp___identifiers_org_reactome_R-HSA-188350LEFT_TO_RIGHT"
       }
     },
     {
@@ -16906,7 +17479,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_SmallMolecule_7a0daa860b7ed28fe57159caee3d73b4http___identifiers_org_reactome_R-HSA-187948LEFT_TO_RIGHT",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-187948LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-187948LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_SmallMolecule_7a0daa860b7ed28fe57159caee3d73b4http___identifiers_org_reactome_R-HSA-187948LEFT_TO_RIGHT",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-187948LEFT_TO_RIGHT"
       }
     },
     {
@@ -16915,7 +17491,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_ab4b57f8765cdc0ce281453e224735b5",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6803719LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6803719LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_ab4b57f8765cdc0ce281453e224735b5",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-6803719LEFT_TO_RIGHT"
       }
     },
     {
@@ -16924,7 +17503,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Dna_63e1e5f137608b488aa01daf47ac8826",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6798611LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6798611LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Dna_63e1e5f137608b488aa01daf47ac8826",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-6798611LEFT_TO_RIGHT"
       }
     },
     {
@@ -16933,7 +17515,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_09ef30d78fcd90bf1e7078eb5339158b",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-5689972LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-5689972LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_09ef30d78fcd90bf1e7078eb5339158b",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-5689972LEFT_TO_RIGHT"
       }
     },
     {
@@ -16942,7 +17527,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Dna_63e1e5f137608b488aa01daf47ac8826",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6798615LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6798615LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Dna_63e1e5f137608b488aa01daf47ac8826",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-6798615LEFT_TO_RIGHT"
       }
     },
     {
@@ -16951,7 +17539,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-264444LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Complex_eb058bcca8147d0382410be91e9eb1b5"
+        "target": "http___pathwaycommons_org_pc2_Complex_eb058bcca8147d0382410be91e9eb1b5",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-264444LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Complex_eb058bcca8147d0382410be91e9eb1b5"
       }
     },
     {
@@ -16960,7 +17551,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Protein_a2ad05862d03e6b35d71a14c33e72c32",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6798373LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6798373LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Protein_a2ad05862d03e6b35d71a14c33e72c32",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-6798373LEFT_TO_RIGHT"
       }
     },
     {
@@ -16969,7 +17563,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-6803411LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Protein_ea1d79fc711e95b973e780d9b96b690c"
+        "target": "http___pathwaycommons_org_pc2_Protein_ea1d79fc711e95b973e780d9b96b690c",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-6803411LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Protein_ea1d79fc711e95b973e780d9b96b690c"
       }
     },
     {
@@ -16978,7 +17575,10 @@
         "class": "consumption",
         "cardinality": 4,
         "source": "http___pathwaycommons_org_pc2_Protein_0d87d88638f34977379386a4a072b193",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-264444LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-264444LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Protein_0d87d88638f34977379386a4a072b193",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-264444LEFT_TO_RIGHT"
       }
     },
     {
@@ -16987,7 +17587,10 @@
         "class": "catalysis",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_9f286a5123392446547d67f755691157",
-        "target": "http___identifiers_org_reactome_R-HSA-187575LEFT_TO_RIGHT"
+        "target": "http___identifiers_org_reactome_R-HSA-187575LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_9f286a5123392446547d67f755691157",
+        "portTarget": "http___identifiers_org_reactome_R-HSA-187575LEFT_TO_RIGHT"
       }
     },
     {
@@ -16996,7 +17599,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Protein_88ad595976e84121bca3c3a5c7e46e89",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6804441LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6804441LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Protein_88ad595976e84121bca3c3a5c7e46e89",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-6804441LEFT_TO_RIGHT"
       }
     },
     {
@@ -17005,7 +17611,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_a6cd9f6762e55fd5f02196e38d05efa9",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6805285LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6805285LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_a6cd9f6762e55fd5f02196e38d05efa9",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-6805285LEFT_TO_RIGHT"
       }
     },
     {
@@ -17014,7 +17623,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Protein_ab96027e9f5bdd1ec6967b1a2ad68933",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-8852362LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-8852362LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Protein_ab96027e9f5bdd1ec6967b1a2ad68933",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-8852362LEFT_TO_RIGHT"
       }
     },
     {
@@ -17023,7 +17635,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-6798373LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Protein_459574c65dcb03f8c64e5fa05baac529"
+        "target": "http___pathwaycommons_org_pc2_Protein_459574c65dcb03f8c64e5fa05baac529",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-6798373LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Protein_459574c65dcb03f8c64e5fa05baac529"
       }
     },
     {
@@ -17032,7 +17647,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_bb469bcd55b2e1af96e5572638d61033",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-188390LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-188390LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_bb469bcd55b2e1af96e5572638d61033",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-188390LEFT_TO_RIGHT"
       }
     },
     {
@@ -17041,7 +17659,10 @@
         "class": "catalysis",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Protein_b7e80dee7367e1b25af292ecaa7c5131",
-        "target": "http___identifiers_org_reactome_R-HSA-6804955LEFT_TO_RIGHT"
+        "target": "http___identifiers_org_reactome_R-HSA-6804955LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Protein_b7e80dee7367e1b25af292ecaa7c5131",
+        "portTarget": "http___identifiers_org_reactome_R-HSA-6804955LEFT_TO_RIGHT"
       }
     },
     {
@@ -17050,7 +17671,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_50b1e61247e7c87a2540356bce7a3a6f",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6798615LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6798615LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_50b1e61247e7c87a2540356bce7a3a6f",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-6798615LEFT_TO_RIGHT"
       }
     },
     {
@@ -17059,7 +17683,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-187520LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Complex_e7d66269b9f378b076e27a8c05292010"
+        "target": "http___pathwaycommons_org_pc2_Complex_e7d66269b9f378b076e27a8c05292010",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-187520LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Complex_e7d66269b9f378b076e27a8c05292010"
       }
     },
     {
@@ -17068,7 +17695,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-174088LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Complex_ffc136648be48300971f6d0807e6948d"
+        "target": "http___pathwaycommons_org_pc2_Complex_ffc136648be48300971f6d0807e6948d",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-174088LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Complex_ffc136648be48300971f6d0807e6948d"
       }
     },
     {
@@ -17077,7 +17707,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_eb058bcca8147d0382410be91e9eb1b5",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-264458LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-264458LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_eb058bcca8147d0382410be91e9eb1b5",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-264458LEFT_TO_RIGHT"
       }
     },
     {
@@ -17086,7 +17719,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_362f1995ea829308849a644839f320d0",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6803801LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6803801LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_362f1995ea829308849a644839f320d0",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-6803801LEFT_TO_RIGHT"
       }
     },
     {
@@ -17095,7 +17731,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-6803403LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Complex_ace1aed23ff193e27660fb25bee61aa8"
+        "target": "http___pathwaycommons_org_pc2_Complex_ace1aed23ff193e27660fb25bee61aa8",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-6803403LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Complex_ace1aed23ff193e27660fb25bee61aa8"
       }
     },
     {
@@ -17104,7 +17743,10 @@
         "class": "catalysis",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_c58d71461f488bb80e2ee06081f277b7",
-        "target": "http___identifiers_org_reactome_R-HSA-6804879LEFT_TO_RIGHT"
+        "target": "http___identifiers_org_reactome_R-HSA-6804879LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_c58d71461f488bb80e2ee06081f277b7",
+        "portTarget": "http___identifiers_org_reactome_R-HSA-6804879LEFT_TO_RIGHT"
       }
     },
     {
@@ -17113,7 +17755,10 @@
         "class": "consumption",
         "cardinality": 4,
         "source": "http___pathwaycommons_org_pc2_Protein_0d87d88638f34977379386a4a072b193",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-174195LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-174195LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Protein_0d87d88638f34977379386a4a072b193",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-174195LEFT_TO_RIGHT"
       }
     },
     {
@@ -17122,7 +17767,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Dna_fb997f351a7d81230f8ce04a2fd77194",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6803388LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6803388LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Dna_fb997f351a7d81230f8ce04a2fd77194",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-6803388LEFT_TO_RIGHT"
       }
     },
     {
@@ -17131,7 +17779,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-6803719LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Complex_362f1995ea829308849a644839f320d0"
+        "target": "http___pathwaycommons_org_pc2_Complex_362f1995ea829308849a644839f320d0",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-6803719LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Complex_362f1995ea829308849a644839f320d0"
       }
     },
     {
@@ -17140,7 +17791,10 @@
         "class": "consumption",
         "cardinality": 4,
         "source": "http___pathwaycommons_org_pc2_SmallMolecule_7a0daa860b7ed28fe57159caee3d73b4http___identifiers_org_reactome_R-HSA-6805479LEFT_TO_RIGHT",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6805479LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6805479LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_SmallMolecule_7a0daa860b7ed28fe57159caee3d73b4http___identifiers_org_reactome_R-HSA-6805479LEFT_TO_RIGHT",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-6805479LEFT_TO_RIGHT"
       }
     },
     {
@@ -17149,7 +17803,10 @@
         "class": "catalysis",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_3c19c9ea55a8966d38cabababe19fc74",
-        "target": "http___identifiers_org_reactome_R-HSA-8852354LEFT_TO_RIGHT"
+        "target": "http___identifiers_org_reactome_R-HSA-8852354LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_3c19c9ea55a8966d38cabababe19fc74",
+        "portTarget": "http___identifiers_org_reactome_R-HSA-8852354LEFT_TO_RIGHT"
       }
     },
     {
@@ -17158,7 +17815,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_091e18f03b6b5da519a77cf013464500",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-188371LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-188371LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_091e18f03b6b5da519a77cf013464500",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-188371LEFT_TO_RIGHT"
       }
     },
     {
@@ -17167,7 +17827,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_9f286a5123392446547d67f755691157",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-187574LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-187574LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_9f286a5123392446547d67f755691157",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-187574LEFT_TO_RIGHT"
       }
     },
     {
@@ -17176,7 +17839,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-187934LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Complex_20166d1431843289fea4b28bb28aaf1a"
+        "target": "http___pathwaycommons_org_pc2_Complex_20166d1431843289fea4b28bb28aaf1a",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-187934LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Complex_20166d1431843289fea4b28bb28aaf1a"
       }
     },
     {
@@ -17185,7 +17851,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Protein_c80764b60a0ce380c03c3bab342b2de8",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-3222072LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-3222072LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Protein_c80764b60a0ce380c03c3bab342b2de8",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-3222072LEFT_TO_RIGHT"
       }
     },
     {
@@ -17194,7 +17863,10 @@
         "class": "production",
         "cardinality": 4,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-264458LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Protein_0d87d88638f34977379386a4a072b193"
+        "target": "http___pathwaycommons_org_pc2_Protein_0d87d88638f34977379386a4a072b193",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-264458LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Protein_0d87d88638f34977379386a4a072b193"
       }
     },
     {
@@ -17203,7 +17875,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Protein_e78d9f1c7c494d6acba0098074cd00c0",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6804741LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6804741LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Protein_e78d9f1c7c494d6acba0098074cd00c0",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-6804741LEFT_TO_RIGHT"
       }
     },
     {
@@ -17212,7 +17887,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-187949LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Complex_091e18f03b6b5da519a77cf013464500"
+        "target": "http___pathwaycommons_org_pc2_Complex_091e18f03b6b5da519a77cf013464500",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-187949LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Complex_091e18f03b6b5da519a77cf013464500"
       }
     },
     {
@@ -17221,7 +17899,10 @@
         "class": "consumption",
         "cardinality": 2,
         "source": "http___pathwaycommons_org_pc2_Protein_88ad595976e84121bca3c3a5c7e46e89",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6804942LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6804942LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Protein_88ad595976e84121bca3c3a5c7e46e89",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-6804942LEFT_TO_RIGHT"
       }
     },
     {
@@ -17230,7 +17911,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-187948LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_SmallMolecule_64486946a05d288afd7be7dba1d38d7ehttp___identifiers_org_reactome_R-HSA-187948LEFT_TO_RIGHT"
+        "target": "http___pathwaycommons_org_pc2_SmallMolecule_64486946a05d288afd7be7dba1d38d7ehttp___identifiers_org_reactome_R-HSA-187948LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-187948LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_SmallMolecule_64486946a05d288afd7be7dba1d38d7ehttp___identifiers_org_reactome_R-HSA-187948LEFT_TO_RIGHT"
       }
     },
     {
@@ -17239,7 +17923,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-6805479LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Complex_a6cd9f6762e55fd5f02196e38d05efa9"
+        "target": "http___pathwaycommons_org_pc2_Complex_a6cd9f6762e55fd5f02196e38d05efa9",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-6805479LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Complex_a6cd9f6762e55fd5f02196e38d05efa9"
       }
     },
     {
@@ -17248,7 +17935,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-69562LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Complex_710f7260343c34377521ff6e19d06b5f"
+        "target": "http___pathwaycommons_org_pc2_Complex_710f7260343c34377521ff6e19d06b5f",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-69562LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Complex_710f7260343c34377521ff6e19d06b5f"
       }
     },
     {
@@ -17257,7 +17947,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_b0b02d209a95b7752c80a05fba5bf6b6",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-3215295LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-3215295LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_b0b02d209a95b7752c80a05fba5bf6b6",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-3215295LEFT_TO_RIGHT"
       }
     },
     {
@@ -17266,7 +17959,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-187828LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Protein_ea1d79fc711e95b973e780d9b96b690c"
+        "target": "http___pathwaycommons_org_pc2_Protein_ea1d79fc711e95b973e780d9b96b690c",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-187828LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Protein_ea1d79fc711e95b973e780d9b96b690c"
       }
     },
     {
@@ -17275,7 +17971,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_ab4b57f8765cdc0ce281453e224735b5",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6804441LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6804441LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_ab4b57f8765cdc0ce281453e224735b5",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-6804441LEFT_TO_RIGHT"
       }
     },
     {
@@ -17284,7 +17983,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Protein_f27edc70876a8174cb3d87528ae9ad24",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-8852337LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-8852337LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Protein_f27edc70876a8174cb3d87528ae9ad24",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-8852337LEFT_TO_RIGHT"
       }
     },
     {
@@ -17293,7 +17995,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-187949LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_SmallMolecule_64486946a05d288afd7be7dba1d38d7ehttp___identifiers_org_reactome_R-HSA-187949LEFT_TO_RIGHT"
+        "target": "http___pathwaycommons_org_pc2_SmallMolecule_64486946a05d288afd7be7dba1d38d7ehttp___identifiers_org_reactome_R-HSA-187949LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-187949LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_SmallMolecule_64486946a05d288afd7be7dba1d38d7ehttp___identifiers_org_reactome_R-HSA-187949LEFT_TO_RIGHT"
       }
     },
     {
@@ -17302,7 +18007,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-6804724LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Complex_66bf1179d497f85bc35f78fb6423849e"
+        "target": "http___pathwaycommons_org_pc2_Complex_66bf1179d497f85bc35f78fb6423849e",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-6804724LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Complex_66bf1179d497f85bc35f78fb6423849e"
       }
     },
     {
@@ -17311,7 +18019,10 @@
         "class": "stimulation",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Complex_cda33827bb664dee6fbef2936dc1863d",
-        "target": "http___identifiers_org_reactome_R-HSA-188383LEFT_TO_RIGHT"
+        "target": "http___identifiers_org_reactome_R-HSA-188383LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Complex_cda33827bb664dee6fbef2936dc1863d",
+        "portTarget": "http___identifiers_org_reactome_R-HSA-188383LEFT_TO_RIGHT"
       }
     },
     {
@@ -17320,7 +18031,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_SmallMolecule_7a0daa860b7ed28fe57159caee3d73b4http___identifiers_org_reactome_R-HSA-349444LEFT_TO_RIGHT",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-349444LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-349444LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_SmallMolecule_7a0daa860b7ed28fe57159caee3d73b4http___identifiers_org_reactome_R-HSA-349444LEFT_TO_RIGHT",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-349444LEFT_TO_RIGHT"
       }
     },
     {
@@ -17329,7 +18043,10 @@
         "class": "production",
         "cardinality": 0,
         "source": "OutputPort_http___identifiers_org_reactome_R-HSA-6798374LEFT_TO_RIGHT",
-        "target": "http___pathwaycommons_org_pc2_Complex_50b1e61247e7c87a2540356bce7a3a6f"
+        "target": "http___pathwaycommons_org_pc2_Complex_50b1e61247e7c87a2540356bce7a3a6f",
+        "bendPointPositions": [],
+        "portSource": "OutputPort_http___identifiers_org_reactome_R-HSA-6798374LEFT_TO_RIGHT",
+        "portTarget": "http___pathwaycommons_org_pc2_Complex_50b1e61247e7c87a2540356bce7a3a6f"
       }
     },
     {
@@ -17338,7 +18055,10 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Protein_88ad595976e84121bca3c3a5c7e46e89",
-        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6798373LEFT_TO_RIGHT"
+        "target": "InputPort_http___identifiers_org_reactome_R-HSA-6798373LEFT_TO_RIGHT",
+        "bendPointPositions": [],
+        "portSource": "http___pathwaycommons_org_pc2_Protein_88ad595976e84121bca3c3a5c7e46e89",
+        "portTarget": "InputPort_http___identifiers_org_reactome_R-HSA-6798373LEFT_TO_RIGHT"
       }
     }
   ]
