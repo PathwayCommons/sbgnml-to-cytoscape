@@ -2,6 +2,7 @@
     "nodes": [
         {
             "data": {
+<<<<<<< 877612c6d67d9e33b7abd8bff75e244f8579bc64
                 "sbgn": {
                     "id": "http___pathwaycommons_org_pc2_Protein_e390810ac5c9e1fac8d14e7e3cf20994",
                     "bbox": {
@@ -26,63 +27,79 @@
                                 "w": "35.0",
                                 "h": "10.0"
                             }
-                        }
-                    ],
-                    "parent": "",
-                    "ports": []
-                }
-            }
-        },
-        {
-            "data": {
-                "sbgn": {
-                    "id": "http___pathwaycommons_org_pc2_SmallMolecule_b245cf505b451e03a08ffa5ddaef5d39",
-                    "bbox": {
-                        "x": 123.39982,
-                        "y": 113.63853,
-                        "w": "48.0",
-                        "h": "20.0"
-                    },
-                    "class": "simple chemical",
-                    "label": "Win 55212-2",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "",
-                    "ports": []
-                }
-            }
-        },
-        {
-            "data": {
-                "sbgn": {
-                    "id": "http___pathwaycommons_org_pc2_BiochemicalReaction_8441cd12b532d48ae60e64c8defbc472LEFT_TO_RIGHT",
-                    "bbox": {
-                        "x": 125.54126,
-                        "y": 32.259386,
-                        "w": "15.0",
-                        "h": "15.0"
-                    },
-                    "class": "process",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "",
-                    "ports": [
-                        {
-                            "id": "InputPort_http___pathwaycommons_org_pc2_BiochemicalReaction_8441cd12b532d48ae60e64c8defbc472LEFT_TO_RIGHT",
-                            "x": 66.66666666666666,
-                            "y": -0.000013333333347039417
+=======
+                "id": "http___pathwaycommons_org_pc2_Protein_e390810ac5c9e1fac8d14e7e3cf20994",
+                "bbox": {
+                    "x": 34.234358,
+                    "y": 31.150263,
+                    "w": "48.0",
+                    "h": "25.0"
+                },
+                "class": "macromolecule",
+                "label": "CNR1",
+                "statesandinfos": [
+                    {
+                        "id": "http___pathwaycommons_org_pc2_Protein_e390810ac5c9e1fac8d14e7e3cf20994.info.1",
+                        "clazz": "state variable",
+                        "state": {
+                            "value": "active"
                         },
-                        {
-                            "id": "OutputPort_http___pathwaycommons_org_pc2_BiochemicalReaction_8441cd12b532d48ae60e64c8defbc472LEFT_TO_RIGHT",
-                            "x": -66.66666666666666,
-                            "y": -0.000013333333347039417
+                        "bbox": {
+                            "x": 0.000004166666656146845,
+                            "y": -49.999999999999986,
+                            "w": "35.0",
+                            "h": "10.0"
+>>>>>>> bendpoints, port source and port target attributes implemented
                         }
-                    ]
-                }
+                    }
+                ],
+                "parent": "",
+                "ports": []
             }
         },
         {
             "data": {
+                "id": "http___pathwaycommons_org_pc2_SmallMolecule_b245cf505b451e03a08ffa5ddaef5d39",
+                "bbox": {
+                    "x": 123.39982,
+                    "y": 113.63853,
+                    "w": "48.0",
+                    "h": "20.0"
+                },
+                "class": "simple chemical",
+                "label": "Win 55212-2",
+                "parent": "",
+                "ports": []
+            }
+        },
+        {
+            "data": {
+                "id": "http___pathwaycommons_org_pc2_BiochemicalReaction_8441cd12b532d48ae60e64c8defbc472LEFT_TO_RIGHT",
+                "bbox": {
+                    "x": 125.54126,
+                    "y": 32.259386,
+                    "w": "15.0",
+                    "h": "15.0"
+                },
+                "class": "process",
+                "parent": "",
+                "ports": [
+                    {
+                        "id": "InputPort_http___pathwaycommons_org_pc2_BiochemicalReaction_8441cd12b532d48ae60e64c8defbc472LEFT_TO_RIGHT",
+                        "x": 66.66666666666666,
+                        "y": -0.000013333333347039417
+                    },
+                    {
+                        "id": "OutputPort_http___pathwaycommons_org_pc2_BiochemicalReaction_8441cd12b532d48ae60e64c8defbc472LEFT_TO_RIGHT",
+                        "x": -66.66666666666666,
+                        "y": -0.000013333333347039417
+                    }
+                ]
+            }
+        },
+        {
+            "data": {
+<<<<<<< 877612c6d67d9e33b7abd8bff75e244f8579bc64
                 "sbgn": {
                     "id": "http___pathwaycommons_org_pc2_Protein_3c410501913e286019942ef459fe25f7",
                     "bbox": {
@@ -107,11 +124,34 @@
                                 "w": "35.0",
                                 "h": "10.0"
                             }
+=======
+                "id": "http___pathwaycommons_org_pc2_Protein_3c410501913e286019942ef459fe25f7",
+                "bbox": {
+                    "x": 216.56952,
+                    "y": 23.43834,
+                    "w": "48.0",
+                    "h": "25.0"
+                },
+                "class": "macromolecule",
+                "label": "CNR1",
+                "statesandinfos": [
+                    {
+                        "id": "http___pathwaycommons_org_pc2_Protein_3c410501913e286019942ef459fe25f7.info.1",
+                        "clazz": "state variable",
+                        "state": {
+                            "value": "inactive"
+                        },
+                        "bbox": {
+                            "x": 0,
+                            "y": -50,
+                            "w": "35.0",
+                            "h": "10.0"
+>>>>>>> bendpoints, port source and port target attributes implemented
                         }
-                    ],
-                    "parent": "",
-                    "ports": []
-                }
+                    }
+                ],
+                "parent": "",
+                "ports": []
             }
         }
     ],
@@ -124,8 +164,8 @@
                 "cardinality": 0,
                 "source": "http___pathwaycommons_org_pc2_SmallMolecule_b245cf505b451e03a08ffa5ddaef5d39",
                 "target": "http___pathwaycommons_org_pc2_BiochemicalReaction_8441cd12b532d48ae60e64c8defbc472LEFT_TO_RIGHT",
-                "portsource": "http___pathwaycommons_org_pc2_SmallMolecule_b245cf505b451e03a08ffa5ddaef5d39",
-                "porttarget": "http___pathwaycommons_org_pc2_BiochemicalReaction_8441cd12b532d48ae60e64c8defbc472LEFT_TO_RIGHT"
+                "portSource": "http___pathwaycommons_org_pc2_SmallMolecule_b245cf505b451e03a08ffa5ddaef5d39",
+                "portTarget": "http___pathwaycommons_org_pc2_BiochemicalReaction_8441cd12b532d48ae60e64c8defbc472LEFT_TO_RIGHT"
             }
         },
         {
@@ -136,8 +176,8 @@
                 "cardinality": 0,
                 "source": "http___pathwaycommons_org_pc2_BiochemicalReaction_8441cd12b532d48ae60e64c8defbc472LEFT_TO_RIGHT",
                 "target": "http___pathwaycommons_org_pc2_Protein_e390810ac5c9e1fac8d14e7e3cf20994",
-                "portsource": "OutputPort_http___pathwaycommons_org_pc2_BiochemicalReaction_8441cd12b532d48ae60e64c8defbc472LEFT_TO_RIGHT",
-                "porttarget": "http___pathwaycommons_org_pc2_Protein_e390810ac5c9e1fac8d14e7e3cf20994"
+                "portSource": "OutputPort_http___pathwaycommons_org_pc2_BiochemicalReaction_8441cd12b532d48ae60e64c8defbc472LEFT_TO_RIGHT",
+                "portTarget": "http___pathwaycommons_org_pc2_Protein_e390810ac5c9e1fac8d14e7e3cf20994"
             }
         },
         {
@@ -148,8 +188,8 @@
                 "cardinality": 0,
                 "source": "http___pathwaycommons_org_pc2_Protein_3c410501913e286019942ef459fe25f7",
                 "target": "http___pathwaycommons_org_pc2_BiochemicalReaction_8441cd12b532d48ae60e64c8defbc472LEFT_TO_RIGHT",
-                "portsource": "http___pathwaycommons_org_pc2_Protein_3c410501913e286019942ef459fe25f7",
-                "porttarget": "InputPort_http___pathwaycommons_org_pc2_BiochemicalReaction_8441cd12b532d48ae60e64c8defbc472LEFT_TO_RIGHT"
+                "portSource": "http___pathwaycommons_org_pc2_Protein_3c410501913e286019942ef459fe25f7",
+                "portTarget": "InputPort_http___pathwaycommons_org_pc2_BiochemicalReaction_8441cd12b532d48ae60e64c8defbc472LEFT_TO_RIGHT"
             }
         }
     ]

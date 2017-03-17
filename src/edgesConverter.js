@@ -8,8 +8,18 @@ const getSource = (arc) => objPath.get(arc, '_attributes.source', '');
 
 const getTarget = (arc) => objPath.get(arc, '_attributes.target', '');
 
-
 const getCardinality = (glyph) => parseInt(objPath.get(glyph, 'label._attributes.text', ''));
+
+const getBendPointPositions = (arc) => {
+  return [].concat(objPath.get(arc, 'next', []))
+  .map((bendPoint) => {
+    return {
+      x: parseInt(bendPoint.x),
+      y: parseInt(bendPoint.y)
+    };
+  });
+};
+
 
 const convertArc = (arc) => {
   return {
@@ -18,7 +28,10 @@ const convertArc = (arc) => {
       'class': getClass(arc),
       cardinality: arc.glyph ? getCardinality(arc.glyph): 0,
       source: getSource(arc),
-      target: getTarget(arc)
+      target: getTarget(arc),
+      bendPointPositions: getBendPointPositions(arc),
+      portSource: getSource(arc),
+      portTarget: getTarget(arc)
     }
   };
 };

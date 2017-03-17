@@ -945,8 +945,8 @@
                 "cardinality": 0,
                 "source": "glyph8",
                 "target": "glyph15",
-                "portsource": "glyph8",
-                "porttarget": "glyph15"
+                "portSource": "glyph8",
+                "portTarget": "glyph15"
             }
         },
         {
@@ -957,8 +957,8 @@
                 "cardinality": 0,
                 "source": "glyph12",
                 "target": "glyph16",
-                "portsource": "glyph12",
-                "porttarget": "glyph16"
+                "portSource": "glyph12",
+                "portTarget": "glyph16"
             }
         },
         {
@@ -969,8 +969,8 @@
                 "cardinality": 0,
                 "source": "glyph16",
                 "target": "glyph13",
-                "portsource": "glyph16",
-                "porttarget": "glyph13"
+                "portSource": "glyph16",
+                "portTarget": "glyph13"
             }
         },
         {
@@ -981,8 +981,8 @@
                 "cardinality": 0,
                 "source": "glyph13",
                 "target": "glyph18",
-                "portsource": "glyph13",
-                "porttarget": "glyph18"
+                "portSource": "glyph13",
+                "portTarget": "glyph18"
             }
         },
         {
@@ -993,8 +993,8 @@
                 "cardinality": 0,
                 "source": "glyph18",
                 "target": "glyph6",
-                "portsource": "glyph18",
-                "porttarget": "glyph6"
+                "portSource": "glyph18",
+                "portTarget": "glyph6"
             }
         },
         {
@@ -1005,8 +1005,8 @@
                 "cardinality": 0,
                 "source": "glyph4",
                 "target": "glyph18",
-                "portsource": "glyph4",
-                "porttarget": "glyph18"
+                "portSource": "glyph4",
+                "portTarget": "glyph18"
             }
         },
         {
@@ -1017,8 +1017,8 @@
                 "cardinality": 0,
                 "source": "glyph3",
                 "target": "glyph16",
-                "portsource": "glyph3",
-                "porttarget": "glyph16"
+                "portSource": "glyph3",
+                "portTarget": "glyph16"
             }
         },
         {
@@ -1029,8 +1029,8 @@
                 "cardinality": 0,
                 "source": "glyph10",
                 "target": "glyph19",
-                "portsource": "glyph10",
-                "porttarget": "glyph19"
+                "portSource": "glyph10",
+                "portTarget": "glyph19"
             }
         },
         {
@@ -1041,8 +1041,8 @@
                 "cardinality": 0,
                 "source": "glyph7",
                 "target": "glyph19",
-                "portsource": "glyph7",
-                "porttarget": "glyph19"
+                "portSource": "glyph7",
+                "portTarget": "glyph19"
             }
         },
         {
@@ -1053,8 +1053,8 @@
                 "cardinality": 0,
                 "source": "glyph19",
                 "target": "glyph5",
-                "portsource": "glyph19",
-                "porttarget": "glyph5"
+                "portSource": "glyph19",
+                "portTarget": "glyph5"
             }
         },
         {
@@ -1065,8 +1065,8 @@
                 "cardinality": 0,
                 "source": "glyph19",
                 "target": "glyph11",
-                "portsource": "glyph19",
-                "porttarget": "glyph11"
+                "portSource": "glyph19",
+                "portTarget": "glyph11"
             }
         },
         {
@@ -1077,8 +1077,8 @@
                 "cardinality": 0,
                 "source": "glyph9",
                 "target": "glyph17",
-                "portsource": "glyph9",
-                "porttarget": "glyph17"
+                "portSource": "glyph9",
+                "portTarget": "glyph17"
             }
         },
         {
@@ -1089,8 +1089,8 @@
                 "cardinality": 0,
                 "source": "glyph6",
                 "target": "glyph17",
-                "portsource": "glyph6",
-                "porttarget": "glyph17"
+                "portSource": "glyph6",
+                "portTarget": "glyph17"
             }
         },
         {
@@ -1101,8 +1101,8 @@
                 "cardinality": 0,
                 "source": "glyph17",
                 "target": "glyph7",
-                "portsource": "glyph17",
-                "porttarget": "glyph7"
+                "portSource": "glyph17",
+                "portTarget": "glyph7"
             }
         },
         {
@@ -1113,8 +1113,8 @@
                 "cardinality": 0,
                 "source": "glyph7",
                 "target": "glyph24",
-                "portsource": "glyph7",
-                "porttarget": "glyph24"
+                "portSource": "glyph7",
+                "portTarget": "glyph24"
             }
         },
         {
@@ -1125,8 +1125,8 @@
                 "cardinality": 0,
                 "source": "glyph20",
                 "target": "glyph24",
-                "portsource": "glyph20",
-                "porttarget": "glyph24"
+                "portSource": "glyph20",
+                "portTarget": "glyph24"
             }
         },
         {
@@ -1137,8 +1137,8 @@
                 "cardinality": 0,
                 "source": "glyph24",
                 "target": "glyph21",
-                "portsource": "glyph24",
-                "porttarget": "glyph21"
+                "portSource": "glyph24",
+                "portTarget": "glyph21"
             }
         },
         {
@@ -1149,8 +1149,8 @@
                 "cardinality": 0,
                 "source": "glyph41",
                 "target": "glyph22",
-                "portsource": "glyph41",
-                "porttarget": "glyph22"
+                "portSource": "glyph41",
+                "portTarget": "glyph22"
             }
         },
         {
@@ -1161,8 +1161,8 @@
                 "cardinality": 0,
                 "source": "glyph22",
                 "target": "glyph42",
-                "portsource": "glyph22",
-                "porttarget": "glyph42"
+                "portSource": "glyph22",
+                "portTarget": "glyph42"
             }
         },
         {
@@ -1173,8 +1173,8 @@
                 "cardinality": 0,
                 "source": "glyph36",
                 "target": "glyph42",
-                "portsource": "glyph36",
-                "porttarget": "glyph42"
+                "portSource": "glyph36",
+                "portTarget": "glyph42"
             }
         },
         {
@@ -1185,8 +1185,8 @@
                 "cardinality": 0,
                 "source": "glyph26",
                 "target": "glyph42",
-                "portsource": "glyph26",
-                "porttarget": "glyph42"
+                "portSource": "glyph26",
+                "portTarget": "glyph42"
             }
         },
         {
@@ -1197,8 +1197,8 @@
                 "cardinality": 0,
                 "source": "glyph42",
                 "target": "glyph38",
-                "portsource": "glyph42",
-                "porttarget": "glyph38"
+                "portSource": "glyph42",
+                "portTarget": "glyph38"
             }
         },
         {
@@ -1209,8 +1209,8 @@
                 "cardinality": 0,
                 "source": "glyph38",
                 "target": "glyph43",
-                "portsource": "glyph38",
-                "porttarget": "glyph43"
+                "portSource": "glyph38",
+                "portTarget": "glyph43"
             }
         },
         {
@@ -1221,8 +1221,8 @@
                 "cardinality": 0,
                 "source": "glyph43",
                 "target": "glyph37",
-                "portsource": "glyph43",
-                "porttarget": "glyph37"
+                "portSource": "glyph43",
+                "portTarget": "glyph37"
             }
         },
         {
@@ -1233,8 +1233,8 @@
                 "cardinality": 0,
                 "source": "glyph43",
                 "target": "glyph33",
-                "portsource": "glyph43",
-                "porttarget": "glyph33"
+                "portSource": "glyph43",
+                "portTarget": "glyph33"
             }
         },
         {
@@ -1245,8 +1245,8 @@
                 "cardinality": 0,
                 "source": "glyph43",
                 "target": "glyph40",
-                "portsource": "glyph43",
-                "porttarget": "glyph40"
+                "portSource": "glyph43",
+                "portTarget": "glyph40"
             }
         },
         {
@@ -1257,8 +1257,8 @@
                 "cardinality": 0,
                 "source": "glyph37",
                 "target": "glyph44",
-                "portsource": "glyph37",
-                "porttarget": "glyph44"
+                "portSource": "glyph37",
+                "portTarget": "glyph44"
             }
         },
         {
@@ -1269,8 +1269,8 @@
                 "cardinality": 0,
                 "source": "glyph44",
                 "target": "glyph27",
-                "portsource": "glyph44",
-                "porttarget": "glyph27"
+                "portSource": "glyph44",
+                "portTarget": "glyph27"
             }
         },
         {
@@ -1281,8 +1281,8 @@
                 "cardinality": 0,
                 "source": "glyph44",
                 "target": "glyph26",
-                "portsource": "glyph44",
-                "porttarget": "glyph26"
+                "portSource": "glyph44",
+                "portTarget": "glyph26"
             }
         },
         {
@@ -1293,8 +1293,8 @@
                 "cardinality": 0,
                 "source": "glyph25",
                 "target": "glyph45",
-                "portsource": "glyph25",
-                "porttarget": "glyph45"
+                "portSource": "glyph25",
+                "portTarget": "glyph45"
             }
         },
         {
@@ -1305,8 +1305,8 @@
                 "cardinality": 0,
                 "source": "glyph27",
                 "target": "glyph45",
-                "portsource": "glyph27",
-                "porttarget": "glyph45"
+                "portSource": "glyph27",
+                "portTarget": "glyph45"
             }
         },
         {
@@ -1317,8 +1317,8 @@
                 "cardinality": 0,
                 "source": "glyph45",
                 "target": "glyph36",
-                "portsource": "glyph45",
-                "porttarget": "glyph36"
+                "portSource": "glyph45",
+                "portTarget": "glyph36"
             }
         },
         {
@@ -1329,8 +1329,8 @@
                 "cardinality": 0,
                 "source": "glyph21",
                 "target": "glyph41",
-                "portsource": "glyph21",
-                "porttarget": "glyph41"
+                "portSource": "glyph21",
+                "portTarget": "glyph41"
             }
         },
         {
@@ -1341,8 +1341,8 @@
                 "cardinality": 0,
                 "source": "glyph5",
                 "target": "glyph15",
-                "portsource": "glyph5",
-                "porttarget": "glyph15"
+                "portSource": "glyph5",
+                "portTarget": "glyph15"
             }
         },
         {
@@ -1353,8 +1353,8 @@
                 "cardinality": 0,
                 "source": "glyph15",
                 "target": "glyph12",
-                "portsource": "glyph15",
-                "porttarget": "glyph12"
+                "portSource": "glyph15",
+                "portTarget": "glyph12"
             }
         },
         {
@@ -1365,8 +1365,8 @@
                 "cardinality": 0,
                 "source": "glyph47",
                 "target": "glyph16",
-                "portsource": "glyph47",
-                "porttarget": "glyph16"
+                "portSource": "glyph47",
+                "portTarget": "glyph16"
             }
         },
         {
@@ -1377,8 +1377,8 @@
                 "cardinality": 0,
                 "source": "glyph37",
                 "target": "glyph32",
-                "portsource": "glyph37",
-                "porttarget": "glyph32"
+                "portSource": "glyph37",
+                "portTarget": "glyph32"
             }
         },
         {
@@ -1389,8 +1389,8 @@
                 "cardinality": 0,
                 "source": "glyph23",
                 "target": "glyph41",
-                "portsource": "glyph23",
-                "porttarget": "glyph41"
+                "portSource": "glyph23",
+                "portTarget": "glyph41"
             }
         }
     ]

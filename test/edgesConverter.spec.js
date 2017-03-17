@@ -27,10 +27,13 @@ describe('edgesConverter', function () {
 
     const output = [{
       data: {
+        'bendPointPositions': [],
         id: 'glyph21-13',
         'class': 'consumption',
         'source': 'glyph21',
         'target': 'glyph13',
+        'portTarget': 'glyph13',
+        'portSource': 'glyph21',
         'cardinality': 0
       }
     }];

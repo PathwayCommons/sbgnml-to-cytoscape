@@ -2,836 +2,660 @@
     "nodes": [
         {
             "data": {
-                "sbgn": {
-                    "id": "glyph9",
-                    "bbox": {
-                        "x": 1452.639173965406,
-                        "y": 609.3619416544145,
-                        "w": "120.0",
-                        "h": "60.0"
-                    },
-                    "class": "macromolecule",
-                    "label": "hexokinase",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "",
-                    "ports": []
-                }
+                "id": "glyph9",
+                "bbox": {
+                    "x": 1452.639173965406,
+                    "y": 609.3619416544145,
+                    "w": "120.0",
+                    "h": "60.0"
+                },
+                "class": "macromolecule",
+                "label": "hexokinase",
+                "parent": "",
+                "ports": []
             }
         },
         {
             "data": {
-                "sbgn": {
-                    "id": "glyph0",
-                    "bbox": {
-                        "x": 1351.3490293961959,
-                        "y": 518.9529901384763,
-                        "w": "60.0",
-                        "h": "60.0"
-                    },
-                    "class": "simple chemical",
-                    "label": "glucose",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "",
-                    "ports": []
-                }
+                "id": "glyph0",
+                "bbox": {
+                    "x": 1351.3490293961959,
+                    "y": 518.9529901384763,
+                    "w": "60.0",
+                    "h": "60.0"
+                },
+                "class": "simple chemical",
+                "label": "glucose",
+                "parent": "",
+                "ports": []
             }
         },
         {
             "data": {
-                "sbgn": {
-                    "id": "glyph6",
-                    "bbox": {
-                        "x": 1358.2854747390154,
-                        "y": 707.9866590968695,
-                        "w": "60.0",
-                        "h": "60.0"
-                    },
-                    "class": "simple chemical",
-                    "label": "ATP",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "",
-                    "clonemarker": true,
-                    "ports": []
-                }
+                "id": "glyph6",
+                "bbox": {
+                    "x": 1358.2854747390154,
+                    "y": 707.9866590968695,
+                    "w": "60.0",
+                    "h": "60.0"
+                },
+                "class": "simple chemical",
+                "label": "ATP",
+                "parent": "",
+                "clonemarker": true,
+                "ports": []
             }
         },
         {
             "data": {
-                "sbgn": {
-                    "id": "glyph8",
-                    "bbox": {
-                        "x": 1322.9939787691299,
-                        "y": 614.6878118623499,
-                        "w": "20.0",
-                        "h": "20.0"
-                    },
-                    "class": "process",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "",
-                    "ports": []
-                }
+                "id": "glyph8",
+                "bbox": {
+                    "x": 1322.9939787691299,
+                    "y": 614.6878118623499,
+                    "w": "20.0",
+                    "h": "20.0"
+                },
+                "class": "process",
+                "parent": "",
+                "ports": []
             }
         },
         {
             "data": {
-                "sbgn": {
-                    "id": "glyph7",
-                    "bbox": {
-                        "x": 1239.4852011317887,
-                        "y": 543.2369849876238,
-                        "w": "60.0",
-                        "h": "60.0"
-                    },
-                    "class": "simple chemical",
-                    "label": "ADP",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "",
-                    "clonemarker": true,
-                    "ports": []
-                }
+                "id": "glyph7",
+                "bbox": {
+                    "x": 1239.4852011317887,
+                    "y": 543.2369849876238,
+                    "w": "60.0",
+                    "h": "60.0"
+                },
+                "class": "simple chemical",
+                "label": "ADP",
+                "parent": "",
+                "clonemarker": true,
+                "ports": []
             }
         },
         {
             "data": {
-                "sbgn": {
-                    "id": "glyph12",
-                    "bbox": {
-                        "x": 841.6855140740067,
-                        "y": 765.0152660242113,
-                        "w": "60.0",
-                        "h": "60.0"
-                    },
-                    "class": "simple chemical",
-                    "label": "ADP",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "",
-                    "clonemarker": true,
-                    "ports": []
-                }
+                "id": "glyph12",
+                "bbox": {
+                    "x": 841.6855140740067,
+                    "y": 765.0152660242113,
+                    "w": "60.0",
+                    "h": "60.0"
+                },
+                "class": "simple chemical",
+                "label": "ADP",
+                "parent": "",
+                "clonemarker": true,
+                "ports": []
             }
         },
         {
             "data": {
-                "sbgn": {
-                    "id": "glyph13",
-                    "bbox": {
-                        "x": 1019.5908382748769,
-                        "y": 841.6087025848726,
-                        "w": "60.0",
-                        "h": "60.0"
-                    },
-                    "class": "simple chemical",
-                    "label": "ATP",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "",
-                    "clonemarker": true,
-                    "ports": []
-                }
+                "id": "glyph13",
+                "bbox": {
+                    "x": 1019.5908382748769,
+                    "y": 841.6087025848726,
+                    "w": "60.0",
+                    "h": "60.0"
+                },
+                "class": "simple chemical",
+                "label": "ATP",
+                "parent": "",
+                "clonemarker": true,
+                "ports": []
             }
         },
         {
             "data": {
-                "sbgn": {
-                    "id": "glyph1",
-                    "bbox": {
-                        "x": 1231.2768042260652,
-                        "y": 673.2683218469676,
-                        "w": "60.0",
-                        "h": "60.0"
-                    },
-                    "class": "simple chemical",
-                    "label": "glucose 6P",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "",
-                    "ports": []
-                }
+                "id": "glyph1",
+                "bbox": {
+                    "x": 1231.2768042260652,
+                    "y": 673.2683218469676,
+                    "w": "60.0",
+                    "h": "60.0"
+                },
+                "class": "simple chemical",
+                "label": "glucose 6P",
+                "parent": "",
+                "ports": []
             }
         },
         {
             "data": {
-                "sbgn": {
-                    "id": "glyph2",
-                    "bbox": {
-                        "x": 1039.8995038336504,
-                        "y": 730.180116446269,
-                        "w": "60.0",
-                        "h": "60.0"
-                    },
-                    "class": "simple chemical",
-                    "label": "fructose 6P",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "",
-                    "ports": []
-                }
+                "id": "glyph2",
+                "bbox": {
+                    "x": 1039.8995038336504,
+                    "y": 730.180116446269,
+                    "w": "60.0",
+                    "h": "60.0"
+                },
+                "class": "simple chemical",
+                "label": "fructose 6P",
+                "parent": "",
+                "ports": []
             }
         },
         {
             "data": {
-                "sbgn": {
-                    "id": "glyph15",
-                    "bbox": {
-                        "x": 569.5498472077387,
-                        "y": 506.89980858075364,
-                        "w": "120.0",
-                        "h": "60.0"
-                    },
-                    "class": "macromolecule",
-                    "label": "triose-P isomerase",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "",
-                    "ports": []
-                }
+                "id": "glyph15",
+                "bbox": {
+                    "x": 569.5498472077387,
+                    "y": 506.89980858075364,
+                    "w": "120.0",
+                    "h": "60.0"
+                },
+                "class": "macromolecule",
+                "label": "triose-P isomerase",
+                "parent": "",
+                "ports": []
             }
         },
         {
             "data": {
-                "sbgn": {
-                    "id": "glyph3",
-                    "bbox": {
-                        "x": 903.0347368937041,
-                        "y": 654.3308627056822,
-                        "w": "60.0",
-                        "h": "60.0"
-                    },
-                    "class": "simple chemical",
-                    "label": "fructose 1,6P",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "",
-                    "ports": []
-                }
+                "id": "glyph3",
+                "bbox": {
+                    "x": 903.0347368937041,
+                    "y": 654.3308627056822,
+                    "w": "60.0",
+                    "h": "60.0"
+                },
+                "class": "simple chemical",
+                "label": "fructose 1,6P",
+                "parent": "",
+                "ports": []
             }
         },
         {
             "data": {
-                "sbgn": {
-                    "id": "glyph17",
-                    "bbox": {
-                        "x": 1195.6310733031135,
-                        "y": 820.9504141631944,
-                        "w": "120.0",
-                        "h": "60.0"
-                    },
-                    "class": "macromolecule",
-                    "label": "glucose-6P isomerase",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "",
-                    "ports": []
-                }
+                "id": "glyph17",
+                "bbox": {
+                    "x": 1195.6310733031135,
+                    "y": 820.9504141631944,
+                    "w": "120.0",
+                    "h": "60.0"
+                },
+                "class": "macromolecule",
+                "label": "glucose-6P isomerase",
+                "parent": "",
+                "ports": []
             }
         },
         {
             "data": {
-                "sbgn": {
-                    "id": "glyph10",
-                    "bbox": {
-                        "x": 1141.2404374322139,
-                        "y": 732.3190922346248,
-                        "w": "20.0",
-                        "h": "20.0"
-                    },
-                    "class": "process",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "",
-                    "ports": []
-                }
+                "id": "glyph10",
+                "bbox": {
+                    "x": 1141.2404374322139,
+                    "y": 732.3190922346248,
+                    "w": "20.0",
+                    "h": "20.0"
+                },
+                "class": "process",
+                "parent": "",
+                "ports": []
             }
         },
         {
             "data": {
-                "sbgn": {
-                    "id": "glyph19",
-                    "bbox": {
-                        "x": 893.1427762830865,
-                        "y": 856.2695126662625,
-                        "w": "120.0",
-                        "h": "60.0"
-                    },
-                    "class": "macromolecule",
-                    "label": "phospho fructokinase",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "",
-                    "ports": []
-                }
+                "id": "glyph19",
+                "bbox": {
+                    "x": 893.1427762830865,
+                    "y": 856.2695126662625,
+                    "w": "120.0",
+                    "h": "60.0"
+                },
+                "class": "macromolecule",
+                "label": "phospho fructokinase",
+                "parent": "",
+                "ports": []
             }
         },
         {
             "data": {
-                "sbgn": {
-                    "id": "glyph11",
-                    "bbox": {
-                        "x": 939.3335184518824,
-                        "y": 758.3699048922733,
-                        "w": "20.0",
-                        "h": "20.0"
-                    },
-                    "class": "process",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "",
-                    "ports": []
-                }
+                "id": "glyph11",
+                "bbox": {
+                    "x": 939.3335184518824,
+                    "y": 758.3699048922733,
+                    "w": "20.0",
+                    "h": "20.0"
+                },
+                "class": "process",
+                "parent": "",
+                "ports": []
             }
         },
         {
             "data": {
-                "sbgn": {
-                    "id": "glyph18",
-                    "bbox": {
-                        "x": 770.4114528170364,
-                        "y": 659.2220219290564,
-                        "w": "120.0",
-                        "h": "60.0"
-                    },
-                    "class": "macromolecule",
-                    "label": "adolase",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "",
-                    "ports": []
-                }
+                "id": "glyph18",
+                "bbox": {
+                    "x": 770.4114528170364,
+                    "y": 659.2220219290564,
+                    "w": "120.0",
+                    "h": "60.0"
+                },
+                "class": "macromolecule",
+                "label": "adolase",
+                "parent": "",
+                "ports": []
             }
         },
         {
             "data": {
-                "sbgn": {
-                    "id": "glyph16",
-                    "bbox": {
-                        "x": 818.0111009023315,
-                        "y": 564.8072603606723,
-                        "w": "20.0",
-                        "h": "20.0"
-                    },
-                    "class": "process",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "",
-                    "ports": []
-                }
+                "id": "glyph16",
+                "bbox": {
+                    "x": 818.0111009023315,
+                    "y": 564.8072603606723,
+                    "w": "20.0",
+                    "h": "20.0"
+                },
+                "class": "process",
+                "parent": "",
+                "ports": []
             }
         },
         {
             "data": {
-                "sbgn": {
-                    "id": "glyph22",
-                    "bbox": {
-                        "x": 651.1292498357636,
-                        "y": 314.1387423188818,
-                        "w": "120.0",
-                        "h": "60.0"
-                    },
-                    "class": "macromolecule",
-                    "label": "GAPDH",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "",
-                    "ports": []
-                }
+                "id": "glyph22",
+                "bbox": {
+                    "x": 651.1292498357636,
+                    "y": 314.1387423188818,
+                    "w": "120.0",
+                    "h": "60.0"
+                },
+                "class": "macromolecule",
+                "label": "GAPDH",
+                "parent": "",
+                "ports": []
             }
         },
         {
             "data": {
-                "sbgn": {
-                    "id": "glyph4",
-                    "bbox": {
-                        "x": 792.0076145303351,
-                        "y": 454.0225025614517,
-                        "w": "60.0",
-                        "h": "60.0"
-                    },
-                    "class": "simple chemical",
-                    "label": "GA-3P",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "",
-                    "ports": []
-                }
+                "id": "glyph4",
+                "bbox": {
+                    "x": 792.0076145303351,
+                    "y": 454.0225025614517,
+                    "w": "60.0",
+                    "h": "60.0"
+                },
+                "class": "simple chemical",
+                "label": "GA-3P",
+                "parent": "",
+                "ports": []
             }
         },
         {
             "data": {
-                "sbgn": {
-                    "id": "glyph23",
-                    "bbox": {
-                        "x": 704.0937009722281,
-                        "y": 398.0421081673902,
-                        "w": "60.0",
-                        "h": "60.0"
-                    },
-                    "class": "simple chemical",
-                    "label": "Pi",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "",
-                    "ports": []
-                }
+                "id": "glyph23",
+                "bbox": {
+                    "x": 704.0937009722281,
+                    "y": 398.0421081673902,
+                    "w": "60.0",
+                    "h": "60.0"
+                },
+                "class": "simple chemical",
+                "label": "Pi",
+                "parent": "",
+                "ports": []
             }
         },
         {
             "data": {
-                "sbgn": {
-                    "id": "glyph24",
-                    "bbox": {
-                        "x": 809.2974819306742,
-                        "y": 231.7141323534711,
-                        "w": "60.0",
-                        "h": "60.0"
-                    },
-                    "class": "simple chemical",
-                    "label": "NAD",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "",
-                    "ports": []
-                }
+                "id": "glyph24",
+                "bbox": {
+                    "x": 809.2974819306742,
+                    "y": 231.7141323534711,
+                    "w": "60.0",
+                    "h": "60.0"
+                },
+                "class": "simple chemical",
+                "label": "NAD",
+                "parent": "",
+                "ports": []
             }
         },
         {
             "data": {
-                "sbgn": {
-                    "id": "glyph25",
-                    "bbox": {
-                        "x": 890.826951363933,
-                        "y": 299.74915938409947,
-                        "w": "60.0",
-                        "h": "60.0"
-                    },
-                    "class": "simple chemical",
-                    "label": "H+",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "",
-                    "ports": []
-                }
+                "id": "glyph25",
+                "bbox": {
+                    "x": 890.826951363933,
+                    "y": 299.74915938409947,
+                    "w": "60.0",
+                    "h": "60.0"
+                },
+                "class": "simple chemical",
+                "label": "H+",
+                "parent": "",
+                "ports": []
             }
         },
         {
             "data": {
-                "sbgn": {
-                    "id": "glyph20",
-                    "bbox": {
-                        "x": 786.2625869125006,
-                        "y": 331.67766378118495,
-                        "w": "20.0",
-                        "h": "20.0"
-                    },
-                    "class": "process",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "",
-                    "ports": []
-                }
+                "id": "glyph20",
+                "bbox": {
+                    "x": 786.2625869125006,
+                    "y": 331.67766378118495,
+                    "w": "20.0",
+                    "h": "20.0"
+                },
+                "class": "process",
+                "parent": "",
+                "ports": []
             }
         },
         {
             "data": {
-                "sbgn": {
-                    "id": "glyph26",
-                    "bbox": {
-                        "x": 879.2981049664311,
-                        "y": 389.27232563593486,
-                        "w": "60.0",
-                        "h": "60.0"
-                    },
-                    "class": "simple chemical",
-                    "label": "NADH",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "",
-                    "ports": []
-                }
+                "id": "glyph26",
+                "bbox": {
+                    "x": 879.2981049664311,
+                    "y": 389.27232563593486,
+                    "w": "60.0",
+                    "h": "60.0"
+                },
+                "class": "simple chemical",
+                "label": "NADH",
+                "parent": "",
+                "ports": []
             }
         },
         {
             "data": {
-                "sbgn": {
-                    "id": "glyph35",
-                    "bbox": {
-                        "x": 627.088268638501,
-                        "y": 40.089848876876886,
-                        "w": "120.0",
-                        "h": "60.0"
-                    },
-                    "class": "macromolecule",
-                    "label": "PGK1",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "",
-                    "ports": []
-                }
+                "id": "glyph35",
+                "bbox": {
+                    "x": 627.088268638501,
+                    "y": 40.089848876876886,
+                    "w": "120.0",
+                    "h": "60.0"
+                },
+                "class": "macromolecule",
+                "label": "PGK1",
+                "parent": "",
+                "ports": []
             }
         },
         {
             "data": {
-                "sbgn": {
-                    "id": "glyph36",
-                    "bbox": {
-                        "x": 329.6761506918384,
-                        "y": 187.20503497360494,
-                        "w": "120.0",
-                        "h": "60.0"
-                    },
-                    "class": "macromolecule",
-                    "label": "PG mutase",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "",
-                    "ports": []
-                }
+                "id": "glyph36",
+                "bbox": {
+                    "x": 329.6761506918384,
+                    "y": 187.20503497360494,
+                    "w": "120.0",
+                    "h": "60.0"
+                },
+                "class": "macromolecule",
+                "label": "PG mutase",
+                "parent": "",
+                "ports": []
             }
         },
         {
             "data": {
-                "sbgn": {
-                    "id": "glyph37",
-                    "bbox": {
-                        "x": 155.12947729633356,
-                        "y": 379.5263531900425,
-                        "w": "120.0",
-                        "h": "60.0"
-                    },
-                    "class": "macromolecule",
-                    "label": "enolase",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "",
-                    "ports": []
-                }
+                "id": "glyph37",
+                "bbox": {
+                    "x": 155.12947729633356,
+                    "y": 379.5263531900425,
+                    "w": "120.0",
+                    "h": "60.0"
+                },
+                "class": "macromolecule",
+                "label": "enolase",
+                "parent": "",
+                "ports": []
             }
         },
         {
             "data": {
-                "sbgn": {
-                    "id": "glyph38",
-                    "bbox": {
-                        "x": 70.13952165372024,
-                        "y": 581.2691021233562,
-                        "w": "120.0",
-                        "h": "60.0"
-                    },
-                    "class": "macromolecule",
-                    "label": "pyruvate kinase",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "",
-                    "ports": []
-                }
+                "id": "glyph38",
+                "bbox": {
+                    "x": 70.13952165372024,
+                    "y": 581.2691021233562,
+                    "w": "120.0",
+                    "h": "60.0"
+                },
+                "class": "macromolecule",
+                "label": "pyruvate kinase",
+                "parent": "",
+                "ports": []
             }
         },
         {
             "data": {
-                "sbgn": {
-                    "id": "glyph21",
-                    "bbox": {
-                        "x": 713.4639263718316,
-                        "y": 229.06355211274115,
-                        "w": "60.0",
-                        "h": "60.0"
-                    },
-                    "class": "simple chemical",
-                    "label": "1,3 BPG",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "",
-                    "ports": []
-                }
+                "id": "glyph21",
+                "bbox": {
+                    "x": 713.4639263718316,
+                    "y": 229.06355211274115,
+                    "w": "60.0",
+                    "h": "60.0"
+                },
+                "class": "simple chemical",
+                "label": "1,3 BPG",
+                "parent": "",
+                "ports": []
             }
         },
         {
             "data": {
-                "sbgn": {
-                    "id": "glyph42",
-                    "bbox": {
-                        "x": 523.848994074475,
-                        "y": 108.47701882803744,
-                        "w": "60.0",
-                        "h": "60.0"
-                    },
-                    "class": "simple chemical",
-                    "label": "ADP",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "",
-                    "clonemarker": true,
-                    "ports": []
-                }
+                "id": "glyph42",
+                "bbox": {
+                    "x": 523.848994074475,
+                    "y": 108.47701882803744,
+                    "w": "60.0",
+                    "h": "60.0"
+                },
+                "class": "simple chemical",
+                "label": "ADP",
+                "parent": "",
+                "clonemarker": true,
+                "ports": []
             }
         },
         {
             "data": {
-                "sbgn": {
-                    "id": "glyph41",
-                    "bbox": {
-                        "x": 718.966532806447,
-                        "y": 116.46683749236911,
-                        "w": "60.0",
-                        "h": "60.0"
-                    },
-                    "class": "simple chemical",
-                    "label": "ATP",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "",
-                    "clonemarker": true,
-                    "ports": []
-                }
+                "id": "glyph41",
+                "bbox": {
+                    "x": 718.966532806447,
+                    "y": 116.46683749236911,
+                    "w": "60.0",
+                    "h": "60.0"
+                },
+                "class": "simple chemical",
+                "label": "ATP",
+                "parent": "",
+                "clonemarker": true,
+                "ports": []
             }
         },
         {
             "data": {
-                "sbgn": {
-                    "id": "glyph31",
-                    "bbox": {
-                        "x": 621.3138039842713,
-                        "y": 145.7168752444793,
-                        "w": "20.0",
-                        "h": "20.0"
-                    },
-                    "class": "process",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "",
-                    "ports": []
-                }
+                "id": "glyph31",
+                "bbox": {
+                    "x": 621.3138039842713,
+                    "y": 145.7168752444793,
+                    "w": "20.0",
+                    "h": "20.0"
+                },
+                "class": "process",
+                "parent": "",
+                "ports": []
             }
         },
         {
             "data": {
-                "sbgn": {
-                    "id": "glyph27",
-                    "bbox": {
-                        "x": 525.2099120385327,
-                        "y": 210.92542274858295,
-                        "w": "60.0",
-                        "h": "60.0"
-                    },
-                    "class": "simple chemical",
-                    "label": "3 PG",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "",
-                    "ports": []
-                }
+                "id": "glyph27",
+                "bbox": {
+                    "x": 525.2099120385327,
+                    "y": 210.92542274858295,
+                    "w": "60.0",
+                    "h": "60.0"
+                },
+                "class": "simple chemical",
+                "label": "3 PG",
+                "parent": "",
+                "ports": []
             }
         },
         {
             "data": {
-                "sbgn": {
-                    "id": "glyph32",
-                    "bbox": {
-                        "x": 426.3492127437995,
-                        "y": 257.85665030680025,
-                        "w": "20.0",
-                        "h": "20.0"
-                    },
-                    "class": "process",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "",
-                    "ports": []
-                }
+                "id": "glyph32",
+                "bbox": {
+                    "x": 426.3492127437995,
+                    "y": 257.85665030680025,
+                    "w": "20.0",
+                    "h": "20.0"
+                },
+                "class": "process",
+                "parent": "",
+                "ports": []
             }
         },
         {
             "data": {
-                "sbgn": {
-                    "id": "glyph28",
-                    "bbox": {
-                        "x": 346.30926488002945,
-                        "y": 344.4562152937847,
-                        "w": "60.0",
-                        "h": "60.0"
-                    },
-                    "class": "simple chemical",
-                    "label": "2 PG",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "",
-                    "ports": []
-                }
+                "id": "glyph28",
+                "bbox": {
+                    "x": 346.30926488002945,
+                    "y": 344.4562152937847,
+                    "w": "60.0",
+                    "h": "60.0"
+                },
+                "class": "simple chemical",
+                "label": "2 PG",
+                "parent": "",
+                "ports": []
             }
         },
         {
             "data": {
-                "sbgn": {
-                    "id": "glyph43",
-                    "bbox": {
-                        "x": 363.54724181648487,
-                        "y": 486.5705174517715,
-                        "w": "60.0",
-                        "h": "60.0"
-                    },
-                    "class": "simple chemical",
-                    "label": "H2O",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "",
-                    "ports": []
-                }
+                "id": "glyph43",
+                "bbox": {
+                    "x": 363.54724181648487,
+                    "y": 486.5705174517715,
+                    "w": "60.0",
+                    "h": "60.0"
+                },
+                "class": "simple chemical",
+                "label": "H2O",
+                "parent": "",
+                "ports": []
             }
         },
         {
             "data": {
-                "sbgn": {
-                    "id": "glyph33",
-                    "bbox": {
-                        "x": 276.2797233955059,
-                        "y": 435.0423711483709,
-                        "w": "20.0",
-                        "h": "20.0"
-                    },
-                    "class": "process",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "",
-                    "ports": []
-                }
+                "id": "glyph33",
+                "bbox": {
+                    "x": 276.2797233955059,
+                    "y": 435.0423711483709,
+                    "w": "20.0",
+                    "h": "20.0"
+                },
+                "class": "process",
+                "parent": "",
+                "ports": []
             }
         },
         {
             "data": {
-                "sbgn": {
-                    "id": "glyph29",
-                    "bbox": {
-                        "x": 227.86139816113416,
-                        "y": 531.824141876398,
-                        "w": "60.0",
-                        "h": "60.0"
-                    },
-                    "class": "simple chemical",
-                    "label": "PEP",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "",
-                    "ports": []
-                }
+                "id": "glyph29",
+                "bbox": {
+                    "x": 227.86139816113416,
+                    "y": 531.824141876398,
+                    "w": "60.0",
+                    "h": "60.0"
+                },
+                "class": "simple chemical",
+                "label": "PEP",
+                "parent": "",
+                "ports": []
             }
         },
         {
             "data": {
-                "sbgn": {
-                    "id": "glyph39",
-                    "bbox": {
-                        "x": 104.77693104995387,
-                        "y": 691.8382969303054,
-                        "w": "60.0",
-                        "h": "60.0"
-                    },
-                    "class": "simple chemical",
-                    "label": "ADP",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "",
-                    "clonemarker": true,
-                    "ports": []
-                }
+                "id": "glyph39",
+                "bbox": {
+                    "x": 104.77693104995387,
+                    "y": 691.8382969303054,
+                    "w": "60.0",
+                    "h": "60.0"
+                },
+                "class": "simple chemical",
+                "label": "ADP",
+                "parent": "",
+                "clonemarker": true,
+                "ports": []
             }
         },
         {
             "data": {
-                "sbgn": {
-                    "id": "glyph40",
-                    "bbox": {
-                        "x": 292.039416141131,
-                        "y": 643.4009391289965,
-                        "w": "60.0",
-                        "h": "60.0"
-                    },
-                    "class": "simple chemical",
-                    "label": "ATP",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "",
-                    "clonemarker": true,
-                    "ports": []
-                }
+                "id": "glyph40",
+                "bbox": {
+                    "x": 292.039416141131,
+                    "y": 643.4009391289965,
+                    "w": "60.0",
+                    "h": "60.0"
+                },
+                "class": "simple chemical",
+                "label": "ATP",
+                "parent": "",
+                "clonemarker": true,
+                "ports": []
             }
         },
         {
             "data": {
-                "sbgn": {
-                    "id": "glyph34",
-                    "bbox": {
-                        "x": 193.8304385062596,
-                        "y": 632.9540034207419,
-                        "w": "20.0",
-                        "h": "20.0"
-                    },
-                    "class": "process",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "",
-                    "ports": []
-                }
+                "id": "glyph34",
+                "bbox": {
+                    "x": 193.8304385062596,
+                    "y": 632.9540034207419,
+                    "w": "20.0",
+                    "h": "20.0"
+                },
+                "class": "process",
+                "parent": "",
+                "ports": []
             }
         },
         {
             "data": {
-                "sbgn": {
-                    "id": "glyph30",
-                    "bbox": {
-                        "x": 205.4745704273754,
-                        "y": 733.5181650652648,
-                        "w": "60.0",
-                        "h": "60.0"
-                    },
-                    "class": "simple chemical",
-                    "label": "pyruvate",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "",
-                    "ports": []
-                }
+                "id": "glyph30",
+                "bbox": {
+                    "x": 205.4745704273754,
+                    "y": 733.5181650652648,
+                    "w": "60.0",
+                    "h": "60.0"
+                },
+                "class": "simple chemical",
+                "label": "pyruvate",
+                "parent": "",
+                "ports": []
             }
         },
         {
             "data": {
-                "sbgn": {
-                    "id": "glyph14",
-                    "bbox": {
-                        "x": 695.1248473196924,
-                        "y": 482.8828321494848,
-                        "w": "20.0",
-                        "h": "20.0"
-                    },
-                    "class": "process",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "",
-                    "ports": []
-                }
+                "id": "glyph14",
+                "bbox": {
+                    "x": 695.1248473196924,
+                    "y": 482.8828321494848,
+                    "w": "20.0",
+                    "h": "20.0"
+                },
+                "class": "process",
+                "parent": "",
+                "ports": []
             }
         },
         {
             "data": {
-                "sbgn": {
-                    "id": "glyph5",
-                    "bbox": {
-                        "x": 721.6687687330186,
-                        "y": 570.3868893775194,
-                        "w": "60.0",
-                        "h": "60.0"
-                    },
-                    "class": "simple chemical",
-                    "label": "DHA-P",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "",
-                    "ports": []
-                }
+                "id": "glyph5",
+                "bbox": {
+                    "x": 721.6687687330186,
+                    "y": 570.3868893775194,
+                    "w": "60.0",
+                    "h": "60.0"
+                },
+                "class": "simple chemical",
+                "label": "DHA-P",
+                "parent": "",
+                "ports": []
             }
         }
     ],
@@ -843,8 +667,8 @@
                 "cardinality": 0,
                 "source": "glyph9",
                 "target": "glyph8",
-                "portsource": "glyph9",
-                "porttarget": "glyph8"
+                "portSource": "glyph9",
+                "portTarget": "glyph8"
             }
         },
         {
@@ -854,8 +678,8 @@
                 "cardinality": 0,
                 "source": "glyph0",
                 "target": "glyph8",
-                "portsource": "glyph0",
-                "porttarget": "glyph8"
+                "portSource": "glyph0",
+                "portTarget": "glyph8"
             }
         },
         {
@@ -865,8 +689,8 @@
                 "cardinality": 0,
                 "source": "glyph8",
                 "target": "glyph1",
-                "portsource": "glyph8",
-                "porttarget": "glyph1"
+                "portSource": "glyph8",
+                "portTarget": "glyph1"
             }
         },
         {
@@ -876,8 +700,8 @@
                 "cardinality": 0,
                 "source": "glyph6",
                 "target": "glyph8",
-                "portsource": "glyph6",
-                "porttarget": "glyph8"
+                "portSource": "glyph6",
+                "portTarget": "glyph8"
             }
         },
         {
@@ -887,8 +711,8 @@
                 "cardinality": 0,
                 "source": "glyph8",
                 "target": "glyph7",
-                "portsource": "glyph8",
-                "porttarget": "glyph7"
+                "portSource": "glyph8",
+                "portTarget": "glyph7"
             }
         },
         {
@@ -898,8 +722,8 @@
                 "cardinality": 0,
                 "source": "glyph11",
                 "target": "glyph12",
-                "portsource": "glyph11",
-                "porttarget": "glyph12"
+                "portSource": "glyph11",
+                "portTarget": "glyph12"
             }
         },
         {
@@ -909,8 +733,8 @@
                 "cardinality": 0,
                 "source": "glyph13",
                 "target": "glyph11",
-                "portsource": "glyph13",
-                "porttarget": "glyph11"
+                "portSource": "glyph13",
+                "portTarget": "glyph11"
             }
         },
         {
@@ -920,8 +744,8 @@
                 "cardinality": 0,
                 "source": "glyph1",
                 "target": "glyph10",
-                "portsource": "glyph1",
-                "porttarget": "glyph10"
+                "portSource": "glyph1",
+                "portTarget": "glyph10"
             }
         },
         {
@@ -931,8 +755,8 @@
                 "cardinality": 0,
                 "source": "glyph10",
                 "target": "glyph2",
-                "portsource": "glyph10",
-                "porttarget": "glyph2"
+                "portSource": "glyph10",
+                "portTarget": "glyph2"
             }
         },
         {
@@ -942,8 +766,8 @@
                 "cardinality": 0,
                 "source": "glyph2",
                 "target": "glyph11",
-                "portsource": "glyph2",
-                "porttarget": "glyph11"
+                "portSource": "glyph2",
+                "portTarget": "glyph11"
             }
         },
         {
@@ -953,8 +777,8 @@
                 "cardinality": 0,
                 "source": "glyph11",
                 "target": "glyph3",
-                "portsource": "glyph11",
-                "porttarget": "glyph3"
+                "portSource": "glyph11",
+                "portTarget": "glyph3"
             }
         },
         {
@@ -964,8 +788,8 @@
                 "cardinality": 0,
                 "source": "glyph14",
                 "target": "glyph4",
-                "portsource": "glyph14",
-                "porttarget": "glyph4"
+                "portSource": "glyph14",
+                "portTarget": "glyph4"
             }
         },
         {
@@ -975,8 +799,8 @@
                 "cardinality": 0,
                 "source": "glyph15",
                 "target": "glyph14",
-                "portsource": "glyph15",
-                "porttarget": "glyph14"
+                "portSource": "glyph15",
+                "portTarget": "glyph14"
             }
         },
         {
@@ -986,8 +810,8 @@
                 "cardinality": 0,
                 "source": "glyph3",
                 "target": "glyph16",
-                "portsource": "glyph3",
-                "porttarget": "glyph16"
+                "portSource": "glyph3",
+                "portTarget": "glyph16"
             }
         },
         {
@@ -997,8 +821,8 @@
                 "cardinality": 0,
                 "source": "glyph16",
                 "target": "glyph5",
-                "portsource": "glyph16",
-                "porttarget": "glyph5"
+                "portSource": "glyph16",
+                "portTarget": "glyph5"
             }
         },
         {
@@ -1008,8 +832,8 @@
                 "cardinality": 0,
                 "source": "glyph16",
                 "target": "glyph4",
-                "portsource": "glyph16",
-                "porttarget": "glyph4"
+                "portSource": "glyph16",
+                "portTarget": "glyph4"
             }
         },
         {
@@ -1019,8 +843,8 @@
                 "cardinality": 0,
                 "source": "glyph17",
                 "target": "glyph10",
-                "portsource": "glyph17",
-                "porttarget": "glyph10"
+                "portSource": "glyph17",
+                "portTarget": "glyph10"
             }
         },
         {
@@ -1030,8 +854,8 @@
                 "cardinality": 0,
                 "source": "glyph19",
                 "target": "glyph11",
-                "portsource": "glyph19",
-                "porttarget": "glyph11"
+                "portSource": "glyph19",
+                "portTarget": "glyph11"
             }
         },
         {
@@ -1041,8 +865,8 @@
                 "cardinality": 0,
                 "source": "glyph18",
                 "target": "glyph16",
-                "portsource": "glyph18",
-                "porttarget": "glyph16"
+                "portSource": "glyph18",
+                "portTarget": "glyph16"
             }
         },
         {
@@ -1052,8 +876,8 @@
                 "cardinality": 0,
                 "source": "glyph22",
                 "target": "glyph20",
-                "portsource": "glyph22",
-                "porttarget": "glyph20"
+                "portSource": "glyph22",
+                "portTarget": "glyph20"
             }
         },
         {
@@ -1063,8 +887,8 @@
                 "cardinality": 0,
                 "source": "glyph4",
                 "target": "glyph20",
-                "portsource": "glyph4",
-                "porttarget": "glyph20"
+                "portSource": "glyph4",
+                "portTarget": "glyph20"
             }
         },
         {
@@ -1074,8 +898,8 @@
                 "cardinality": 0,
                 "source": "glyph20",
                 "target": "glyph21",
-                "portsource": "glyph20",
-                "porttarget": "glyph21"
+                "portSource": "glyph20",
+                "portTarget": "glyph21"
             }
         },
         {
@@ -1085,8 +909,8 @@
                 "cardinality": 0,
                 "source": "glyph23",
                 "target": "glyph20",
-                "portsource": "glyph23",
-                "porttarget": "glyph20"
+                "portSource": "glyph23",
+                "portTarget": "glyph20"
             }
         },
         {
@@ -1096,8 +920,8 @@
                 "cardinality": 0,
                 "source": "glyph24",
                 "target": "glyph20",
-                "portsource": "glyph24",
-                "porttarget": "glyph20"
+                "portSource": "glyph24",
+                "portTarget": "glyph20"
             }
         },
         {
@@ -1107,8 +931,8 @@
                 "cardinality": 0,
                 "source": "glyph20",
                 "target": "glyph25",
-                "portsource": "glyph20",
-                "porttarget": "glyph25"
+                "portSource": "glyph20",
+                "portTarget": "glyph25"
             }
         },
         {
@@ -1118,8 +942,8 @@
                 "cardinality": 0,
                 "source": "glyph20",
                 "target": "glyph26",
-                "portsource": "glyph20",
-                "porttarget": "glyph26"
+                "portSource": "glyph20",
+                "portTarget": "glyph26"
             }
         },
         {
@@ -1129,8 +953,8 @@
                 "cardinality": 0,
                 "source": "glyph35",
                 "target": "glyph31",
-                "portsource": "glyph35",
-                "porttarget": "glyph31"
+                "portSource": "glyph35",
+                "portTarget": "glyph31"
             }
         },
         {
@@ -1140,8 +964,8 @@
                 "cardinality": 0,
                 "source": "glyph36",
                 "target": "glyph32",
-                "portsource": "glyph36",
-                "porttarget": "glyph32"
+                "portSource": "glyph36",
+                "portTarget": "glyph32"
             }
         },
         {
@@ -1151,8 +975,8 @@
                 "cardinality": 0,
                 "source": "glyph37",
                 "target": "glyph33",
-                "portsource": "glyph37",
-                "porttarget": "glyph33"
+                "portSource": "glyph37",
+                "portTarget": "glyph33"
             }
         },
         {
@@ -1162,8 +986,8 @@
                 "cardinality": 0,
                 "source": "glyph38",
                 "target": "glyph34",
-                "portsource": "glyph38",
-                "porttarget": "glyph34"
+                "portSource": "glyph38",
+                "portTarget": "glyph34"
             }
         },
         {
@@ -1173,8 +997,8 @@
                 "cardinality": 0,
                 "source": "glyph21",
                 "target": "glyph31",
-                "portsource": "glyph21",
-                "porttarget": "glyph31"
+                "portSource": "glyph21",
+                "portTarget": "glyph31"
             }
         },
         {
@@ -1184,8 +1008,8 @@
                 "cardinality": 0,
                 "source": "glyph42",
                 "target": "glyph31",
-                "portsource": "glyph42",
-                "porttarget": "glyph31"
+                "portSource": "glyph42",
+                "portTarget": "glyph31"
             }
         },
         {
@@ -1195,8 +1019,8 @@
                 "cardinality": 0,
                 "source": "glyph31",
                 "target": "glyph41",
-                "portsource": "glyph31",
-                "porttarget": "glyph41"
+                "portSource": "glyph31",
+                "portTarget": "glyph41"
             }
         },
         {
@@ -1206,8 +1030,8 @@
                 "cardinality": 0,
                 "source": "glyph31",
                 "target": "glyph27",
-                "portsource": "glyph31",
-                "porttarget": "glyph27"
+                "portSource": "glyph31",
+                "portTarget": "glyph27"
             }
         },
         {
@@ -1217,8 +1041,8 @@
                 "cardinality": 0,
                 "source": "glyph27",
                 "target": "glyph32",
-                "portsource": "glyph27",
-                "porttarget": "glyph32"
+                "portSource": "glyph27",
+                "portTarget": "glyph32"
             }
         },
         {
@@ -1228,8 +1052,8 @@
                 "cardinality": 0,
                 "source": "glyph32",
                 "target": "glyph28",
-                "portsource": "glyph32",
-                "porttarget": "glyph28"
+                "portSource": "glyph32",
+                "portTarget": "glyph28"
             }
         },
         {
@@ -1239,8 +1063,8 @@
                 "cardinality": 0,
                 "source": "glyph28",
                 "target": "glyph33",
-                "portsource": "glyph28",
-                "porttarget": "glyph33"
+                "portSource": "glyph28",
+                "portTarget": "glyph33"
             }
         },
         {
@@ -1250,8 +1074,8 @@
                 "cardinality": 0,
                 "source": "glyph33",
                 "target": "glyph43",
-                "portsource": "glyph33",
-                "porttarget": "glyph43"
+                "portSource": "glyph33",
+                "portTarget": "glyph43"
             }
         },
         {
@@ -1261,8 +1085,8 @@
                 "cardinality": 0,
                 "source": "glyph33",
                 "target": "glyph29",
-                "portsource": "glyph33",
-                "porttarget": "glyph29"
+                "portSource": "glyph33",
+                "portTarget": "glyph29"
             }
         },
         {
@@ -1272,8 +1096,8 @@
                 "cardinality": 0,
                 "source": "glyph29",
                 "target": "glyph34",
-                "portsource": "glyph29",
-                "porttarget": "glyph34"
+                "portSource": "glyph29",
+                "portTarget": "glyph34"
             }
         },
         {
@@ -1283,8 +1107,8 @@
                 "cardinality": 0,
                 "source": "glyph39",
                 "target": "glyph34",
-                "portsource": "glyph39",
-                "porttarget": "glyph34"
+                "portSource": "glyph39",
+                "portTarget": "glyph34"
             }
         },
         {
@@ -1294,8 +1118,8 @@
                 "cardinality": 0,
                 "source": "glyph34",
                 "target": "glyph40",
-                "portsource": "glyph34",
-                "porttarget": "glyph40"
+                "portSource": "glyph34",
+                "portTarget": "glyph40"
             }
         },
         {
@@ -1305,8 +1129,8 @@
                 "cardinality": 0,
                 "source": "glyph34",
                 "target": "glyph30",
-                "portsource": "glyph34",
-                "porttarget": "glyph30"
+                "portSource": "glyph34",
+                "portTarget": "glyph30"
             }
         },
         {
@@ -1316,8 +1140,8 @@
                 "cardinality": 0,
                 "source": "glyph14",
                 "target": "glyph5",
-                "portsource": "glyph14",
-                "porttarget": "glyph5"
+                "portSource": "glyph14",
+                "portTarget": "glyph5"
             }
         }
     ]
