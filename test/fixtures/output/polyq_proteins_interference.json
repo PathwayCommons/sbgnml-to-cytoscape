@@ -1,1309 +1,1192 @@
 {
-    "nodes": [
-        {
-            "data": {
-                "sbgn": {
-                    "id": "glyph0",
-                    "bbox": {
-                        "x": 644.4815409962032,
-                        "y": 95.85406258387309,
-                        "w": "450.0",
-                        "h": "260.0"
-                    },
-                    "class": "compartment",
-                    "label": "juxtanuclear inclusion",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "",
-                    "ports": []
-                }
-            }
-        },
-        {
-            "data": {
-                "sbgn": {
-                    "id": "glyph35",
-                    "bbox": {
-                        "x": 644.4815409962032,
-                        "y": 95.85406258387309,
-                        "w": "170.0",
-                        "h": "160.0"
-                    },
-                    "class": "complex",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "glyph0",
-                    "ports": []
-                }
-            }
-        },
-        {
-            "data": {
-                "sbgn": {
-                    "id": "glyph37",
-                    "bbox": {
-                        "x": 624.4815409962032,
-                        "y": 130.8540625838731,
-                        "w": "80.0",
-                        "h": "60.0"
-                    },
-                    "class": "macromolecule",
-                    "label": "Hsp70",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "glyph35",
-                    "ports": []
-                }
-            }
-        },
-        {
-            "data": {
-                "sbgn": {
-                    "id": "glyph36",
-                    "bbox": {
-                        "x": 644.4815409962032,
-                        "y": 60.85406258387309,
-                        "w": "120.0",
-                        "h": "60.0"
-                    },
-                    "class": "macromolecule",
-                    "label": "misfolded protein",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "glyph35",
-                    "ports": []
-                }
-            }
-        },
-        {
-            "data": {
-                "sbgn": {
-                    "id": "glyph1",
-                    "bbox": {
-                        "x": 1416.5900783521877,
-                        "y": 1056.3003997694327,
-                        "w": "100.0",
-                        "h": "29.0"
-                    },
-                    "class": "compartment",
-                    "label": "nucleus",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "",
-                    "ports": []
-                }
-            }
-        },
-        {
-            "data": {
-                "sbgn": {
-                    "id": "glyph22",
-                    "bbox": {
-                        "x": 1564.4261045164549,
-                        "y": 1263.6675557219492,
-                        "w": "60.0",
-                        "h": "60.0"
-                    },
-                    "class": "source and sink",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "glyph1",
-                    "ports": []
-                }
-            }
-        },
-        {
-            "data": {
-                "sbgn": {
-                    "id": "glyph38",
-                    "bbox": {
-                        "x": 1126.8237146525876,
-                        "y": 1008.752854645043,
-                        "w": "170.0",
-                        "h": "240.0"
-                    },
-                    "class": "complex",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "glyph1",
-                    "ports": []
-                }
-            }
-        },
-        {
-            "data": {
-                "sbgn": {
-                    "id": "glyph45",
-                    "bbox": {
-                        "x": 1185.8237146525876,
-                        "y": 1043.752854645043,
-                        "w": "80.0",
-                        "h": "60.0"
-                    },
-                    "class": "macromolecule",
-                    "label": "Hsp70",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "glyph38",
-                    "ports": []
-                }
-            }
-        },
-        {
-            "data": {
-                "sbgn": {
-                    "id": "glyph43",
-                    "bbox": {
-                        "x": 1087.8237146525876,
-                        "y": 973.752854645043,
-                        "w": "120.0",
-                        "h": "60.0"
-                    },
-                    "class": "macromolecule",
-                    "label": "misfolded protein",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "glyph38",
-                    "ports": []
-                }
-            }
-        },
-        {
-            "data": {
-                "sbgn": {
-                    "id": "glyph41",
-                    "bbox": {
-                        "x": 1081.8237146525876,
-                        "y": 1043.752854645043,
-                        "w": "108.0",
-                        "h": "60.0"
-                    },
-                    "class": "macromolecule multimer",
-                    "label": "Sis1",
-                    "unitsOfInformation": [
-                        {
-                            "id": "glyph41a",
-                            "class": "unit of information",
-                            "label": {
-                                "text": "N:2"
-                            },
-                            "bbox": {
-                                "x": -25,
-                                "y": -50,
-                                "w": "31.0",
-                                "h": "16.0"
-                            }
-                        }
-                    ],
-                    "stateVariables": [],
-                    "parent": "glyph38",
-                    "ports": []
-                }
-            }
-        },
-        {
-            "data": {
-                "sbgn": {
-                    "id": "glyph32",
-                    "bbox": {
-                        "x": 1337.336717575727,
-                        "y": 1027.3654700857098,
-                        "w": "24.0",
-                        "h": "24.0"
-                    },
-                    "class": "dissociation",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "glyph1",
-                    "ports": []
-                }
-            }
-        },
-        {
-            "data": {
-                "sbgn": {
-                    "id": "glyph42",
-                    "bbox": {
-                        "x": 1433.1233231176784,
-                        "y": 1110.3229051649325,
-                        "w": "120.0",
-                        "h": "60.0"
-                    },
-                    "class": "macromolecule",
-                    "label": "misfolded protein",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "glyph1",
-                    "ports": []
-                }
-            }
-        },
-        {
-            "data": {
-                "sbgn": {
-                    "id": "glyph25",
-                    "bbox": {
-                        "x": 1563.9214369297797,
-                        "y": 1164.9372136910258,
-                        "w": "25.0",
-                        "h": "25.0"
-                    },
-                    "class": "process",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "glyph1",
-                    "ports": []
-                }
-            }
-        },
-        {
-            "data": {
-                "sbgn": {
-                    "id": "glyph46",
-                    "bbox": {
-                        "x": 1333.4113072912696,
-                        "y": 926.1233479859889,
-                        "w": "80.0",
-                        "h": "60.0"
-                    },
-                    "class": "macromolecule",
-                    "label": "Hsp70",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "glyph1",
-                    "ports": []
-                }
-            }
-        },
-        {
-            "data": {
-                "sbgn": {
-                    "id": "glyph27",
-                    "bbox": {
-                        "x": 1361.0285519263516,
-                        "y": 831.4332438169165,
-                        "w": "25.0",
-                        "h": "25.0"
-                    },
-                    "class": "process",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "glyph1",
-                    "ports": []
-                }
-            }
-        },
-        {
-            "data": {
-                "sbgn": {
-                    "id": "glyph40",
-                    "bbox": {
-                        "x": 1462.7595315678577,
-                        "y": 998.2347698692331,
-                        "w": "108.0",
-                        "h": "60.0"
-                    },
-                    "class": "macromolecule multimer",
-                    "label": "Sis1",
-                    "unitsOfInformation": [
-                        {
-                            "id": "glyph40a",
-                            "class": "unit of information",
-                            "label": {
-                                "text": "N:2"
-                            },
-                            "bbox": {
-                                "x": -25,
-                                "y": -50,
-                                "w": "31.0",
-                                "h": "16.0"
-                            }
-                        }
-                    ],
-                    "stateVariables": [],
-                    "parent": "glyph1",
-                    "ports": []
-                }
-            }
-        },
-        {
-            "data": {
-                "sbgn": {
-                    "id": "glyph28",
-                    "bbox": {
-                        "x": 1545.5011343346196,
-                        "y": 917.4321263909592,
-                        "w": "25.0",
-                        "h": "25.0"
-                    },
-                    "class": "process",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "glyph1",
-                    "ports": []
-                }
-            }
-        },
-        {
-            "data": {
-                "sbgn": {
-                    "id": "glyph15",
-                    "bbox": {
-                        "x": 1772.1064420517878,
-                        "y": 1238.4825742368978,
-                        "w": "108.0",
-                        "h": "60.0"
-                    },
-                    "class": "macromolecule",
-                    "label": "E3(San1)",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "glyph1",
-                    "ports": []
-                }
-            }
-        },
-        {
-            "data": {
-                "sbgn": {
-                    "id": "glyph6",
-                    "bbox": {
-                        "x": 1748.14126523628,
-                        "y": 1110.298511842914,
-                        "w": "150.0",
-                        "h": "20.0"
-                    },
-                    "class": "complex",
-                    "label": "nuclear proteasome",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "glyph1",
-                    "ports": []
-                }
-            }
-        },
-        {
-            "data": {
-                "sbgn": {
-                    "id": "glyph23",
-                    "bbox": {
-                        "x": 1659.0417715223766,
-                        "y": 1162.8506394326487,
-                        "w": "42.0",
-                        "h": "42.0"
-                    },
-                    "class": "and",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "glyph1",
-                    "ports": []
-                }
-            }
-        },
-        {
-            "data": {
-                "sbgn": {
-                    "id": "glyph18",
-                    "bbox": {
-                        "x": 712.4695713754879,
-                        "y": 393.68276370297156,
-                        "w": "108.0",
-                        "h": "60.0"
-                    },
-                    "class": "macromolecule",
-                    "label": "E3",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "",
-                    "ports": []
-                }
-            }
-        },
-        {
-            "data": {
-                "sbgn": {
-                    "id": "glyph2",
-                    "bbox": {
-                        "x": 74.25648652847747,
-                        "y": 558.2793894437214,
-                        "w": "150.0",
-                        "h": "180.0"
-                    },
-                    "class": "complex",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "",
-                    "ports": []
-                }
-            }
-        },
-        {
-            "data": {
-                "sbgn": {
-                    "id": "glyph16",
-                    "bbox": {
-                        "x": 74.25648652847747,
-                        "y": 523.2793894437214,
-                        "w": "108.0",
-                        "h": "60.0"
-                    },
-                    "class": "macromolecule",
-                    "label": "PolyQ aggregates",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "glyph2",
-                    "ports": []
-                }
-            }
-        },
-        {
-            "data": {
-                "sbgn": {
-                    "id": "glyph9",
-                    "bbox": {
-                        "x": 74.25648652847747,
-                        "y": 593.2793894437214,
-                        "w": "108.0",
-                        "h": "60.0"
-                    },
-                    "class": "macromolecule multimer",
-                    "label": "Sis1",
-                    "unitsOfInformation": [
-                        {
-                            "id": "glyph9a",
-                            "class": "unit of information",
-                            "label": {
-                                "text": "N:2"
-                            },
-                            "bbox": {
-                                "x": -25,
-                                "y": -50,
-                                "w": "31.0",
-                                "h": "16.0"
-                            }
-                        }
-                    ],
-                    "stateVariables": [],
-                    "parent": "glyph2",
-                    "ports": []
-                }
-            }
-        },
-        {
-            "data": {
-                "sbgn": {
-                    "id": "glyph14",
-                    "bbox": {
-                        "x": 749.2296609510565,
-                        "y": 996.6762462210249,
-                        "w": "108.0",
-                        "h": "60.0"
-                    },
-                    "class": "macromolecule",
-                    "label": "importin",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "",
-                    "ports": []
-                }
-            }
-        },
-        {
-            "data": {
-                "sbgn": {
-                    "id": "glyph44",
-                    "bbox": {
-                        "x": 1090.910879834321,
-                        "y": 637.3538764917557,
-                        "w": "80.0",
-                        "h": "60.0"
-                    },
-                    "class": "macromolecule",
-                    "label": "Hsp70",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "",
-                    "ports": []
-                }
-            }
-        },
-        {
-            "data": {
-                "sbgn": {
-                    "id": "glyph39",
-                    "bbox": {
-                        "x": 1473.0642714040578,
-                        "y": 599.119232464463,
-                        "w": "108.0",
-                        "h": "60.0"
-                    },
-                    "class": "macromolecule multimer",
-                    "label": "Sis1",
-                    "unitsOfInformation": [
-                        {
-                            "id": "glyph39a",
-                            "class": "unit of information",
-                            "label": {
-                                "text": "N:2"
-                            },
-                            "bbox": {
-                                "x": -25,
-                                "y": -50,
-                                "w": "31.0",
-                                "h": "16.0"
-                            }
-                        }
-                    ],
-                    "stateVariables": [],
-                    "parent": "",
-                    "clonemarker": true,
-                    "ports": []
-                }
-            }
-        },
-        {
-            "data": {
-                "sbgn": {
-                    "id": "glyph17",
-                    "bbox": {
-                        "x": 249.20395770748246,
-                        "y": 461.76306406362175,
-                        "w": "108.0",
-                        "h": "60.0"
-                    },
-                    "class": "macromolecule",
-                    "label": "PolyQ aggregates",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "",
-                    "ports": []
-                }
-            }
-        },
-        {
-            "data": {
-                "sbgn": {
-                    "id": "glyph33",
-                    "bbox": {
-                        "x": 228.0341008480989,
-                        "y": 558.6798160191246,
-                        "w": "24.0",
-                        "h": "24.0"
-                    },
-                    "class": "association",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "",
-                    "ports": []
-                }
-            }
-        },
-        {
-            "data": {
-                "sbgn": {
-                    "id": "glyph10",
-                    "bbox": {
-                        "x": 342.86792016812046,
-                        "y": 625.7450837001838,
-                        "w": "108.0",
-                        "h": "60.0"
-                    },
-                    "class": "macromolecule multimer",
-                    "label": "Sis1",
-                    "unitsOfInformation": [
-                        {
-                            "id": "glyph10a",
-                            "class": "unit of information",
-                            "label": {
-                                "text": "N:2"
-                            },
-                            "bbox": {
-                                "x": -25,
-                                "y": -50,
-                                "w": "31.0",
-                                "h": "16.0"
-                            }
-                        }
-                    ],
-                    "stateVariables": [],
-                    "parent": "",
-                    "clonemarker": true,
-                    "ports": []
-                }
-            }
-        },
-        {
-            "data": {
-                "sbgn": {
-                    "id": "glyph34",
-                    "bbox": {
-                        "x": 467.85690334689434,
-                        "y": 663.152099263249,
-                        "w": "24.0",
-                        "h": "24.0"
-                    },
-                    "class": "association",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "",
-                    "ports": []
-                }
-            }
-        },
-        {
-            "data": {
-                "sbgn": {
-                    "id": "glyph24",
-                    "bbox": {
-                        "x": 785.1523332787945,
-                        "y": 477.34699356551414,
-                        "w": "40.0",
-                        "h": "40.0"
-                    },
-                    "class": "simple chemical",
-                    "label": "Ub",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "",
-                    "ports": []
-                }
-            }
-        },
-        {
-            "data": {
-                "sbgn": {
-                    "id": "glyph5",
-                    "bbox": {
-                        "x": 822.3549962998766,
-                        "y": 615.1537328656647,
-                        "w": "170.0",
-                        "h": "160.0"
-                    },
-                    "class": "complex",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "",
-                    "ports": []
-                }
-            }
-        },
-        {
-            "data": {
-                "sbgn": {
-                    "id": "glyph13",
-                    "bbox": {
-                        "x": 822.3549962998766,
-                        "y": 580.1537328656647,
-                        "w": "120.0",
-                        "h": "60.0"
-                    },
-                    "class": "macromolecule",
-                    "label": "misfolded protein",
-                    "unitsOfInformation": [],
-                    "stateVariables": [
-                        {
-                            "id": "glyph13a",
-                            "class": "state variable",
-                            "state": {},
-                            "bbox": {
-                                "x": -25,
-                                "y": -50,
-                                "w": "20.0",
-                                "h": "20.0"
-                            }
-                        }
-                    ],
-                    "parent": "glyph5",
-                    "ports": []
-                }
-            }
-        },
-        {
-            "data": {
-                "sbgn": {
-                    "id": "glyph19",
-                    "bbox": {
-                        "x": 802.3549962998766,
-                        "y": 650.1537328656647,
-                        "w": "80.0",
-                        "h": "60.0"
-                    },
-                    "class": "macromolecule",
-                    "label": "Hsp70",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "glyph5",
-                    "ports": []
-                }
-            }
-        },
-        {
-            "data": {
-                "sbgn": {
-                    "id": "glyph29",
-                    "bbox": {
-                        "x": 698.0858680201859,
-                        "y": 493.71355077752946,
-                        "w": "25.0",
-                        "h": "25.0"
-                    },
-                    "class": "process",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "",
-                    "ports": []
-                }
-            }
-        },
-        {
-            "data": {
-                "sbgn": {
-                    "id": "glyph3",
-                    "bbox": {
-                        "x": 584.2421064378857,
-                        "y": 797.3603292857592,
-                        "w": "170.0",
-                        "h": "240.0"
-                    },
-                    "class": "complex",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "",
-                    "ports": []
-                }
-            }
-        },
-        {
-            "data": {
-                "sbgn": {
-                    "id": "glyph21",
-                    "bbox": {
-                        "x": 643.2421064378857,
-                        "y": 832.3603292857592,
-                        "w": "80.0",
-                        "h": "60.0"
-                    },
-                    "class": "macromolecule",
-                    "label": "Hsp70",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "glyph3",
-                    "ports": []
-                }
-            }
-        },
-        {
-            "data": {
-                "sbgn": {
-                    "id": "glyph12",
-                    "bbox": {
-                        "x": 545.2421064378857,
-                        "y": 762.3603292857592,
-                        "w": "120.0",
-                        "h": "60.0"
-                    },
-                    "class": "macromolecule",
-                    "label": "misfolded protein",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "glyph3",
-                    "ports": []
-                }
-            }
-        },
-        {
-            "data": {
-                "sbgn": {
-                    "id": "glyph8",
-                    "bbox": {
-                        "x": 539.2421064378857,
-                        "y": 832.3603292857592,
-                        "w": "108.0",
-                        "h": "60.0"
-                    },
-                    "class": "macromolecule multimer",
-                    "label": "Sis1",
-                    "unitsOfInformation": [
-                        {
-                            "id": "glyph8a",
-                            "class": "unit of information",
-                            "label": {
-                                "text": "N:2"
-                            },
-                            "bbox": {
-                                "x": -25,
-                                "y": -50,
-                                "w": "31.0",
-                                "h": "16.0"
-                            }
-                        }
-                    ],
-                    "stateVariables": [],
-                    "parent": "glyph3",
-                    "ports": []
-                }
-            }
-        },
-        {
-            "data": {
-                "sbgn": {
-                    "id": "glyph26",
-                    "bbox": {
-                        "x": 782.3757872560432,
-                        "y": 902.8385340698869,
-                        "w": "25.0",
-                        "h": "25.0"
-                    },
-                    "class": "process",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "",
-                    "ports": []
-                }
-            }
-        },
-        {
-            "data": {
-                "sbgn": {
-                    "id": "glyph30",
-                    "bbox": {
-                        "x": 558.5033948256105,
-                        "y": 360.0878353788506,
-                        "w": "25.0",
-                        "h": "25.0"
-                    },
-                    "class": "process",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "",
-                    "ports": []
-                }
-            }
-        },
-        {
-            "data": {
-                "sbgn": {
-                    "id": "glyph7",
-                    "bbox": {
-                        "x": 383.7159669693956,
-                        "y": 293.47477021405143,
-                        "w": "143.0",
-                        "h": "18.0"
-                    },
-                    "class": "complex",
-                    "label": "cytosolic proteasome",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "",
-                    "ports": []
-                }
-            }
-        },
-        {
-            "data": {
-                "sbgn": {
-                    "id": "glyph4",
-                    "bbox": {
-                        "x": 536.1158437589588,
-                        "y": 503.67673473060097,
-                        "w": "170.0",
-                        "h": "160.0"
-                    },
-                    "class": "complex",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "",
-                    "ports": []
-                }
-            }
-        },
-        {
-            "data": {
-                "sbgn": {
-                    "id": "glyph11",
-                    "bbox": {
-                        "x": 536.1158437589588,
-                        "y": 468.67673473060097,
-                        "w": "120.0",
-                        "h": "60.0"
-                    },
-                    "class": "macromolecule",
-                    "label": "misfolded protein",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "glyph4",
-                    "ports": []
-                }
-            }
-        },
-        {
-            "data": {
-                "sbgn": {
-                    "id": "glyph20",
-                    "bbox": {
-                        "x": 516.1158437589588,
-                        "y": 538.676734730601,
-                        "w": "80.0",
-                        "h": "60.0"
-                    },
-                    "class": "macromolecule",
-                    "label": "Hsp70",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "glyph4",
-                    "ports": []
-                }
-            }
-        },
-        {
-            "data": {
-                "sbgn": {
-                    "id": "glyph31",
-                    "bbox": {
-                        "x": 429.9073408968045,
-                        "y": 373.17772588435366,
-                        "w": "24.0",
-                        "h": "24.0"
-                    },
-                    "class": "uncertain process",
-                    "unitsOfInformation": [],
-                    "stateVariables": [],
-                    "parent": "",
-                    "ports": []
-                }
-            }
+  "nodes": [
+    {
+      "data": {
+        "id": "glyph31",
+        "class": "uncertain process",
+        "label": "",
+        "parent": "",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 429.9073408968045,
+          "y": 373.17772588435366,
+          "w": 24,
+          "h": 24
         }
-    ],
-    "edges": [
-        {
-            "data": {
-                "class": "production",
-                "bendPointPositions": [],
-                "cardinality": 0,
-                "source": "glyph29",
-                "target": "glyph4",
-                "portsource": "glyph29",
-                "porttarget": "glyph4"
-            }
-        },
-        {
-            "data": {
-                "class": "catalysis",
-                "bendPointPositions": [],
-                "cardinality": 0,
-                "source": "glyph18",
-                "target": "glyph29",
-                "portsource": "glyph18",
-                "porttarget": "glyph29"
-            }
-        },
-        {
-            "data": {
-                "class": "production",
-                "bendPointPositions": [],
-                "cardinality": 0,
-                "source": "glyph34",
-                "target": "glyph3",
-                "portsource": "glyph34",
-                "porttarget": "glyph3"
-            }
-        },
-        {
-            "data": {
-                "class": "production",
-                "bendPointPositions": [],
-                "cardinality": 0,
-                "source": "glyph33",
-                "target": "glyph2",
-                "portsource": "glyph33",
-                "porttarget": "glyph2"
-            }
-        },
-        {
-            "data": {
-                "class": "production",
-                "bendPointPositions": [],
-                "cardinality": 0,
-                "source": "glyph30",
-                "target": "glyph35",
-                "portsource": "glyph30",
-                "porttarget": "glyph35"
-            }
-        },
-        {
-            "data": {
-                "class": "production",
-                "bendPointPositions": [],
-                "cardinality": 0,
-                "source": "glyph26",
-                "target": "glyph38",
-                "portsource": "glyph26",
-                "porttarget": "glyph38"
-            }
-        },
-        {
-            "data": {
-                "class": "stimulation",
-                "bendPointPositions": [],
-                "cardinality": 0,
-                "source": "glyph14",
-                "target": "glyph26",
-                "portsource": "glyph14",
-                "porttarget": "glyph26"
-            }
-        },
-        {
-            "data": {
-                "class": "production",
-                "bendPointPositions": [],
-                "cardinality": 0,
-                "source": "glyph32",
-                "target": "glyph42",
-                "portsource": "glyph32",
-                "porttarget": "glyph42"
-            }
-        },
-        {
-            "data": {
-                "class": "production",
-                "bendPointPositions": [],
-                "cardinality": 0,
-                "source": "glyph32",
-                "target": "glyph46",
-                "portsource": "glyph32",
-                "porttarget": "glyph46"
-            }
-        },
-        {
-            "data": {
-                "class": "production",
-                "bendPointPositions": [],
-                "cardinality": 0,
-                "source": "glyph32",
-                "target": "glyph40",
-                "portsource": "glyph32",
-                "porttarget": "glyph40"
-            }
-        },
-        {
-            "data": {
-                "class": "production",
-                "bendPointPositions": [],
-                "cardinality": 0,
-                "source": "glyph27",
-                "target": "glyph44",
-                "portsource": "glyph27",
-                "porttarget": "glyph44"
-            }
-        },
-        {
-            "data": {
-                "class": "production",
-                "bendPointPositions": [],
-                "cardinality": 0,
-                "source": "glyph28",
-                "target": "glyph39",
-                "portsource": "glyph28",
-                "porttarget": "glyph39"
-            }
-        },
-        {
-            "data": {
-                "class": "production",
-                "bendPointPositions": [],
-                "cardinality": 0,
-                "source": "glyph25",
-                "target": "glyph22",
-                "portsource": "glyph25",
-                "porttarget": "glyph22"
-            }
-        },
-        {
-            "data": {
-                "class": "stimulation",
-                "bendPointPositions": [],
-                "cardinality": 0,
-                "source": "glyph23",
-                "target": "glyph25",
-                "portsource": "glyph23",
-                "porttarget": "glyph25"
-            }
-        },
-        {
-            "data": {
-                "class": "consumption",
-                "bendPointPositions": [],
-                "cardinality": 0,
-                "source": "glyph17",
-                "target": "glyph33",
-                "portsource": "glyph17",
-                "porttarget": "glyph33"
-            }
-        },
-        {
-            "data": {
-                "class": "consumption",
-                "bendPointPositions": [],
-                "cardinality": 0,
-                "source": "glyph10",
-                "target": "glyph33",
-                "portsource": "glyph10",
-                "porttarget": "glyph33"
-            }
-        },
-        {
-            "data": {
-                "class": "consumption",
-                "bendPointPositions": [],
-                "cardinality": 0,
-                "source": "glyph10",
-                "target": "glyph34",
-                "portsource": "glyph10",
-                "porttarget": "glyph34"
-            }
-        },
-        {
-            "data": {
-                "class": "consumption",
-                "bendPointPositions": [],
-                "cardinality": 0,
-                "source": "glyph4",
-                "target": "glyph34",
-                "portsource": "glyph4",
-                "porttarget": "glyph34"
-            }
-        },
-        {
-            "data": {
-                "class": "consumption",
-                "bendPointPositions": [],
-                "cardinality": 0,
-                "source": "glyph24",
-                "target": "glyph29",
-                "portsource": "glyph24",
-                "porttarget": "glyph29"
-            }
-        },
-        {
-            "data": {
-                "class": "consumption",
-                "bendPointPositions": [],
-                "cardinality": 0,
-                "source": "glyph5",
-                "target": "glyph29",
-                "portsource": "glyph5",
-                "porttarget": "glyph29"
-            }
-        },
-        {
-            "data": {
-                "class": "consumption",
-                "bendPointPositions": [],
-                "cardinality": 0,
-                "source": "glyph38",
-                "target": "glyph32",
-                "portsource": "glyph38",
-                "porttarget": "glyph32"
-            }
-        },
-        {
-            "data": {
-                "class": "consumption",
-                "bendPointPositions": [],
-                "cardinality": 0,
-                "source": "glyph42",
-                "target": "glyph25",
-                "portsource": "glyph42",
-                "porttarget": "glyph25"
-            }
-        },
-        {
-            "data": {
-                "class": "consumption",
-                "bendPointPositions": [],
-                "cardinality": 0,
-                "source": "glyph46",
-                "target": "glyph27",
-                "portsource": "glyph46",
-                "porttarget": "glyph27"
-            }
-        },
-        {
-            "data": {
-                "class": "consumption",
-                "bendPointPositions": [],
-                "cardinality": 0,
-                "source": "glyph40",
-                "target": "glyph28",
-                "portsource": "glyph40",
-                "porttarget": "glyph28"
-            }
-        },
-        {
-            "data": {
-                "class": "logic arc",
-                "bendPointPositions": [],
-                "cardinality": 0,
-                "source": "glyph15",
-                "target": "glyph23",
-                "portsource": "glyph15",
-                "porttarget": "glyph23"
-            }
-        },
-        {
-            "data": {
-                "class": "logic arc",
-                "bendPointPositions": [],
-                "cardinality": 0,
-                "source": "glyph6",
-                "target": "glyph23",
-                "portsource": "glyph6",
-                "porttarget": "glyph23"
-            }
-        },
-        {
-            "data": {
-                "class": "consumption",
-                "bendPointPositions": [],
-                "cardinality": 0,
-                "source": "glyph3",
-                "target": "glyph26",
-                "portsource": "glyph3",
-                "porttarget": "glyph26"
-            }
-        },
-        {
-            "data": {
-                "class": "consumption",
-                "bendPointPositions": [],
-                "cardinality": 0,
-                "source": "glyph4",
-                "target": "glyph30",
-                "portsource": "glyph4",
-                "porttarget": "glyph30"
-            }
-        },
-        {
-            "data": {
-                "class": "production",
-                "bendPointPositions": [],
-                "cardinality": 0,
-                "source": "glyph31",
-                "target": "glyph7",
-                "portsource": "glyph31",
-                "porttarget": "glyph7"
-            }
-        },
-        {
-            "data": {
-                "class": "consumption",
-                "bendPointPositions": [],
-                "cardinality": 0,
-                "source": "glyph4",
-                "target": "glyph31",
-                "portsource": "glyph4",
-                "porttarget": "glyph31"
-            }
+      }
+    },
+    {
+      "data": {
+        "id": "glyph4",
+        "class": "complex",
+        "label": "",
+        "parent": "",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 536.1158437589588,
+          "y": 503.67673473060097,
+          "w": 170,
+          "h": 160
         }
-    ]
+      }
+    },
+    {
+      "data": {
+        "id": "glyph20",
+        "class": "macromolecule",
+        "label": "Hsp70",
+        "parent": "glyph4",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 516.1158437589588,
+          "y": 538.676734730601,
+          "w": 80,
+          "h": 60
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "glyph11",
+        "class": "macromolecule",
+        "label": "misfolded protein",
+        "parent": "glyph4",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 536.1158437589588,
+          "y": 468.67673473060097,
+          "w": 120,
+          "h": 60
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "glyph7",
+        "class": "complex",
+        "label": "cytosolic proteasome",
+        "parent": "",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 383.7159669693956,
+          "y": 293.47477021405143,
+          "w": 143,
+          "h": 18
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "glyph30",
+        "class": "process",
+        "label": "",
+        "parent": "",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 558.5033948256105,
+          "y": 360.0878353788506,
+          "w": 25,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "glyph26",
+        "class": "process",
+        "label": "",
+        "parent": "",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 782.3757872560432,
+          "y": 902.8385340698869,
+          "w": 25,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "glyph3",
+        "class": "complex",
+        "label": "",
+        "parent": "",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 584.2421064378857,
+          "y": 797.3603292857592,
+          "w": 170,
+          "h": 240
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "glyph8",
+        "class": "macromolecule multimer",
+        "label": "Sis1",
+        "parent": "glyph3",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [
+          {
+            "id": "glyph8a",
+            "class": "unit of information",
+            "label": {
+              "text": "N:2"
+            }
+          }
+        ],
+        "bbox": {
+          "x": 539.2421064378857,
+          "y": 832.3603292857592,
+          "w": 108,
+          "h": 60
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "glyph12",
+        "class": "macromolecule",
+        "label": "misfolded protein",
+        "parent": "glyph3",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 545.2421064378857,
+          "y": 762.3603292857592,
+          "w": 120,
+          "h": 60
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "glyph21",
+        "class": "macromolecule",
+        "label": "Hsp70",
+        "parent": "glyph3",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 643.2421064378857,
+          "y": 832.3603292857592,
+          "w": 80,
+          "h": 60
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "glyph29",
+        "class": "process",
+        "label": "",
+        "parent": "",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 698.0858680201859,
+          "y": 493.71355077752946,
+          "w": 25,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "glyph5",
+        "class": "complex",
+        "label": "",
+        "parent": "",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 822.3549962998766,
+          "y": 615.1537328656647,
+          "w": 170,
+          "h": 160
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "glyph19",
+        "class": "macromolecule",
+        "label": "Hsp70",
+        "parent": "glyph5",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 802.3549962998766,
+          "y": 650.1537328656647,
+          "w": 80,
+          "h": 60
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "glyph13",
+        "class": "macromolecule",
+        "label": "misfolded protein",
+        "parent": "glyph5",
+        "clonemarker": false,
+        "stateVariables": [
+          {
+            "id": "glyph13a",
+            "class": "state variable",
+            "state": {
+              "variable": "",
+              "value": ""
+            }
+          }
+        ],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 822.3549962998766,
+          "y": 580.1537328656647,
+          "w": 120,
+          "h": 60
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "glyph24",
+        "class": "simple chemical",
+        "label": "Ub",
+        "parent": "",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 785.1523332787945,
+          "y": 477.34699356551414,
+          "w": 40,
+          "h": 40
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "glyph34",
+        "class": "association",
+        "label": "",
+        "parent": "",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 467.85690334689434,
+          "y": 663.152099263249,
+          "w": 24,
+          "h": 24
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "glyph10",
+        "class": "macromolecule multimer",
+        "label": "Sis1",
+        "parent": "",
+        "clonemarker": true,
+        "stateVariables": [],
+        "unitsOfInformation": [
+          {
+            "id": "glyph10a",
+            "class": "unit of information",
+            "label": {
+              "text": "N:2"
+            }
+          }
+        ],
+        "bbox": {
+          "x": 342.86792016812046,
+          "y": 625.7450837001838,
+          "w": 108,
+          "h": 60
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "glyph33",
+        "class": "association",
+        "label": "",
+        "parent": "",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 228.0341008480989,
+          "y": 558.6798160191246,
+          "w": 24,
+          "h": 24
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "glyph17",
+        "class": "macromolecule",
+        "label": "PolyQ aggregates",
+        "parent": "",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 249.20395770748246,
+          "y": 461.76306406362175,
+          "w": 108,
+          "h": 60
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "glyph39",
+        "class": "macromolecule multimer",
+        "label": "Sis1",
+        "parent": "",
+        "clonemarker": true,
+        "stateVariables": [],
+        "unitsOfInformation": [
+          {
+            "id": "glyph39a",
+            "class": "unit of information",
+            "label": {
+              "text": "N:2"
+            }
+          }
+        ],
+        "bbox": {
+          "x": 1473.0642714040578,
+          "y": 599.119232464463,
+          "w": 108,
+          "h": 60
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "glyph44",
+        "class": "macromolecule",
+        "label": "Hsp70",
+        "parent": "",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 1090.910879834321,
+          "y": 637.3538764917557,
+          "w": 80,
+          "h": 60
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "glyph14",
+        "class": "macromolecule",
+        "label": "importin",
+        "parent": "",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 749.2296609510565,
+          "y": 996.6762462210249,
+          "w": 108,
+          "h": 60
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "glyph2",
+        "class": "complex",
+        "label": "",
+        "parent": "",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 74.25648652847747,
+          "y": 558.2793894437214,
+          "w": 150,
+          "h": 180
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "glyph9",
+        "class": "macromolecule multimer",
+        "label": "Sis1",
+        "parent": "glyph2",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [
+          {
+            "id": "glyph9a",
+            "class": "unit of information",
+            "label": {
+              "text": "N:2"
+            }
+          }
+        ],
+        "bbox": {
+          "x": 74.25648652847747,
+          "y": 593.2793894437214,
+          "w": 108,
+          "h": 60
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "glyph16",
+        "class": "macromolecule",
+        "label": "PolyQ aggregates",
+        "parent": "glyph2",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 74.25648652847747,
+          "y": 523.2793894437214,
+          "w": 108,
+          "h": 60
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "glyph18",
+        "class": "macromolecule",
+        "label": "E3",
+        "parent": "",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 712.4695713754879,
+          "y": 393.68276370297156,
+          "w": 108,
+          "h": 60
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "glyph23",
+        "class": "and",
+        "label": "",
+        "parent": "glyph1",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 1659.0417715223766,
+          "y": 1162.8506394326487,
+          "w": 42,
+          "h": 42
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "glyph6",
+        "class": "complex",
+        "label": "nuclear proteasome",
+        "parent": "glyph1",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 1748.14126523628,
+          "y": 1110.298511842914,
+          "w": 150,
+          "h": 20
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "glyph15",
+        "class": "macromolecule",
+        "label": "E3(San1)",
+        "parent": "glyph1",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 1772.1064420517878,
+          "y": 1238.4825742368978,
+          "w": 108,
+          "h": 60
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "glyph28",
+        "class": "process",
+        "label": "",
+        "parent": "glyph1",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 1545.5011343346196,
+          "y": 917.4321263909592,
+          "w": 25,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "glyph40",
+        "class": "macromolecule multimer",
+        "label": "Sis1",
+        "parent": "glyph1",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [
+          {
+            "id": "glyph40a",
+            "class": "unit of information",
+            "label": {
+              "text": "N:2"
+            }
+          }
+        ],
+        "bbox": {
+          "x": 1462.7595315678577,
+          "y": 998.2347698692331,
+          "w": 108,
+          "h": 60
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "glyph27",
+        "class": "process",
+        "label": "",
+        "parent": "glyph1",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 1361.0285519263516,
+          "y": 831.4332438169165,
+          "w": 25,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "glyph46",
+        "class": "macromolecule",
+        "label": "Hsp70",
+        "parent": "glyph1",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 1333.4113072912696,
+          "y": 926.1233479859889,
+          "w": 80,
+          "h": 60
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "glyph25",
+        "class": "process",
+        "label": "",
+        "parent": "glyph1",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 1563.9214369297797,
+          "y": 1164.9372136910258,
+          "w": 25,
+          "h": 25
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "glyph42",
+        "class": "macromolecule",
+        "label": "misfolded protein",
+        "parent": "glyph1",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 1433.1233231176784,
+          "y": 1110.3229051649325,
+          "w": 120,
+          "h": 60
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "glyph32",
+        "class": "dissociation",
+        "label": "",
+        "parent": "glyph1",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 1337.336717575727,
+          "y": 1027.3654700857098,
+          "w": 24,
+          "h": 24
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "glyph38",
+        "class": "complex",
+        "label": "",
+        "parent": "glyph1",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 1126.8237146525876,
+          "y": 1008.752854645043,
+          "w": 170,
+          "h": 240
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "glyph41",
+        "class": "macromolecule multimer",
+        "label": "Sis1",
+        "parent": "glyph38",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [
+          {
+            "id": "glyph41a",
+            "class": "unit of information",
+            "label": {
+              "text": "N:2"
+            }
+          }
+        ],
+        "bbox": {
+          "x": 1081.8237146525876,
+          "y": 1043.752854645043,
+          "w": 108,
+          "h": 60
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "glyph43",
+        "class": "macromolecule",
+        "label": "misfolded protein",
+        "parent": "glyph38",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 1087.8237146525876,
+          "y": 973.752854645043,
+          "w": 120,
+          "h": 60
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "glyph45",
+        "class": "macromolecule",
+        "label": "Hsp70",
+        "parent": "glyph38",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 1185.8237146525876,
+          "y": 1043.752854645043,
+          "w": 80,
+          "h": 60
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "glyph22",
+        "class": "source and sink",
+        "label": "",
+        "parent": "glyph1",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 1564.4261045164549,
+          "y": 1263.6675557219492,
+          "w": 60,
+          "h": 60
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "glyph1",
+        "class": "compartment",
+        "label": "nucleus",
+        "parent": "",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 1416.5900783521877,
+          "y": 1056.3003997694327,
+          "w": 100,
+          "h": 29
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "glyph35",
+        "class": "complex",
+        "label": "",
+        "parent": "glyph0",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 644.4815409962032,
+          "y": 95.85406258387309,
+          "w": 170,
+          "h": 160
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "glyph36",
+        "class": "macromolecule",
+        "label": "misfolded protein",
+        "parent": "glyph35",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 644.4815409962032,
+          "y": 60.85406258387309,
+          "w": 120,
+          "h": 60
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "glyph37",
+        "class": "macromolecule",
+        "label": "Hsp70",
+        "parent": "glyph35",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 624.4815409962032,
+          "y": 130.8540625838731,
+          "w": 80,
+          "h": 60
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "glyph0",
+        "class": "compartment",
+        "label": "juxtanuclear inclusion",
+        "parent": "",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 644.4815409962032,
+          "y": 95.85406258387309,
+          "w": 450,
+          "h": 260
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "class": "production",
+        "cardinality": 0,
+        "source": "glyph29",
+        "target": "glyph4",
+        "bendPointPositions": [],
+        "portSource": "glyph29",
+        "portTarget": "glyph4"
+      }
+    },
+    {
+      "data": {
+        "class": "catalysis",
+        "cardinality": 0,
+        "source": "glyph18",
+        "target": "glyph29",
+        "bendPointPositions": [],
+        "portSource": "glyph18",
+        "portTarget": "glyph29"
+      }
+    },
+    {
+      "data": {
+        "class": "production",
+        "cardinality": 0,
+        "source": "glyph34",
+        "target": "glyph3",
+        "bendPointPositions": [],
+        "portSource": "glyph34",
+        "portTarget": "glyph3"
+      }
+    },
+    {
+      "data": {
+        "class": "production",
+        "cardinality": 0,
+        "source": "glyph33",
+        "target": "glyph2",
+        "bendPointPositions": [],
+        "portSource": "glyph33",
+        "portTarget": "glyph2"
+      }
+    },
+    {
+      "data": {
+        "class": "production",
+        "cardinality": 0,
+        "source": "glyph30",
+        "target": "glyph35",
+        "bendPointPositions": [],
+        "portSource": "glyph30",
+        "portTarget": "glyph35"
+      }
+    },
+    {
+      "data": {
+        "class": "production",
+        "cardinality": 0,
+        "source": "glyph26",
+        "target": "glyph38",
+        "bendPointPositions": [],
+        "portSource": "glyph26",
+        "portTarget": "glyph38"
+      }
+    },
+    {
+      "data": {
+        "class": "stimulation",
+        "cardinality": 0,
+        "source": "glyph14",
+        "target": "glyph26",
+        "bendPointPositions": [],
+        "portSource": "glyph14",
+        "portTarget": "glyph26"
+      }
+    },
+    {
+      "data": {
+        "class": "production",
+        "cardinality": 0,
+        "source": "glyph32",
+        "target": "glyph42",
+        "bendPointPositions": [],
+        "portSource": "glyph32",
+        "portTarget": "glyph42"
+      }
+    },
+    {
+      "data": {
+        "class": "production",
+        "cardinality": 0,
+        "source": "glyph32",
+        "target": "glyph46",
+        "bendPointPositions": [],
+        "portSource": "glyph32",
+        "portTarget": "glyph46"
+      }
+    },
+    {
+      "data": {
+        "class": "production",
+        "cardinality": 0,
+        "source": "glyph32",
+        "target": "glyph40",
+        "bendPointPositions": [],
+        "portSource": "glyph32",
+        "portTarget": "glyph40"
+      }
+    },
+    {
+      "data": {
+        "class": "production",
+        "cardinality": 0,
+        "source": "glyph27",
+        "target": "glyph44",
+        "bendPointPositions": [],
+        "portSource": "glyph27",
+        "portTarget": "glyph44"
+      }
+    },
+    {
+      "data": {
+        "class": "production",
+        "cardinality": 0,
+        "source": "glyph28",
+        "target": "glyph39",
+        "bendPointPositions": [],
+        "portSource": "glyph28",
+        "portTarget": "glyph39"
+      }
+    },
+    {
+      "data": {
+        "class": "production",
+        "cardinality": 0,
+        "source": "glyph25",
+        "target": "glyph22",
+        "bendPointPositions": [],
+        "portSource": "glyph25",
+        "portTarget": "glyph22"
+      }
+    },
+    {
+      "data": {
+        "class": "stimulation",
+        "cardinality": 0,
+        "source": "glyph23",
+        "target": "glyph25",
+        "bendPointPositions": [],
+        "portSource": "glyph23",
+        "portTarget": "glyph25"
+      }
+    },
+    {
+      "data": {
+        "class": "consumption",
+        "cardinality": 0,
+        "source": "glyph17",
+        "target": "glyph33",
+        "bendPointPositions": [],
+        "portSource": "glyph17",
+        "portTarget": "glyph33"
+      }
+    },
+    {
+      "data": {
+        "class": "consumption",
+        "cardinality": 0,
+        "source": "glyph10",
+        "target": "glyph33",
+        "bendPointPositions": [],
+        "portSource": "glyph10",
+        "portTarget": "glyph33"
+      }
+    },
+    {
+      "data": {
+        "class": "consumption",
+        "cardinality": 0,
+        "source": "glyph10",
+        "target": "glyph34",
+        "bendPointPositions": [],
+        "portSource": "glyph10",
+        "portTarget": "glyph34"
+      }
+    },
+    {
+      "data": {
+        "class": "consumption",
+        "cardinality": 0,
+        "source": "glyph4",
+        "target": "glyph34",
+        "bendPointPositions": [],
+        "portSource": "glyph4",
+        "portTarget": "glyph34"
+      }
+    },
+    {
+      "data": {
+        "class": "consumption",
+        "cardinality": 0,
+        "source": "glyph24",
+        "target": "glyph29",
+        "bendPointPositions": [],
+        "portSource": "glyph24",
+        "portTarget": "glyph29"
+      }
+    },
+    {
+      "data": {
+        "class": "consumption",
+        "cardinality": 0,
+        "source": "glyph5",
+        "target": "glyph29",
+        "bendPointPositions": [],
+        "portSource": "glyph5",
+        "portTarget": "glyph29"
+      }
+    },
+    {
+      "data": {
+        "class": "consumption",
+        "cardinality": 0,
+        "source": "glyph38",
+        "target": "glyph32",
+        "bendPointPositions": [],
+        "portSource": "glyph38",
+        "portTarget": "glyph32"
+      }
+    },
+    {
+      "data": {
+        "class": "consumption",
+        "cardinality": 0,
+        "source": "glyph42",
+        "target": "glyph25",
+        "bendPointPositions": [],
+        "portSource": "glyph42",
+        "portTarget": "glyph25"
+      }
+    },
+    {
+      "data": {
+        "class": "consumption",
+        "cardinality": 0,
+        "source": "glyph46",
+        "target": "glyph27",
+        "bendPointPositions": [],
+        "portSource": "glyph46",
+        "portTarget": "glyph27"
+      }
+    },
+    {
+      "data": {
+        "class": "consumption",
+        "cardinality": 0,
+        "source": "glyph40",
+        "target": "glyph28",
+        "bendPointPositions": [],
+        "portSource": "glyph40",
+        "portTarget": "glyph28"
+      }
+    },
+    {
+      "data": {
+        "class": "logic arc",
+        "cardinality": 0,
+        "source": "glyph15",
+        "target": "glyph23",
+        "bendPointPositions": [],
+        "portSource": "glyph15",
+        "portTarget": "glyph23"
+      }
+    },
+    {
+      "data": {
+        "class": "logic arc",
+        "cardinality": 0,
+        "source": "glyph6",
+        "target": "glyph23",
+        "bendPointPositions": [],
+        "portSource": "glyph6",
+        "portTarget": "glyph23"
+      }
+    },
+    {
+      "data": {
+        "class": "consumption",
+        "cardinality": 0,
+        "source": "glyph3",
+        "target": "glyph26",
+        "bendPointPositions": [],
+        "portSource": "glyph3",
+        "portTarget": "glyph26"
+      }
+    },
+    {
+      "data": {
+        "class": "consumption",
+        "cardinality": 0,
+        "source": "glyph4",
+        "target": "glyph30",
+        "bendPointPositions": [],
+        "portSource": "glyph4",
+        "portTarget": "glyph30"
+      }
+    },
+    {
+      "data": {
+        "class": "production",
+        "cardinality": 0,
+        "source": "glyph31",
+        "target": "glyph7",
+        "bendPointPositions": [],
+        "portSource": "glyph31",
+        "portTarget": "glyph7"
+      }
+    },
+    {
+      "data": {
+        "class": "consumption",
+        "cardinality": 0,
+        "source": "glyph4",
+        "target": "glyph31",
+        "bendPointPositions": [],
+        "portSource": "glyph4",
+        "portTarget": "glyph31"
+      }
+    }
+  ]
 }
