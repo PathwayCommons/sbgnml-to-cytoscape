@@ -105,7 +105,7 @@
         "id": "http___pathwaycommons_org_pc2_BiochemicalReaction_8441cd12b532d48ae60e64c8defbc472LEFT_TO_RIGHT.output--to--http___pathwaycommons_org_pc2_Protein_e390810ac5c9e1fac8d14e7e3cf20994",
         "class": "production",
         "cardinality": 0,
-        "source": "OutputPort_http___pathwaycommons_org_pc2_BiochemicalReaction_8441cd12b532d48ae60e64c8defbc472LEFT_TO_RIGHT",
+        "source": "http___pathwaycommons_org_pc2_BiochemicalReaction_8441cd12b532d48ae60e64c8defbc472LEFT_TO_RIGHT",
         "target": "http___pathwaycommons_org_pc2_Protein_e390810ac5c9e1fac8d14e7e3cf20994",
         "bendPointPositions": [],
         "portSource": "OutputPort_http___pathwaycommons_org_pc2_BiochemicalReaction_8441cd12b532d48ae60e64c8defbc472LEFT_TO_RIGHT",
@@ -118,7 +118,7 @@
         "class": "consumption",
         "cardinality": 0,
         "source": "http___pathwaycommons_org_pc2_Protein_3c410501913e286019942ef459fe25f7",
-        "target": "InputPort_http___pathwaycommons_org_pc2_BiochemicalReaction_8441cd12b532d48ae60e64c8defbc472LEFT_TO_RIGHT",
+        "target": "http___pathwaycommons_org_pc2_BiochemicalReaction_8441cd12b532d48ae60e64c8defbc472LEFT_TO_RIGHT",
         "bendPointPositions": [],
         "portSource": "http___pathwaycommons_org_pc2_Protein_3c410501913e286019942ef459fe25f7",
         "portTarget": "InputPort_http___pathwaycommons_org_pc2_BiochemicalReaction_8441cd12b532d48ae60e64c8defbc472LEFT_TO_RIGHT"

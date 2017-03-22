@@ -1355,461 +1355,462 @@
     }
   ],
   "edges": [
-    {
-      "data": {
-        "id": "arc0",
-        "class": "consumption",
-        "cardinality": 0,
-        "source": "glyph36",
-        "target": "glyph67.1",
-        "bendPointPositions": [],
-        "portSource": "glyph36",
-        "portTarget": "glyph67.1"
-      }
-    },
-    {
-      "data": {
-        "id": "arc1",
-        "class": "production",
-        "cardinality": 0,
-        "source": "glyph67.2",
-        "target": "glyph26",
-        "bendPointPositions": [],
-        "portSource": "glyph67.2",
-        "portTarget": "glyph26"
-      }
-    },
-    {
-      "data": {
-        "id": "arc2",
-        "class": "necessary stimulation",
-        "cardinality": 0,
-        "source": "glyph19",
-        "target": "glyph67",
-        "bendPointPositions": [],
-        "portSource": "glyph19",
-        "portTarget": "glyph67"
-      }
-    },
-    {
-      "data": {
-        "id": "arc3",
-        "class": "consumption",
-        "cardinality": 0,
-        "source": "glyph48",
-        "target": "glyph69.1",
-        "bendPointPositions": [],
-        "portSource": "glyph48",
-        "portTarget": "glyph69.1"
-      }
-    },
-    {
-      "data": {
-        "id": "arc4",
-        "class": "production",
-        "cardinality": 0,
-        "source": "glyph69.2",
-        "target": "glyph55",
-        "bendPointPositions": [],
-        "portSource": "glyph69.2",
-        "portTarget": "glyph55"
-      }
-    },
-    {
-      "data": {
-        "id": "arc5",
-        "class": "consumption",
-        "cardinality": 0,
-        "source": "glyph55",
-        "target": "glyph63.1",
-        "bendPointPositions": [],
-        "portSource": "glyph55",
-        "portTarget": "glyph63.1"
-      }
-    },
-    {
-      "data": {
-        "id": "arc6",
-        "class": "consumption",
-        "cardinality": 0,
-        "source": "glyph41",
-        "target": "glyph63.1",
-        "bendPointPositions": [],
-        "portSource": "glyph41",
-        "portTarget": "glyph63.1"
-      }
-    },
-    {
-      "data": {
-        "id": "arc7",
-        "class": "production",
-        "cardinality": 0,
-        "source": "glyph63.2",
-        "target": "glyph10",
-        "bendPointPositions": [],
-        "portSource": "glyph63.2",
-        "portTarget": "glyph10"
-      }
-    },
-    {
-      "data": {
-        "id": "arc8",
-        "class": "consumption",
-        "cardinality": 0,
-        "source": "glyph24",
-        "target": "glyph62.2",
-        "bendPointPositions": [],
-        "portSource": "glyph24",
-        "portTarget": "glyph62.2"
-      }
-    },
-    {
-      "data": {
-        "id": "arc9",
-        "class": "consumption",
-        "cardinality": 0,
-        "source": "glyph10",
-        "target": "glyph62.2",
-        "bendPointPositions": [],
-        "portSource": "glyph10",
-        "portTarget": "glyph62.2"
-      }
-    },
-    {
-      "data": {
-        "id": "arc10",
-        "class": "production",
-        "cardinality": 0,
-        "source": "glyph62.1",
-        "target": "glyph5",
-        "bendPointPositions": [],
-        "portSource": "glyph62.1",
-        "portTarget": "glyph5"
-      }
-    },
-    {
-      "data": {
-        "id": "arc11",
-        "class": "production",
-        "cardinality": 0,
-        "source": "glyph65.1",
-        "target": "glyph8",
-        "bendPointPositions": [],
-        "portSource": "glyph65.1",
-        "portTarget": "glyph8"
-      }
-    },
-    {
-      "data": {
-        "id": "arc12",
-        "class": "consumption",
-        "cardinality": 0,
-        "source": "glyph5",
-        "target": "glyph65.2",
-        "bendPointPositions": [],
-        "portSource": "glyph5",
-        "portTarget": "glyph65.2"
-      }
-    },
-    {
-      "data": {
-        "id": "arc13",
-        "class": "catalysis",
-        "cardinality": 0,
-        "source": "glyph31",
-        "target": "glyph65",
-        "bendPointPositions": [
-          {
-            "x": null,
-            "y": null
-          },
-          {
-            "x": null,
-            "y": null
-          }
-        ],
-        "portSource": "glyph31",
-        "portTarget": "glyph65"
-      }
-    },
-    {
-      "data": {
-        "id": "arc14",
-        "class": "consumption",
-        "cardinality": 0,
-        "source": "glyph8",
-        "target": "glyph58.1",
-        "bendPointPositions": [],
-        "portSource": "glyph8",
-        "portTarget": "glyph58.1"
-      }
-    },
-    {
-      "data": {
-        "id": "arc15",
-        "class": "production",
-        "cardinality": 0,
-        "source": "glyph58.2",
-        "target": "glyph3",
-        "bendPointPositions": [],
-        "portSource": "glyph58.2",
-        "portTarget": "glyph3"
-      }
-    },
-    {
-      "data": {
-        "id": "arc16",
-        "class": "consumption",
-        "cardinality": 0,
-        "source": "glyph3",
-        "target": "glyph61.1",
-        "bendPointPositions": [],
-        "portSource": "glyph3",
-        "portTarget": "glyph61.1"
-      }
-    },
-    {
-      "data": {
-        "id": "arc17",
-        "class": "production",
-        "cardinality": 0,
-        "source": "glyph61.2",
-        "target": "glyph22",
-        "bendPointPositions": [],
-        "portSource": "glyph61.2",
-        "portTarget": "glyph22"
-      }
-    },
-    {
-      "data": {
-        "id": "arc18",
-        "class": "production",
-        "cardinality": 0,
-        "source": "glyph61.2",
-        "target": "glyph17",
-        "bendPointPositions": [],
-        "portSource": "glyph61.2",
-        "portTarget": "glyph17"
-      }
-    },
-    {
-      "data": {
-        "id": "arc19",
-        "class": "consumption",
-        "cardinality": 0,
-        "source": "glyph35",
-        "target": "glyph66.1",
-        "bendPointPositions": [],
-        "portSource": "glyph35",
-        "portTarget": "glyph66.1"
-      }
-    },
-    {
-      "data": {
-        "id": "arc20",
-        "class": "consumption",
-        "cardinality": 0,
-        "source": "glyph17",
-        "target": "glyph66.1",
-        "bendPointPositions": [],
-        "portSource": "glyph17",
-        "portTarget": "glyph66.1"
-      }
-    },
-    {
-      "data": {
-        "id": "arc21",
-        "class": "production",
-        "cardinality": 0,
-        "source": "glyph66.2",
-        "target": "glyph2",
-        "bendPointPositions": [],
-        "portSource": "glyph66.2",
-        "portTarget": "glyph2"
-      }
-    },
-    {
-      "data": {
-        "id": "arc22",
-        "class": "consumption",
-        "cardinality": 0,
-        "source": "glyph17",
-        "target": "glyph59.1",
-        "bendPointPositions": [],
-        "portSource": "glyph17",
-        "portTarget": "glyph59.1"
-      }
-    },
-    {
-      "data": {
-        "id": "arc23",
-        "class": "consumption",
-        "cardinality": 0,
-        "source": "glyph33",
-        "target": "glyph59.1",
-        "bendPointPositions": [],
-        "portSource": "glyph33",
-        "portTarget": "glyph59.1"
-      }
-    },
-    {
-      "data": {
-        "id": "arc24",
-        "class": "production",
-        "cardinality": 0,
-        "source": "glyph59.2",
-        "target": "glyph4",
-        "bendPointPositions": [],
-        "portSource": "glyph59.2",
-        "portTarget": "glyph4"
-      }
-    },
-    {
-      "data": {
-        "id": "arc25",
-        "class": "catalysis",
-        "cardinality": 0,
-        "source": "glyph30",
-        "target": "glyph60",
-        "bendPointPositions": [],
-        "portSource": "glyph30",
-        "portTarget": "glyph60"
-      }
-    },
-    {
-      "data": {
-        "id": "arc26",
-        "class": "production",
-        "cardinality": 0,
-        "source": "glyph32",
-        "target": "glyph64",
-        "bendPointPositions": [],
-        "portSource": "glyph32",
-        "portTarget": "glyph64"
-      }
-    },
-    {
-      "data": {
-        "id": "arc27",
-        "class": "production",
-        "cardinality": 0,
-        "source": "glyph64.2",
-        "target": "glyph28",
-        "bendPointPositions": [],
-        "portSource": "glyph64.2",
-        "portTarget": "glyph28"
-      }
-    },
-    {
-      "data": {
-        "id": "arc28",
-        "class": "catalysis",
-        "cardinality": 0,
-        "source": "glyph29",
-        "target": "glyph64",
-        "bendPointPositions": [],
-        "portSource": "glyph29",
-        "portTarget": "glyph64"
-      }
-    },
-    {
-      "data": {
-        "id": "arc29",
-        "class": "stimulation",
-        "cardinality": 0,
-        "source": "glyph28",
-        "target": "glyph9",
-        "bendPointPositions": [],
-        "portSource": "glyph28",
-        "portTarget": "glyph9"
-      }
-    },
-    {
-      "data": {
-        "id": "arc30",
-        "class": "consumption",
-        "cardinality": 0,
-        "source": "glyph5",
-        "target": "glyph68.2",
-        "bendPointPositions": [
-          {
-            "x": null,
-            "y": null
-          }
-        ],
-        "portSource": "glyph5",
-        "portTarget": "glyph68.2"
-      }
-    },
-    {
-      "data": {
-        "id": "arc31",
-        "class": "production",
-        "cardinality": 0,
-        "source": "glyph68.1",
-        "target": "glyph7",
-        "bendPointPositions": [
-          {
-            "x": null,
-            "y": null
-          }
-        ],
-        "portSource": "glyph68.1",
-        "portTarget": "glyph7"
-      }
-    },
-    {
-      "data": {
-        "id": "arc32",
-        "class": "catalysis",
-        "cardinality": 0,
-        "source": "glyph27",
-        "target": "glyph68",
-        "bendPointPositions": [
-          {
-            "x": null,
-            "y": null
-          }
-        ],
-        "portSource": "glyph27",
-        "portTarget": "glyph68"
-      }
-    },
-    {
-      "data": {
-        "id": "arc33",
-        "class": "consumption",
-        "cardinality": 0,
-        "source": "glyph4",
-        "target": "glyph60.1",
-        "bendPointPositions": [],
-        "portSource": "glyph4",
-        "portTarget": "glyph60.1"
-      }
-    },
-    {
-      "data": {
-        "id": "arc34",
-        "class": "production",
-        "cardinality": 0,
-        "source": "glyph60.2",
-        "target": "glyph6",
-        "bendPointPositions": [],
-        "portSource": "glyph60.2",
-        "portTarget": "glyph6"
-      }
-    },
-    {
-      "data": {
-        "id": "arc35",
-        "class": "stimulation",
-        "cardinality": 0,
-        "source": "glyph26",
-        "target": "glyph69",
-        "bendPointPositions": [],
-        "portSource": "glyph26",
-        "portTarget": "glyph69"
-      }
+  {
+    "data": {
+      "id": "arc0",
+      "class": "consumption",
+      "cardinality": 0,
+      "source": "glyph36",
+      "target": "glyph67",
+      "bendPointPositions": [],
+      "portSource": "glyph36",
+      "portTarget": "glyph67.1"
     }
-  ]
+  },
+  {
+    "data": {
+      "id": "arc1",
+      "class": "production",
+      "cardinality": 0,
+      "source": "glyph67",
+      "target": "glyph26",
+      "bendPointPositions": [],
+      "portSource": "glyph67.2",
+      "portTarget": "glyph26"
+    }
+  },
+  {
+    "data": {
+      "id": "arc2",
+      "class": "necessary stimulation",
+      "cardinality": 0,
+      "source": "glyph19",
+      "target": "glyph67",
+      "bendPointPositions": [],
+      "portSource": "glyph19",
+      "portTarget": "glyph67"
+    }
+  },
+  {
+    "data": {
+      "id": "arc3",
+      "class": "consumption",
+      "cardinality": 0,
+      "source": "glyph48",
+      "target": "glyph69",
+      "bendPointPositions": [],
+      "portSource": "glyph48",
+      "portTarget": "glyph69.1"
+    }
+  },
+  {
+    "data": {
+      "id": "arc4",
+      "class": "production",
+      "cardinality": 0,
+      "source": "glyph69",
+      "target": "glyph55",
+      "bendPointPositions": [],
+      "portSource": "glyph69.2",
+      "portTarget": "glyph55"
+    }
+  },
+  {
+    "data": {
+      "id": "arc5",
+      "class": "consumption",
+      "cardinality": 0,
+      "source": "glyph55",
+      "target": "glyph63",
+      "bendPointPositions": [],
+      "portSource": "glyph55",
+      "portTarget": "glyph63.1"
+    }
+  },
+  {
+    "data": {
+      "id": "arc6",
+      "class": "consumption",
+      "cardinality": 0,
+      "source": "glyph41",
+      "target": "glyph63",
+      "bendPointPositions": [],
+      "portSource": "glyph41",
+      "portTarget": "glyph63.1"
+    }
+  },
+  {
+    "data": {
+      "id": "arc7",
+      "class": "production",
+      "cardinality": 0,
+      "source": "glyph63",
+      "target": "glyph10",
+      "bendPointPositions": [],
+      "portSource": "glyph63.2",
+      "portTarget": "glyph10"
+    }
+  },
+  {
+    "data": {
+      "id": "arc8",
+      "class": "consumption",
+      "cardinality": 0,
+      "source": "glyph24",
+      "target": "glyph62",
+      "bendPointPositions": [],
+      "portSource": "glyph24",
+      "portTarget": "glyph62.2"
+    }
+  },
+  {
+    "data": {
+      "id": "arc9",
+      "class": "consumption",
+      "cardinality": 0,
+      "source": "glyph10",
+      "target": "glyph62",
+      "bendPointPositions": [],
+      "portSource": "glyph10",
+      "portTarget": "glyph62.2"
+    }
+  },
+  {
+    "data": {
+      "id": "arc10",
+      "class": "production",
+      "cardinality": 0,
+      "source": "glyph62",
+      "target": "glyph5",
+      "bendPointPositions": [],
+      "portSource": "glyph62.1",
+      "portTarget": "glyph5"
+    }
+  },
+  {
+    "data": {
+      "id": "arc11",
+      "class": "production",
+      "cardinality": 0,
+      "source": "glyph65",
+      "target": "glyph8",
+      "bendPointPositions": [],
+      "portSource": "glyph65.1",
+      "portTarget": "glyph8"
+    }
+  },
+  {
+    "data": {
+      "id": "arc12",
+      "class": "consumption",
+      "cardinality": 0,
+      "source": "glyph5",
+      "target": "glyph65",
+      "bendPointPositions": [],
+      "portSource": "glyph5",
+      "portTarget": "glyph65.2"
+    }
+  },
+  {
+    "data": {
+      "id": "arc13",
+      "class": "catalysis",
+      "cardinality": 0,
+      "source": "glyph31",
+      "target": "glyph65",
+      "bendPointPositions": [
+        {
+          "x": null,
+          "y": null
+        },
+        {
+          "x": null,
+          "y": null
+        }
+      ],
+      "portSource": "glyph31",
+      "portTarget": "glyph65"
+    }
+  },
+  {
+    "data": {
+      "id": "arc14",
+      "class": "consumption",
+      "cardinality": 0,
+      "source": "glyph8",
+      "target": "glyph58",
+      "bendPointPositions": [],
+      "portSource": "glyph8",
+      "portTarget": "glyph58.1"
+    }
+  },
+  {
+    "data": {
+      "id": "arc15",
+      "class": "production",
+      "cardinality": 0,
+      "source": "glyph58",
+      "target": "glyph3",
+      "bendPointPositions": [],
+      "portSource": "glyph58.2",
+      "portTarget": "glyph3"
+    }
+  },
+  {
+    "data": {
+      "id": "arc16",
+      "class": "consumption",
+      "cardinality": 0,
+      "source": "glyph3",
+      "target": "glyph61",
+      "bendPointPositions": [],
+      "portSource": "glyph3",
+      "portTarget": "glyph61.1"
+    }
+  },
+  {
+    "data": {
+      "id": "arc17",
+      "class": "production",
+      "cardinality": 0,
+      "source": "glyph61",
+      "target": "glyph22",
+      "bendPointPositions": [],
+      "portSource": "glyph61.2",
+      "portTarget": "glyph22"
+    }
+  },
+  {
+    "data": {
+      "id": "arc18",
+      "class": "production",
+      "cardinality": 0,
+      "source": "glyph61",
+      "target": "glyph17",
+      "bendPointPositions": [],
+      "portSource": "glyph61.2",
+      "portTarget": "glyph17"
+    }
+  },
+  {
+    "data": {
+      "id": "arc19",
+      "class": "consumption",
+      "cardinality": 0,
+      "source": "glyph35",
+      "target": "glyph66",
+      "bendPointPositions": [],
+      "portSource": "glyph35",
+      "portTarget": "glyph66.1"
+    }
+  },
+  {
+    "data": {
+      "id": "arc20",
+      "class": "consumption",
+      "cardinality": 0,
+      "source": "glyph17",
+      "target": "glyph66",
+      "bendPointPositions": [],
+      "portSource": "glyph17",
+      "portTarget": "glyph66.1"
+    }
+  },
+  {
+    "data": {
+      "id": "arc21",
+      "class": "production",
+      "cardinality": 0,
+      "source": "glyph66",
+      "target": "glyph2",
+      "bendPointPositions": [],
+      "portSource": "glyph66.2",
+      "portTarget": "glyph2"
+    }
+  },
+  {
+    "data": {
+      "id": "arc22",
+      "class": "consumption",
+      "cardinality": 0,
+      "source": "glyph17",
+      "target": "glyph59",
+      "bendPointPositions": [],
+      "portSource": "glyph17",
+      "portTarget": "glyph59.1"
+    }
+  },
+  {
+    "data": {
+      "id": "arc23",
+      "class": "consumption",
+      "cardinality": 0,
+      "source": "glyph33",
+      "target": "glyph59",
+      "bendPointPositions": [],
+      "portSource": "glyph33",
+      "portTarget": "glyph59.1"
+    }
+  },
+  {
+    "data": {
+      "id": "arc24",
+      "class": "production",
+      "cardinality": 0,
+      "source": "glyph59",
+      "target": "glyph4",
+      "bendPointPositions": [],
+      "portSource": "glyph59.2",
+      "portTarget": "glyph4"
+    }
+  },
+  {
+    "data": {
+      "id": "arc25",
+      "class": "catalysis",
+      "cardinality": 0,
+      "source": "glyph30",
+      "target": "glyph60",
+      "bendPointPositions": [],
+      "portSource": "glyph30",
+      "portTarget": "glyph60"
+    }
+  },
+  {
+    "data": {
+      "id": "arc26",
+      "class": "production",
+      "cardinality": 0,
+      "source": "glyph32",
+      "target": "glyph64",
+      "bendPointPositions": [],
+      "portSource": "glyph32",
+      "portTarget": "glyph64"
+    }
+  },
+  {
+    "data": {
+      "id": "arc27",
+      "class": "production",
+      "cardinality": 0,
+      "source": "glyph64",
+      "target": "glyph28",
+      "bendPointPositions": [],
+      "portSource": "glyph64.2",
+      "portTarget": "glyph28"
+    }
+  },
+  {
+    "data": {
+      "id": "arc28",
+      "class": "catalysis",
+      "cardinality": 0,
+      "source": "glyph29",
+      "target": "glyph64",
+      "bendPointPositions": [],
+      "portSource": "glyph29",
+      "portTarget": "glyph64"
+    }
+  },
+  {
+    "data": {
+      "id": "arc29",
+      "class": "stimulation",
+      "cardinality": 0,
+      "source": "glyph28",
+      "target": "glyph9",
+      "bendPointPositions": [],
+      "portSource": "glyph28",
+      "portTarget": "glyph9"
+    }
+  },
+  {
+    "data": {
+      "id": "arc30",
+      "class": "consumption",
+      "cardinality": 0,
+      "source": "glyph5",
+      "target": "glyph68",
+      "bendPointPositions": [
+        {
+          "x": null,
+          "y": null
+        }
+      ],
+      "portSource": "glyph5",
+      "portTarget": "glyph68.2"
+    }
+  },
+  {
+    "data": {
+      "id": "arc31",
+      "class": "production",
+      "cardinality": 0,
+      "source": "glyph68",
+      "target": "glyph7",
+      "bendPointPositions": [
+        {
+          "x": null,
+          "y": null
+        }
+      ],
+      "portSource": "glyph68.1",
+      "portTarget": "glyph7"
+    }
+  },
+  {
+    "data": {
+      "id": "arc32",
+      "class": "catalysis",
+      "cardinality": 0,
+      "source": "glyph27",
+      "target": "glyph68",
+      "bendPointPositions": [
+        {
+          "x": null,
+          "y": null
+        }
+      ],
+      "portSource": "glyph27",
+      "portTarget": "glyph68"
+    }
+  },
+  {
+    "data": {
+      "id": "arc33",
+      "class": "consumption",
+      "cardinality": 0,
+      "source": "glyph4",
+      "target": "glyph60",
+      "bendPointPositions": [],
+      "portSource": "glyph4",
+      "portTarget": "glyph60.1"
+    }
+  },
+  {
+    "data": {
+      "id": "arc34",
+      "class": "production",
+      "cardinality": 0,
+      "source": "glyph60",
+      "target": "glyph6",
+      "bendPointPositions": [],
+      "portSource": "glyph60.2",
+      "portTarget": "glyph6"
+    }
+  },
+  {
+    "data": {
+      "id": "arc35",
+      "class": "stimulation",
+      "cardinality": 0,
+      "source": "glyph26",
+      "target": "glyph69",
+      "bendPointPositions": [],
+      "portSource": "glyph26",
+      "portTarget": "glyph69"
+    }
+  }
+]
+
 }

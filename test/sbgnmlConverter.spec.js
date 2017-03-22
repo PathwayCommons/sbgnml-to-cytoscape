@@ -32,6 +32,8 @@ describe('sbgnmlConverter', function () {
       const actual = convert(fixture);
       const expected = fixtures.output[index];
 
+      console.log('testing fixture' + index);
+
       expect(expected.nodes.length).to.equal(actual.nodes.length);
       expect(expected.edges.length).to.equal(actual.edges.length);
       expect(JSON.stringify(expected, null, 2)).to.deep.equal(JSON.stringify(actual, null, 2));

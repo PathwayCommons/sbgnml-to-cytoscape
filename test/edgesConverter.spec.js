@@ -60,4 +60,34 @@ describe('edgesConverter', function () {
     expect(res).to.deep.equal(output);
   });
 
+  it('should correctly determine whether an edge is valid based on the port id map and node id set', function () {
+    const input = makeSbgnml(
+      `
+      <arc target="glyph13-inputPort" source="glyph21-outputPort" class="consumption">
+         <start y="347.8180972732039" x="863.0538165387796" />
+         <end y="295.62165823750354" x="847.6106014608313" />
+      </arc>
+      `
+    );
+    const output = [{
+      'data': {
+        'bendPointPositions': [],
+        'cardinality': 0,
+        'class': 'consumption',
+        'id': undefined,
+        'portSource': 'glyph21-outputPort',
+        'portTarget': 'glyph13-inputPort',
+        'source': 'glyph21',
+        'target': 'glyph13',
+      }
+    }];
+    const nodeIdSet = new Set().add('glyph13').add('glyph21');
+    const portIdMap = new Map().set('glyph13-inputPort', 'glyph13').set('glyph21-outputPort', 'glyph21');
+
+    const js = convert.xml2js(input, {compact: true, spaces: 2, trim: true, nativeType: true });
+    const res = econvert([].concat(js.sbgn.map.arc), nodeIdSet, portIdMap);
+
+    expect(res).to.deep.equal(output);
+  });
+
 });
