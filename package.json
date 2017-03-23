@@ -1,6 +1,6 @@
 {
   "name": "sbgnml-to-cytoscape",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "A tool to convert sbgn-ml files to json for Cytoscape.js",
   "main": "dist/sbgnml-to-cytoscape.js",
   "scripts": {
