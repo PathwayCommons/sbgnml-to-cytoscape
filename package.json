@@ -2,7 +2,7 @@
   "name": "sbgnml-to-cytoscape",
   "version": "3.0.1",
   "description": "A tool to convert sbgn-ml files to json for Cytoscape.js",
-  "main": "src/index.js",
+  "main": "dist/sbgnml-to-cytoscape.js",
   "scripts": {
     "test": "mocha --require babel-polyfill --compilers js:babel-register",
     "clean": "rm -rf dist/*",
