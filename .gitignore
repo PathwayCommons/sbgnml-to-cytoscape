@@ -38,6 +38,9 @@ jspm_packages
 
 /nbproject/
 
+.project
+.settings
+*.iml
 .idea/
 
 /HTML5Application/nbproject/private/
@@ -50,4 +53,3 @@ node_modules/
 
 test/testenv/testBundle.js
 test/testenv/fixtures/*
-
