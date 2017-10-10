@@ -13,7 +13,16 @@ const getCenteredBbox = (glyph) => {
   };
 };
 
-const getId = (glyph) => objPath.get(glyph, '_attributes.id');
+const getId = (glyph) => objPath.get(glyph, '_attributes.id', null);
+
+const getNodeId = (glyph) => {
+  const id = getId(glyph);
+  if (id == null) {
+    throw new Error(JSON.stringify(glyph, null, 4) + '\n' + 'does not have a valid id');  
+  }
+  
+  return id;
+}
 
 const getClass = (glyph) => objPath.get(glyph, '_attributes.class', '');
 
@@ -73,7 +82,7 @@ const getChildrenArray = (glyph) => {
 const convertGlyph = (glyph, parent='') => {
   return {
     data: {
-      id: getId(glyph),
+      id: getNodeId(glyph),
       'class': getClass(glyph),
       label: getLabel(glyph),
       parent: glyph.parent || getParent(glyph) || parent,  // immediate parent takes precendence over compartments
@@ -102,7 +111,7 @@ module.exports = (glyphs) => {
   stack.push(...glyphs);
   while (stack.length > 0) {
     const currGlyph = stack.pop();
-    const currGlyphId = getId(currGlyph);
+    const currGlyphId = getNodeId(currGlyph);
     const processedGlyph = convertGlyph(currGlyph);
 
     if (validSbgnClass(processedGlyph.data['class'])) {
