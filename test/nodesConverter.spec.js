@@ -75,11 +75,8 @@ describe('nodesConverter', function () {
     const basic = convert.xml2js(input, {compact: true, spaces: 2, trim: true, nativeType: true });
     const res = nconvert([].concat(basic.sbgn.map.glyph));
 
-    console.log(JSON.stringify(res, null, 2));
-    console.log(res.nodes[0].data.stateVariables[0]);
     expect(res.nodes[0].data.stateVariables[0].id).to.equal(null);
     expect(res.nodes[0].data.unitsOfInformation[0].id).to.equal(null);
-
   });
 
 
