@@ -28,6 +28,61 @@ describe('nodesConverter', function () {
     });
   });
 
+  it('throws an error when a node does not have an id', function () {
+    const input = makeSbgnml(
+      `
+      <glyph class="macromolecule multimer">
+        <label text=" m clone uinfo svar" />
+        <bbox y="200" x="800" w="100" h="60" />
+        <clone/>
+        <glyph id="13a" class="state variable">
+           <state value="P" />
+           <bbox y="259.2873064873903" x="454.68302213209245" w="25.0" h="22.0" />
+        </glyph>
+        <glyph id='13b' class='unit of information'>
+          <label text='mt:prot' />
+          <bbox y='686.0266417318942' x='718.3012187112336' w='53.0' h='18.0' />
+        </glyph>
+      </glyph>
+      `);
+
+    const nullIdTest = function() {
+      const basic = convert.xml2js(input, {compact: true, spaces: 2, trim: true, nativeType: true });
+      const res = nconvert([].concat(basic.sbgn.map.glyph));
+    };
+
+    expect(nullIdTest).to.throw(Error);
+  });
+
+  it('returns null for auxiliary items that do not have an id', function () {
+    const input = makeSbgnml(
+      `
+      <glyph id="1" class="macromolecule multimer">
+        <label text=" m clone uinfo svar" />
+        <bbox y="200" x="800" w="100" h="60" />
+        <clone/>
+        <glyph class="state variable">
+           <state value="P" />
+           <bbox y="259.2873064873903" x="454.68302213209245" w="25.0" h="22.0" />
+        </glyph>
+        <glyph class='unit of information'>
+          <label text='mt:prot' />
+          <bbox y='686.0266417318942' x='718.3012187112336' w='53.0' h='18.0' />
+        </glyph>
+      </glyph>
+      `);
+
+    const basic = convert.xml2js(input, {compact: true, spaces: 2, trim: true, nativeType: true });
+    const res = nconvert([].concat(basic.sbgn.map.glyph));
+
+    console.log(JSON.stringify(res, null, 2));
+    console.log(res.nodes[0].data.stateVariables[0]);
+    expect(res.nodes[0].data.stateVariables[0].id).to.equal(null);
+    expect(res.nodes[0].data.unitsOfInformation[0].id).to.equal(null);
+
+  });
+
+
   it('throws an error for undefined or null input', function () {
     const nullTest = function() { nconvert(null); };
     const undefinedTest = function() { nconvert(undefined); };

@@ -18,11 +18,11 @@ const getId = (glyph) => objPath.get(glyph, '_attributes.id', null);
 const getNodeId = (glyph) => {
   const id = getId(glyph);
   if (id == null) {
-    throw new Error(JSON.stringify(glyph, null, 4) + '\n' + 'does not have a valid id');  
+    throw new Error(JSON.stringify(glyph, null, 4) + '\n' + 'does not have a valid id');
   }
-  
+
   return id;
-}
+};
 
 const getClass = (glyph) => objPath.get(glyph, '_attributes.class', '');
 
