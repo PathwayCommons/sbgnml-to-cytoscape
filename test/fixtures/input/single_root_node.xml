@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn
+	xmlns="http://sbgn.org/libsbgn/0.2">
+	<map language="process description">
+		<glyph class="complex" id="Complex_4839c52f0b319f9132e85d41891024c4">
+			<label text="TP53 protein/GDF15 promoter complex"/>
+			<bbox w="54.0" h="34.0" x="-2.0" y="-2.0"/>
+			<glyph class="macromolecule" id="Protein_b037e4d948a09a80bd497c39d035e1eb_Complex_4839c52f0b319f9132e85d41891024c4">
+				<label text="TP53"/>
+				<bbox w="48.0" h="25.0" x="0.0" y="0.0"/>
+			</glyph>
+			<glyph class="nucleic acid feature" id="DnaRegion_0e23425e554065410c00a59c6bf7a878_Complex_4839c52f0b319f9132e85d41891024c4">
+				<label text="GDF15"/>
+				<bbox w="50.0" h="30.0" x="0.0" y="0.0"/>
+				<glyph class="unit of information">
+					<label text="ct:DNA"/>
+					<bbox w="35.0" h="10.0" x="0.0" y="0.0"/>
+				</glyph>
+			</glyph>
+		</glyph>
+	</map>
+</sbgn>

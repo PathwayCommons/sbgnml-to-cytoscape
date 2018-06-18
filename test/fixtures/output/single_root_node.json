@@ -1,0 +1,64 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "Complex_4839c52f0b319f9132e85d41891024c4",
+        "class": "complex",
+        "label": "TP53 protein/GDF15 promoter complex",
+        "parent": "",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 25,
+          "y": 15,
+          "w": 54,
+          "h": 34
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "DnaRegion_0e23425e554065410c00a59c6bf7a878_Complex_4839c52f0b319f9132e85d41891024c4",
+        "class": "nucleic acid feature",
+        "label": "GDF15",
+        "parent": "Complex_4839c52f0b319f9132e85d41891024c4",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [
+          {
+            "id": null,
+            "class": "unit of information",
+            "label": {
+              "text": "ct:DNA"
+            }
+          }
+        ],
+        "bbox": {
+          "x": 25,
+          "y": 15,
+          "w": 50,
+          "h": 30
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "Protein_b037e4d948a09a80bd497c39d035e1eb_Complex_4839c52f0b319f9132e85d41891024c4",
+        "class": "macromolecule",
+        "label": "TP53",
+        "parent": "Complex_4839c52f0b319f9132e85d41891024c4",
+        "clonemarker": false,
+        "stateVariables": [],
+        "unitsOfInformation": [],
+        "bbox": {
+          "x": 24,
+          "y": 12.5,
+          "w": 48,
+          "h": 25
+        }
+      }
+    }
+  ],
+  "edges": []
+}

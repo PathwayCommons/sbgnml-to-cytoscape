@@ -21,7 +21,9 @@ const input = [
 
   '/input/p53-Dependent_G1_DNA.sbgn.xml',
   '/input/pc_signallingByBMP.sbgn.xml',
-  '/input/TP53_regulates_trans.sbgn.xml'
+  '/input/TP53_regulates_trans.sbgn.xml',
+
+  '/input/single_root_node.xml'
 ].map(function (fname) {
   return fs.readFileSync(__dirname + fname, 'utf8');
 });
@@ -43,7 +45,9 @@ const output = [
 
   require('./output/p53-Dependent_G1_DNA.sbgn.json'),
   require('./output/pc_signallingByBMP.sbgn.json'),
-  require('./output/TP53_regulates_trans.sbgn.json')
+  require('./output/TP53_regulates_trans.sbgn.json'),
+
+  require('./output/single_root_node.json')
 ];
 
 module.exports = {

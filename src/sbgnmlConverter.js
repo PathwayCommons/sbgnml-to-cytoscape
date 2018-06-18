@@ -21,7 +21,11 @@ module.exports = (sbgnmlText) => {
   const glyphs = [];
   const arcs = [];
   if (result.glyph) {
-    glyphs.push(...result.glyph);
+    if (Array.isArray(result.glyph)) {
+      glyphs.push(...result.glyph);
+    } else {
+      glyphs.push(result.glyph);
+    }
   }
   if (result.arc) {
     arcs.push(...result.arc);
