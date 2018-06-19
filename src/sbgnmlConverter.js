@@ -28,7 +28,11 @@ module.exports = (sbgnmlText) => {
     }
   }
   if (result.arc) {
-    arcs.push(...result.arc);
+    if (Array.isArray(result.arc)) {
+      arcs.push(...result.arc);
+    } else {
+      arcs.push(result.arc);
+    }
   }
 
   const {nodes: nodes, nodeIdSet: nodeIdSet, portIdMap} = nodesConverter(glyphs);
